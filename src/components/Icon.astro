@@ -1,0 +1,14 @@
+---
+const { name, size = 18 } = Astro.props;
+const paths = {
+  search: 'M21 21l-4.3-4.3M19 11a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z',
+  next: 'M4 12h15m-6-6 6 6-6 6',
+  previous: 'M20 12H5m6-6-6 6 6 6',
+  random: 'M3 6h3c5 0 7 12 12 12h3m-4-4 4 4-4 4M3 18h3c2 0 3.5-2 4.5-4M14 9c1-2 2-3 4-3h3m-4-4 4 4-4 4',
+  download: 'M12 3v12m-4-4 4 4 4-4M4 16v4h16v-4',
+  share: 'M12 15V3m-4 4 4-4 4 4M6 12H4v8h16v-8h-2',
+  link: 'm10 13 4-4m-6 6-1 1a3 3 0 0 1-4-4l4-4a3 3 0 0 1 4 0m2 7a3 3 0 0 0 4 0l4-4a3 3 0 0 0-4-4l-1 1',
+  copy: 'M8 8h12v12H8zM16 4H4v12',
+};
+---
+<svg aria-hidden="true" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="shrink-0"><path d={paths[name as keyof typeof paths]} /></svg>

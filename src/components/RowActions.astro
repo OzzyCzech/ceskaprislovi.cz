@@ -1,0 +1,9 @@
+---
+import Icon from './Icon.astro';
+const { describedBy } = Astro.props as { describedBy?: string };
+---
+<span class="proverb-row-actions" data-actions>
+  <button type="button" class="button button-small" data-action="copy" aria-describedby={describedBy}><span data-label>Kopírovat</span></button>
+  <button type="button" class="button button-small button-icon" data-action="download" aria-label="Stáhnout jako obrázek PNG" title="Stáhnout PNG" aria-describedby={describedBy}><Icon name="download" size={16} /></button>
+  <button type="button" class="button button-small button-icon" data-action="share" aria-label="Sdílet jako obrázek" title="Sdílet" aria-describedby={describedBy}><Icon name="share" size={16} /></button>
+</span>

@@ -1,0 +1,11 @@
+---
+import type { Proverb } from '../lib/proverbs';
+import RowActions from './RowActions.astro';
+const { proverb, number } = Astro.props as { proverb: Proverb; number?: number };
+const id = `prislovi-${proverb.slug}`;
+---
+<article class="proverb-row" data-proverb={proverb.text} data-slug={proverb.slug}>
+  {number !== undefined && <span class="proverb-row-number" aria-hidden="true">{String(number).padStart(2, '0')}</span>}
+  <a id={id} class="proverb-row-title" href={`/${proverb.slug}`}>{proverb.text}</a>
+  <RowActions describedBy={id} />
+</article>

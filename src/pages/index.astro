@@ -1,0 +1,95 @@
+---
+import { themePath } from '../lib/theme-path';
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import ProverbCard from '../components/ProverbCard.astro';
+import RowTemplate from '../components/RowTemplate.astro';
+import { dailyProverbs, proverbs, recentDaily, themes } from '../lib/proverbs';
+import { dailyIndex, getDailyDate } from '../lib/daily';
+import { letters } from '../lib/alphabet';
+
+const date = getDailyDate();
+const todayIndex = dailyIndex(date.iso, dailyProverbs.length);
+const featured = dailyProverbs[todayIndex];
+const recent = recentDaily(todayIndex);
+const theme = featured.tags[0];
+const total = new Intl.NumberFormat('cs-CZ').format(proverbs.length);
+const daily = dailyProverbs.map(({ slug, text, tags }) => [slug, text, tags.slice(0, 1)]);
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Česká přísloví',
+  url: Astro.site?.href,
+  inLanguage: 'cs',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: { '@type': 'EntryPoint', urlTemplate: `${Astro.site?.origin}/?q={search_term_string}` },
+    'query-input': 'required name=search_term_string',
+  },
+};
+---
+<Base jsonLd={jsonLd}>
+  <section id="daily-proverb" data-daily={JSON.stringify(daily)} data-slug={featured.slug}>
+    <div class="frame pt-12 pb-12 sm:pt-20 sm:pb-[4.5rem] lg:pt-[5.5rem]">
+      <div class="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+        <p class="kicker text-rust">Přísloví dne</p>
+        <time datetime={date.iso} class="text-sm text-muted">{date.label}</time>
+      </div>
+      <h1 class="display mt-7 max-w-[65rem] text-[clamp(2.8rem,7.9vw,7rem)] sm:mt-9" aria-live="polite">
+        {featured.text.endsWith('.') ? <>{featured.text.slice(0, -1)}<span class="display-dot">.</span></> : featured.text}
+      </h1>
+      <div class="mt-8 flex flex-wrap items-center gap-3 sm:mt-11">
+        <a id="daily-link" class="button button-primary" href={`/${featured.slug}`}>Otevřít přísloví <Icon name="next" /></a>
+        <a class="button" href="/?nahodne=1" data-random="hero"><Icon name="random" /> Jiné přísloví</a>
+        <p class="ml-2 text-sm text-muted" hidden={!theme}>Téma: <a id="daily-theme" class="text-ink underline underline-offset-4 hover:text-rust" href={theme ? themePath(theme) : undefined}>{theme}</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="border-y border-line bg-white">
+    <div class="frame py-8 sm:py-10">
+      <form id="hledat" action="/" role="search">
+        <label for="dotaz" class="sr-only">Hledat ve sbírce</label>
+        <div class="relative">
+          <span class="pointer-events-none absolute inset-y-0 left-5 flex items-center text-muted sm:left-6"><Icon name="search" size={22} /></span>
+          <input id="dotaz" name="q" type="search" autocomplete="off" placeholder="slovo, téma nebo začátek přísloví…" aria-describedby="search-hint" aria-controls="vysledky" class="search-field" />
+          <button type="submit" class="button button-primary absolute inset-y-2 right-2 sm:inset-y-2.5 sm:right-2.5">Hledat</button>
+        </div>
+      </form>
+      <p id="search-hint" class="mt-3 text-sm text-muted">{total} přísloví a pořekadel. Výsledky se zobrazují při psaní.</p>
+    </div>
+  </section>
+
+  <div class="frame">
+    <section id="inspirace" class="grid gap-10 pt-12 sm:pt-[5.5rem] lg:grid-cols-[minmax(0,1fr)_22rem] lg:gap-14">
+      <div id="temata">
+        <h2 class="section-title">Témata</h2>
+        <div class="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-2xl font-extrabold leading-snug tracking-[-.035em] sm:text-[2rem]">
+          {themes.map((tag) => <a class="hover:text-rust hover:underline" href={themePath(tag)}>{tag}</a>)}
+        </div>
+      </div>
+      <div id="abeceda">
+        <h2 class="section-title">Abeceda</h2>
+        <nav aria-label="Abecední filtr" class="mt-6 grid max-w-[22rem] grid-cols-7 gap-1.5">
+          {letters.map((letter) => <a class="button min-w-0 px-1 sm:px-1" aria-label={letter === '…' ? 'Ostatní znaky' : undefined} href={`/?pismeno=${encodeURIComponent(letter)}#vysledky`}>{letter}</a>)}
+        </nav>
+      </div>
+    </section>
+
+    <section id="vysledky" class="mt-12 sm:mt-24" aria-labelledby="results-heading">
+      <div class="mb-5 flex flex-wrap items-baseline justify-between gap-3">
+        <h2 id="results-heading" class="section-title">Známá přísloví</h2>
+        <a id="all-proverbs" class="inline-flex items-center gap-2 text-sm font-bold hover:text-rust" href="/?sbirka=1#vysledky"><span class="underline underline-offset-4">Celá sbírka</span><Icon name="next" size={16} /></a>
+        <button id="clear-search" type="button" class="text-sm font-bold text-rust underline underline-offset-4" hidden>Zrušit filtr</button>
+      </div>
+      <p id="search-status" class="mb-4 text-muted empty:hidden" role="status"></p>
+      <div id="cards" class="proverb-list-numbered border-t border-line" data-known="12">
+        {recent.map((proverb, index) => <ProverbCard proverb={proverb} number={index + 1} />)}
+      </div>
+      <button id="more-results" type="button" class="button mx-auto mt-6 flex" hidden>Načíst další</button>
+      <noscript><p class="mt-4 text-muted">Vyhledávání a filtrování vyžaduje JavaScript.</p></noscript>
+    </section>
+  </div>
+  <RowTemplate />
+</Base>
+<script>import '../lib/search';</script>

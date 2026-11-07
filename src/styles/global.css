@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Figtree Variable', system-ui, sans-serif;
+  --font-serif: 'Figtree Variable', system-ui, sans-serif;
+  --color-paper: #f7f7f7;
+  --color-ink: #0c0c0c;
+  --color-muted: #535353;
+  --color-line: #dedede;
+  --color-rust: var(--color-orange-600);
+}
+
+html { scroll-padding-top: 1.5rem; }
+@media (prefers-reduced-motion: reduce) { *, ::before, ::after { transition: none !important; scroll-behavior: auto !important; } }
+body { min-height: 100vh; }
+::selection { background: var(--color-orange-100); color: #0c0c0c; }
+:focus-visible { outline: 2px solid var(--color-orange-600); outline-offset: 4px; }
+[hidden] { display: none !important; }
+.frame { @apply mx-auto w-full max-w-[80rem] px-5 sm:px-8 lg:px-10; }
+.kicker { @apply text-sm font-bold uppercase tracking-[.075em]; }
+.display { @apply font-black leading-[.94] tracking-[-.065em] [overflow-wrap:anywhere]; }
+.section-title { @apply text-3xl font-black leading-tight tracking-[-.045em] sm:text-[2.55rem]; }
+.button { @apply inline-flex min-h-11 cursor-pointer items-center justify-center gap-2.5 rounded-[.7rem] border border-line bg-white px-3.5 py-2 text-center text-sm font-bold transition hover:border-ink disabled:cursor-default disabled:opacity-60 sm:px-4; }
+.button-primary { @apply border-ink bg-ink text-white hover:bg-[#343434]; }
+.theme-chip { @apply inline-flex items-center rounded-full border border-line bg-white px-3.5 py-1.5 text-sm font-semibold transition hover:border-rust hover:text-rust; }
+.button-small { @apply min-h-9 px-3 text-xs sm:px-3; }
+.button-icon { @apply min-w-9 px-0 sm:px-0; }
+.proverb-row { @apply grid grid-cols-[minmax(0,1fr)] items-center gap-x-4 gap-y-3 border-b border-line py-4 sm:grid-cols-[minmax(0,1fr)_auto] sm:gap-x-6 sm:py-5; }
+.proverb-list-numbered .proverb-row { @apply grid-cols-[2rem_minmax(0,1fr)] sm:grid-cols-[3rem_minmax(0,1fr)_auto]; }
+.proverb-row-number { @apply text-sm font-semibold text-muted tabular-nums; }
+.proverb-row-title { @apply text-xl font-extrabold leading-tight tracking-[-.035em] hover:text-rust sm:text-[1.7rem]; }
+.proverb-row-actions { @apply col-span-full flex shrink-0 items-center gap-1.5 justify-self-end sm:col-span-1; }
+html:not(.js) [data-actions] { display: none; }
+.search-field { @apply w-full rounded-2xl border-2 border-line bg-paper py-4 pr-28 pl-14 text-xl font-bold tracking-tight text-ink transition placeholder:font-semibold placeholder:text-muted hover:border-ink focus:border-ink focus:outline-none sm:py-5 sm:pr-32 sm:pl-16 sm:text-2xl; }
+.search-field::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+.button-accent { @apply border-orange-600 bg-orange-600 text-white hover:border-orange-700 hover:bg-orange-700; }
+.site-status { @apply pointer-events-none fixed inset-x-0 bottom-5 z-20 mx-auto w-fit max-w-[calc(100vw-2.5rem)] rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-white shadow-lg; }
+.display-dot { color: transparent; position: relative; }
+.display-dot::selection { color: transparent; }
+.display-dot::after {
+  position: absolute;
+  bottom: .18em;
+  left: .08em;
+  width: .15em;
+  height: .15em;
+  background: var(--color-orange-600);
+  content: '';
+}

@@ -1,0 +1,66 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import RowTemplate from '../components/RowTemplate.astro';
+---
+<Base title="Teta Kateřina" description="Deset náhodných českých přísloví s připomínkou tety Kateřiny ze Saturnina.">
+  <div class="frame pt-12 sm:pt-20">
+    <div class="grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_38%] lg:gap-12">
+      <div class="min-w-0">
+        <h1 class="display text-[clamp(3rem,8vw,7rem)]">Teta Kateřina</h1>
+        <p class="mt-6 max-w-prose text-lg text-muted">
+          Víc děr – víc syslů. Víc hlav – víc smyslů. Zeptejte se tety Kateřiny, co si o tom myslí.
+        </p>
+        <div class="mt-7 flex flex-wrap gap-2">
+          <button id="draw-proverbs" type="button" class="button button-primary" hidden><Icon name="random" /> Zeptat se znovu</button>
+        </div>
+      </div>
+      <img
+        src="/teta-katerina.webp"
+        srcset="/teta-katerina-small.webp 540w, /teta-katerina.webp 1080w"
+        alt="Karikatura tety Kateřiny v širokém klobouku s květinou a kulatými brýlemi"
+        class="h-auto w-full max-w-lg lg:max-w-none"
+        sizes="(min-width: 1280px) 460px, (min-width: 1024px) 38vw, (min-width: 576px) 512px, calc(100vw - 40px)"
+        width="1080"
+        height="720"
+        fetchpriority="high"
+      />
+    </div>
+    <p id="draw-status" class="mt-4 text-sm text-muted empty:hidden" role="status"></p>
+    <section id="draw-results" class="proverb-list-numbered mt-7 border-t border-line empty:hidden" aria-label="Vylosovaná přísloví"></section>
+    <noscript><p class="mt-4 text-muted">Losování přísloví vyžaduje JavaScript.</p></noscript>
+  </div>
+  <RowTemplate />
+</Base>
+
+<script>
+  import { loadCatalog } from '../lib/catalog';
+  import { buildRow } from '../lib/row';
+
+  const draw = document.querySelector<HTMLButtonElement>('#draw-proverbs')!;
+  const status = document.querySelector<HTMLElement>('#draw-status')!;
+  const results = document.querySelector<HTMLElement>('#draw-results')!;
+
+  async function drawProverbs() {
+    draw.disabled = true;
+    status.textContent = 'Losuji přísloví…';
+    try {
+      const pool = [...await loadCatalog()];
+      const count = Math.min(10, pool.length);
+      for (let index = 0; index < count; index++) {
+        const picked = index + Math.floor(Math.random() * (pool.length - index));
+        [pool[index], pool[picked]] = [pool[picked], pool[index]];
+      }
+      results.replaceChildren(...pool.slice(0, count).map((entry, index) => buildRow(entry, index + 1)));
+      status.textContent = count ? `Vylosováno: ${count} přísloví.` : 'Sbírka je prázdná.';
+    } catch {
+      status.textContent = 'Sbírku se nepodařilo načíst. Zkuste se zeptat znovu.';
+    } finally {
+      draw.disabled = false;
+    }
+  }
+
+  draw.addEventListener('click', () => void drawProverbs());
+  draw.hidden = false;
+  void drawProverbs();
+</script>

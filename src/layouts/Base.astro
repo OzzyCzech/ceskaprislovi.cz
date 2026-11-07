@@ -1,0 +1,75 @@
+---
+import '@fontsource-variable/figtree';
+import Icon from '../components/Icon.astro';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  noindex?: boolean;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+const { title, description = 'Česká přísloví a pořekadla. Hledejte podle slov či témat a sdílejte svá oblíbená přísloví.', noindex, jsonLd } = Astro.props;
+const pageTitle = title ? `${title} | Česká přísloví` : 'Česká přísloví a pořekadla';
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline>document.documentElement.classList.add('js');</script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f7f7f7" />
+    {!noindex && <link rel="canonical" href={canonical} />}
+    {noindex && <meta name="robots" content="noindex" />}
+    <meta property="og:site_name" content="Česká přísloví" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="cs_CZ" />
+    <meta property="og:title" content={title ?? 'Česká přísloví a pořekadla'} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body class="flex flex-col bg-paper font-sans text-ink antialiased">
+    <a href="#obsah" class="sr-only focus:not-sr-only focus:absolute focus:z-10 focus:bg-paper focus:p-3">Přeskočit na obsah</a>
+    <header class="border-b border-line">
+      <div class="frame flex flex-wrap items-center justify-between gap-x-5 gap-y-3 py-4 sm:min-h-[5.4rem]">
+        <a href="/" class="flex items-center gap-3 text-xl font-black tracking-[-.045em]">
+          <img src="/favicon.svg" alt="" width="22" height="22" />
+          Česká přísloví
+        </a>
+        <nav aria-label="Hlavní navigace" class="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm font-bold sm:gap-x-7 sm:text-base">
+          <a href="/teta-katerina" class="hover:text-rust">Teta Kateřina</a>
+          <a href="/temata" class="hover:text-rust">Témata</a>
+          <a href="/#abeceda" class="hover:text-rust">Abecedně</a>
+          <a href="/?nahodne=1" data-random="detail" class="hover:text-rust">Náhodné přísloví</a>
+          <a href="/#hledat" aria-label="Hledat" class="button min-h-10 px-2.5 sm:min-h-11 sm:px-3"><Icon name="search" /></a>
+        </nav>
+      </div>
+    </header>
+    <main id="obsah" class="flex-1"><slot /></main>
+    <footer class="mt-14 border-t border-line bg-white py-10 sm:mt-24 sm:py-12">
+      <div class="frame flex flex-wrap items-start justify-between gap-6">
+        <div>
+          <a href="/" class="text-lg font-black tracking-tight">Česká přísloví<span class="text-rust">.</span></a>
+          <p class="mt-1 text-sm text-muted">Lidová moudrost v krátkých větách.</p>
+        </div>
+        <nav aria-label="Patička" class="flex flex-wrap gap-x-6 gap-y-2 text-sm font-bold">
+          <a href="/temata" class="hover:text-rust">Témata</a>
+          <a href="/#abeceda" class="hover:text-rust">Abeceda</a>
+          <a href="/co-je-prislovi" class="hover:text-rust">Co je přísloví</a>
+          <a href="/o-projektu" class="hover:text-rust">O projektu</a>
+        </nav>
+      </div>
+    </footer>
+    <p id="site-status" class="site-status empty:hidden" role="status" aria-live="polite"></p>
+    <script>
+      import '../lib/browse';
+      import '../lib/actions';
+    </script>
+  </body>
+</html>

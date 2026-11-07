@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import { proverbsByTheme } from '../lib/proverbs';
+import { themePath } from '../lib/theme-path';
+
+const themes = Array.from(proverbsByTheme).sort(([a], [b]) => a.localeCompare(b, 'cs'));
+const number = new Intl.NumberFormat('cs-CZ');
+---
+<Base title="Témata" description="Procházejte sbírku českých přísloví a pořekadel podle témat.">
+  <div class="frame pt-12 sm:pt-20">
+    <h1 class="display text-[clamp(3rem,8vw,7rem)]">Témata</h1>
+    <ul class="mt-9 grid gap-x-8 border-t border-line sm:grid-cols-2 lg:grid-cols-3">
+      {themes.map(([tag, entries]) => (
+        <li class="border-b border-line">
+          <a href={themePath(tag)} class="flex justify-between gap-4 py-3.5 font-bold hover:text-rust">
+            <span>{tag}</span><span class="text-sm font-medium text-muted tabular-nums">{number.format(entries.length)}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</Base>

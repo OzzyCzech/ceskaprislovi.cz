@@ -1,0 +1,37 @@
+---
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro';
+import Base from '../../../layouts/Base.astro';
+import Icon from '../../../components/Icon.astro';
+import ProverbCard from '../../../components/ProverbCard.astro';
+import { proverbsByTheme } from '../../../lib/proverbs';
+import { themeSlug } from '../../../lib/theme-path';
+
+export const getStaticPaths = (({ paginate }) =>
+  Array.from(proverbsByTheme, ([theme, entries]) => paginate(entries, {
+    params: { tema: themeSlug(theme) },
+    props: { theme },
+    pageSize: 48,
+  })).flat()
+) satisfies GetStaticPaths;
+
+const { page, theme } = Astro.props as InferGetStaticPropsType<typeof getStaticPaths>;
+const title = page.currentPage === 1 ? `Přísloví na téma ${theme}` : `Přísloví na téma ${theme} – strana ${page.currentPage}`;
+const number = new Intl.NumberFormat('cs-CZ');
+---
+<Base title={title} description={`Česká přísloví a pořekadla na téma ${theme}. Strana ${page.currentPage} z ${page.lastPage}.`}>
+  <div class="frame pt-8 sm:pt-12">
+    <a href="/temata" class="inline-flex items-center gap-2 text-sm font-bold hover:text-rust"><Icon name="previous" size={16} /> Všechna témata</a>
+    <h1 class="display mt-7 text-[clamp(2.7rem,7.5vw,6rem)]">{theme}</h1>
+    <p class="mt-5 text-sm text-muted">Počet přísloví a pořekadel v tématu: {number.format(page.total)}</p>
+    <div class="mt-8 border-t border-line">
+      {page.data.map((proverb) => <ProverbCard proverb={proverb} />)}
+    </div>
+    {page.lastPage > 1 && (
+      <nav class="mt-6 flex flex-wrap items-center gap-3" aria-label="Stránkování tématu">
+        {page.url.prev && <a class="button" href={page.url.prev} rel="prev"><Icon name="previous" size={16} /> Předchozí</a>}
+        <span class="text-sm text-muted">Strana {page.currentPage} z {page.lastPage}</span>
+        {page.url.next && <a class="button" href={page.url.next} rel="next">Další <Icon name="next" size={16} /></a>}
+      </nav>
+    )}
+  </div>
+</Base>
