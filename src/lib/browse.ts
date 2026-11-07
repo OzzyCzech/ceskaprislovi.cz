@@ -5,10 +5,12 @@ import { renderKnown } from './known';
 
 const hero = document.querySelector<HTMLElement>('#daily-proverb');
 
-function showProverb([slug, text, tags]: Entry) {
+function showProverb([slug, text]: Entry) {
   if (!hero) return;
   hero.dataset.slug = slug;
-  const title = hero.querySelector('h1')!;
+  hero.dataset.proverb = text;
+  const title = hero.querySelector<HTMLAnchorElement>('#daily-title')!;
+  title.href = `/${slug}`;
   title.textContent = text.endsWith('.') ? text.slice(0, -1) : text;
   if (text.endsWith('.')) {
     const dot = document.createElement('span');
@@ -17,11 +19,6 @@ function showProverb([slug, text, tags]: Entry) {
     title.append(dot);
   }
   hero.querySelector<HTMLAnchorElement>('#daily-link')!.href = `/${slug}`;
-  const theme = hero.querySelector<HTMLAnchorElement>('#daily-theme')!;
-  theme.textContent = tags[0] ?? '';
-  if (tags[0]) theme.href = themePath(tags[0]);
-  else theme.removeAttribute('href');
-  theme.parentElement!.hidden = !tags.length;
 }
 
 if (hero) {
