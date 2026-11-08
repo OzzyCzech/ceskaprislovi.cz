@@ -4,14 +4,14 @@ const prompt = `Vysvětli česky význam tohoto přísloví nebo rčení: „${t
 const query = encodeURIComponent(prompt);
 const link = 'font-semibold text-ink underline underline-offset-4 hover:text-rust';
 ---
-<div class="max-w-[62ch]" data-ai-prompt={prompt}>
+<div data-ai-prompt={prompt}>
   <h2 class="kicker text-rust">Význam</h2>
-  <p class="mt-3 text-muted">
-  Tady nám význam zatím chybí, ale můžete se zeptat
+  <p class="mx-auto mt-3 max-w-[62ch] rounded-2xl border-2 border-dashed border-line bg-paper px-6 py-5 text-muted italic">
+  Význam přísloví zatím chybí, ale můžete se zeptat
   <a class={link} href={`https://chatgpt.com/?q=${query}`} target="_blank" rel="noopener noreferrer">ChatGPT</a>,
   <a class={link} href={`https://claude.ai/new?q=${query}`} target="_blank" rel="noopener noreferrer">Claude</a>
-  nebo <a class={link} href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer" data-copy-ai-prompt>Gemini</a>
-  (u Gemini vám otázku zkopírujeme do schránky).
+  nebo <a class={link} href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer" data-copy-ai-prompt>Gemini</a>.
+  U Gemini vám otázku zkopírujeme do schránky.
   </p>
 </div>
 
