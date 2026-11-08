@@ -10,7 +10,7 @@ const proverb = proverbs.find((entry) => entry.text === text);
   <section class="frame pt-12 pb-10 sm:pt-20">
     <p class="kicker text-rust">Chyba 404 · Tady žádné přísloví není</p>
     <h1 class="display mt-7 max-w-[62rem] text-[clamp(2.8rem,7.9vw,7rem)] sm:mt-9">
-      <a href={proverb ? `/${proverb.slug}` : '/'} class="hover:text-rust">{text.slice(0, -1)}<span class="display-dot">.</span></a>
+      <a href={proverb ? `/${proverb.slug}` : '/'}>{text.slice(0, -1)}<span class="display-dot">.</span></a>
     </h1>
     <p class="mt-7 max-w-prose text-lg text-muted sm:text-xl">Zkuste hledat jinde, sbírka má třináct tisíc přísloví.</p>
     <div class="mt-8 flex flex-wrap items-center gap-3 sm:mt-11">
