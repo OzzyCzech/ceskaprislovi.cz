@@ -61,7 +61,7 @@ const jsonLd = {
   ],
 };
 ---
-<Base title={proverb.text} description={description} jsonLd={jsonLd}>
+<Base title={proverb.text} description={description} image={{ url: `/og/${proverb.slug}.png`, alt: proverb.text }} jsonLd={jsonLd}>
   <div class="frame pt-7 sm:pt-8">
     <div class="flex flex-wrap items-center justify-between gap-4">
       <nav aria-label="Drobečková navigace" class="text-sm text-muted sm:text-base">

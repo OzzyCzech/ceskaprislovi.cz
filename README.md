@@ -17,6 +17,8 @@ Přísloví dne a seznam „Známá přísloví“ na úvodu se řídí sadou 36
 
 Hledání běží v prohlížeči nad `prislovi-index.json` pomocí [uFuzzy](https://github.com/leeoniya/uFuzzy): výsledky se zobrazují při psaní, nejdřív přesné shody, při malém počtu výsledků i shody s překlepem. Obrázky PNG vznikají v prohlížeči, kde se také stahují nebo sdílí přes systémovou nabídku, pokud ji zařízení podporuje.
 
+Náhled pro sociální sítě (`og:image`) má každé přísloví vlastní: `src/pages/og/[slug].png.ts` ho při buildu vykreslí přes `@napi-rs/canvas` a `sharp` do `dist/og/<slug>.png` (16barevné PNG, zhruba 11 KB). Renderer `src/lib/og-image.ts` sdílí zalamování textu s kartou v prohlížeči a používá plný variabilní font Figtree ze `src/assets/fonts/` (licence OFL), protože podmnožiny z fontsource nejdou v canvasu sloučit. Build tím trvá o několik minut déle.
+
 Build používá `build.format: 'file'` (`slug.html` místo `slug/index.html`), protože GitHub Pages jinak přesměrovává adresy bez lomítka na adresy s lomítkem, což by rozbilo kanonické URL.
 
 ## GitHub Pages

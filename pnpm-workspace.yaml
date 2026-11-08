@@ -1,3 +1,7 @@
 allowBuilds:
   esbuild: true
   sharp: true
+
+# @napi-rs/wasm-runtime allows the 2.0.0 prerelease, which is incompatible with @emnapi/core 1.x and breaks `astro check`.
+overrides:
+  "@emnapi/runtime": ^1.11.3

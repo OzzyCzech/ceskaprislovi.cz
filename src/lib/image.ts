@@ -1,28 +1,7 @@
+import { wrap } from './wrap-text';
+
 const size = 1080;
 const images = new Map<string, Promise<File>>();
-
-function wrap(context: CanvasRenderingContext2D, value: string, width: number) {
-  const lines: string[] = [];
-  let line = '';
-  for (const word of value.split(/\s+/)) {
-    const next = line ? `${line} ${word}` : word;
-    if (context.measureText(next).width <= width) {
-      line = next;
-      continue;
-    }
-    if (line) lines.push(line);
-    line = '';
-    for (const letter of word) {
-      if (context.measureText(line + letter).width > width && line) {
-        lines.push(line);
-        line = '';
-      }
-      line += letter;
-    }
-  }
-  if (line) lines.push(line);
-  return lines;
-}
 
 async function render(text: string, name: string) {
   await document.fonts.load('900 130px "Figtree Variable"', text + ' Česká přísloví ceskaprislovi.cz');
