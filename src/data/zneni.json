@@ -1,0 +1,470 @@
+[
+ [
+  "Nemá prachu (neudatný).",
+  "Nemá prachu (zbabělý)."
+ ],
+ [
+  "Bez práce ani koláče.",
+  "Bez práce nejsou koláče."
+ ],
+ [
+  "Starý musí, mladý může.",
+  "Mladý může, starý musí."
+ ],
+ [
+  "Není všecko zlato, co se blyští.",
+  "Není všecko zlato, co se třpytí."
+ ],
+ [
+  "Pozdě bycha honí.",
+  "Pozdě bycha honiti."
+ ],
+ [
+  "Kdo šetří, ten má.",
+  "Kdo šetří, má za tři."
+ ],
+ [
+  "Darovanému koni na zuby nekoukej.",
+  "Darovanému koni se na zuby nedívej."
+ ],
+ [
+  "Není všecko zlato, co se svítí.",
+  "Není všecko zlato, co se třpytí."
+ ],
+ [
+  "Pycha předchadza pad.",
+  "Pýchu předchází pád."
+ ],
+ [
+  "Co sejde s očí, to vyjde ze srdce.",
+  "Sejde z očí, sejde z mysli."
+ ],
+ [
+  "S očí, z mysli.",
+  "Sejde z očí, sejde z mysli."
+ ],
+ [
+  "Mistr Cvik.",
+  "Cvik dělá mistra."
+ ],
+ [
+  "Nemáš-li peněz, do hospody nelez.",
+  "Bez peněz do hospody nelez."
+ ],
+ [
+  "Bližší košile, než kabát.",
+  "Bližší košile nežli kabát."
+ ],
+ [
+  "Bylina (strom, štěp) bez květu, panna bez studu, řídko přichází k jakému užitku.",
+  "Bylina bez květu, panna bez studu řídko přichází k jakému užitku."
+ ],
+ [
+  "Co jest s šeptem, to jest s čertem.",
+  "Co je šeptem, to je s čertem."
+ ],
+ [
+  "Ctnost a pokora nemá místa u dvora.",
+  "Ctnost a pokora nemá místo u dvora."
+ ],
+ [
+  "Čas děd, ale s kosou.",
+  "Čas je děd, ale s kosou."
+ ],
+ [
+  "Čas vše na jevo vynáší.",
+  "Čas vše najevo vynáší."
+ ],
+ [
+  "Čiň čertu dobře, peklem se ti odmění (odslouží).",
+  "Čiň čertu dobře, peklem se ti odmění."
+ ],
+ [
+  "Devatero řemesl, desata bida.",
+  "Devatero řemesel, desátá bída."
+ ],
+ [
+  "Pěkné slovo železná vrata otvírá.",
+  "Dobré slovo i železná vrata otvírá."
+ ],
+ [
+  "Desetkrát měř, a jednou rež.",
+  "Dvakrát měř, jednou řež."
+ ],
+ [
+  "Hněv špatný rádce.",
+  "Hněv je špatný rádce."
+ ],
+ [
+  "By vedl osla do Paříže, komoň z něho nebude.",
+  "I kdybys osla vedl do Paříže, komoň z něho nebude."
+ ],
+ [
+  "I mistr tesař se utne.",
+  "I mistr tesař se někdy utne."
+ ],
+ [
+  "Jak kdo sobě ustele, tak lehne.",
+  "Jak si kdo ustele, tak si lehne."
+ ],
+ [
+  "Jaká matka, taková Katka.",
+  "Jaká matka, taká Katka."
+ ],
+ [
+  "Jaký pán, takový krám.",
+  "Jaký pán, taký krám."
+ ],
+ [
+  "Kde nic není, tu ani smrt nebéře.",
+  "Kde nic není, ani smrt nebere."
+ ],
+ [
+  "Kdo čerstvý sýr jí, pes ho neukousne, zloděj ho neokrade, aniž sestárne.",
+  "Kdo čerstvý sýr jí, pes ho nekousne, zloděj ho neokrade, aniž zestárne."
+ ],
+ [
+  "Kdo chce s vlky býti, musí s nimi (vlcky) výti.",
+  "Kdo chce s vlky žíti, musí s nimi výti."
+ ],
+ [
+  "Co má viseti, neutopí se, a by voda přes šibenici běžela.",
+  "Kdo má viset, neutopí se, i kdyby šla voda přes šibenici."
+ ],
+ [
+  "Kdo se bojí chřestu (prasku), nechoď do lesa.",
+  "Kdo se bojí, nesmí do lesa."
+ ],
+ [
+  "Když hra nejlepší (nejmilejší), přestaň.",
+  "Když hra nejlepší, přestaň!"
+ ],
+ [
+  "Když není kocour doma, myši mají hody, (posvícení, pré).",
+  "Když kocour není doma, myši mají pré."
+ ],
+ [
+  "Když ptáčka lapají, pěkně mu pískají.",
+  "Když ptáčka lapají, pěkně mu zpívají."
+ ],
+ [
+  "Ráda kočka ryby jí, než do vody nechce.",
+  "Kočka ryby ráda, než do vody nic."
+ ],
+ [
+  "Koho had uštknul, i ještěrky (hlísty) se bojí.",
+  "Koho had uštkl, i stočeného provazu se bojí."
+ ],
+ [
+  "Komu něni rady, temu něni pomoci.",
+  "Komu není rady, tomu není pomoci."
+ ],
+ [
+  "Koně za ovsem běží, a osli ho dostávají.",
+  "Koně za ovsem běží, osli ho dostávají."
+ ],
+ [
+  "Dokud železo řeřavé (žhavé), kuj.",
+  "Kuj železo, dokud je žhavé."
+ ],
+ [
+  "Kůň, kterýž ovsa dobývá, nejméně ho jí.",
+  "Kůň, který ovsa dobývá, nejméně ho jí."
+ ],
+ [
+  "Láska jako růže není bez trnův.",
+  "Láska jako růže není bez trní."
+ ],
+ [
+  "Lež ma kratke nohy, plytke dno.",
+  "Lež má krátké nohy."
+ ],
+ [
+  "Líná ruka (huba), holé neštěstí.",
+  "Líná huba, holé neštěstí."
+ ],
+ [
+  "Manželstvo bez dětí, den bez slunéčka.",
+  "Manželství bez dětí, den bez slunéčka."
+ ],
+ [
+  "Mezi slepými jednooký (šilhavý) král jest.",
+  "Mezi slepými jednooký králem."
+ ],
+ [
+  "Nekupuj (neprodávej) zajíce v pytli.",
+  "Nekupuj zajíce v pytli."
+ ],
+ [
+  "Někomu hus, někomu prase.",
+  "Někomu husu, někomu prase."
+ ],
+ [
+  "Není růže bez trnu.",
+  "Není růže bez trní."
+ ],
+ [
+  "Nové koštiště dobře mete.",
+  "Nové koště dobře mete."
+ ],
+ [
+  "Pes, který velmi štěká, nerad kouše.",
+  "Pes, který štěká, nekouše."
+ ],
+ [
+  "Po tmě každá kráva černá.",
+  "Potmě každá kočka černá."
+ ],
+ [
+  "První předchůdcové v lásce oči.",
+  "Prvními předchůdci v lásce jsou oči."
+ ],
+ [
+  "Ptáka poznáš po peří, vlka po srsti, a člověka po řeči, kroji a chodu.",
+  "Ptáka poznáš po peří, vlka po srsti, člověka po řeči."
+ ],
+ [
+  "Ruka ruku mývá.",
+  "Ruka ruku myje."
+ ],
+ [
+  "Rozumí tomu, jako šerá (koza, svině) petrželi.",
+  "Rozumí tomu jako koza petrželi."
+ ],
+ [
+  "Od hlavy ryba smrdí.",
+  "Ryba smrdí od hlavy."
+ ],
+ [
+  "Čím kdo zachází, tím také schází.",
+  "S čím kdo zachází, tím také schází."
+ ],
+ [
+  "S chutí do toho, je půl hotovo.",
+  "S chutí do toho, půl je hotovo."
+ ],
+ [
+  "Sedávej panenko v koutě, jsi-li ctnostna, najdou tě.",
+  "Sedávej, panenko, v koutě, budeš-li hodná, najdou tě."
+ ],
+ [
+  "Stará láska nehasne (nezarzaví).",
+  "Stará láska nerezaví."
+ ],
+ [
+  "Strach má veliké oči.",
+  "Strach má velké oči."
+ ],
+ [
+  "Sytý lačnému (hladovému) nevěří.",
+  "Sytý hladovému nevěří."
+ ],
+ [
+  "Dotud se džbánkem na vodu chodí, až se ucho utrhne.",
+  "Tak dlouho se chodí se džbánem pro vodu, až se ucho utrhne."
+ ],
+ [
+  "Tonoucí i slámy se chytá.",
+  "Tonoucí se stébla chytá."
+ ],
+ [
+  "V hněvu vyvře, co v srdci vře.",
+  "V hněvu vyvře, co na srdci vře."
+ ],
+ [
+  "Přítele poznáš ve vojně a v nouzi.",
+  "V nouzi poznáš přítele."
+ ],
+ [
+  "Vlastní chvála z hrdla smrdí.",
+  "Vlastní chvála z hrdla páchne."
+ ],
+ [
+  "Vrána vráně oka nevykline.",
+  "Vrána vráně oči nevyklove."
+ ],
+ [
+  "Z cizího (panského) krev neteče.",
+  "Z cizího krev neteče."
+ ],
+ [
+  "Ženský plač, babí hněv, psí kulhání nemá dlouhého panování.",
+  "Ženský pláč, babí hněv a psí kulhání nemá dlouhého panování."
+ ],
+ [
+  "Nehas, když tě nepálí.",
+  "Co tě nepálí, nehas."
+ ],
+ [
+  "Každý sobě štěstí kuje.",
+  "Každý svého štěstí strůjcem."
+ ],
+ [
+  "Nechval dne na vzchodu slunce (dříve večera).",
+  "Nechval dne před večerem."
+ ],
+ [
+  "Když neteče, aspoň kape.",
+  "Nemusí pršet, stačí, když kape."
+ ],
+ [
+  "Kdož pelynek sype, syp ty mu hořec.",
+  "Když pelynek sype, syp jemu zase hořec."
+ ],
+ [
+  "Nedá z sebe rozumy vláčeti.",
+  "Nedá ze sebe rozumy vláčeti."
+ ],
+ [
+  "Bez prace něsu kolače.",
+  "Bez práce nejsou koláče."
+ ],
+ [
+  "Pilník s železa rez stírá.",
+  "Rez se železa pilník stírá."
+ ],
+ [
+  "Všeho do času, Pambů na věky.",
+  "Všeho do času, pán Bůh na věky."
+ ],
+ [
+  "Pečení ptáci nelítají do huby.",
+  "Pečení holubi do huby nelétají."
+ ],
+ [
+  "Pečene holuby neleta do huby.",
+  "Pečení holubi do huby nelétají."
+ ],
+ [
+  "Podle stavu bidlo.",
+  "Podle stavu bydlo."
+ ],
+ [
+  "Když se kácí les, tak lítají třísky.",
+  "Když se kácí les, lítají třísky."
+ ],
+ [
+  "Kovářovic kobyla chodí bosa.",
+  "Kovářova kobyla chodí bosa."
+ ],
+ [
+  "Žádný učený s nebe nespadl.",
+  "Žádný učený z nebe nespadl."
+ ],
+ [
+  "Ceho kdo hleda, teho najdě.",
+  "Kdo hledá, najde."
+ ],
+ [
+  "Mistr Nouze naučil Dalibora housti.",
+  "Nouze naučila Dalibora housti."
+ ],
+ [
+  "Pro dobrotu na psotu.",
+  "Pro dobrotu na žebrotu."
+ ],
+ [
+  "Kdo pospíší, dvakrát dává.",
+  "Kdo rychle dává, dvakrát dává."
+ ],
+ [
+  "Však má kůň čtyři nohy, a přece klesá.",
+  "I kůň má čtyři nohy, a přece klopýtne."
+ ],
+ [
+  "Něštěsti samo něpříchodi.",
+  "Neštěstí nechodí samo."
+ ],
+ [
+  "Dobré samo se chválí.",
+  "Dobré zboží se chválí samo."
+ ],
+ [
+  "Kdo mlčí, svoluje.",
+  "Kdo mlčí, souhlasí."
+ ],
+ [
+  "Mnoho řeči, málo skutku.",
+  "Mnoho řečí, málo skutků."
+ ],
+ [
+  "Hlas národa, hlas Boží.",
+  "Hlas lidu, hlas Boží."
+ ],
+ [
+  "Neříkej huj (hopsa), až přeskočíš.",
+  "Neříkej hop, dokud nepřeskočíš."
+ ],
+ [
+  "Nikdo nemůže dvěma pánům sloužiti.",
+  "Nelze sloužit dvěma pánům."
+ ],
+ [
+  "Každý začátek těžký (tvrdý).",
+  "Každý začátek je těžký."
+ ],
+ [
+  "Pán Bůh dal, pán Bůh vzal.",
+  "Pánbůh dal, Pánbůh vzal."
+ ],
+ [
+  "Skočil (trefil) z bláta do louže.",
+  "Z bláta do louže."
+ ],
+ [
+  "Není nalezen člověk ten, jenž by se líbil (zachoval) lidem všem.",
+  "Není na světě člověk ten, aby se zachoval lidem všem."
+ ],
+ [
+  "Rovný rovného (druh druha) hledá.",
+  "Rovný rovného si hledá."
+ ],
+ [
+  "Lepší málo, než nic.",
+  "Lepší něco než nic."
+ ],
+ [
+  "Velké ryby malé požírají.",
+  "Velká ryba malou polyká."
+ ],
+ [
+  "Svůj k svemu.",
+  "Svůj k svému."
+ ],
+ [
+  "Chytrému napomoz, hloupému dopomoz.",
+  "Chytrému napověz, hloupého trkni."
+ ],
+ [
+  "Chytrému napověz, hloupému dopověz.",
+  "Chytrému napověz, hloupého trkni."
+ ],
+ [
+  "Mladi ležaci, staři žebraci.",
+  "Mladí ležáci, staří žebráci."
+ ],
+ [
+  "I pod ošumělým kloboukem moudrá hlava bývá.",
+  "Pod ošumělým kloboukem moudrá hlava bývá."
+ ],
+ [
+  "Co sis uvařil, to si sněz.",
+  "Co sis navařil, to si sněz."
+ ],
+ [
+  "Každý pes z jiné vsi.",
+  "Každý pes jiná ves."
+ ],
+ [
+  "Dobrého nepálí.",
+  "Poctivého nepálí."
+ ],
+ [
+  "Dobrého nepálí, a zlého nesmí.",
+  "Poctivého nepálí."
+ ],
+ [
+  "Vše s Bohem a rozumem.",
+  "Všeho s rozumem."
+ ]
+]

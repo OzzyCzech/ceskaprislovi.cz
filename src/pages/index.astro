@@ -4,31 +4,28 @@ import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import ProverbCard from '../components/ProverbCard.astro';
 import RowTemplate from '../components/RowTemplate.astro';
+import AlphabetNav from '../components/AlphabetNav.astro';
 import { dailyProverbs, proverbs, recentDaily, themes } from '../lib/proverbs';
 import { dailyIndex, getDailyDate } from '../lib/daily';
-import { letters } from '../lib/alphabet';
 
 const date = getDailyDate();
 const todayIndex = dailyIndex(date.iso, dailyProverbs.length);
 const featured = dailyProverbs[todayIndex];
 const recent = recentDaily(todayIndex);
 const total = new Intl.NumberFormat('cs-CZ').format(proverbs.length);
-const daily = dailyProverbs.map(({ slug, text, tags }) => [slug, text, tags.slice(0, 1)]);
+const daily = dailyProverbs.map(({ slug, text }) => [slug, text]);
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
+  '@id': new URL('/#website', Astro.site).href,
   name: 'Česká přísloví',
   url: Astro.site?.href,
   inLanguage: 'cs',
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: { '@type': 'EntryPoint', urlTemplate: `${Astro.site?.origin}/?q={search_term_string}` },
-    'query-input': 'required name=search_term_string',
-  },
 };
 ---
 <Base jsonLd={jsonLd}>
-  <section id="daily-proverb" data-daily={JSON.stringify(daily)} data-slug={featured.slug} data-proverb={featured.text}>
+  <script id="daily-data" type="application/json" set:html={JSON.stringify(daily).replaceAll('<', '\\u003c')} />
+  <section id="daily-proverb" data-slug={featured.slug} data-proverb={featured.text}>
     <div class="frame pt-12 pb-12 sm:pt-20 sm:pb-[4.5rem] lg:pt-[5.5rem]">
       <div class="flex flex-wrap items-baseline gap-x-4 gap-y-1">
         <p class="kicker text-rust">Přísloví dne</p>
@@ -73,19 +70,17 @@ const jsonLd = {
       </div>
       <div id="abeceda">
         <h2 class="section-title">Abeceda</h2>
-        <nav aria-label="Abecední filtr" class="mt-6 grid max-w-[22rem] grid-cols-7 gap-1.5">
-          {letters.map((letter) => <a class="button min-w-0 px-1 sm:px-1" aria-label={letter === '…' ? 'Ostatní znaky' : undefined} href={`/?pismeno=${encodeURIComponent(letter)}#vysledky`}>{letter}</a>)}
-        </nav>
+        <AlphabetNav />
       </div>
     </section>
 
     <section id="vysledky" class="mt-12 sm:mt-24" aria-labelledby="results-heading">
       <div class="mb-5 flex flex-wrap items-baseline justify-between gap-3">
         <h2 id="results-heading" class="section-title">Známá přísloví</h2>
-        <a id="all-proverbs" class="inline-flex items-center gap-2 text-sm font-bold hover:text-rust" href="/?sbirka=1#vysledky"><span class="underline underline-offset-4">Celá sbírka</span><Icon name="next" size={16} /></a>
-        <button id="clear-search" type="button" class="text-sm font-bold text-rust underline underline-offset-4" hidden>Zrušit filtr</button>
+        <a id="all-proverbs" class="inline-flex items-center gap-2 text-sm font-bold hover:text-rust" href="/abeceda"><span class="underline underline-offset-4">Celá sbírka</span><Icon name="next" size={16} /></a>
+        <button id="clear-search" type="button" class="min-h-6 text-sm font-bold text-rust underline underline-offset-4" hidden>Zrušit filtr</button>
       </div>
-      <p id="search-status" class="mb-4 text-muted empty:hidden" role="status"></p>
+      <p id="search-status" class="mb-4 text-muted empty:sr-only" role="status"></p>
       <div id="cards" class="proverb-list-numbered border-t border-line" data-known="12">
         {recent.map((proverb, index) => <ProverbCard proverb={proverb} number={index + 1} />)}
       </div>

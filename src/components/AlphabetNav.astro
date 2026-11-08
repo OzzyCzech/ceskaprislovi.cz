@@ -1,0 +1,14 @@
+---
+import { alphabetPath, letters } from '../lib/alphabet';
+const { current } = Astro.props as { current?: string };
+---
+<nav aria-label="Přísloví podle počátečního písmene" class="mt-6 grid max-w-[22rem] grid-cols-7 gap-1.5">
+  {letters.map((letter) => (
+    <a
+      class:list={['button min-w-0 px-1 sm:px-1', current === letter && 'button-primary']}
+      aria-label={letter === '…' ? 'Ostatní znaky' : undefined}
+      aria-current={current === letter ? 'true' : undefined}
+      href={alphabetPath(letter)}
+    >{letter}</a>
+  ))}
+</nav>

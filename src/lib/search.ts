@@ -1,9 +1,10 @@
-import uFuzzy from '@leeoniya/ufuzzy';
+import type uFuzzy from '@leeoniya/ufuzzy';
 import { normalize } from './normalize';
 import { loadCatalog, type Entry } from './catalog';
 import { initialLetter, letters } from './alphabet';
 import { buildRow } from './row';
-import { renderKnown } from './known';
+import { daily, renderKnown } from './known';
+import { dailyIndex, getDailyDate } from './daily';
 
 type Catalog = { entries: Entry[]; haystack: string[]; tags: string[][]; letters: string[] };
 
@@ -20,15 +21,22 @@ const pageSize = 24;
 const minLiveLength = 2;
 const number = new Intl.NumberFormat('cs-CZ');
 const czech = new Intl.Collator('cs');
-// Exact pass: every term must appear as a substring. Fuzzy pass: one typo per term, used when the exact pass finds little.
-const exact = new uFuzzy({ intraMode: 0 });
-const fuzzy = new uFuzzy({
-  intraMode: 1,
-  // uFuzzy's defaults keep 3-4 letter terms almost exact; Czech endings differ by one vowel, so allow a substitution from 4 letters up.
-  intraRules: (term) => term.length >= 4
-    ? { intraSlice: [1, Infinity], intraIns: 1, intraSub: 1, intraTrn: 1, intraDel: term.length >= 5 ? 1 : 0 }
-    : { intraSlice: [1, Infinity], intraIns: 0, intraSub: 0, intraTrn: term.length === 3 ? 1 : 0, intraDel: 0 },
-});
+const today = dailyIndex(getDailyDate().iso, daily.length);
+let showsKnown = cards.querySelector('a')?.getAttribute('href') === `/${daily[(today - 1 + daily.length) % daily.length]?.[0]}`;
+let matchers: Promise<{ exact: uFuzzy; fuzzy: uFuzzy }> | undefined;
+function loadMatchers() {
+  matchers ??= import('@leeoniya/ufuzzy').then(({ default: Matcher }) => ({
+    exact: new Matcher({ intraMode: 0 }),
+    fuzzy: new Matcher({
+      intraMode: 1,
+      // Allow a substitution from four letters up, including one-vowel differences in Czech endings.
+      intraRules: (term) => term.length >= 4
+        ? { intraSlice: [1, Infinity], intraIns: 1, intraSub: 1, intraTrn: 1, intraDel: term.length >= 5 ? 1 : 0 }
+        : { intraSlice: [1, Infinity], intraIns: 0, intraSub: 0, intraTrn: term.length === 3 ? 1 : 0, intraDel: 0 },
+    }),
+  }));
+  return matchers;
+}
 let catalog: Promise<Catalog> | undefined;
 let matches: Entry[] = [];
 let shown = 0;
@@ -83,7 +91,7 @@ async function showResults(scroll = false) {
   if (!active) {
     heading.textContent = 'Známá přísloví';
     status.textContent = '';
-    renderKnown();
+    if (!showsKnown) showsKnown = renderKnown();
     return;
   }
 
@@ -93,7 +101,7 @@ async function showResults(scroll = false) {
   if (scroll) document.querySelector('#vysledky')?.scrollIntoView();
 
   try {
-    const data = await searchCatalog();
+    const [data, matcher] = await Promise.all([searchCatalog(), term ? loadMatchers() : undefined]);
     if (current !== generation) return;
 
     const allowed = (index: number) =>
@@ -101,7 +109,8 @@ async function showResults(scroll = false) {
       (!theme || data.tags[index].includes(normalizedTheme));
 
     let found: number[];
-    if (term) {
+    if (matcher) {
+      const { exact, fuzzy } = matcher;
       found = rank(exact, data.haystack, term).filter(allowed);
       if (found.length < 10) {
         const seen = new Set(found);
@@ -115,6 +124,7 @@ async function showResults(scroll = false) {
     matches = found.map((index) => data.entries[index]);
     shown = 0;
     cards.replaceChildren();
+    showsKnown = false;
     status.textContent = matches.length
       ? `Počet nalezených přísloví: ${number.format(matches.length)}`
       : 'Žádné přísloví se nenašlo. Zkuste jiné slovo nebo kratší dotaz.';
@@ -145,52 +155,13 @@ input.addEventListener('input', () => {
     const url = queryUrl(query);
     if (location.pathname + location.search === url) return;
     history.replaceState(null, '', url);
-    // Links to /#hledat (header icon, 404 page) land in the search field, not just at the form.
-function focusSearch() {
-  form.scrollIntoView({ block: 'start' });
-  input.focus({ preventScroll: true });
-}
-document.addEventListener('click', (event) => {
-  const link = (event.target as Element | null)?.closest?.<HTMLAnchorElement>('a[href]');
-  if (!link || new URL(link.href).hash !== '#hledat' || link.origin !== location.origin) return;
-  event.preventDefault();
-  history.replaceState(null, '', '/#hledat');
-  focusSearch();
-});
-window.addEventListener('hashchange', () => { if (location.hash === '#hledat') focusSearch(); });
-// On a fresh load the browser's own fragment scroll runs after the script and clears focus, so wait for it.
-if (location.hash === '#hledat') {
-  const focusAfterLoad = () => requestAnimationFrame(focusSearch);
-  if (document.readyState === 'complete') focusAfterLoad();
-  else window.addEventListener('load', focusAfterLoad, { once: true });
-}
-void showResults();
+    void showResults();
   }, 150);
 });
-input.addEventListener('focus', () => void searchCatalog().catch(() => {}), { once: true });
 clear.addEventListener('click', () => {
   history.pushState(null, '', '/');
   input.value = '';
-  // Links to /#hledat (header icon, 404 page) land in the search field, not just at the form.
-function focusSearch() {
-  form.scrollIntoView({ block: 'start' });
-  input.focus({ preventScroll: true });
-}
-document.addEventListener('click', (event) => {
-  const link = (event.target as Element | null)?.closest?.<HTMLAnchorElement>('a[href]');
-  if (!link || new URL(link.href).hash !== '#hledat' || link.origin !== location.origin) return;
-  event.preventDefault();
-  history.replaceState(null, '', '/#hledat');
-  focusSearch();
-});
-window.addEventListener('hashchange', () => { if (location.hash === '#hledat') focusSearch(); });
-// On a fresh load the browser's own fragment scroll runs after the script and clears focus, so wait for it.
-if (location.hash === '#hledat') {
-  const focusAfterLoad = () => requestAnimationFrame(focusSearch);
-  if (document.readyState === 'complete') focusAfterLoad();
-  else window.addEventListener('load', focusAfterLoad, { once: true });
-}
-void showResults();
+  void showResults();
   input.focus();
 });
 more.addEventListener('click', () => appendResults(true));
@@ -207,6 +178,7 @@ function focusSearch() {
   input.focus({ preventScroll: true });
 }
 document.addEventListener('click', (event) => {
+  if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
   const link = (event.target as Element | null)?.closest?.<HTMLAnchorElement>('a[href]');
   if (!link || new URL(link.href).hash !== '#hledat' || link.origin !== location.origin) return;
   event.preventDefault();

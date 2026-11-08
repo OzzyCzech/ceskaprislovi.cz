@@ -1,9 +1,9 @@
-import type { Entry } from './catalog';
+import type { Entry, ProverbLink } from './catalog';
 
 const template = document.querySelector<HTMLTemplateElement>('#proverb-row-template');
 
 /** Builds a proverb list row from the shared <template> rendered by RowTemplate.astro. */
-export function buildRow([slug, text]: Entry, number?: number) {
+export function buildRow([slug, text]: ProverbLink | Entry, number?: number) {
   if (!template) throw new Error('Row template is missing');
   const row = template.content.firstElementChild!.cloneNode(true) as HTMLElement;
   row.dataset.proverb = text;

@@ -16,6 +16,7 @@
     "@fontsource-variable/figtree": "^5.2.0",
     "@fontsource-variable/lora": "^5.2.0",
     "@leeoniya/ufuzzy": "1.0.19",
+    "@lucide/astro": "^1.70.0",
     "@tailwindcss/vite": "^4.1.0",
     "astro": "^6.0.0",
     "tailwindcss": "^4.1.0"

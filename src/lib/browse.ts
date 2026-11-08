@@ -1,11 +1,11 @@
 import { themePath } from './theme-path';
 import { dailyIndex, getDailyDate } from './daily';
-import { loadCatalog, type Entry } from './catalog';
-import { renderKnown } from './known';
+import { loadCatalog, type ProverbLink } from './catalog';
+import { daily } from './known';
 
 const hero = document.querySelector<HTMLElement>('#daily-proverb');
 
-function showProverb([slug, text]: Entry) {
+function showProverb([slug, text]: ProverbLink) {
   if (!hero) return;
   hero.dataset.slug = slug;
   hero.dataset.proverb = text;
@@ -26,11 +26,8 @@ if (hero) {
   const time = hero.querySelector('time')!;
   time.textContent = date.label;
   time.dateTime = date.iso;
-  const daily = JSON.parse(hero.dataset.daily!) as Entry[];
   const today = dailyIndex(date.iso, daily.length);
-  showProverb(daily[today]);
-  // The build may be older than today, so the list of previous days is rendered for the visitor's date.
-  if (!new URLSearchParams(location.search).toString()) renderKnown();
+  if (daily[today][0] !== hero.dataset.slug) showProverb(daily[today]);
 }
 
 async function pickRandom(mode: 'hero' | 'detail') {
@@ -39,7 +36,7 @@ async function pickRandom(mode: 'hero' | 'detail') {
     const entries = (await loadCatalog()).filter(([slug]) => slug !== current);
     const entry = entries[Math.floor(Math.random() * entries.length)];
     if (!entry) return;
-    if (mode === 'hero' && hero) showProverb(entry);
+    if (mode === 'hero' && hero) showProverb([entry[0], entry[1]]);
     else location.assign(`/${entry[0]}`);
   } catch {
     const status = document.querySelector('#site-status')!;

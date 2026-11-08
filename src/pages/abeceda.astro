@@ -1,0 +1,11 @@
+---
+import Base from '../layouts/Base.astro';
+import AlphabetNav from '../components/AlphabetNav.astro';
+---
+<Base title="Přísloví podle abecedy" description="Procházejte česká přísloví a pořekadla podle počátečního písmene.">
+  <div class="frame pt-12 sm:pt-20">
+    <h1 class="display text-[clamp(3rem,8vw,7rem)]">Přísloví podle abecedy</h1>
+    <p class="mt-6 text-lg text-muted">Vyberte počáteční písmeno přísloví nebo pořekadla.</p>
+    <AlphabetNav />
+  </div>
+</Base>

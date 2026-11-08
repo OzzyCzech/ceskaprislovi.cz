@@ -26,7 +26,7 @@ for (const entry of [...input, modernVariant]) {
   unique.set(text, proverb);
 }
 
-const reserved = new Set(['index', '404', 'sitemap', 'sitemap-index', 'prislovi-index', 'o-projektu', 'co-je-prislovi', 'temata', 'teta-katerina']);
+const reserved = new Set(['index', '404', 'sitemap', 'sitemap-index', 'prislovi-index', 'o-projektu', 'co-je-prislovi', 'temata', 'teta-katerina', 'abeceda']);
 export const proverbs = Array.from(unique.values(), (entry): Proverb => {
   const base = entry.variantOf ? 'kdo-chce-psa-byt-hul-si-vzdy-najde' : slugOf(entry.text);
   const digest = createHash('sha256').update(entry.text).digest('hex').slice(0, 12);

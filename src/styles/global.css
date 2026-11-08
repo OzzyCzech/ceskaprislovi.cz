@@ -7,14 +7,14 @@
   --color-ink: #0c0c0c;
   --color-muted: #535353;
   --color-line: #dedede;
-  --color-rust: var(--color-orange-600);
+  --color-rust: #b83b00;
 }
 
 html { scroll-padding-top: 1.5rem; }
 @media (prefers-reduced-motion: reduce) { *, ::before, ::after { transition: none !important; scroll-behavior: auto !important; } }
 body { min-height: 100vh; }
 ::selection { background: var(--color-orange-100); color: #0c0c0c; }
-:focus-visible { outline: 2px solid var(--color-orange-600); outline-offset: 4px; }
+:focus-visible { outline: 2px solid var(--color-rust); outline-offset: 4px; }
 [hidden] { display: none !important; }
 .frame { @apply mx-auto w-full max-w-[80rem] px-5 sm:px-8 lg:px-10; }
 .kicker { @apply text-sm font-bold uppercase tracking-[.075em]; }
@@ -31,9 +31,8 @@ body { min-height: 100vh; }
 .proverb-row-title { @apply text-xl font-extrabold leading-tight tracking-[-.035em] hover:text-rust sm:text-[1.7rem]; }
 .proverb-row-actions { @apply col-span-full flex shrink-0 items-center gap-1.5 justify-self-end sm:col-span-1; }
 html:not(.js) [data-actions] { display: none; }
-.search-field { @apply w-full rounded-2xl border-2 border-line bg-paper py-4 pr-28 pl-14 text-xl font-bold tracking-tight text-ink transition placeholder:font-semibold placeholder:text-muted hover:border-ink focus:border-ink focus:outline-none sm:py-5 sm:pr-32 sm:pl-16 sm:text-2xl; }
+.search-field { @apply w-full rounded-2xl border-2 border-[#888] bg-paper py-4 pr-28 pl-14 text-xl font-bold tracking-tight text-ink transition placeholder:font-semibold placeholder:text-muted hover:border-ink focus:border-ink focus:outline-none sm:py-5 sm:pr-32 sm:pl-16 sm:text-2xl; }
 .search-field::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
-.button-accent { @apply border-orange-600 bg-orange-600 text-white hover:border-orange-700 hover:bg-orange-700; }
 .site-status { @apply pointer-events-none fixed inset-x-0 bottom-5 z-20 mx-auto w-fit max-w-[calc(100vw-2.5rem)] rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-white shadow-lg; }
 .display-dot { color: transparent; position: relative; }
 .display-dot::selection { color: transparent; }

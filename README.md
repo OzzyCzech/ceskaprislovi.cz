@@ -21,4 +21,6 @@ Build používá `build.format: 'file'` (`slug.html` místo `slug/index.html`), 
 
 ## GitHub Pages
 
-Workflow `.github/workflows/pages.yml` sestaví web a nasadí `dist` při pushi na větev `main`. V nastavení repozitáře v **Settings → Pages** nastavte **Source → GitHub Actions** a jako **Custom domain** zadejte `ceskaprislovi.cz`. U správce domény nasměrujte DNS na GitHub Pages podle [dokumentace GitHubu](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site). Po ověření domény zapněte **Enforce HTTPS**.
+Workflow `.github/workflows/pages.yml` ověří sestavení u pull requestů do `main`. Po pushi na `main` sestaví web a nasadí složku `dist` na GitHub Pages. Nasazení lze spustit i ručně přes **Actions → GitHub Pages → Run workflow** z větve `main`.
+
+V nastavení repozitáře v **Settings → Pages** nastavte **Source → GitHub Actions** a jako **Custom domain** zadejte `ceskaprislovi.cz`. U správce domény nasměrujte DNS na GitHub Pages podle [dokumentace GitHubu](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site). Po ověření domény zapněte **Enforce HTTPS**.

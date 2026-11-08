@@ -1,10 +1,24 @@
 ---
 import Base from '../layouts/Base.astro';
+
+const title = 'Co je přísloví';
+const description = 'Co je přísloví, jak se používá a jak se liší od rčení, pořekadla a pranostiky.';
+const url = new URL('/co-je-prislovi', Astro.site).href;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: `${title}?`,
+  description,
+  url,
+  mainEntityOfPage: url,
+  inLanguage: 'cs',
+  isPartOf: { '@id': new URL('/#website', Astro.site).href },
+};
 ---
 
-<Base title="Co je přísloví" description="Co je přísloví, jak se používá a jak se liší od rčení, pořekadla a pranostiky.">
+<Base title={title} description={description} jsonLd={jsonLd}>
   <article class="frame max-w-[58rem] py-12 sm:py-16">
-    <h1 class="display text-[clamp(3rem,8vw,7rem)]">Co je přísloví<span class="text-rust">?</span></h1>
+    <h1 class="display text-[clamp(3rem,8vw,7rem)]">{title}<span class="text-rust">?</span></h1>
     <div class="mt-8 max-w-prose space-y-5 text-lg leading-relaxed text-muted">
       <p>
         Přísloví je krátký ustálený výrok, který předává obecnou zkušenost. Hodí se jako rada, varování nebo komentář k tomu, co se právě děje. Třeba „Dvakrát měř, jednou řež“ připomíná, že se vyplatí věci předem promyslet. Platí to v dílně stejně jako při odesílání důležitého e-mailu.

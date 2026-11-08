@@ -42,18 +42,25 @@ async function run(button: HTMLButtonElement) {
       saveImage(await proverbImage(text, slug));
       announce('Obrázek PNG se stahuje.');
     } else if (action === 'share') {
-      const file = await proverbImage(text, slug);
-      if (canShareFiles([file])) {
-        await navigator.share({ files: [file], title: 'Česká přísloví', text, url: new URL(`/${slug}`, location.origin).href });
+      const data = { title: 'Česká přísloví', text, url: new URL(`/${slug}`, location.origin).href };
+      if (typeof navigator.share === 'function') {
+        const file = await proverbImage(text, slug);
+        if (canShareFiles([file])) {
+          await navigator.share({ ...data, files: [file] });
+        } else {
+          await navigator.share(data);
+        }
       } else {
-        saveImage(file);
-        announce('Sdílení tu není dostupné, obrázek se místo toho stáhl.');
+        await navigator.clipboard.writeText(data.url);
+        announce('Odkaz ke sdílení zkopírován do schránky.');
       }
     }
   } catch (error) {
     if (error instanceof DOMException && error.name === 'AbortError') return;
     announce(
-      action === 'copy' || action === 'link'
+      action === 'share'
+        ? 'Sdílení se nepodařilo. Zkuste zkopírovat odkaz nebo stáhnout obrázek.'
+        : action === 'copy' || action === 'link'
         ? 'Schránka není dostupná. Text můžete označit a zkopírovat ručně.'
         : 'Obrázek se nepodařilo vytvořit. Zkuste to znovu.',
     );

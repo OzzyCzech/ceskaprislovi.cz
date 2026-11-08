@@ -1,0 +1,41 @@
+---
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro';
+import Base from '../../../layouts/Base.astro';
+import AlphabetNav from '../../../components/AlphabetNav.astro';
+import Icon from '../../../components/Icon.astro';
+import ProverbCard from '../../../components/ProverbCard.astro';
+import { alphabetPath, alphabetSlug, initialLetter, letters } from '../../../lib/alphabet';
+import { proverbs, type Proverb } from '../../../lib/proverbs';
+
+export const getStaticPaths = (({ paginate }) => {
+  const groups = new Map(letters.map((letter): [string, Proverb[]] => [letter, []]));
+  for (const proverb of proverbs) groups.get(initialLetter(proverb.text))!.push(proverb);
+  const czech = new Intl.Collator('cs');
+  return Array.from(groups, ([letter, entries]) => paginate(
+    entries.sort((a, b) => czech.compare(a.text, b.text)),
+    { params: { pismeno: alphabetSlug(letter) }, props: { letter }, pageSize: 72 },
+  )).flat();
+}) satisfies GetStaticPaths;
+
+const { page, letter } = Astro.props as InferGetStaticPropsType<typeof getStaticPaths>;
+const heading = letter === '…' ? 'Přísloví začínající jiným znakem' : `Přísloví na ${letter}`;
+const title = page.currentPage === 1 ? heading : `${heading} – strana ${page.currentPage}`;
+const pageUrl = (index: number) => alphabetPath(letter) + (index === 1 ? '' : `/${index}`);
+---
+<Base title={title} description={`Česká přísloví a pořekadla podle abecedy. ${heading}, strana ${page.currentPage} z ${page.lastPage}.`}>
+  <div class="frame pt-8 sm:pt-12">
+    <a href="/abeceda" class="inline-flex items-center gap-2 text-sm font-bold hover:text-rust"><Icon name="previous" size={16} /> Celá abeceda</a>
+    <h1 class="display mt-7 text-[clamp(2.7rem,7.5vw,6rem)]">{heading}</h1>
+    <AlphabetNav current={letter} />
+    <div class="mt-8 border-t border-line">
+      {page.data.map((proverb) => <ProverbCard proverb={proverb} />)}
+    </div>
+    {page.lastPage > 1 && (
+      <nav class="mt-6 flex flex-wrap items-center gap-3" aria-label="Stránkování přísloví">
+        {page.currentPage > 1 && <a class="button" href={pageUrl(page.currentPage - 1)} rel="prev"><Icon name="previous" size={16} /> Předchozí</a>}
+        <span class="text-sm text-muted">Strana {page.currentPage} z {page.lastPage}</span>
+        {page.currentPage < page.lastPage && <a class="button" href={pageUrl(page.currentPage + 1)} rel="next">Další <Icon name="next" size={16} /></a>}
+      </nav>
+    )}
+  </div>
+</Base>

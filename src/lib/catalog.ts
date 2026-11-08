@@ -1,4 +1,5 @@
-export type Entry = [slug: string, text: string, tags: string[], alternatives?: string[]];
+export type ProverbLink = [slug: string, text: string];
+export type Entry = [...ProverbLink, tags: string[], alternatives?: string[]];
 
 let catalog: Promise<Entry[]> | undefined;
 export function loadCatalog() {

@@ -2,6 +2,9 @@
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import RowTemplate from '../components/RowTemplate.astro';
+import { tetaBatches } from '../lib/teta-batches';
+
+const batchSizes = tetaBatches.map((entries) => entries.length);
 ---
 <Base title="Teta Kateřina" description="Deset náhodných českých přísloví s připomínkou tety Kateřiny ze Saturnina.">
   <div class="frame pt-12 sm:pt-20">
@@ -11,8 +14,8 @@ import RowTemplate from '../components/RowTemplate.astro';
         <p class="mt-6 max-w-prose text-lg text-muted">
           Víc děr – víc syslů. Víc hlav – víc smyslů. Zeptejte se tety Kateřiny, co si o tom myslí.
         </p>
-        <div class="mt-7 flex flex-wrap gap-2">
-          <button id="draw-proverbs" type="button" class="button button-primary" hidden><Icon name="random" /> Zeptat se znovu</button>
+        <div class="mt-7 flex min-h-11 flex-wrap gap-2">
+          <button id="draw-proverbs" type="button" class="button button-primary" data-batch-sizes={JSON.stringify(batchSizes)} hidden><Icon name="random" /> Zeptat se znovu</button>
         </div>
       </div>
       <img
@@ -26,7 +29,9 @@ import RowTemplate from '../components/RowTemplate.astro';
         fetchpriority="high"
       />
     </div>
-    <p id="draw-status" class="mt-4 text-sm text-muted empty:hidden" role="status"></p>
+    <div class="mt-4 min-h-5">
+      <p id="draw-status" class="text-sm text-muted empty:sr-only" role="status"></p>
+    </div>
     <section id="draw-results" class="proverb-list-numbered mt-7 border-t border-line empty:hidden" aria-label="Vylosovaná přísloví"></section>
     <noscript><p class="mt-4 text-muted">Losování přísloví vyžaduje JavaScript.</p></noscript>
   </div>
@@ -34,18 +39,30 @@ import RowTemplate from '../components/RowTemplate.astro';
 </Base>
 
 <script>
-  import { loadCatalog } from '../lib/catalog';
+  import type { ProverbLink } from '../lib/catalog';
   import { buildRow } from '../lib/row';
 
   const draw = document.querySelector<HTMLButtonElement>('#draw-proverbs')!;
   const status = document.querySelector<HTMLElement>('#draw-status')!;
   const results = document.querySelector<HTMLElement>('#draw-results')!;
+  const batchSizes = JSON.parse(draw.dataset.batchSizes!) as number[];
+  const total = batchSizes.reduce((sum, size) => sum + size, 0);
+
+  async function loadBatch(): Promise<ProverbLink[]> {
+    if (!total) return [];
+    // Weight each batch by size so every proverb has the same chance of being drawn.
+    let ticket = Math.floor(Math.random() * total);
+    const batch = batchSizes.findIndex((size) => (ticket -= size) < 0);
+    const response = await fetch(`/teta-katerina-data/${batch}.json`);
+    if (!response.ok) throw new Error(`Teta Kateřina batch HTTP ${response.status}`);
+    return response.json();
+  }
 
   async function drawProverbs() {
     draw.disabled = true;
     status.textContent = 'Losuji přísloví…';
     try {
-      const pool = [...await loadCatalog()];
+      const pool = await loadBatch();
       const count = Math.min(10, pool.length);
       for (let index = 0; index < count; index++) {
         const picked = index + Math.floor(Math.random() * (pool.length - index));

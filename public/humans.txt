@@ -1,0 +1,9 @@
+/* TVŮRCE */
+Roman Ožana
+https://ozana.cz/
+
+/* WEB */
+Česká přísloví
+https://ceskaprislovi.cz/
+Jazyk: čeština
+Technologie: Astro, TypeScript, Tailwind CSS

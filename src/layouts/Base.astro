@@ -12,7 +12,10 @@ interface Props {
 }
 const { title, description = 'Česká přísloví a pořekadla. Hledejte podle slov či témat a sdílejte svá oblíbená přísloví.', noindex, jsonLd } = Astro.props;
 const pageTitle = title ? `${title} | Česká přísloví` : 'Česká přísloví a pořekadla';
-const canonical = new URL(Astro.url.pathname, Astro.site);
+const pathname = Astro.url.pathname.replace(/\.html$/, '');
+const canonical = new URL(pathname === '/index' ? '/' : pathname, Astro.site);
+const socialImage = new URL('/social-preview.png', Astro.site);
+const socialImageAlt = 'Česká přísloví a pořekadla na ceskaprislovi.cz';
 const total = new Intl.NumberFormat('cs-CZ').format(proverbs.length);
 ---
 <!doctype html>
@@ -22,6 +25,7 @@ const total = new Intl.NumberFormat('cs-CZ').format(proverbs.length);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script is:inline>document.documentElement.classList.add('js');</script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="author" href="/humans.txt" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <meta name="theme-color" content="#f7f7f7" />
@@ -33,8 +37,14 @@ const total = new Intl.NumberFormat('cs-CZ').format(proverbs.length);
     <meta property="og:title" content={title ?? 'Česká přísloví a pořekadla'} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta name="twitter:card" content="summary" />
-    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={socialImageAlt} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:alt" content={socialImageAlt} />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replaceAll('<', '\\u003c')} />}
   </head>
   <body class="flex flex-col bg-paper font-sans text-ink antialiased">
     <a href="#obsah" class="sr-only focus:not-sr-only focus:absolute focus:z-10 focus:bg-paper focus:p-3">Přeskočit na obsah</a>
@@ -53,7 +63,7 @@ const total = new Intl.NumberFormat('cs-CZ').format(proverbs.length);
         </nav>
       </div>
     </header>
-    <main id="obsah" class="flex-1"><slot /></main>
+    <main id="obsah" tabindex="-1" class="flex-1"><slot /></main>
     <footer class="mt-14 border-t border-line bg-white py-10 sm:mt-24 sm:py-14">
       <div class="frame grid gap-10 sm:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)_minmax(0,1fr)] sm:gap-8">
         <div>
@@ -78,7 +88,7 @@ const total = new Intl.NumberFormat('cs-CZ').format(proverbs.length);
         </div>
       </div>
     </footer>
-    <p id="site-status" class="site-status empty:hidden" role="status" aria-live="polite"></p>
+    <p id="site-status" class="site-status empty:sr-only" role="status"></p>
     <script>
       import '../lib/browse';
       import '../lib/actions';
