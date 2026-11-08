@@ -24,6 +24,12 @@ jobs:
           node-version: 26
       - uses: pnpm/action-setup@v6
       - run: pnpm install --frozen-lockfile
+      - uses: actions/cache@v6
+        with:
+          # Open Graph PNGs of all proverbs; only new or changed proverbs are rendered on a partial hit.
+          path: .cache/og
+          key: og-images-${{ hashFiles('src/lib/og-image.ts', 'src/lib/wrap-text.ts', 'src/assets/fonts/*') }}-${{ hashFiles('src/data/prislovi.json', 'src/data/zneni.json') }}
+          restore-keys: og-images-${{ hashFiles('src/lib/og-image.ts', 'src/lib/wrap-text.ts', 'src/assets/fonts/*') }}-
       - run: pnpm build
       - uses: actions/upload-pages-artifact@v5
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'

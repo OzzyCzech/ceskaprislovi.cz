@@ -1,4 +1,5 @@
-import { readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { createCanvas, GlobalFonts, Path2D } from '@napi-rs/canvas';
 import sharp from 'sharp';
@@ -13,6 +14,14 @@ const column = width - margin * 2;
 const textTop = 205;
 const textBottom = 495;
 
+// Rendered PNGs are cached in .cache/og (gitignored, restored by actions/cache in CI) under a key derived from the
+// proverb text and from everything that shapes the drawing, so a design change invalidates every image at once.
+const cacheDir = resolve('.cache/og');
+const design = createHash('sha256');
+for (const file of ['src/lib/og-image.ts', 'src/lib/wrap-text.ts', 'src/assets/fonts/figtree-variable.ttf']) design.update(readFileSync(resolve(file)));
+const designKey = design.digest('hex').slice(0, 16);
+mkdirSync(cacheDir, { recursive: true });
+
 // Full Figtree variable font (fontsource ships only unicode-range subsets, which Skia cannot merge under one family).
 GlobalFonts.register(readFileSync(resolve('src/assets/fonts/figtree-variable.ttf')), 'Figtree');
 
@@ -25,8 +34,17 @@ function font(size: number) {
   context.letterSpacing = `${-size * .035}px`;
 }
 
-/** Renders the proverb as an 8-bit PNG. */
+/** Returns the proverb's PNG, rendering it unless a cached copy exists. */
 export async function renderOgImage(text: string) {
+  const key = createHash('sha256').update(designKey).update(text).digest('hex').slice(0, 24);
+  const cached = resolve(cacheDir, `${key}.png`);
+  if (existsSync(cached)) return readFileSync(cached);
+  const png = await draw(text);
+  writeFileSync(cached, png);
+  return png;
+}
+
+async function draw(text: string) {
   context.fillStyle = '#f7f7f7';
   context.fillRect(0, 0, width, height);
 
