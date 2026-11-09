@@ -1,0 +1,35 @@
+name: Post to Bluesky
+
+# Dispatched by cron-job.org through the workflow_dispatch REST API every morning (see README).
+# GitHub's own `schedule` event runs hours late under load, so it is deliberately not used.
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Print the post without publishing it
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: post-to-bluesky
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 26
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm post
+        env:
+          BLUESKY_HANDLE: ceskaprislovi.cz
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '' }}

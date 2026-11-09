@@ -21,6 +21,36 @@ Náhled pro sociální sítě (`og:image`) má každé přísloví vlastní: `sr
 
 Build používá `build.format: 'file'` (`slug.html` místo `slug/index.html`), protože GitHub Pages jinak přesměrovává adresy bez lomítka na adresy s lomítkem, což by rozbilo kanonické URL.
 
+## Přísloví dne na Bluesky
+
+Účet [@ceskaprislovi.cz](https://bsky.app/profile/ceskaprislovi.cz) každé ráno zveřejní přísloví dne: text přísloví s výkladem (pokud se vejde do limitu 300 grafémů) a kartu s odkazem na jeho stránku, jejíž náhled je `og:image` přísloví z webu. Skript `scripts/post-daily.ts` používá stejný výpočet dne jako úvodní stránka (`src/lib/daily.ts`), takže posílá totéž přísloví, které návštěvník vidí na webu.
+
+```sh
+cp example.env .env   # doplňte app password z Bluesky → Settings → App Passwords
+pnpm post             # s DRY_RUN=1 jen vypíše text, jinak publikuje
+```
+
+Před odesláním se skript podívá do vlastního feedu, a pokud dnešní post (podle pražské půlnoci) už existuje, skončí bez publikace. Workflow jde proto bezpečně spustit vícekrát denně.
+
+### Spouštění
+
+Workflow `.github/workflows/post.yml` reaguje jen na `workflow_dispatch`; plánované běhy GitHubu (`schedule`) chodily s mnohahodinovým zpožděním, proto plánování zajišťuje [cron-job.org](https://console.cron-job.org/jobs), který každý den v **8:00 (Europe/Prague)** zavolá GitHub API:
+
+| Položka | Hodnota |
+|---|---|
+| URL | `https://api.github.com/repos/OzzyCzech/ceskaprislovi.cz/actions/workflows/post.yml/dispatches` |
+| Metoda | `POST`, tělo `{"ref":"main"}` |
+| Hlavičky | `Accept: application/vnd.github+json`, `Content-Type: application/json`, `X-GitHub-Api-Version: 2022-11-28`, `Authorization: Bearer <token>` |
+
+Token je fine-grained PAT omezený na tento repozitář s oprávněním **Actions: Read and write**. Úspěšný dispatch vrací `204 No Content`; `401` znamená špatný token, `404` token bez přístupu k repozitáři. Až token vyprší, posty tiše přestanou chodit, protože se workflow vůbec nespustí; selhání hlásí jen cron-job.org e-mailem. Tlačítko **Test run** v cron-job.org publikuje doopravdy.
+
+Heslo k Bluesky je v GitHub secrets jako `BLUESKY_APP_PASSWORD`. Ruční spuštění:
+
+```sh
+gh workflow run post.yml --ref main                  # ostrý post
+gh workflow run post.yml --ref main -f dry_run=true  # jen vypíše text
+```
+
 ## GitHub Pages
 
 Workflow `.github/workflows/pages.yml` ověří sestavení u pull requestů do `main`. Po pushi na `main` sestaví web a nasadí složku `dist` na GitHub Pages. Nasazení lze spustit i ručně přes **Actions → GitHub Pages → Run workflow** z větve `main`.

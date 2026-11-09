@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "post": "node --env-file-if-exists=.env --import tsx scripts/post-daily.ts"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
@@ -23,8 +24,10 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.12",
+    "@atproto/api": "^0.30.3",
     "@napi-rs/canvas": "1.1.0",
     "sharp": "0.35.5",
+    "tsx": "^4.23.15",
     "typescript": "^6.0.3"
   }
 }
