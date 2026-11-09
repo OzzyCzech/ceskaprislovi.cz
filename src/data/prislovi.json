@@ -15096,7 +15096,8 @@
     "text": "Lotr ne bratr, kurva ne sestra.",
     "tags": [
       "rodina"
-    ]
+    ],
+    "meaning": "Zloděj není bratr a nevěstka není sestra: s lidmi bez cti se nemáme spolčovat ani je krýt, i kdyby nám byli blízcí. Staré pořekadlo říká, že příbuzenství ani známost nejsou omluvou pro špatnost."
   },
   {
     "text": "Nevěstka tam se kloní, kde zlato zvoní.",
@@ -15109,7 +15110,8 @@
     "tags": [
       "smutek",
       "stud"
-    ]
+    ],
+    "meaning": "Marně čekáme od někoho vlastnost, která k němu nepatří: kat nebude mít soucit a nevěstka stud. Říká se, když někdo doufá ve slitování nebo slušnost tam, kde ji z povahy věci nenajde."
   },
   {
     "text": "Oka střez.",
@@ -43402,7 +43404,8 @@
     "text": "Řečník, hudec, kurva ti tři, kdo nejvíc dá.",
     "tags": [
       "právo a společnost"
-    ]
+    ],
+    "meaning": "Tři řemesla, která podle starého pořekadla slouží tomu, kdo zaplatí nejvíc: řečník (dnes bychom řekli advokát), muzikant a nevěstka. Posměšně říká, že u nich nerozhoduje pravda ani cit, ale peníze."
   },
   {
     "text": "Soudce béře od vinného i nevinného.",
@@ -58462,7 +58465,8 @@
       "opilství",
       "hra a hazard",
       "krádež"
-    ]
+    ],
+    "meaning": "Výčet věcí, které k sobě nejdou: štědrost hráče, milosrdenství zloděje, zbožnost nevěstky, opilec hned zrána a hříbě narozené pozdě v roce. Říká se o něčem, co je samo o sobě protimluv nebo za mnoho nestojí."
   },
   {
     "text": "Urbanův oves, žito Havlovo, řídko bývá z toho co dobrého.",
@@ -75188,25 +75192,29 @@
     "text": "Dítě z levého boku.",
     "tags": [
       "rodina"
-    ]
+    ],
+    "meaning": "Nemanželské dítě. Levá strana byla odedávna ta nepravá a horší, proto dítě z levého boku znamená dítě, které se nenarodilo z řádného manželství. Stejný smysl má „Dítě ze zelené krve“ nebo „Narodil se v kopřivách“."
   },
   {
     "text": "Dítě ze zelené krve.",
     "tags": [
       "rodina"
-    ]
+    ],
+    "meaning": "Nemanželské dítě. Zelená tu neznamená urozenost jako modrá krev, ale něco nezralého a nepatřičného, co vzešlo z nedovolené lásky. Stejný smysl má „Dítě z levého boku“ nebo „Narodil se v kopřivách“."
   },
   {
-    "text": "Z kurvy syn.",
+    "text": "Narodil se v kopřivách.",
     "tags": [
       "rodina"
-    ]
+    ],
+    "meaning": "Staré označení nemanželského dítěte. Kopřivy rostou samy, bez setí a mimo zahradu, proto se o dítěti narozeném mimo manželství říkalo, že se narodilo v kopřivách, a říkalo se mu kopřivník nebo kopřivče. Čelakovský pořekadlo uvádí mezi pořekadly o nevěře vedle „Dítě z levého boku“, „Dítě ze zelené krve“ a hrubého „Z kurvy syn“."
   },
   {
     "text": "Kopřivník - kopřivče.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Stará posměšná slova pro nemanželské dítě, odvozená od pořekadla „Narodil se v kopřivách“: kopřivy rostou samy, bez setí a mimo zahradu, stejně jako dítě, které nepřišlo na svět v řádném manželství."
   },
   {
     "text": "V kopřivách se narodil.",
