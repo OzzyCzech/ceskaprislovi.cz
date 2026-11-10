@@ -3653,11 +3653,15 @@
     ]
   },
   {
-    "text": "Křivého dříví (křivek) v lese nejvíce.",
+    "text": "Křivého dříví v lese nejvíce.",
     "tags": [
       "lidské vlastnosti",
       "příroda"
-    ]
+    ],
+    "alternatives": [
+      "Křivek v lese nejvíce."
+    ],
+    "meaning": "Na nepoctivost člověk narazí častěji než na poctivost, podobně jako v lese najde víc křivého dřeva než rovného."
   },
   {
     "text": "Od kozla ani srsti, ani mléka.",
