@@ -31510,7 +31510,8 @@
     "text": "Bez míry ani trepky neupleteš.",
     "tags": [
       "životní zkušenost"
-    ]
+    ],
+    "meaning": "Než se pustíš do práce, zjisti si rozměry. Bez změření totiž ani obyčejné trepky (pantofle) nevyrobíš tak, aby ti dobře seděly."
   },
   {
     "text": "Desetkrát měř, a jednou rež.",
@@ -60993,7 +60994,8 @@
     "text": "Kroutí se jako moucha v hrachu.",
     "tags": [
       "hra a hazard"
-    ]
+    ],
+    "meaning": "Říká se o někom, kdo se neustále vrtí nebo se čile otáčí, jako by měl naspěch."
   },
   {
     "text": "Práci na zaprášku odbývati.",
@@ -86914,5 +86916,62 @@
     ],
     "meaning": "Rozhodnutí padlo a už není cesty zpět; podle Caesarových slov při překročení Rubikonu.",
     "source": "doplněno"
+  },
+  {
+    "text": "Má zuby jak rozehrané šachy.",
+    "tags": [
+      "humor"
+    ],
+    "source": "doplněno",
+    "meaning": "Žertovné přirovnání pro křivé nebo chybějící zuby, které připomínají nepravidelně rozestavené figurky na šachovnici."
+  },
+  {
+    "text": "Z hovna bič neupleteš.",
+    "tags": [
+      "životní zkušenost"
+    ],
+    "source": "doplněno",
+    "meaning": "Jadrné pořekadlo o tom, že z nevhodného materiálu ani s velkou snahou neuděláš použitelnou věc."
+  },
+  {
+    "text": "Být užitečný, jak sáňky v létě.",
+    "tags": [
+      "humor"
+    ],
+    "source": "doplněno",
+    "meaning": "Ironicky o někom nebo něčem, co je v dané situaci k ničemu, podobně jako sáňky bez sněhu."
+  },
+  {
+    "text": "Čumí jak půl prdele z křoví.",
+    "tags": [
+      "humor"
+    ],
+    "source": "doplněno",
+    "meaning": "Jadrné přirovnání o někom, kdo zaraženě nebo nechápavě civí."
+  },
+  {
+    "text": "Neřvi tady jako Jawa v blátě.",
+    "tags": [
+      "humor"
+    ],
+    "source": "doplněno",
+    "meaning": "Žertovné napomenutí někoho, kdo příliš hlasitě křičí. Jeho řev se přirovnává k motoru motorky, která se snaží vyjet z bláta."
+  },
+  {
+    "text": "Sova kanára nevysedí.",
+    "tags": [
+      "rodina",
+      "ptáci"
+    ],
+    "source": "doplněno",
+    "meaning": "Říká se, když se u dítěte projeví stejná slabost jako u rodičů. Obecněji připomíná, že od člověka těžko čekat výkon, pro který nemá předpoklady."
+  },
+  {
+    "text": "Táhne se tady jak smrad po návsi.",
+    "tags": [
+      "humor"
+    ],
+    "source": "doplněno",
+    "meaning": "Posměšné přirovnání o někom, kdo jde nápadně pomalu a vůbec nespěchá."
   }
 ]
