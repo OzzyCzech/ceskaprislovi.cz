@@ -15756,7 +15756,8 @@
     "text": "Ani kuře rádo darmo kutí a hrabe.",
     "tags": [
       "práce a živobytí"
-    ]
+    ],
+    "meaning": "Za práci člověk očekává odměnu. I kuře hrabe proto, aby našlo něco k snědku."
   },
   {
     "text": "Kuře nadarmo nerado hrabe, aby nějakého zrnéčka nenašlo.",
@@ -45968,10 +45969,11 @@
     ]
   },
   {
-    "text": "Ze dvoru děvka, od Prahy sedlka (- nehrubě valné).",
+    "text": "Ze dvoru děvka, od Prahy sedlka.",
     "tags": [
       "domácí život"
-    ]
+    ],
+    "meaning": "Podle tohoto dobového úsloví se za dobrou nevěstu nepovažovala ani děvečka z hospodářského dvora, ani selka (star. sedlka) z okolí Prahy. Děvka (děvečka) tu znamená služebnou."
   },
   {
     "text": "Kdo rád si namlouvá, nerad se žení.",
@@ -50284,10 +50286,11 @@
     "meaning": "Hroudy na poli mohou ozim chránit před zimou jako malý přístřešek. Pranostika proto oceňuje hrudkovitou půdu na zimu."
   },
   {
-    "text": "Sedlák, když nenaháže (husto nezaseje), nenaváže.",
+    "text": "Sedlák, když nenaháže, nenaváže.",
     "tags": [
       "hospodářství"
-    ]
+    ],
+    "meaning": "Když sedlák nezaseje dost hustě, sklidí málo obilí a sváže jen málo snopů. Přísloví připomíná, že výsledek závisí na tom, co do práce vložíme na začátku."
   },
   {
     "text": "Obilí se sýpky na sýpku v osmi nedělích.",
@@ -56532,7 +56535,8 @@
     "text": "Šel sedlák do Moskvy na porcí rozprávky.",
     "tags": [
       "hospodářství"
-    ]
+    ],
+    "meaning": "Dnes to můžeme chápat tak, že člověk někdy podnikne něco neobvyklého jen proto, aby měl co vyprávět. Také se to dá s nadsázkou říct o někom, kdo si při vyprávění rád přikrášluje svoje historky."
   },
   {
     "text": "Jaroslav městečko Moskvy kouteček.",
@@ -64248,11 +64252,11 @@
     ]
   },
   {
-    "text": "Sedla a válce(sedí a povaluje se).",
+    "text": "Sedla a válce se.",
     "tags": [
       "lidské vlastnosti"
     ],
-    "meaning": "Sedí a povaluje se. O lenochovi, který nic nedělá."
+    "meaning": "Starší rčení znamená „sedí a povaluje se“. Vyjadřuje výtku člověku, který se má pustit do práce nebo pomoct ostatním, ale místo toho jen posedává. Třeba když ostatní po jídle uklízejí a on se ani nezvedne od stolu."
   },
   {
     "text": "Ani slámky křížem nepřeloží.",
@@ -86974,5 +86978,45 @@
     ],
     "source": "doplněno",
     "meaning": "Posměšné přirovnání o někom, kdo jde nápadně pomalu a vůbec nespěchá."
+  },
+  {
+    "text": "Narvanej jak kufr do Chorvatska.",
+    "tags": [
+      "humor"
+    ],
+    "source": "doplněno",
+    "meaning": "Žertovné přirovnání pro něco napěchovaného k prasknutí, třeba přeplněný autobus nebo nacpaný batoh."
+  },
+  {
+    "text": "Držíš to jak prase kost.",
+    "tags": [
+      "humor"
+    ],
+    "source": "doplněno",
+    "meaning": "Žertovná výtka někomu, kdo drží nástroj nebo jinou věc nešikovně."
+  },
+  {
+    "text": "Utahanej jak šňůra od hajzlu.",
+    "tags": [
+      "humor"
+    ],
+    "source": "doplněno",
+    "meaning": "Jadrné přirovnání pro někoho, kdo je úplně vyčerpaný. Hříčka spojuje únavu s taháním za splachovací šňůru."
+  },
+  {
+    "text": "Blbej jak houpací kůň.",
+    "tags": [
+      "humor"
+    ],
+    "source": "doplněno",
+    "meaning": "Posměšné přirovnání pro někoho, kdo se zachoval hloupě nebo nechápe něco zřejmého."
+  },
+  {
+    "text": "Zuby jako noty na buben.",
+    "tags": [
+      "humor"
+    ],
+    "source": "doplněno",
+    "meaning": "Žertovné přirovnání pro křivé nebo řídce rozestavěné zuby, často s výraznými mezerami."
   }
 ]
