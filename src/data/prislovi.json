@@ -17671,7 +17671,8 @@
     "tags": [
       "hra a hazard",
       "smutek"
-    ]
+    ],
+    "meaning": "I nevinná hra nebo žert může skončit pláčem, když se zábava přežene a někdo se zraní nebo se ho žert dotkne."
   },
   {
     "text": "Kdo zle hrá, zisku nepozná.",
@@ -17779,7 +17780,8 @@
     "tags": [
       "hra a hazard",
       "smutek"
-    ]
+    ],
+    "meaning": "I nevinná hra nebo žert může skončit pláčem, když se zábava přežene a někdo se zraní nebo se ho žert dotkne."
   },
   {
     "text": "Co dostaněš při hře, ani čert něvydře.",
@@ -24452,12 +24454,13 @@
     ]
   },
   {
-    "text": "V cizí naději hrachu nevař (nemáš-li doma slanin).",
+    "text": "V cizí naději hrachu nevař nemáš-li doma slanin.",
     "tags": [
       "hra a hazard",
       "domov",
       "naděje"
-    ]
+    ],
+    "meaning": "Nepouštěj se do něčeho, k čemu ti chybí potřebné prostředky, pokud jen doufáš, že ti je poskytne někdo jiný."
   },
   {
     "text": "Cizími saněmi nejezdi.",
