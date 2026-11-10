@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: 'Figtree Variable', system-ui, sans-serif;
-  --font-serif: 'Figtree Variable', system-ui, sans-serif;
+  --font-sans: system-ui, sans-serif;
+  --font-serif: system-ui, sans-serif;
   --color-paper: #f7f7f7;
   --color-ink: #0c0c0c;
   --color-muted: #535353;
@@ -18,7 +18,7 @@ body { min-height: 100vh; }
 [hidden] { display: none !important; }
 .frame { @apply mx-auto w-full max-w-[80rem] px-5 sm:px-8 lg:px-10; }
 .kicker { @apply text-sm font-bold uppercase tracking-[.075em]; }
-.display { @apply font-black leading-[.94] tracking-[-.065em] [overflow-wrap:anywhere]; }
+.display { @apply font-black leading-[1.05] tracking-[-.02em] [overflow-wrap:anywhere]; }
 .section-title { @apply text-3xl font-black leading-tight tracking-[-.045em] sm:text-[2.55rem]; }
 .button { @apply inline-flex min-h-11 cursor-pointer items-center justify-center gap-2.5 rounded-[.7rem] border border-line bg-white px-3.5 py-2 text-center text-sm font-bold transition hover:border-ink disabled:cursor-default disabled:opacity-60 sm:px-4; }
 .button-primary { @apply border-ink bg-ink text-white hover:bg-[#343434]; }

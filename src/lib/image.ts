@@ -2,9 +2,25 @@ import { wrap } from './wrap-text';
 
 const size = 1080;
 const images = new Map<string, Promise<File>>();
+let exportFont: Promise<FontFace> | undefined;
+
+function loadExportFont() {
+  const url = new URL('../assets/fonts/figtree-variable.ttf', import.meta.url);
+  exportFont ??= new FontFace('Figtree Variable', `url("${url.href}")`, { weight: '300 900' })
+    .load()
+    .then((font) => {
+      document.fonts.add(font);
+      return font;
+    })
+    .catch((error) => {
+      exportFont = undefined;
+      throw error;
+    });
+  return exportFont;
+}
 
 async function render(text: string, name: string) {
-  await document.fonts.load('900 130px "Figtree Variable"', text + ' Česká přísloví ceskaprislovi.cz');
+  await loadExportFont();
   const canvas = document.createElement('canvas');
   canvas.width = size;
   canvas.height = size;
