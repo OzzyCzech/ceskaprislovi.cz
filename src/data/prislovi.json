@@ -916,7 +916,9 @@
     "text": "Boha vzývej, sám ruky přikládej.",
     "tags": [
       "víra"
-    ]
+    ],
+    "meaning": "Nespoléhej jen na modlitbu či vnější pomoc, přilož sám ruku k dílu.",
+    "source": "internet"
   },
   {
     "text": "Modli se k Bohu, a vesluj ku břehu.",
@@ -1366,12 +1368,17 @@
     ]
   },
   {
-    "text": "V bídě nezoufej, v Boha doufej.",
+    "text": "Se slzami na krajíčku k nejbližšímu kostelíčku.",
     "tags": [
       "víra",
       "chudoba",
       "naděje"
-    ]
+    ],
+    "alternatives": [
+      "V bídě nezoufej, v Boha doufej."
+    ],
+    "meaning": "V neštěstí a nouzi lidé hledají útěchu ve víře a modlitbě.",
+    "source": "internet"
   },
   {
     "text": "Bůh območí, Bůh též osuší.",
@@ -1444,7 +1451,9 @@
     "text": "Člověk míní, pán Bůh mění.",
     "tags": [
       "víra"
-    ]
+    ],
+    "meaning": "Plány mohou změnit okolnosti, které člověk neovládá.",
+    "source": "internet"
   },
   {
     "text": "Člověk ukládá, Bůh rozkládá.",
@@ -1462,7 +1471,9 @@
     "text": "Člověk myslí, pán Buh obmyslí.",
     "tags": [
       "víra"
-    ]
+    ],
+    "meaning": "Člověk plánuje, ale výsledek mohou určit okolnosti mimo jeho moc.",
+    "source": "internet"
   },
   {
     "text": "Naše jest myšlení, ale vždy Boží způsobení.",
@@ -1776,9 +1787,14 @@
     ]
   },
   {
-    "text": "Osudu svému nikdo nemůž uteci.",
+    "text": "Osudu neutečeš.",
     "tags": [
       "víra a mravy"
+    ],
+    "source": "internet",
+    "meaning": "Tomu, co je člověku souzeno, se nelze vyhnout.",
+    "alternatives": [
+      "Osudu svému nikdo nemůž uteci."
     ]
   },
   {
@@ -1879,13 +1895,17 @@
     ]
   },
   {
-    "text": "Ovce, neposlouchající pastýře, kořisť vlku.",
+    "text": "Neposlušnou ovci vlk zadáví.",
     "tags": [
       "víra a mravy",
       "zvířata",
       "vlci"
     ],
-    "meaning": "Kdo neposlechne toho, kdo ho vede a chrání, ohrozí sám sebe a snadno se stane obětí."
+    "meaning": "Kdo neposlechne toho, kdo ho vede a chrání, ohrozí sám sebe a snadno se stane obětí.",
+    "alternatives": [
+      "Ovce, neposlouchající pastýře, kořisť vlku."
+    ],
+    "source": "internet"
   },
   {
     "text": "Kolik děr, tolik věr, kolik mlynářův, tolik měr.",
@@ -2060,7 +2080,9 @@
     "tags": [
       "víra a mravy",
       "zvířata"
-    ]
+    ],
+    "meaning": "Nenabízej cenné myšlenky nebo dary lidem, kteří je neumějí ocenit.",
+    "source": "internet"
   },
   {
     "text": "Před svině nemáš perel metati, rovněť po nich co po blátu budou šlapati.",
@@ -2100,7 +2122,9 @@
     "text": "Co nechceš sobě samému, nečiň druhému.",
     "tags": [
       "víra a mravy"
-    ]
+    ],
+    "meaning": "Nejednej s druhými způsobem, který by ti samotnému vadil.",
+    "source": "internet"
   },
   {
     "text": "Kdo jak činí, tak odplatu béře.",
@@ -2209,7 +2233,10 @@
       "zdraví",
       "nemoc"
     ],
-    "meaning": "Kdo druhým radí, aby napravili své chyby, měl by nejprve napravit vlastní. Výrok vybízí, aby člověk sám jednal podle toho, co žádá od jiných."
+    "meaning": "Kdo druhým radí, aby napravili své chyby, měl by nejprve napravit vlastní. Výrok vybízí, aby člověk sám jednal podle toho, co žádá od jiných.",
+    "alternatives": [
+      "Lékaři, uzdrav sám sebe."
+    ]
   },
   {
     "text": "Nepotřebují zdraví lékaře.",
@@ -2351,7 +2378,9 @@
     "text": "Kdo nepracuje, ať nejí.",
     "tags": [
       "víra a mravy"
-    ]
+    ],
+    "meaning": "Na společném užitku se má podílet ten, kdo také přispívá prací.",
+    "source": "internet"
   },
   {
     "text": "Hoden jest dělník mzdy své.",
@@ -2445,7 +2474,9 @@
     "text": "Čert nikdy nespí.",
     "tags": [
       "hřích"
-    ]
+    ],
+    "meaning": "Nebezpečí a nepříjemnosti mohou přijít kdykoli.",
+    "source": "internet"
   },
   {
     "text": "Říkaje amen čerta nezapudíš.",
@@ -3125,7 +3156,9 @@
     "tags": [
       "víra a mravy",
       "zvířata"
-    ]
+    ],
+    "meaning": "Každý má zálibu v prostředí odpovídajícím jeho povaze.",
+    "source": "internet"
   },
   {
     "text": "Každý hřích svou výmluvu má.",
@@ -3384,7 +3417,9 @@
     "text": "Dobré se pomní dlouho, a zlé ještě déle.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Lidé si pamatují dobro, ale křivdy a ublížení ještě déle.",
+    "source": "internet"
   },
   {
     "text": "Dobré se snadno zapomíná, a zlé dlouho zpomíná.",
@@ -3433,20 +3468,29 @@
     ]
   },
   {
-    "text": "Dobrý kůň i v konici (na maštali) kupce najde.",
+    "text": "Dobrý kůň i v maštali kupce najde.",
     "tags": [
       "obchod",
       "zvířata",
       "koně"
     ],
-    "meaning": "Kvalitní zboží se prodá, i když je uložené v odlehlém místě. „Konice“ je stáj."
+    "meaning": "Kvalitní zboží se prodá, i když je uložené v odlehlém místě. „Konice“ je stáj.",
+    "source": "internet",
+    "alternatives": [
+      "Dobrý kůň i v konici (na maštali) kupce najde."
+    ]
   },
   {
     "text": "Dobré víno i bez vichy (věnce) vypijí.",
     "tags": [
       "pití",
       "víno"
-    ]
+    ],
+    "alternatives": [
+      "Dobré víno i bez víchy vypijí."
+    ],
+    "meaning": "Kvalitní věc si najde zájemce i bez výrazné reklamy.",
+    "source": "internet"
   },
   {
     "text": "K dobré studánce ušlapaná cestička.",
@@ -3537,9 +3581,14 @@
     ]
   },
   {
-    "text": "Kdo chce užívati sladkého, musí prvé okusiti kyselého (hořkého).",
+    "text": "Nepozná sladké, kdo neokusil hořké.",
     "tags": [
       "lidské vlastnosti"
+    ],
+    "source": "internet",
+    "meaning": "Dobré věci člověk plně ocení až po zkušenosti s nepříjemnostmi.",
+    "alternatives": [
+      "Kdo chce užívati sladkého, musí prvé okusiti kyselého (hořkého)."
     ]
   },
   {
@@ -3716,7 +3765,9 @@
     "text": "Nepiš čerta na stěně, sám se on namaluje.",
     "tags": [
       "hřích"
-    ]
+    ],
+    "meaning": "Zbytečně nepřivolávej obavy líčením nejhorších možností.",
+    "source": "internet"
   },
   {
     "text": "Zlého nechej na pokoji; časem a místem nepříhodným šaškovati nebezpečno.",
@@ -3940,7 +3991,9 @@
     "text": "Mráz kopřivu nespálí.",
     "tags": [
       "úroda a počasí"
-    ]
+    ],
+    "meaning": "Odolnému nebo protřelému člověku běžné nesnáze příliš neublíží.",
+    "source": "internet"
   },
   {
     "text": "By nebyl mráz na kopřivy, byl by ten neplech věčně živý.",
@@ -4088,11 +4141,12 @@
     "meaning": "Kdyby se vždy dělalo, co by chtěli lehkomyslní a zlí, způsobilo by to velké škody."
   },
   {
-    "text": "Učinili cikána králem, a on nejprvé svého otce oběsil.",
+    "text": "Učinili hlupáka králem, a on nejprvé svého otce oběsí.",
     "tags": [
       "vláda",
       "rodina"
-    ]
+    ],
+    "meaning": "Kdo získá moc bez rozumu a rozvahy, může ji zneužít a ublížit i vlastním blízkým. Varuje před svěřováním vlády nerozumnému člověku."
   },
   {
     "text": "Kdo o nebe nestojí, pekla se nebojí.",
@@ -4115,12 +4169,17 @@
     ]
   },
   {
-    "text": "Z vlka nebude oráč.",
+    "text": "Kaž vlku orati, sytému sedláku se postiti.",
     "tags": [
       "lidské vlastnosti",
       "zvířata",
       "vlci"
-    ]
+    ],
+    "alternatives": [
+      "Z vlka nebude oráč."
+    ],
+    "meaning": "Nemá smysl požadovat po někom něco, co odporuje jeho možnostem či povaze.",
+    "source": "internet"
   },
   {
     "text": "Z vlka nebude beran, ani ze psa ohař.",
@@ -4144,13 +4203,20 @@
     "text": "Smaž hada, jak chceš, nebude z něho úhor.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Vnější úpravy nezmění základní povahu věci nebo člověka.",
+    "source": "internet"
   },
   {
     "text": "Ze zlé kůže nemůže býti dobrý kožich.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "alternatives": [
+      "Ze zlé kůže nemůže být dobrý kožich."
+    ],
+    "meaning": "Z nekvalitního základu nelze očekávat dobrý výsledek.",
+    "source": "internet"
   },
   {
     "text": "Vlkovi mluv: nebe! on zuby vyceří na tebe.",
@@ -4331,11 +4397,15 @@
     ]
   },
   {
-    "text": "Řekni m-i, s kym chodiš, a jo ti řeknu, jake povahy jsi.",
+    "text": "Řekni mi, s kým se stýkáš, a já ti řeknu, jaký jsi.",
     "tags": [
       "lidské vlastnosti"
     ],
-    "meaning": "Podle přátel, s nimiž se člověk stýká, se pozná, jaký je on sám."
+    "meaning": "Podle přátel, s nimiž se člověk stýká, se pozná, jaký je on sám.",
+    "source": "internet",
+    "alternatives": [
+      "Řekni m-i, s kym chodiš, a jo ti řeknu, jake povahy jsi."
+    ]
   },
   {
     "text": "S dobrými obcuj a zlých se varuj.",
@@ -4348,7 +4418,9 @@
     "text": "Co v ohni stojí, by železné bylo, rozpálí se.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Dlouhodobé působení silného vlivu nakonec zasáhne každého.",
+    "source": "internet"
   },
   {
     "text": "Za včelkou na med (v kvítí), a za ovadem na vřed (hnůj).",
@@ -4411,7 +4483,9 @@
     "text": "Doba k době, rovní k sobě.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Lidé podobného věku a postavení přirozeně vyhledávají jeden druhého.",
+    "source": "internet"
   },
   {
     "text": "Svůj svého vždy zastane.",
@@ -4515,10 +4589,15 @@
     ]
   },
   {
-    "text": "Hrnec příhodnou pokličku našel.",
+    "text": "Na každý hrnec se najde poklička.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "alternatives": [
+      "Hrnec příhodnou pokličku našel."
+    ],
+    "meaning": "Každý může najít vhodného životního partnera.",
+    "source": "internet"
   },
   {
     "text": "Dobře se ta poklička trefí k tomu hrnci, a sýr k chlebu.",
@@ -4550,7 +4629,9 @@
     "text": "Trefil jonák na jonáka.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Dva stejně silní nebo vychytralí soupeři narazili jeden na druhého.",
+    "source": "internet"
   },
   {
     "text": "Trefil pištec na bubeníka.",
@@ -4700,7 +4781,10 @@
       "zvířata",
       "vlci"
     ],
-    "meaning": "Kdo žije mezi lidmi s jiným způsobem života, musí se jim přizpůsobit. Říká se i o povinnosti přizpůsobit se okolí a prostředí, i když s ním nesouhlasíme."
+    "meaning": "Kdo žije mezi lidmi s jiným způsobem života, musí se jim přizpůsobit. Říká se i o povinnosti přizpůsobit se okolí a prostředí, i když s ním nesouhlasíme.",
+    "alternatives": [
+      "Kdo chce s vlky býti, musí s nimi výti."
+    ]
   },
   {
     "text": "Nelze jest, než s lidmi lidsky býti, a s vlky vlcky výti.",
@@ -4817,7 +4901,9 @@
     "tags": [
       "lidské vlastnosti",
       "zvířata"
-    ]
+    ],
+    "meaning": "Jediný špatný člen může negativně ovlivnit celou skupinu.",
+    "source": "internet"
   },
   {
     "text": "Tichý, ale lichý.",
@@ -4919,9 +5005,14 @@
     ]
   },
   {
-    "text": "Ne všickni jsou svati, co si otírají o kostel paty.",
+    "text": "Nejsou všichni svatí, co si otírají o kostel paty.",
     "tags": [
       "víra"
+    ],
+    "source": "internet",
+    "meaning": "Okázalá nábožnost sama o sobě nedokazuje dobrý charakter.",
+    "alternatives": [
+      "Ne všickni jsou svati, co si otírají o kostel paty."
     ]
   },
   {
@@ -4947,7 +5038,9 @@
     "tags": [
       "lež a klam",
       "zrada"
-    ]
+    ],
+    "meaning": "Nečestné jednání se dříve či později samo prozradí.",
+    "source": "internet"
   },
   {
     "text": "Klamy jak šídla v měchu nedlouho se utají.",
@@ -5078,12 +5171,22 @@
     "tags": [
       "lež a klam",
       "řeč"
-    ]
+    ],
+    "alternatives": [
+      "Horší jazyk falešníka nežli kopí protivníka."
+    ],
+    "meaning": "Zrada a pomluvy mohou uškodit více než otevřený nepřítel.",
+    "source": "internet"
   },
   {
-    "text": "Cizí oběd sladký, ale nesytý (netrvalý).",
+    "text": "Cizí oběd sladký, ale nesytý.",
     "tags": [
       "jídlo"
+    ],
+    "source": "internet",
+    "meaning": "Vlastní skromné živobytí dává větší jistotu než závislost na cizí hojnosti.",
+    "alternatives": [
+      "Cizí oběd sladký, ale nesytý (netrvalý)."
     ]
   },
   {
@@ -5141,7 +5244,9 @@
     "tags": [
       "lidské vlastnosti",
       "zvířata"
-    ]
+    ],
+    "meaning": "Zkušeného člověka je obtížné znovu oklamat stejnou lstí.",
+    "source": "internet"
   },
   {
     "text": "Lišku dvakrát neošidíš.",
@@ -5156,19 +5261,24 @@
     "tags": [
       "lidské vlastnosti",
       "zvířata"
-    ]
+    ],
+    "meaning": "Na vychytralého protivníka platí stejně důvtipný postup.",
+    "source": "internet"
   },
   {
-    "text": "Kdo chce cikána chytiti, musí cikána k díře přistaviti.",
+    "text": "Kdo chce vola chytiti, musí vola k díře přistaviti.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Kdo chce něčeho dosáhnout, musí si nejprve připravit vhodné podmínky. Samotný záměr nestačí, důležitý je správný postup."
   },
   {
     "text": "Proti každému forteli fortel se najde.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Na každý trik lze najít protitah.",
+    "source": "internet"
   },
   {
     "text": "Starého vrabce plevami neošidíš.",
@@ -5208,7 +5318,9 @@
     "tags": [
       "lidské vlastnosti",
       "zvířata"
-    ]
+    ],
+    "meaning": "Zdánlivý klid vychytralého protivníka nesmí ukolébat naši ostražitost.",
+    "source": "internet"
   },
   {
     "text": "Spí sova, ale slípku vidí.",
@@ -5530,7 +5642,10 @@
       "dobro a zlo",
       "chudoba"
     ],
-    "meaning": "Kdo je příliš štědrý a dobrosrdečný, může skončit chudý, protože jej druzí zneužijí. Přísloví varuje před přehnanou dobrotivostí."
+    "meaning": "Kdo je příliš štědrý a dobrosrdečný, může skončit chudý, protože jej druzí zneužijí. Přísloví varuje před přehnanou dobrotivostí.",
+    "alternatives": [
+      "Za dobrotu na žebrotu."
+    ]
   },
   {
     "text": "Kdo bez míry dává, brzo se dobere.",
@@ -5544,7 +5659,9 @@
       "lidské vlastnosti",
       "zvířata",
       "vlci"
-    ]
+    ],
+    "meaning": "Přílišná poddajnost láká ostatní ke zneužívání.",
+    "source": "internet"
   },
   {
     "text": "Každému dobrý, sobě zlý.",
@@ -5768,12 +5885,6 @@
       "smrt"
     ],
     "meaning": "Co člověk jednou daroval, nemá si brát zpátky. Přirovnání k mrtvému, který se nevrací z hrobu, zdůrazňuje, že dar má být definitivní."
-  },
-  {
-    "text": "Darovati jest pansky, nazpět bráti cikánsky.",
-    "tags": [
-      "štědrost"
-    ]
   },
   {
     "text": "Raděj sto naděliti, než jednoho poprositi.",
@@ -6025,7 +6136,9 @@
     "tags": [
       "lidské vlastnosti",
       "výchova"
-    ]
+    ],
+    "meaning": "I ten, o koho jsme pečovali, se může odvděčit zradou.",
+    "source": "internet"
   },
   {
     "text": "Chceš-li nepřítele míti, učiň někomu dobře.",
@@ -6071,7 +6184,9 @@
     "tags": [
       "pití",
       "příroda"
-    ]
+    ],
+    "meaning": "Nepoškozuj zdroj pomoci, který můžeš později sám potřebovat.",
+    "source": "internet"
   },
   {
     "text": "Nevděčnému nic není vděk.",
@@ -6117,7 +6232,9 @@
     "text": "Čím více statku máme, tím více ho žádáme.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "S rostoucím majetkem často roste i touha mít ještě více.",
+    "source": "internet"
   },
   {
     "text": "Kdo nic nemá, přeje si něco, kdo něco má, přeje si všecko.",
@@ -6204,13 +6321,17 @@
       "lidské vlastnosti",
       "zvířata",
       "psi"
-    ]
+    ],
+    "meaning": "Přílišná shovívavost vede ke stále větším požadavkům a drzosti.",
+    "source": "internet"
   },
   {
     "text": "Překroj pecen, a dej obě půle.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Chamtivému nestačí část a žádá nakonec všechno.",
+    "source": "internet"
   },
   {
     "text": "Bezedneho lakomca a žizniveho muzikanta něukojiš.",
@@ -6416,11 +6537,15 @@
     "meaning": "Kdo se chtěl zmocnit cizího, přišel i o to, co měl. „Z huby“ znamená z úst."
   },
   {
-    "text": "Kdo chce příliš mnoho, nemívá nic.",
+    "text": "Kdo chce víc, nemá nic.",
     "tags": [
       "lidské vlastnosti"
     ],
-    "meaning": "Kdo je příliš chamtivý a chce všechno, často nezíská nic."
+    "meaning": "Kdo je příliš chamtivý a chce všechno, často nezíská nic.",
+    "source": "internet",
+    "alternatives": [
+      "Kdo chce příliš mnoho, nemívá nic."
+    ]
   },
   {
     "text": "Kdo příliš mnoho nahrabe, málo mu v ruce ostane.",
@@ -6517,7 +6642,9 @@
     "text": "Kdo stojí o cizí, přichází o své.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Touha po cizím majetku může člověka připravit o vlastní.",
+    "source": "internet"
   },
   {
     "text": "Velmi rádo vlastní při cizím hyne.",
@@ -6548,7 +6675,10 @@
     "tags": [
       "lidské vlastnosti"
     ],
-    "meaning": "Kdo se vydá obírat druhé o majetek, často sám přijde o vlastní."
+    "meaning": "Kdo se vydá obírat druhé o majetek, často sám přijde o vlastní.",
+    "alternatives": [
+      "Kdo za cizí vlnou odchází, sám ostřižen domů přichází."
+    ]
   },
   {
     "text": "Jeden nespravedlivý groš sto jiných z kapsy vytáhne.",
@@ -6842,9 +6972,14 @@
     ]
   },
   {
-    "text": "Každé hrábě k sobě hrabou.",
+    "text": "Každé hrábě hrabou k sobě.",
     "tags": [
       "lidské vlastnosti"
+    ],
+    "source": "internet",
+    "meaning": "Lidé zpravidla upřednostňují vlastní prospěch.",
+    "alternatives": [
+      "Každé hrábě k sobě hrabou."
     ]
   },
   {
@@ -7038,7 +7173,9 @@
     "text": "Dnes tlusto, a zejtra pusto.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Nerozvážné hodování a utrácení vedou k pozdějšímu nedostatku.",
+    "source": "internet"
   },
   {
     "text": "Dnes i řiť v jíše, a zítra není čím huby potříti.",
@@ -7161,7 +7298,9 @@
     "text": "Jak nabyl, tak pozbyl.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Způsob získání majetku se může podobat způsobu jeho ztráty.",
+    "source": "internet"
   },
   {
     "text": "Jak došlo, tak prošlo.",
@@ -7934,9 +8073,14 @@
     ]
   },
   {
-    "text": "Lež (lhář) má krátké nohy, daleko neujde.",
+    "text": "Lež má krátké nohy, daleko neujde.",
     "tags": [
       "lež a klam"
+    ],
+    "source": "internet",
+    "meaning": "Lež se dlouho neutají a nakonec vyjde najevo.",
+    "alternatives": [
+      "Lež (lhář) má krátké nohy, daleko neujde."
     ]
   },
   {
@@ -7978,9 +8122,14 @@
     "meaning": "Lež se brzy prozradí a pravda vyjde najevo. Přísloví upozorňuje, že lhaní se nevyplácí, protože lhář nedojde daleko."
   },
   {
-    "text": "Kdo včera lhal, tomu i zýtra se nevěří.",
+    "text": "Kdo včera lhal, tomu i zítra se nevěří.",
     "tags": [
       "lež a klam"
+    ],
+    "source": "internet",
+    "meaning": "Prokázaná lež dlouhodobě ničí důvěryhodnost člověka.",
+    "alternatives": [
+      "Kdo včera lhal, tomu i zýtra se nevěří."
     ]
   },
   {
@@ -8029,7 +8178,9 @@
     "tags": [
       "lež a klam",
       "paměť"
-    ]
+    ],
+    "meaning": "Lhář si musí pamatovat své výmysly, aby si neprotiřečil.",
+    "source": "internet"
   },
   {
     "text": "Lháti, žváti; jenom na konečky pamatovati.",
@@ -8148,10 +8299,15 @@
     ]
   },
   {
-    "text": "Z daleka přišlým snadno lháti.",
+    "text": "Z dálky se dobře lže.",
     "tags": [
       "lež a klam"
-    ]
+    ],
+    "alternatives": [
+      "Z daleka přišlým snadno lháti."
+    ],
+    "meaning": "O vzdálených a těžko ověřitelných věcech se snadno vyprávějí nepravdy.",
+    "source": "internet"
   },
   {
     "text": "Na smyšlenky slova lacino se koupí.",
@@ -8436,7 +8592,10 @@
     "tags": [
       "mezilidské vztahy"
     ],
-    "meaning": "Pokličku nepotřebuješ, když je hrnec prázdný. Zbytečná ochrana tam, kde není co chránit."
+    "meaning": "Pokličku nepotřebuješ, když je hrnec prázdný. Zbytečná ochrana tam, kde není co chránit.",
+    "alternatives": [
+      "Co do hezké mísy, když je prázdná."
+    ]
   },
   {
     "text": "Protoť Bůh jazyk dal, aby se míuvilo.",
@@ -8632,7 +8791,9 @@
     "text": "Seče řeč jako meč.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Ostrá slova mohou zranit stejně hluboce jako zbraň.",
+    "source": "internet"
   },
   {
     "text": "Více jazyk nežli meč potíná.",
@@ -8687,7 +8848,9 @@
     "text": "Zlý jazyk mnoho zlého natropí.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Pomluvy a zlomyslné řeči mohou způsobit velké škody.",
+    "source": "internet"
   },
   {
     "text": "Zlý jazyk všechno pokálí.",
@@ -8840,7 +9003,12 @@
       "řeč",
       "pití",
       "pivo"
-    ]
+    ],
+    "alternatives": [
+      "Řeč se mluví a voda teče."
+    ],
+    "meaning": "Řeči plynou a nemusejí mít trvalou váhu ani následky.",
+    "source": "internet"
   },
   {
     "text": "Řeči se mluví, a chléb se jí.",
@@ -9092,12 +9260,6 @@
     ]
   },
   {
-    "text": "S panským jazykem svého neměr; máš-li delší, přikrojí ti ho: máš-li kratší, ven vytáhnou.",
-    "tags": [
-      "řeč"
-    ]
-  },
-  {
     "text": "Bože, dej v dobrý čas mluviti, a ve zlý mlčeti.",
     "tags": [
       "víra",
@@ -9184,7 +9346,9 @@
     "text": "Nech vše jíti svým chodem; neunáhli se slovem.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Dopřej věcem přirozený vývoj a nemluv ukvapeně.",
+    "source": "internet"
   },
   {
     "text": "Mlč, můj jazýčku, budeš jísti kašičku.",
@@ -9207,7 +9371,9 @@
     "tags": [
       "řeč",
       "zvířata"
-    ]
+    ],
+    "meaning": "Člověka lze přistihnout nebo zavázat tím, co sám řekne.",
+    "source": "internet"
   },
   {
     "text": "Jazyk nechávej doma, a venku uši.",
@@ -9230,7 +9396,7 @@
     ]
   },
   {
-    "text": "Mnoho slyšeti – věc bezpečná; mnoho mluviti věc vše tečná.",
+    "text": "Mnoho slyšeti, věc bezpečná; mnoho mluviti věc vše tečná.",
     "tags": [
       "řeč"
     ]
@@ -9522,9 +9688,14 @@
     ]
   },
   {
-    "text": "Svěř se teté, roznese tě po všem světě.",
+    "text": "Svěř se tetě, roznese tě po celém světě.",
     "tags": [
       "mezilidské vztahy"
+    ],
+    "source": "internet",
+    "meaning": "Nedůvěryhodný člověk roznese svěřené tajemství mezi ostatní.",
+    "alternatives": [
+      "Svěř se teté, roznese tě po všem světě."
     ]
   },
   {
@@ -9608,7 +9779,9 @@
     "text": "Kámen z ruky a slovo z úst (nevrátí se).",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Vyřčená slova ani vykonané činy nelze vzít zpět.",
+    "source": "internet"
   },
   {
     "text": "Vystřeliv kouli nechytís.",
@@ -9651,10 +9824,15 @@
     ]
   },
   {
-    "text": "Kdo mnoho mluví, lže anebo se chlubí.",
+    "text": "Kdo mnoho mluví, bud lže, nebo se chlubí.",
     "tags": [
       "řeč",
       "pýcha"
+    ],
+    "source": "internet",
+    "meaning": "Přílišná upovídanost často přechází ve lhaní nebo vychloubání.",
+    "alternatives": [
+      "Kdo mnoho mluví, lže anebo se chlubí."
     ]
   },
   {
@@ -9664,11 +9842,16 @@
     ]
   },
   {
-    "text": "Mnoho řeči, málo skutku.",
+    "text": "Moc řečí, a skutek utek.",
     "tags": [
       "řeč"
     ],
-    "meaning": "Kdo hodně mluví, málo dělá. Říká se o lidech, kteří slibují a chlubí se, ale nic nevykonají."
+    "meaning": "Kdo hodně mluví, málo dělá. Říká se o lidech, kteří slibují a chlubí se, ale nic nevykonají.",
+    "source": "internet",
+    "alternatives": [
+      "Mnoho řečí, málo skutků.",
+      "Mnoho řeči, málo skutku."
+    ]
   },
   {
     "text": "Mnoho řečí, málo věcí.",
@@ -9700,7 +9883,9 @@
     "text": "Mnoho hluku, málo zvuku.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Velké řeči nebo rozruch nepřinášejí odpovídající výsledek.",
+    "source": "internet"
   },
   {
     "text": "Mnoho vřesku, málo zisku.",
@@ -9803,9 +9988,14 @@
     ]
   },
   {
-    "text": "Prázdný sud se nejvíc ozývá.",
+    "text": "Prázdný sud nejvíce duní.",
     "tags": [
       "mezilidské vztahy"
+    ],
+    "source": "internet",
+    "meaning": "Nejméně znalí lidé často mluví nejhlasitěji.",
+    "alternatives": [
+      "Prázdný sud se nejvíc ozývá."
     ]
   },
   {
@@ -9939,9 +10129,14 @@
     ]
   },
   {
-    "text": "Co se doma uvaří, má se doma snísti.",
+    "text": "Co se doma uvaří, to se doma sní.",
     "tags": [
       "domov"
+    ],
+    "source": "internet",
+    "meaning": "Rodinné spory a záležitosti se mají řešit uvnitř rodiny.",
+    "alternatives": [
+      "Co se doma uvaří, má se doma snísti."
     ]
   },
   {
@@ -10231,7 +10426,9 @@
     "text": "Dobrá řeč jídá jáhly v mléce.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Zdvořilým a vlídným jednáním lze získat přízeň a výhody.",
+    "source": "internet"
   },
   {
     "text": "Laskavé slovo lepší, než měkký koláč.",
@@ -10505,9 +10702,14 @@
     "meaning": "Vzájemná pomoc prospívá oběma stranám."
   },
   {
-    "text": "Jaká otázka, taková odpověď.",
+    "text": "Na blbou otázku blbá odpověď.",
     "tags": [
       "mezilidské vztahy"
+    ],
+    "source": "internet",
+    "meaning": "Nerozumná otázka může vyvolat stejně nerozumnou odpověď.",
+    "alternatives": [
+      "Jaká otázka, taková odpověď."
     ]
   },
   {
@@ -10573,9 +10775,14 @@
     ]
   },
   {
-    "text": "Klín klínem vyraziti sluší.",
+    "text": "Klín se klínem vyhání.",
     "tags": [
       "mezilidské vztahy"
+    ],
+    "source": "internet",
+    "meaning": "Potíž se někdy překonává použitím stejného druhu prostředku, který ji způsobil.",
+    "alternatives": [
+      "Klín klínem vyraziti sluší."
     ]
   },
   {
@@ -10653,7 +10860,9 @@
     "text": "Vám zpívají, a na nás nota padá.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Jednání nebo výtky určené jiným mohou dopadnout na nás.",
+    "source": "internet"
   },
   {
     "text": "V lese dříví sekají, a do vsi třísky lítají.",
@@ -10849,14 +11058,6 @@
     "meaning": "Vdova může šít široké rukávy, aby měla kam schovat pomluvy, které se o ní budou šířit. Přísloví s trpkou ironií říká, že samotná žena si lidských řečí nikdy neuhlídá."
   },
   {
-    "text": "Ušklubná semena, v poli hrách a řepa, v lidech vdova a panna (každému jsou na ráně).",
-    "tags": [
-      "hra a hazard",
-      "manželství",
-      "vdovství"
-    ]
-  },
-  {
     "text": "Meče na mrtvém nezkoušej.",
     "tags": [
       "smrt"
@@ -10911,7 +11112,9 @@
     "text": "Huba není chlév; nelze zavříti.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Lidem nelze snadno zabránit v mluvení a šíření řečí.",
+    "source": "internet"
   },
   {
     "text": "Aby všem ústa zavázal a zašil, musil by mnoho plátna míti.",
@@ -10972,7 +11175,9 @@
     "text": "Chceš-li moudrým mužem slouti, dej řečem mimo se plouti.",
     "tags": [
       "rozum"
-    ]
+    ],
+    "meaning": "Moudrý člověk se nenechá vyprovokovat každou cizí řečí.",
+    "source": "internet"
   },
   {
     "text": "Moudré ucho nedbá na hloupé řeči.",
@@ -10993,7 +11198,9 @@
     "text": "Kdo čím není, žádný ho tím neudělá.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Pouhé označení nebo přání nevytvoří chybějící schopnosti a vlastnosti.",
+    "source": "internet"
   },
   {
     "text": "Zlá huba na šíji neuvisne.",
@@ -11064,12 +11271,17 @@
     ]
   },
   {
-    "text": "Pes štěká, ale měsíc neraní.",
+    "text": "Psi štěkají, ale karavana jde dál.",
     "tags": [
       "mezilidské vztahy",
       "zvířata",
       "psi"
-    ]
+    ],
+    "alternatives": [
+      "Pes štěká, ale měsíc neraní."
+    ],
+    "meaning": "Kritika a nepřátelské řeči nemusejí zastavit další postup.",
+    "source": "internet"
   },
   {
     "text": "Pes štěká, a vítr odnáší.",
@@ -11127,7 +11339,9 @@
       "mezilidské vztahy",
       "zvířata",
       "psi"
-    ]
+    ],
+    "meaning": "Bezohlední lidé se navzájem poškozují ve vlastním prospěchu.",
+    "source": "internet"
   },
   {
     "text": "Šilhavý slepého kárá.",
@@ -11165,7 +11379,9 @@
     "text": "Hrnec hrnci káže, oba černí jako sáze.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Člověk vytýká druhému chybu, kterou má sám.",
+    "source": "internet"
   },
   {
     "text": "Kuthan rendlík trestá, jsou oba černy.",
@@ -11289,7 +11505,9 @@
     "text": "Sliby - chyby.",
     "tags": [
       "sliby"
-    ]
+    ],
+    "meaning": "Slib často zůstane nesplněný.",
+    "source": "internet"
   },
   {
     "text": "Čeho nemáš, neslibuj.",
@@ -11447,7 +11665,9 @@
     "text": "Od slova do skutku, co od hlavy do kůtku.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Mezi slibem a jeho uskutečněním může být velký rozdíl.",
+    "source": "internet"
   },
   {
     "text": "Sliby jako v lese hriby.",
@@ -11624,7 +11844,8 @@
       "pokora",
       "bohatství",
       "chudoba"
-    ]
+    ],
+    "meaning": "Připomíná koloběh společenských poměrů: skromnost a mír přinášejí blahobyt, ten může vést k pýše a konfliktům, které znovu způsobí chudobu."
   },
   {
     "text": "Čím ti volněji, stav se tím doleji.",
@@ -11679,7 +11900,9 @@
     "text": "Co v tichu vzešlo, zdárněji prospívá: hlučný počátek tichý konec mívá.",
     "tags": [
       "štěstí"
-    ]
+    ],
+    "meaning": "Nenápadná vytrvalá práce mívá lepší výsledky než okázalé začátky.",
+    "source": "internet"
   },
   {
     "text": "Nemůžeš-li přeskočiti, překroč.",
@@ -11688,9 +11911,14 @@
     ]
   },
   {
-    "text": "Když nemůžeš přeskočiti, podlez.",
+    "text": "Když nemůžeš přeskočit, podlez.",
     "tags": [
       "lidské vlastnosti"
+    ],
+    "source": "internet",
+    "meaning": "Když nefunguje přímý postup, hledej jinou schůdnou cestu.",
+    "alternatives": [
+      "Když nemůžeš přeskočiti, podlez."
     ]
   },
   {
@@ -11788,7 +12016,9 @@
     "tags": [
       "pýcha",
       "hloupost"
-    ]
+    ],
+    "meaning": "Pýcha se často spojuje s nedostatkem rozumu.",
+    "source": "internet"
   },
   {
     "text": "Není dudka bez chocholky, a hlupce bez pýchy.",
@@ -11884,7 +12114,10 @@
     "tags": [
       "pýcha"
     ],
-    "meaning": "Nadutost a přehnaná sebejistota obvykle končí neúspěchem a ponížením. Přísloví varuje před domýšlivostí."
+    "meaning": "Nadutost a přehnaná sebejistota obvykle končí neúspěchem a ponížením. Přísloví varuje před domýšlivostí.",
+    "alternatives": [
+      "Pýcha předchází pád."
+    ]
   },
   {
     "text": "Pýchu předchází pád.",
@@ -11992,7 +12225,7 @@
     "meaning": "Navenek se člověk okázale předvádí, ale doma žije v chudobě. Pýcha zakrývá skutečné poměry."
   },
   {
-    "text": "Chlouba na ulici, a h – v truhlici. ().",
+    "text": "Chlouba na ulici, a h - v truhlici. ().",
     "tags": [
       "pýcha"
     ]
@@ -12112,7 +12345,7 @@
     ]
   },
   {
-    "text": "Nyní z mnohých oken pěkná vyhlídka — na bidu.",
+    "text": "Nyní z mnohých oken pěkná vyhlídka: na bidu.",
     "tags": [
       "chudoba"
     ]
@@ -12309,7 +12542,9 @@
       "lidské vlastnosti",
       "zvířata",
       "ptáci"
-    ]
+    ],
+    "meaning": "Kdo náhle získá moc, může ji začít bezohledně zneužívat.",
+    "source": "internet"
   },
   {
     "text": "Pusť kohouta na práh, máš ho hned na polici.",
@@ -12323,7 +12558,9 @@
     "tags": [
       "víra",
       "zvířata"
-    ]
+    ],
+    "meaning": "Zlomyslným lidem někdy chybí prostředky, aby mohli způsobit větší škody.",
+    "source": "internet"
   },
   {
     "text": "Dobře, že svině rohův nemá.",
@@ -12834,7 +13071,9 @@
     "text": "Dobré jméno nejlepší dědictví.",
     "tags": [
       "chvála a pověst"
-    ]
+    ],
+    "meaning": "Dobrá pověst je cennější a trvalejší než hmotné dědictví.",
+    "source": "internet"
   },
   {
     "text": "Ztráta cti, veliké neštěstí; a se ctí chudoba lehčí, než hanoba.",
@@ -13472,21 +13711,27 @@
     "tags": [
       "hosté a sousedé",
       "zvířata"
-    ]
+    ],
+    "meaning": "Lidé si často idealizují cizí poměry a závidí sousedům.",
+    "source": "internet"
   },
   {
     "text": "Hojnější vždy obilí na sousední roli.",
     "tags": [
       "hosté a sousedé",
       "hospodářství"
-    ]
+    ],
+    "meaning": "Cizí výsledky a majetek se nám často zdají lepší než vlastní.",
+    "source": "internet"
   },
   {
     "text": "V cizích rukou vždy větší krajíc.",
     "tags": [
       "lidské vlastnosti",
       "chléb"
-    ]
+    ],
+    "meaning": "Cizí podíl se nám často zdá větší než vlastní.",
+    "source": "internet"
   },
   {
     "text": "Ošemetník lichotí, a závistník rád by po nohy snědl.",
@@ -13618,7 +13863,9 @@
     "text": "Pomine trýzeň, nastane přízeň.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Obtížné období pomine a vystřídají je příznivější časy.",
+    "source": "internet"
   },
   {
     "text": "Neokusiv hořkého nejsi hoden sladkého.",
@@ -13720,7 +13967,12 @@
     "text": "Příliš mnoho ani vůz nesnese.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "alternatives": [
+      "Přeplněný vůz daleko nedojede."
+    ],
+    "meaning": "Přehnané nároky a nadměrné zatížení znemožňují dobrý výsledek.",
+    "source": "internet"
   },
   {
     "text": "Lépe bezpráví trpěti, nežli činiti.",
@@ -14128,7 +14380,9 @@
     "text": "Oheň ohněm neuhasíš, ani olejem.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Zlo a svár se nevyřeší přidáváním dalšího zla a sváru.",
+    "source": "internet"
   },
   {
     "text": "Zuřivému nože nedávej.",
@@ -14607,7 +14861,9 @@
     "text": "I baba za zdí smělejší.",
     "tags": [
       "odvaha"
-    ]
+    ],
+    "meaning": "V bezpečí a za ochranou si lidé dovolují více.",
+    "source": "internet"
   },
   {
     "text": "Za zdí i baba bije.",
@@ -15086,7 +15342,9 @@
     "tags": [
       "humor",
       "smutek"
-    ]
+    ],
+    "meaning": "Radost se může během krátké doby změnit v zármutek.",
+    "source": "internet"
   },
   {
     "text": "Z lonského smíchu pláč.",
@@ -15318,7 +15576,9 @@
     "tags": [
       "jídlo",
       "chléb"
-    ]
+    ],
+    "meaning": "Za živobytím je třeba jít a pracovat, samo nepřijde.",
+    "source": "internet"
   },
   {
     "text": "Kdo večeře nehledá, toho večeře nanajde.",
@@ -15346,13 +15606,18 @@
     ]
   },
   {
-    "text": "Ráda kočka ryby jí, než do vody nechce.",
+    "text": "Ráda kočka ryby jí, ale do vody se jí nechce.",
     "tags": [
       "rada",
       "zvířata",
       "kočky"
     ],
-    "meaning": "Někdo chce požitek či výsledek, ale bez námahy či rizika, které k němu patří. Říká se o lidech, kteří by rádi měli užitek bez práce."
+    "meaning": "Někdo chce požitek či výsledek, ale bez námahy či rizika, které k němu patří. Říká se o lidech, kteří by rádi měli užitek bez práce.",
+    "source": "internet",
+    "alternatives": [
+      "Kočka ryby ráda, než do vody nic.",
+      "Ráda kočka ryby jí, než do vody nechce."
+    ]
   },
   {
     "text": "Rád kocour ryby jídá, ale nerad pro ně do vody břede.",
@@ -15365,7 +15630,9 @@
     "text": "Kdo chce ryby jísti, musí se zmokřiti.",
     "tags": [
       "jídlo"
-    ]
+    ],
+    "meaning": "Kdo chce získat odměnu, musí přijmout námahu a nepohodlí.",
+    "source": "internet"
   },
   {
     "text": "Každý ptáček svým se nosem živí.",
@@ -15414,7 +15681,9 @@
     "text": "Kdo chce žíti, musí síti.",
     "tags": [
       "práce a živobytí"
-    ]
+    ],
+    "meaning": "K zajištění živobytí je třeba pracovat a myslet na budoucí úrodu.",
+    "source": "internet"
   },
   {
     "text": "Komu se nelení, tomu se zelení.",
@@ -15446,7 +15715,9 @@
       "lenost",
       "štěstí",
       "chudoba"
-    ]
+    ],
+    "meaning": "Píle přináší prospěch, zatímco lenost vede k nedostatku.",
+    "source": "internet"
   },
   {
     "text": "Nerad ořechy louská, rád však výlupky chroustá.",
@@ -15465,7 +15736,9 @@
     "text": "Častá krůpěj i kámen prorazí.",
     "tags": [
       "práce a živobytí"
-    ]
+    ],
+    "meaning": "Vytrvalé drobné úsilí dokáže překonat i velký odpor.",
+    "source": "internet"
   },
   {
     "text": "Slepička po zrnéčku klove a tím syta žive.",
@@ -15572,7 +15845,9 @@
     "text": "Jednou ranou dub nepadne.",
     "tags": [
       "práce a živobytí"
-    ]
+    ],
+    "meaning": "Velký úkol vyžaduje opakované úsilí a vytrvalost.",
+    "source": "internet"
   },
   {
     "text": "Dub neporazíš jedním dechem.",
@@ -15747,13 +16022,22 @@
     "text": "Jaká příze, takové plátno.",
     "tags": [
       "práce a živobytí"
-    ]
+    ],
+    "meaning": "Kvalita výsledku odpovídá kvalitě použitých prostředků a přípravy.",
+    "source": "internet"
   },
   {
-    "text": "Ani slepice darmo nehrabe.",
+    "text": "Zadarmo ani kuře nehrabe.",
     "tags": [
       "práce a živobytí",
       "zvířata"
+    ],
+    "source": "internet",
+    "meaning": "Za práci člověk očekává odměnu. I kuře hrabe proto, aby našlo něco k snědku.",
+    "alternatives": [
+      "Ani kuře zadarmo nehrabe.",
+      "Ani slepice darmo nehrabe.",
+      "Ani kuře rádo darmo kutí a hrabe."
     ]
   },
   {
@@ -15860,7 +16144,9 @@
     "text": "Prázdný pytel nestojí.",
     "tags": [
       "práce a živobytí"
-    ]
+    ],
+    "meaning": "Bez jídla a základních prostředků nelze dobře žít ani pracovat.",
+    "source": "internet"
   },
   {
     "text": "Čím více se přikládá, tím více hoří.",
@@ -15930,7 +16216,9 @@
     "text": "Kdo rukama med míchá, prsty olíže.",
     "tags": [
       "práce a živobytí"
-    ]
+    ],
+    "meaning": "Kdo zachází s něčím výnosným, obvykle z toho získá i osobní prospěch.",
+    "source": "internet"
   },
   {
     "text": "Kdo pečeni peče, slušno, by jí okusil.",
@@ -16364,7 +16652,9 @@
       "čas",
       "věrnost",
       "zrada"
-    ]
+    ],
+    "meaning": "Využívej čas k užitečné práci a vyhýbej se zahálce.",
+    "source": "internet"
   },
   {
     "text": "Ani kůň nad silu něskoči.",
@@ -16885,7 +17175,9 @@
     "tags": [
       "víra",
       "lenost"
-    ]
+    ],
+    "meaning": "Bez vlastního úsilí nelze očekávat zajištěné živobytí ani pomoc shůry.",
+    "source": "internet"
   },
   {
     "text": "Vídává lenivec chomouty ve snách, ale na koně se nedostane do smrti.",
@@ -17080,7 +17372,9 @@
     "tags": [
       "pití",
       "rozum"
-    ]
+    ],
+    "meaning": "Přísloví vyzdvihuje střídmost v pití a varuje před následky opilství.",
+    "source": "internet"
   },
   {
     "text": "Dobře jest píti, ale nepíti lépe.",
@@ -17882,7 +18176,12 @@
       "práce a živobytí",
       "zvířata",
       "vlci"
-    ]
+    ],
+    "alternatives": [
+      "Vlk i čtené béře."
+    ],
+    "meaning": "Pouhé počítání či evidence majetek neochrání před ztrátou.",
+    "source": "internet"
   },
   {
     "text": "I z čítaného vlk bere.",
@@ -17960,12 +18259,6 @@
     ]
   },
   {
-    "text": "Což i cikáni činí.",
-    "tags": [
-      "práce a živobytí"
-    ]
-  },
-  {
     "text": "Kde maso, tu psi; kde myši, tu zloději.",
     "tags": [
       "krádež",
@@ -18023,7 +18316,9 @@
     "text": "Domácího zloděje těžko se uchrániti.",
     "tags": [
       "krádež"
-    ]
+    ],
+    "meaning": "Před zradou člověka z vlastního blízkého okolí se těžko chrání.",
+    "source": "internet"
   },
   {
     "text": "O viku hlas, a krade ovce Sas.",
@@ -18376,7 +18671,9 @@
     "text": "Není chutnějšího masa nad kradené.",
     "tags": [
       "krádež"
-    ]
+    ],
+    "meaning": "Neoprávněně získané nebo zakázané věci mohou člověka zvlášť lákat.",
+    "source": "internet"
   },
   {
     "text": "V krámech maso po groši, lovené po desetníku, a kradené za dukát.",
@@ -18458,7 +18755,9 @@
       "zvířata",
       "pomoc",
       "koně"
-    ]
+    ],
+    "meaning": "Příznivé okolnosti usnadňují další úspěch.",
+    "source": "internet"
   },
   {
     "text": "Komu štěstí, tomu i losy.",
@@ -18850,7 +19149,9 @@
     "tags": [
       "štěstí a životní poměry",
       "zvířata"
-    ]
+    ],
+    "meaning": "Přílišné pohodlí může nerozumného člověka svést ke zbytečnému riskování.",
+    "source": "internet"
   },
   {
     "text": "Když se teleti dobře daří, jde na led a nohu zlomí.",
@@ -18975,7 +19276,10 @@
     "tags": [
       "štěstí a životní poměry"
     ],
-    "meaning": "Nemusí se stát nic velkého, i drobné a stálé nepříjemnosti dokážou člověka poškodit. Říká se, že malé, ale opakované potíže mohou být stejně zlé jako jediná velká."
+    "meaning": "Nemusí se stát nic velkého, i drobné a stálé nepříjemnosti dokážou člověka poškodit. Říká se, že malé, ale opakované potíže mohou být stejně zlé jako jediná velká.",
+    "alternatives": [
+      "Nemusí pršet, jen když kape."
+    ]
   },
   {
     "text": "I měsíc svítí, když slunce není.",
@@ -19055,7 +19359,9 @@
     "text": "Při kom štěstí, při tom i lidé.",
     "tags": [
       "štěstí"
-    ]
+    ],
+    "meaning": "Úspěch přitahuje přízeň a společnost druhých.",
+    "source": "internet"
   },
   {
     "text": "Kam se štěstí kloní, tam i láska lidská.",
@@ -19288,11 +19594,16 @@
     ]
   },
   {
-    "text": "Něštěsti samo něpříchodi.",
+    "text": "Neštěstí nechodí nikdy samo.",
     "tags": [
       "neštěstí"
     ],
-    "meaning": "Když přijde jedno neštěstí, bývá po něm další, protože potíže se množí. Říká se o nešťastné řadě událostí."
+    "meaning": "Když přijde jedno neštěstí, bývá po něm další, protože potíže se množí. Říká se o nešťastné řadě událostí.",
+    "source": "internet",
+    "alternatives": [
+      "Neštěstí nechodí samo.",
+      "Něštěsti samo něpříchodi."
+    ]
   },
   {
     "text": "Dokud jednomu se nesetmí, nemůž druhému svítati.",
@@ -19354,7 +19665,9 @@
     "tags": [
       "neštěstí",
       "chudoba"
-    ]
+    ],
+    "meaning": "Obtížné zkušenosti mohou přinést poučení a pozdější prospěch.",
+    "source": "internet"
   },
   {
     "text": "Nebezpečenství učí nábožnosti.",
@@ -19386,7 +19699,9 @@
     "text": "Cizí neštěstí druhdy vhod.",
     "tags": [
       "neštěstí"
-    ]
+    ],
+    "meaning": "Neštěstí jednoho může přinést příležitost nebo prospěch druhému.",
+    "source": "internet"
   },
   {
     "text": "Nepadá sníh, by zahubil svět; nýbrž by každé zvíře okázalo stopu svou.",
@@ -19606,7 +19921,9 @@
     "text": "Koho se neštěstí chopilo, ten i nos utíraje palec si vymkne.",
     "tags": [
       "neštěstí"
-    ]
+    ],
+    "meaning": "Smolaře mohou potkávat nepříjemnosti i při zcela běžných činnostech.",
+    "source": "internet"
   },
   {
     "text": "Když přijdou v hosti psoty, a třeba jen na tři dni, nebrzo je čert z domu propustí.",
@@ -19870,9 +20187,14 @@
     ]
   },
   {
-    "text": "Pán peníz všady jest.",
+    "text": "Peníze světem vládnou.",
     "tags": [
       "peníze"
+    ],
+    "meaning": "Peníze otevírají dveře a zajišťují vliv téměř všude.",
+    "source": "internet",
+    "alternatives": [
+      "Pán peníz všady jest."
     ]
   },
   {
@@ -20173,13 +20495,17 @@
     ]
   },
   {
-    "text": "Peníze se hrnou k bohatému, a zlé dni k chudému.",
+    "text": "Peníze se hrnou k bohatému a zlé dny k chudému.",
     "tags": [
       "bohatství",
       "chudoba",
       "peníze"
     ],
-    "meaning": "Kdo už má, ten dostává další; chudému se naopak přidávají starosti. Bohatí bohatnou, chudí chudnou."
+    "meaning": "Kdo už má, ten dostává další; chudému se naopak přidávají starosti. Bohatí bohatnou, chudí chudnou.",
+    "source": "internet",
+    "alternatives": [
+      "Peníze se hrnou k bohatému, a zlé dni k chudému."
+    ]
   },
   {
     "text": "Kde stříbrné zvučí, tam mudrci mlčí.",
@@ -20502,7 +20828,9 @@
     "tags": [
       "hřích",
       "úroda a počasí"
-    ]
+    ],
+    "meaning": "Majetek a výhody se často přidávají těm, kteří už jich mají dost.",
+    "source": "internet"
   },
   {
     "text": "Kde holubův mnoho, tam jich ještě více přiletuje.",
@@ -20518,13 +20846,6 @@
       "zvířata"
     ],
     "meaning": "Kdo stojí u krávy, snadno ji podojí. Kdo je u zdroje, má snadný přístup k užitku."
-  },
-  {
-    "text": "Liščí kožíšku, varuj trošičku; kuno, před stůl; sobole, za stůl; a ty berane, za kamna.",
-    "tags": [
-      "opatrnost",
-      "zvířata"
-    ]
   },
   {
     "text": "Bohatý v kuní čubě se protlačí, ale chudý v cvilinkové kytlici uvázne.",
@@ -20720,7 +21041,9 @@
     "text": "Kdo bohat, ten i rohat.",
     "tags": [
       "bohatství"
-    ]
+    ],
+    "meaning": "Bohatství dává člověku moc, vliv a sebejistotu.",
+    "source": "internet"
   },
   {
     "text": "Chlap bohatý, jak býk rohatý.",
@@ -20939,7 +21262,9 @@
     "tags": [
       "peníze",
       "starosti"
-    ]
+    ],
+    "meaning": "Větší majetek přináší také více povinností a obav.",
+    "source": "internet"
   },
   {
     "text": "Není velkých příjmův bez velkých výdajův.",
@@ -21225,9 +21550,14 @@
     ]
   },
   {
-    "text": "Blaze tomu, kdo nic nemá, nestará se, kam co schová; směle lehne, směle vstane, žádný mu nic neukradne.",
+    "text": "Blaze tomu, kdo nic nemá.",
     "tags": [
       "odvaha"
+    ],
+    "source": "internet",
+    "meaning": "Kdo nemá majetek, nemusí se obávat jeho ztráty.",
+    "alternatives": [
+      "Blaze tomu, kdo nic nemá, nestará se, kam co schová; směle lehne, směle vstane, žádný mu nic neukradne."
     ]
   },
   {
@@ -21488,7 +21818,9 @@
     "tags": [
       "chudoba",
       "zvířata"
-    ]
+    ],
+    "meaning": "Chudého člověka často potká spíše další smůla než očekávaný užitek.",
+    "source": "internet"
   },
   {
     "text": "Chudoba zle se má všude.",
@@ -21682,7 +22014,8 @@
     "text": "Chudobný člověk, hotový cikán.",
     "tags": [
       "chudoba"
-    ]
+    ],
+    "meaning": "Kdo nic nevlastní, nemusí se o majetek starat a může žít volně a nevázaně. Rčení staví tuto svobodu proti starostem, které přináší bohatství. Využívá přitom dobovou romantizující představu Romů jako lidí žijících bez závazků."
   },
   {
     "text": "Chudoba krade. nouze lže.",
@@ -21794,7 +22127,9 @@
     "text": "Na suchém dřevě těžko trhati listí.",
     "tags": [
       "obchod"
-    ]
+    ],
+    "meaning": "Nelze očekávat užitek tam, kde pro něj chybějí základní podmínky.",
+    "source": "internet"
   },
   {
     "text": "Holému snadno se hlava oholí.",
@@ -21899,13 +22234,6 @@
     ]
   },
   {
-    "text": "Ne to jest neštěstí, které peníze zasáhlo; ale neštěstí to jest, které se nemá čeho ujíti.",
-    "tags": [
-      "neštěstí",
-      "peníze"
-    ]
-  },
-  {
     "text": "Není ten chud, kdo nikdy ničeho neměl, ale ten, kdo měl a pozbyl.",
     "tags": [
       "chudoba"
@@ -21947,9 +22275,14 @@
     ]
   },
   {
-    "text": "Člověk nesnázích důvtipen.",
+    "text": "Člověk v nesnázích důvtipen.",
     "tags": [
       "štěstí a životní poměry"
+    ],
+    "source": "internet",
+    "meaning": "Nesnáze podněcují člověka k vynalézavosti a hledání řešení.",
+    "alternatives": [
+      "Člověk nesnázích důvtipen."
     ]
   },
   {
@@ -22043,7 +22376,10 @@
     "tags": [
       "štěstí a životní poměry"
     ],
-    "meaning": "Kdo je v nouzi, chytá se i té nejslabší naděje. Říká se o lidech, kteří v zoufalé situaci hledají záchranu i tam, kde není moc nadějná."
+    "meaning": "Kdo je v nouzi, chytá se i té nejslabší naděje. Říká se o lidech, kteří v zoufalé situaci hledají záchranu i tam, kde není moc nadějná.",
+    "alternatives": [
+      "Tonoucí se i stébla chytá."
+    ]
   },
   {
     "text": "Kdo do vody upadne, treba trnu se chytí.",
@@ -22361,7 +22697,9 @@
     "text": "Jedna těžkost druhou stíhá.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Obtíže často přicházejí v řadě za sebou.",
+    "source": "internet"
   },
   {
     "text": "Bída se s bídou potkává.",
@@ -22468,7 +22806,12 @@
     "text": "Čím dále, vždy hůře, jak ona bába řekla.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "alternatives": [
+      "Čím dál, tím hůř, řekla bába, když padala ze schodů."
+    ],
+    "meaning": "Situace se postupně stále zhoršuje.",
+    "source": "internet"
   },
   {
     "text": "Sokol s místa a vrána na místo.",
@@ -22552,12 +22895,16 @@
     ]
   },
   {
-    "text": "Co máme, nevíme, až když ztratíme.",
+    "text": "Co máme, nevíme, až když to ztratíme.",
     "tags": [
       "štěstí a životní poměry",
       "ztráta"
     ],
-    "meaning": "Hodnotu toho, co máme, si často uvědomíme, až když o to přijdeme."
+    "meaning": "Hodnotu toho, co máme, si často uvědomíme, až když o to přijdeme.",
+    "source": "internet",
+    "alternatives": [
+      "Co máme, nevíme, až když ztratíme."
+    ]
   },
   {
     "text": "Dokud u mne nacházel, i v noci přicházel; a teď co jsem chudý, neví ani ve dne kudy.",
@@ -22581,7 +22928,9 @@
     "text": "Z cizí kůže dobře jest široký řemen krajeti.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "S cizím majetkem nebo na cizí účet se snadno zachází velkoryse.",
+    "source": "internet"
   },
   {
     "text": "Z cizího (panského) krev neteče.",
@@ -22637,7 +22986,9 @@
     "text": "Cizí hoře lidem smích.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Lidé se někdy baví trápením druhých, protože ho sami neprožívají.",
+    "source": "internet"
   },
   {
     "text": "Šibřinky z cizí klisinky; a což, až tvá zdechne?",
@@ -22861,7 +23212,7 @@
     ]
   },
   {
-    "text": "Ledajaká péče — a sen s očí uteče.",
+    "text": "Ledajaká péče, a sen s očí uteče.",
     "tags": [
       "starosti",
       "sny"
@@ -22936,7 +23287,10 @@
     "tags": [
       "štěstí a životní poměry"
     ],
-    "meaning": "Žádná dobrá věc není bez nevýhod a potíží. Přísloví připomíná, že k radostem a krásám patří i starosti."
+    "meaning": "Žádná dobrá věc není bez nevýhod a potíží. Přísloví připomíná, že k radostem a krásám patří i starosti.",
+    "alternatives": [
+      "Každá růže má své trny."
+    ]
   },
   {
     "text": "Není každý vesel, kdo zpívá.",
@@ -22978,7 +23332,9 @@
     "text": "Neví žádný, kde ho střevíc hněte, než ten, kdo v něm chodí.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Skutečnou tíži problému nejlépe zná ten, kdo ho sám prožívá.",
+    "source": "internet"
   },
   {
     "text": "Komu prase zahyne, tomu dlouho v uších kvičí.",
@@ -23131,7 +23487,9 @@
     "text": "Hladové břicho uší nemá.",
     "tags": [
       "hlad"
-    ]
+    ],
+    "meaning": "Člověk sužovaný hladem nemá sílu naslouchat poučování.",
+    "source": "internet"
   },
   {
     "text": "Bricho neuprositelná věc.",
@@ -23213,7 +23571,9 @@
     "text": "Hlad se šibenice nebojí.",
     "tags": [
       "hlad"
-    ]
+    ],
+    "meaning": "Krajní hlad může přemoci i strach z trestu.",
+    "source": "internet"
   },
   {
     "text": "Zlá smrt hladem umříti.",
@@ -23250,9 +23610,14 @@
     ]
   },
   {
-    "text": "Lačný i těsto sní (nouze ke všemu připudí).",
+    "text": "Lačný i těsto sní.",
     "tags": [
       "chudoba"
+    ],
+    "source": "internet",
+    "meaning": "Hladový člověk přijme i jídlo, které by jinak odmítl.",
+    "alternatives": [
+      "Lačný i těsto sní nouzi ke všemu připudí."
     ]
   },
   {
@@ -23276,7 +23641,9 @@
       "jídlo",
       "hlad",
       "chléb"
-    ]
+    ],
+    "meaning": "Dobré jídlo potřebuje doplňky, hladovému stačí i prosté.",
+    "source": "internet"
   },
   {
     "text": "Mlsný jen když oblízne, hladový jen když se nají.",
@@ -23431,7 +23798,9 @@
     "tags": [
       "hospodářství",
       "hlad"
-    ]
+    ],
+    "meaning": "Nedostatek živobytí nutí člověka hledat obživu jinde.",
+    "source": "internet"
   },
   {
     "text": "Hlad vlka žene z lesa.",
@@ -23512,9 +23881,14 @@
     ]
   },
   {
-    "text": "Co se stalo, odestati se nemůže.",
+    "text": "Co se stalo, stalo se.",
     "tags": [
       "štěstí a životní poměry"
+    ],
+    "source": "internet",
+    "meaning": "Minulost nelze změnit a je třeba se s ní vyrovnat.",
+    "alternatives": [
+      "Co se stalo, odestati se nemůže."
     ]
   },
   {
@@ -23739,9 +24113,14 @@
     ]
   },
   {
-    "text": "Co platna tučná topinka, ano zubův není.",
+    "text": "Co platna tučná topinka, ano zubů není.",
     "tags": [
       "štěstí a životní poměry"
+    ],
+    "source": "internet",
+    "meaning": "Ani dobrá věc neprospěje tomu, kdo ji nemůže využít.",
+    "alternatives": [
+      "Co platna tučná topinka, ano zubův není."
     ]
   },
   {
@@ -23758,9 +24137,14 @@
     ]
   },
   {
-    "text": "Kdyby nebylo kdyby, nebylo by chyby.",
+    "text": "Kdyby nebylo kdyby, nebyly by chyby.",
     "tags": [
       "štěstí a životní poměry"
+    ],
+    "source": "internet",
+    "meaning": "Pouhé úvahy o tom, co mohlo být jinak, už vzniklé chyby nenapraví.",
+    "alternatives": [
+      "Kdyby nebylo kdyby, nebylo by chyby."
     ]
   },
   {
@@ -23870,13 +24254,6 @@
     ]
   },
   {
-    "text": "Bodej měl cikán ten rozum před účinkem, co mívá sedlák po účinku.",
-    "tags": [
-      "rozum",
-      "hospodářství"
-    ]
-  },
-  {
     "text": "Zadní rozum bez předního, co kolo bez nápravy.",
     "tags": [
       "rozum"
@@ -23930,7 +24307,10 @@
     "tags": [
       "jídlo"
     ],
-    "meaning": "Kdo se jednou spálil, bojí se potom i neškodných věcí."
+    "meaning": "Kdo se jednou spálil, bojí se potom i neškodných věcí.",
+    "alternatives": [
+      "Popálené dítě se bojí ohně."
+    ]
   },
   {
     "text": "Každý dme na vodu, když ho úkrop spařil.",
@@ -24303,7 +24683,9 @@
     "text": "Po bouři bývá jasno, a po jasnu mračno.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Dobrá a obtížná období se v životě střídají.",
+    "source": "internet"
   },
   {
     "text": "Po dešti slunce jasněji svítí.",
@@ -24504,7 +24886,9 @@
     "text": "Bos chodívá, komu celá ves boty kupuje.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Když za něco odpovídají všichni, nemusí se o to nakonec postarat nikdo.",
+    "source": "internet"
   },
   {
     "text": "Spoléhej na se a na svého koně.",
@@ -24538,7 +24922,9 @@
     "text": "Přijdou, přijdou lepší časové ale kdo se jich dočká!",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Naděje na lepší budoucnost nezaručuje, že se jí člověk sám dožije.",
+    "source": "internet"
   },
   {
     "text": "Bude štěstí, ale dlouho čekati.",
@@ -24719,9 +25105,14 @@
     ]
   },
   {
-    "text": "Kolik hlav, tolik kloboukův (rozumův).",
+    "text": "Kolik hlav, tolik rozumu.",
     "tags": [
       "rozum"
+    ],
+    "source": "internet",
+    "meaning": "Různí lidé mají různé názory a pohledy na věc.",
+    "alternatives": [
+      "Kolik hlav, tolik kloboukův (rozumův)."
     ]
   },
   {
@@ -24877,7 +25268,9 @@
     "text": "Komu není shůry dáno, v apatyce nekoupí.",
     "tags": [
       "rozum a zkušenost"
-    ]
+    ],
+    "meaning": "Vrozené schopnosti ani rozum nelze jednoduše koupit.",
+    "source": "internet"
   },
   {
     "text": "Kdo od přirození hloupý, v apatyce rozumu nekoupí.",
@@ -25050,6 +25443,11 @@
     "text": "Brada nečiní mudrce.",
     "tags": [
       "rozum a zkušenost"
+    ],
+    "meaning": "Věk a důstojný vzhled samy o sobě neznamenají moudrost.",
+    "source": "internet",
+    "alternatives": [
+      "Brada narostla, rozumu nepřinesla."
     ]
   },
   {
@@ -25469,7 +25867,9 @@
     "tags": [
       "víra",
       "hloupost"
-    ]
+    ],
+    "meaning": "S člověkem, který odmítá rozum, se nedá nic rozumného vyřídit.",
+    "source": "internet"
   },
   {
     "text": "Hlupcova hlava ani kam co dáti, ani kde co vzíti holé stěny bez hospodáře.",
@@ -25538,13 +25938,17 @@
     "text": "Janek do Prahy, Janek z Prahy.",
     "tags": [
       "rozum a zkušenost"
-    ]
+    ],
+    "meaning": "Změna místa sama o sobě nezmění hloupost ani povahu člověka.",
+    "source": "internet"
   },
   {
     "text": "Hus za moře, hus domů.",
     "tags": [
       "rozum a zkušenost"
-    ]
+    ],
+    "meaning": "Cestování samo o sobě nerozumného člověka nenapraví.",
+    "source": "internet"
   },
   {
     "text": "Kavka kamkoli letí, černá vždy býti chce.",
@@ -25581,7 +25985,9 @@
     "text": "Nes česnek, kam chceš, česnek i bude.",
     "tags": [
       "rozum a zkušenost"
-    ]
+    ],
+    "meaning": "Člověk si svou základní povahu nese všude s sebou.",
+    "source": "internet"
   },
   {
     "text": "Vezl na trh cibuli, zase přivezl ošlejch.",
@@ -25658,9 +26064,14 @@
     ]
   },
   {
-    "text": "Netřeba hloupých síti, sami se rodí.",
+    "text": "Na náš věk hlupáků dostatek.",
     "tags": [
       "hloupost"
+    ],
+    "meaning": "Nerozumných lidí je dostatek i bez zvláštního přičinění.",
+    "source": "internet",
+    "alternatives": [
+      "Netřeba hloupých síti, sami se rodí."
     ]
   },
   {
@@ -25822,7 +26233,9 @@
     "tags": [
       "hloupost",
       "neštěstí"
-    ]
+    ],
+    "meaning": "Společnost nerozumných lidí vede k dalším nerozumnostem.",
+    "source": "internet"
   },
   {
     "text": "Blázen na bláznu jede a bláznem pohání.",
@@ -25984,13 +26397,17 @@
     "text": "Není dobře vejce bláznu svěřiti.",
     "tags": [
       "hloupost"
-    ]
+    ],
+    "meaning": "Křehké a cenné věci se nemají svěřovat nerozumnému člověku.",
+    "source": "internet"
   },
   {
     "text": "Pošli hloupého a za ním druhého.",
     "tags": [
       "hloupost"
-    ]
+    ],
+    "meaning": "Neschopný posel nebo pomocník vyžaduje dalšího, který jeho práci napraví.",
+    "source": "internet"
   },
   {
     "text": "Hloupý unesnadí, ale neporadí.",
@@ -26031,7 +26448,9 @@
     "tags": [
       "rozum",
       "hloupost"
-    ]
+    ],
+    "meaning": "Nerozumný nákup může přinést věc, které se pak nelze zbavit.",
+    "source": "internet"
   },
   {
     "text": "Zle nohám pod bláznovskou hlavou.",
@@ -26372,7 +26791,9 @@
     "text": "Kdo co neviděl, neumí to dobře malovati; kdo co nezkusil, neumí o tom povídati.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "O věci lze zasvěceně mluvit a tvořit teprve s vlastní zkušeností.",
+    "source": "internet"
   },
   {
     "text": "Tolik známe, co v paměti chováme.",
@@ -26506,7 +26927,9 @@
     "text": "Břich tlustý, leb pustý.",
     "tags": [
       "rozum a zkušenost"
-    ]
+    ],
+    "meaning": "Posmívá se člověku, který více pečuje o jídlo než o rozum.",
+    "source": "internet"
   },
   {
     "text": "Kdo se z mládí čemu naučí, k stáru jak by to našel.",
@@ -26552,7 +26975,12 @@
     "text": "Věčně žíti, věčně se učiti.",
     "tags": [
       "rozum a zkušenost"
-    ]
+    ],
+    "alternatives": [
+      "Žíti, věčně se učiti."
+    ],
+    "meaning": "Člověk se učí a získává zkušenosti po celý život.",
+    "source": "internet"
   },
   {
     "text": "Dobrý kněz vždy se učí.",
@@ -26808,7 +27236,9 @@
     "text": "Starého zajíce netřeba učit do zelí chodit.",
     "tags": [
       "rozum a zkušenost"
-    ]
+    ],
+    "meaning": "Zkušeného člověka není třeba učit tomu, co už dávno ovládá.",
+    "source": "internet"
   },
   {
     "text": "Už vejce moudřejší než kuře.",
@@ -27275,11 +27705,12 @@
     ]
   },
   {
-    "text": "Cikánovy (kovářovy) děti nebojí se jisker.",
+    "text": "Kovářovy děti nebojí se jisker.",
     "tags": [
       "řemesla",
       "rodina"
-    ]
+    ],
+    "meaning": "Kdo vyrůstá v určitém prostředí, zvykne si na jeho nároky a nezalekne se toho, co ostatním připadá nebezpečné. Zkušenost a navyklost pomáhají překonávat strach."
   },
   {
     "text": "Kočičí oči nebojí se dýmu.",
@@ -27362,13 +27793,17 @@
     "text": "Kam se dřevo kloní, tam i padá.",
     "tags": [
       "rozum a zkušenost"
-    ]
+    ],
+    "meaning": "Dlouhodobé sklony člověka naznačují, jak nakonec dopadne.",
+    "source": "internet"
   },
   {
     "text": "Co kolébka vyhoupala, to motyka zakopala.",
     "tags": [
       "rozum a zkušenost"
-    ]
+    ],
+    "meaning": "Každý lidský život od narození nevyhnutelně směřuje ke smrti.",
+    "source": "internet"
   },
   {
     "text": "Hrbatého hrob opraví.",
@@ -27433,12 +27868,17 @@
     "meaning": "Sova se nikdy nestane sokolem; kdo je nízkého původu či povahy, ušlechtilým se nestane."
   },
   {
-    "text": "Kočka myší nenechá, liška slepic a vlk ovec.",
+    "text": "Kočka myší nenechá, liška slepic a vlk ovcí.",
     "tags": [
       "rozum a zkušenost",
       "zvířata",
       "vlci",
       "kočky"
+    ],
+    "source": "internet",
+    "meaning": "Zakořeněné sklony a povaha se obtížně mění.",
+    "alternatives": [
+      "Kočka myší nenechá, liška slepic a vlk ovec."
     ]
   },
   {
@@ -27446,7 +27886,9 @@
     "tags": [
       "rozum a zkušenost",
       "sny"
-    ]
+    ],
+    "meaning": "Člověk sní o tom, po čem touží a čím se zabývá.",
+    "source": "internet"
   },
   {
     "text": "Straka svých skokův nechati nemůže.",
@@ -27677,12 +28119,17 @@
     "meaning": "Každý má rád svou vlast a já tu svou. Domov je každému nejdražší bez ohledu na to, jak vypadá."
   },
   {
-    "text": "Každý pták miluje své hnízdo (své hnízdo chválí).",
+    "text": "Každý pták své hnízdo chválí.",
     "tags": [
       "láska",
       "chvála a pověst",
       "zvířata",
       "ptáci"
+    ],
+    "source": "internet",
+    "meaning": "Každý má sklon vyzdvihovat svůj domov a prostředí.",
+    "alternatives": [
+      "Každý pták miluje své hnízdo (své hnízdo chválí)."
     ]
   },
   {
@@ -27788,7 +28235,12 @@
     "text": "Jaký kde kroj, tak se stroj.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "alternatives": [
+      "Jak jde kroj, tak se stroj."
+    ],
+    "meaning": "Přizpůsob se zvykům a způsobům prostředí, ve kterém se nacházíš.",
+    "source": "internet"
   },
   {
     "text": "Jak ti hrají, tak skákej.",
@@ -28605,12 +29057,16 @@
     ]
   },
   {
-    "text": "Přátel u boháčův jako plev okolo zrní.",
+    "text": "Přátel u boháčů jako plev okolo zrní.",
     "tags": [
       "bohatství",
       "přátelství"
     ],
-    "meaning": "Boháč má kolem sebe přátel jako plev kolem zrní; jde jim o prospěch, ne o přátelství. Hromadí se kolem majetku."
+    "meaning": "Boháč má kolem sebe přátel jako plev kolem zrní; jde jim o prospěch, ne o přátelství. Hromadí se kolem majetku.",
+    "source": "internet",
+    "alternatives": [
+      "Přátel u boháčův jako plev okolo zrní."
+    ]
   },
   {
     "text": "Zbožný (bohatý, zbožím oplývající) má přátele, hubenému (nuznému) jich třeba.",
@@ -28699,7 +29155,7 @@
     "meaning": "Přestaň přátelům sypat do klína dary a uvidíš, co to byli za přátele; zištné přátelství vyschne, jakmile přestaneš dávat."
   },
   {
-    "text": "Přítel – mítel, a groš víra.",
+    "text": "Přítel, mítel, a groš víra.",
     "tags": [
       "peníze",
       "přátelství"
@@ -28861,7 +29317,9 @@
       "smrt",
       "zvířata",
       "psi"
-    ]
+    ],
+    "meaning": "Odstraněný či zneškodněný protivník už nemůže ublížit.",
+    "source": "internet"
   },
   {
     "text": "Snadnější smrt, když zároveň s nepřítelem.",
@@ -28989,7 +29447,9 @@
     "tags": [
       "mezilidské vztahy",
       "sny"
-    ]
+    ],
+    "meaning": "Silné zájmy a přání člověka provázejí i ve snech.",
+    "source": "internet"
   },
   {
     "text": "Co kdo rád má, o tom se mu i zdá.",
@@ -29004,9 +29464,14 @@
     ]
   },
   {
-    "text": "Nemůže se šídlo v pytli tajiti.",
+    "text": "Šídlo v pytli neutajíš.",
     "tags": [
       "mezilidské vztahy"
+    ],
+    "source": "internet",
+    "meaning": "Výraznou vlastnost nebo skrytou pravdu nelze dlouho utajovat.",
+    "alternatives": [
+      "Nemůže se šídlo v pytli tajiti."
     ]
   },
   {
@@ -29087,7 +29552,9 @@
     "text": "K lásce nepřinutíš ani prosbou ani hrozbou.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Skutečnou lásku nelze vynutit.",
+    "source": "internet"
   },
   {
     "text": "Bezděčná milost a vytřená červenost (vše jedno).",
@@ -29376,7 +29843,9 @@
     "tags": [
       "mezilidské vztahy",
       "krása"
-    ]
+    ],
+    "meaning": "Náklonnost činí člověka krásným v očích toho, kdo ho má rád.",
+    "source": "internet"
   },
   {
     "text": "Kdo komu miloučký, i neumyt běloučký.",
@@ -29881,7 +30350,9 @@
     "text": "Každému svoje se líbí.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Lidé mají přirozenou náklonnost k tomu, co je jejich.",
+    "source": "internet"
   },
   {
     "text": "Můj krám jest nejpěknější.",
@@ -29936,7 +30407,9 @@
       "chvála a pověst",
       "zvířata",
       "koně"
-    ]
+    ],
+    "meaning": "Každý vlastník či prodávající vyzdvihuje přednosti svého zboží a může zamlčovat jeho vady. Staré znění využívá stereotyp romského obchodníka s koňmi; nepoctivost nelze přisuzovat etnické skupině.",
+    "source": "internet"
   },
   {
     "text": "Každý žebrák svou mošnu chválí.",
@@ -30001,11 +30474,16 @@
     "meaning": "Opatrnosti není nikdy dost a rozvaha se vždy vyplatí. Přísloví vybízí k obezřetnosti."
   },
   {
-    "text": "Bez opatrnosti i moudrost slepa.",
+    "text": "Opatrnost je matkou moudrosti.",
     "tags": [
       "rozum",
       "opatrnost"
-    ]
+    ],
+    "alternatives": [
+      "Bez opatrnosti i moudrost slepa."
+    ],
+    "meaning": "Rozumný člověk předem zvažuje rizika svého jednání.",
+    "source": "internet"
   },
   {
     "text": "Napřed bezpečně, potom srdečně.",
@@ -30180,7 +30658,9 @@
     "text": "Nepouštěj se bez vesla na moře.",
     "tags": [
       "životní zkušenost"
-    ]
+    ],
+    "meaning": "Nepouštěj se do náročného úkolu bez potřebné výbavy a přípravy.",
+    "source": "internet"
   },
   {
     "text": "Neokusiv brodu, nepouštěj se u vodu.",
@@ -30244,7 +30724,9 @@
       "zvířata",
       "psi",
       "vlci"
-    ]
+    ],
+    "meaning": "Při jednání s nebezpečným člověkem si zajisti ochranu.",
+    "source": "internet"
   },
   {
     "text": "Tma lidi nejí, ale povaluje.",
@@ -30373,7 +30855,9 @@
     "text": "Z malé jiskry velký oheň.",
     "tags": [
       "životní zkušenost"
-    ]
+    ],
+    "meaning": "I malá příčina může vyvolat velké a nebezpečné následky.",
+    "source": "internet"
   },
   {
     "text": "Kdo chce v domu škody zbýti, nedej jiskře ohněm býti.",
@@ -30421,7 +30905,9 @@
     "tags": [
       "neštěstí",
       "hosté a sousedé"
-    ]
+    ],
+    "meaning": "Pouč se z neštěstí druhých a předcházej podobnému osudu.",
+    "source": "internet"
   },
   {
     "text": "Ovci střihou, koze řiť lupá.",
@@ -30678,15 +31164,6 @@
     ]
   },
   {
-    "text": "Nepřistupuj ke koni u stáda, k hospodyni, když chléb sází, a k pánu, když rozhněván.",
-    "tags": [
-      "hněv",
-      "jídlo",
-      "koně",
-      "chléb"
-    ]
-  },
-  {
     "text": "Ručnici a koni není co věřiti.",
     "tags": [
       "životní zkušenost",
@@ -30775,19 +31252,15 @@
     "tags": [
       "životní zkušenost"
     ],
-    "meaning": "Kdo na něco zapomene, musí se kvůli tomu vracet nebo věc dodatečně oběhat. Co ušetřila hlava, odpracují nohy."
+    "meaning": "Kdo na něco zapomene, musí se kvůli tomu vracet nebo věc dodatečně oběhat. Co ušetřila hlava, odpracují nohy.",
+    "alternatives": [
+      "Co není v hlavě, musí být v nohou."
+    ]
   },
   {
     "text": "Z velkého města nikdy na noc nevyjížděj.",
     "tags": [
       "životní zkušenost"
-    ]
-  },
-  {
-    "text": "Před vyjitím z domu dobře jest se najísti a před vyjitím z lesa životu polehčiti.",
-    "tags": [
-      "životní zkušenost",
-      "příroda"
     ]
   },
   {
@@ -30837,7 +31310,9 @@
       "životní zkušenost",
       "zvířata",
       "ptáci"
-    ]
+    ],
+    "meaning": "Lidi získáš spíše laskavostí a přesvědčováním než hrubým nátlakem.",
+    "source": "internet"
   },
   {
     "text": "Někdy i čertu svíci zažeháme.",
@@ -30900,7 +31375,9 @@
       "životní zkušenost",
       "zvířata",
       "vlci"
-    ]
+    ],
+    "meaning": "Lidé už počítají se ziskem, který ještě vůbec nemají jistý.",
+    "source": "internet"
   },
   {
     "text": "Není zisk na medvědí kůži píti.",
@@ -30910,12 +31387,17 @@
     ]
   },
   {
-    "text": "Zajíc (ptáci) v lese, a on rožeň strouže.",
+    "text": "Zajíc v lese, a on rožeň strouže.",
     "tags": [
       "životní zkušenost",
       "zvířata",
       "příroda",
       "ptáci"
+    ],
+    "source": "internet",
+    "meaning": "Člověk se připravuje užívat zisk, který ještě nemá jistý.",
+    "alternatives": [
+      "Zajíc (ptáci) v lese, a on rožeň strouže."
     ]
   },
   {
@@ -30972,7 +31454,9 @@
     "text": "Lepší vrána v pytli jedna, než na vrbě tři.",
     "tags": [
       "životní zkušenost"
-    ]
+    ],
+    "meaning": "Menší jistý prospěch je lepší než větší nejistý.",
+    "source": "internet"
   },
   {
     "text": "Lepší bažant na míse, než když lítá po dvoře.",
@@ -31050,7 +31534,9 @@
       "životní zkušenost",
       "zvířata",
       "ptáci"
-    ]
+    ],
+    "meaning": "Z věci má skutečný prospěch ten, kdo ji užívá, ne nutně ten, kdo na ní pracuje.",
+    "source": "internet"
   },
   {
     "text": "Ne každý, kdož mrkev strouhá, také ji jídá.",
@@ -31183,14 +31669,19 @@
     "text": "Lepší jedno dnes, než dvoje zítra.",
     "tags": [
       "životní zkušenost"
-    ]
+    ],
+    "meaning": "Menší jistý prospěch nyní je lepší než větší nejistý příslib do budoucna.",
+    "source": "internet"
   },
   {
     "text": "Lepší málo, než nic.",
     "tags": [
       "životní zkušenost"
     ],
-    "meaning": "Raději se spokojit s málem než nemít nic. Říká se jako útěcha či připomínka, že i skromná věc má cenu."
+    "meaning": "Raději se spokojit s málem než nemít nic. Říká se jako útěcha či připomínka, že i skromná věc má cenu.",
+    "alternatives": [
+      "Aspoň něco nežli nic."
+    ]
   },
   {
     "text": "Lépe si přispíšiti, nežli se opozditi.",
@@ -31251,7 +31742,9 @@
     "text": "Lépe pozdě, nežli nikdy.",
     "tags": [
       "čas"
-    ]
+    ],
+    "meaning": "Je lepší něco vykonat pozdě než vůbec.",
+    "source": "internet"
   },
   {
     "text": "Vyčkání málo komu uškodilo; ale nedočkavost bez počtu lidí zavedla.",
@@ -31267,9 +31760,14 @@
     ]
   },
   {
-    "text": "Krap není dobrý rádce.",
+    "text": "Spěch není dobrý rádce.",
     "tags": [
       "životní zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "Pod tlakem spěchu lidé snadno rozhodují chybně.",
+    "alternatives": [
+      "Krap není dobrý rádce."
     ]
   },
   {
@@ -31344,7 +31842,12 @@
     "text": "Jestli příliš kvapíš, snadně ježka lapíš.",
     "tags": [
       "spěch"
-    ]
+    ],
+    "alternatives": [
+      "Jestli příliš kvapíš, snadno ježka lapíš."
+    ],
+    "meaning": "Ukvapenost snadno přináší chyby a nepříjemné následky.",
+    "source": "internet"
   },
   {
     "text": "Kdo spěší, lidi (čerta) směší.",
@@ -31390,7 +31893,9 @@
     "tags": [
       "práce",
       "smutek"
-    ]
+    ],
+    "meaning": "Ukvapená práce přináší chyby a ztráty místo výdělku.",
+    "source": "internet"
   },
   {
     "text": "K dobré věci přináleží chvíle.",
@@ -31464,11 +31969,15 @@
     ]
   },
   {
-    "text": "Pomalu dále ujdeš.",
+    "text": "Pomalu, ale jistě.",
     "tags": [
       "životní zkušenost"
     ],
-    "meaning": "Kdo jde pomalu a vytrvale, dojde nakonec dál než ten, kdo spěchá."
+    "meaning": "Kdo jde pomalu a vytrvale, dojde nakonec dál než ten, kdo spěchá.",
+    "source": "internet",
+    "alternatives": [
+      "Pomalu dále ujdeš."
+    ]
   },
   {
     "text": "Bystrý kůň brzo se unavi.",
@@ -31735,13 +32244,17 @@
     ]
   },
   {
-    "text": "Kdo jednou ptáka z ruky pustí, na střeše ho těžko lapati.",
+    "text": "Kdo jednou ptáka z ruky pustí, na střeše ho těžko uchytí.",
     "tags": [
       "životní zkušenost",
       "zvířata",
       "ptáci"
     ],
-    "meaning": "Kdo promarní jistou věc, jen těžko získá něco lepšího. Co máš v ruce, to máš."
+    "meaning": "Kdo promarní jistou věc, jen těžko získá něco lepšího. Co máš v ruce, to máš.",
+    "source": "internet",
+    "alternatives": [
+      "Kdo jednou ptáka z ruky pustí, na střeše ho těžko lapati."
+    ]
   },
   {
     "text": "Upustíce za rohy úsilno jest za ocas chvátati.",
@@ -31753,7 +32266,9 @@
     "text": "Žeň bývá jednou za rok.",
     "tags": [
       "hospodářství"
-    ]
+    ],
+    "meaning": "Významná příležitost nepřichází stále, a proto je třeba ji využít včas.",
+    "source": "internet"
   },
   {
     "text": "Dvakráte za rok léto nebývá.",
@@ -31802,16 +32317,23 @@
     ]
   },
   {
-    "text": "Každý čas má svůj čas.",
+    "text": "Každý má svůj čas.",
     "tags": [
       "čas"
-    ]
+    ],
+    "alternatives": [
+      "Každý čas má svůj čas."
+    ],
+    "meaning": "Každému přichází příležitost nebo životní etapa v jinou dobu.",
+    "source": "internet"
   },
   {
     "text": "Každá věc má svůj čas.",
     "tags": [
       "čas"
-    ]
+    ],
+    "meaning": "Pro každou činnost existuje vhodná doba.",
+    "source": "internet"
   },
   {
     "text": "Čas na nikoho nečeká.",
@@ -31824,13 +32346,6 @@
     "tags": [
       "čas",
       "víra"
-    ]
-  },
-  {
-    "text": "V kostele sě modliti a v lázni zdravo jest sé mýti, na trhu potřěbí kupovati a tobolky chovati.",
-    "tags": [
-      "víra",
-      "obchod"
     ]
   },
   {
@@ -31936,7 +32451,9 @@
     "tags": [
       "rozum",
       "čas"
-    ]
+    ],
+    "meaning": "Zkušenost a čas někdy přinesou pochopení, k němuž samotný rozum nestačil.",
+    "source": "internet"
   },
   {
     "text": "Druhý den vždycky moudřejší.",
@@ -32275,7 +32792,9 @@
     "text": "Nescházejí se hory s horami, ale lidé s lidmi.",
     "tags": [
       "životní zkušenost"
-    ]
+    ],
+    "meaning": "Lidé se mohou znovu nečekaně setkat, a proto mají dbát na své jednání.",
+    "source": "internet"
   },
   {
     "text": "Sejde se voda s vodou, a člověk s člověkem.",
@@ -32331,7 +32850,9 @@
     "text": "Malý slavík, ale hlas veliký.",
     "tags": [
       "životní zkušenost"
-    ]
+    ],
+    "meaning": "Malá velikost nevylučuje výrazné schopnosti a velký účinek.",
+    "source": "internet"
   },
   {
     "text": "Lastovčin zobáček krátký, ale sladký.",
@@ -32356,7 +32877,9 @@
     "text": "Malý dukát, ale drahý.",
     "tags": [
       "peníze"
-    ]
+    ],
+    "meaning": "Velikost sama neurčuje hodnotu; i malá věc může být velmi cenná.",
+    "source": "internet"
   },
   {
     "text": "Trní vydává růžičku, skořípka drahou perličku.",
@@ -32787,12 +33310,6 @@
     ]
   },
   {
-    "text": "Ač jsme černí, nejsme cikáni.",
-    "tags": [
-      "životní zkušenost"
-    ]
-  },
-  {
     "text": "Zajíc dlouhé uši má, a není oslem.",
     "tags": [
       "životní zkušenost",
@@ -32803,7 +33320,9 @@
     "text": "Kozel dlouhou bradu má, a není mudrcem.",
     "tags": [
       "životní zkušenost"
-    ]
+    ],
+    "meaning": "Vnější znaky stáří nebo důstojnosti nezaručují moudrost.",
+    "source": "internet"
   },
   {
     "text": "Na černém poli pšenička se rodí.",
@@ -32829,7 +33348,9 @@
     "tags": [
       "životní zkušenost",
       "zvířata"
-    ]
+    ],
+    "meaning": "Vnější vzhled není důvodem k předsudkům o skutečné hodnotě.",
+    "source": "internet"
   },
   {
     "text": "V škaredém sudě můž také býti dobré víno.",
@@ -32845,7 +33366,9 @@
       "rozum",
       "hospodářství",
       "ptáci"
-    ]
+    ],
+    "meaning": "Impozantní vzhled může skrývat nedostatek rozumu.",
+    "source": "internet"
   },
   {
     "text": "Nech se jak chce uhladí sova, přec neostojí podle sokola.",
@@ -32882,11 +33405,16 @@
     ]
   },
   {
-    "text": "Strč na svini i zlatohlav, přece sviní zůstane.",
+    "text": "Svině zůstane sviní, byť na sobě zlaté sedlo měla.",
     "tags": [
       "životní zkušenost",
       "zvířata"
-    ]
+    ],
+    "alternatives": [
+      "Strč na svini i zlatohlav, přece sviní zůstane."
+    ],
+    "meaning": "Bohatství ani drahé oblečení nezmění špatnou povahu.",
+    "source": "internet"
   },
   {
     "text": "Osel i ve lví kůži po hlasu se pozná.",
@@ -33166,9 +33694,14 @@
     ]
   },
   {
-    "text": "Umeť nejprvé před svými.",
+    "text": "Zameť si před svým prahem.",
     "tags": [
       "životní zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "Než začneš kritizovat druhé, naprav vlastní nedostatky.",
+    "alternatives": [
+      "Umeť nejprvé před svými."
     ]
   },
   {
@@ -33423,7 +33956,9 @@
     "text": "Kdo se chce kulhavému smáti, musí sám rovně státi.",
     "tags": [
       "životní zkušenost"
-    ]
+    ],
+    "meaning": "Kdo se chce vysmívat cizím chybám, měl by být sám bez nich.",
+    "source": "internet"
   },
   {
     "text": "Vodnatelný haní toho, komu prst tloustne, a sám svého břicha zapomněl.",
@@ -33500,7 +34035,9 @@
     "tags": [
       "hřích",
       "dluhy"
-    ]
+    ],
+    "meaning": "Neuhrazený závazek trvá, dokud není vyrovnán nebo odpuštěn.",
+    "source": "internet"
   },
   {
     "text": "Když dům shoří, dluh na komín vyletí.",
@@ -33606,7 +34143,9 @@
     "tags": [
       "dluhy",
       "krása"
-    ]
+    ],
+    "meaning": "Půjčené věci a peníze se mají řádně vracet.",
+    "source": "internet"
   },
   {
     "text": "Dobrý dlužník cizího měšce hospodář.",
@@ -33643,19 +34182,14 @@
     "text": "Od zlého dlužníka i plévy beř.",
     "tags": [
       "dluhy"
-    ]
+    ],
+    "meaning": "Od nespolehlivého dlužníka přijmi alespoň malou část pohledávky.",
+    "source": "internet"
   },
   {
     "text": "Od zlého dlužníka i koza bez mlíka.",
     "tags": [
       "dluhy"
-    ]
-  },
-  {
-    "text": "Pane, opatruj od dlužnikův, neni jak člověk je svůj a žadnymu se podkladat němusi.",
-    "tags": [
-      "dluhy",
-      "opatrnost"
     ]
   },
   {
@@ -33746,12 +34280,17 @@
     ]
   },
   {
-    "text": "Chceš-li přítele ztratiti, půjč mu peníze.",
+    "text": "Chceš-li přítele ztratit, půjč mu peníze.",
     "tags": [
       "peníze",
       "dluhy",
       "přátelství",
       "ztráta"
+    ],
+    "source": "internet",
+    "meaning": "Půjčování peněz může kvůli nesplácení zničit přátelství.",
+    "alternatives": [
+      "Chceš-li přítele ztratiti, půjč mu peníze."
     ]
   },
   {
@@ -34003,9 +34542,14 @@
     ]
   },
   {
-    "text": "Svět se mění, a my v něm.",
+    "text": "Časy se mění a my se měníme v nich.",
     "tags": [
       "životní zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "S proměnami doby se mění i lidé a jejich způsob života.",
+    "alternatives": [
+      "Svět se mění, a my v něm."
     ]
   },
   {
@@ -34107,7 +34651,12 @@
     "text": "Svoboda nade všecko (nad zlato).",
     "tags": [
       "svoboda a vůle"
-    ]
+    ],
+    "alternatives": [
+      "Svoboda nad zlato."
+    ],
+    "meaning": "Svoboda má větší cenu než bohatství.",
+    "source": "internet"
   },
   {
     "text": "Kdo žije svobodně, spává lahodně.",
@@ -34136,10 +34685,15 @@
     ]
   },
   {
-    "text": "Těžkoť i ve zlaté kleci slavíku; zdravěji mu po zeleném lesíku.",
+    "text": "Zavřete ptáka do zlaté klece, les mu bude milejší.",
     "tags": [
       "životní zkušenost"
-    ]
+    ],
+    "alternatives": [
+      "Těžkoť i ve zlaté kleci slavíku; zdravěji mu po zeleném lesíku."
+    ],
+    "meaning": "Ani blahobyt a pohodlí nenahradí ztracenou svobodu.",
+    "source": "internet"
   },
   {
     "text": "Lude s ludami, hory s horami.",
@@ -34153,12 +34707,6 @@
       "svoboda a vůle"
     ],
     "meaning": "Svoboda se přirovnává k volně tekoucí vodě. Člověk může žít po svém a pohybovat se bez omezení."
-  },
-  {
-    "text": "Blaze hajdukovi po horách; tamtě sproštěn much i ovadu, ač mu druhdy býti o hladu.",
-    "tags": [
-      "hlad"
-    ]
   },
   {
     "text": "V poli vůle.",
@@ -34375,7 +34923,9 @@
     "text": "Těžko toho voditi, kdo sám nechce choditi.",
     "tags": [
       "životní zkušenost"
-    ]
+    ],
+    "meaning": "Bez vlastní ochoty nelze člověka přimět ke skutečné spolupráci.",
+    "source": "internet"
   },
   {
     "text": "Osla na most těžko bezděk hnáti.",
@@ -34672,9 +35222,15 @@
     ]
   },
   {
-    "text": "Bez chyby nikdo není.",
+    "text": "Nikdo není dokonalý.",
     "tags": [
       "životní zkušenost"
+    ],
+    "meaning": "Každý člověk má své nedostatky.",
+    "source": "internet",
+    "alternatives": [
+      "Bez chyby nikdo není.",
+      "Každý má své chyby."
     ]
   },
   {
@@ -34706,7 +35262,9 @@
     "text": "I vlas má svůj stín.",
     "tags": [
       "životní zkušenost"
-    ]
+    ],
+    "meaning": "I zdánlivě nepatrná věc má svůj význam nebo vliv.",
+    "source": "internet"
   },
   {
     "text": "Hřích a bída na kohož nečíhá?",
@@ -34716,10 +35274,15 @@
     ]
   },
   {
-    "text": "Nejmoudřejší může chybiti.",
+    "text": "Chybovat je lidské.",
     "tags": [
       "životní zkušenost"
-    ]
+    ],
+    "alternatives": [
+      "Nejmoudřejší může chybiti."
+    ],
+    "meaning": "Omyly jsou přirozenou součástí lidského jednání.",
+    "source": "internet"
   },
   {
     "text": "I dobrému kocourovi myš někdy uklouzne.",
@@ -34938,7 +35501,10 @@
     "tags": [
       "životní zkušenost"
     ],
-    "meaning": "Nikdo se nemůže zavděčit všem lidem. Přísloví utěšuje toho, kdo čelí kritice, a radí nesnažit se každému vyhovět."
+    "meaning": "Nikdo se nemůže zavděčit všem lidem. Přísloví utěšuje toho, kdo čelí kritice, a radí nesnažit se každému vyhovět.",
+    "alternatives": [
+      "Není na světě člověk ten, aby se zavděčil lidem všem."
+    ]
   },
   {
     "text": "Ještě nebyl v světě ten rod, jenž by trefil každému v hod.",
@@ -35415,13 +35981,6 @@
     ]
   },
   {
-    "text": "Jiz, kaj ludě jeďu; seď, kaj seďu; stůj, kaj se stava; davaj, kaj se dava; zpivaj, kaj se nuďu; uč se, kaj se uču; mluv, kaj se ptava; spi, kaj se spava.",
-    "tags": [
-      "řeč",
-      "spánek"
-    ]
-  },
-  {
     "text": "Krátká veselost dlouhou často činí žalost.",
     "tags": [
       "smutek",
@@ -35462,7 +36021,8 @@
       "odvaha",
       "rozum",
       "hloupost"
-    ]
+    ],
+    "meaning": "Řeči člověka prozrazují jeho zkušenosti, přání a úsudek. Rčení staví rozvážné uvažování o správném jednání proti prázdným řečem."
   },
   {
     "text": "Slovo vyřčené, dědictví ztracené, čas, jenž pomine, s vodou co uplyne - nikdy se nenavrátí.",
@@ -35522,13 +36082,20 @@
     "tags": [
       "životní zkušenost",
       "příroda"
-    ]
+    ],
+    "meaning": "Kvůli jednotlivci nebo drobné ztrátě nezanikne celý velký celek.",
+    "source": "internet"
   },
   {
-    "text": "O den se léto neopozdí.",
+    "text": "Dnem se léto neopozdí.",
     "tags": [
       "životní zkušenost",
       "roční období"
+    ],
+    "source": "internet",
+    "meaning": "Kvůli jednomu člověku se nemusí zastavit činnost všech ostatních.",
+    "alternatives": [
+      "O den se léto neopozdí."
     ]
   },
   {
@@ -35744,13 +36311,18 @@
     "meaning": "Nesvěřuj lákavou věc tomu, kdo ji pravděpodobně spotřebuje pro sebe. Kočka ani pes podle tohoto obrazu jídlo neuhlídají."
   },
   {
-    "text": "Bez konce potřeba, když je víno (pivo), není chleba.",
+    "text": "Bez konce potřeba, když je víno, není chleba.",
     "tags": [
       "pití",
       "jídlo",
       "chléb",
       "víno",
       "pivo"
+    ],
+    "source": "internet",
+    "meaning": "Lidské potřeby nemají konec a vždy se najde něco, co chybí.",
+    "alternatives": [
+      "Bez konce potřeba, když je víno (pivo), není chleba."
     ]
   },
   {
@@ -35798,11 +36370,16 @@
     "meaning": "Zdraví je nejdůležitější ze všeho."
   },
   {
-    "text": "Bez zdraví není bohatství.",
+    "text": "Zdraví je největší bohatství.",
     "tags": [
       "bohatství",
       "zdraví"
-    ]
+    ],
+    "alternatives": [
+      "Bez zdraví není bohatství."
+    ],
+    "meaning": "Zdraví má větší hodnotu než hmotný majetek.",
+    "source": "internet"
   },
   {
     "text": "Zdraví na všecko vystačí.",
@@ -36351,12 +36928,6 @@
     ]
   },
   {
-    "text": "Není lepší zvěřiny jako naše husička: dobré peří, dobrý prach, nehaň mi ni masíčka.",
-    "tags": [
-      "práce"
-    ]
-  },
-  {
     "text": "Jeřábek panský pták, ale chlapská potrava.",
     "tags": [
       "zdraví a život",
@@ -36422,11 +36993,16 @@
     ]
   },
   {
-    "text": "Nech piva, pij vodu; nečiň kapse (hlavě) škodu.",
+    "text": "Nech piva, pij vodu, nečiň kapse škodu.",
     "tags": [
       "pití",
       "škoda",
       "pivo"
+    ],
+    "source": "internet",
+    "meaning": "Omezením zbytečných výdajů člověk chrání své peníze.",
+    "alternatives": [
+      "Nech piva, pij vodu; nečiň kapse (hlavě) škodu."
     ]
   },
   {
@@ -36552,7 +37128,9 @@
     "tags": [
       "nemoc",
       "koně"
-    ]
+    ],
+    "meaning": "Nemoc přichází rychle, ale uzdravování bývá pomalé.",
+    "source": "internet"
   },
   {
     "text": "Nemoc po librách přichází, a po lotech odchází.",
@@ -36659,13 +37237,6 @@
   {
     "text": "Dobrému lékaři potřebí orlových očí, ženských rukou a lvího srdce.",
     "tags": [
-      "nemoc"
-    ]
-  },
-  {
-    "text": "Každému lékaři trojí tvářnost: když přijde, milý jako anděl; když uléčí, dobrý jako Bůh; a když plat žádá, zlý jako ďábel.",
-    "tags": [
-      "víra",
       "nemoc"
     ]
   },
@@ -36964,7 +37535,9 @@
     "tags": [
       "rada",
       "zvířata"
-    ]
+    ],
+    "meaning": "Dobré věci a přízeň často získávají i ti, kdo si je nezaslouží.",
+    "source": "internet"
   },
   {
     "text": "Čisté (pěkné) tváři málo vody třeba.",
@@ -37156,7 +37729,9 @@
       "mládí a stáří",
       "pití",
       "pivo"
-    ]
+    ],
+    "meaning": "Mládí bývá prudké, neklidné a obtížně se drží v mezích.",
+    "source": "internet"
   },
   {
     "text": "Bujnost mládeže netrpí otěže.",
@@ -37337,7 +37912,9 @@
     "text": "Čemu kdo z mládí přivykne, to i v stáří k němu lípne.",
     "tags": [
       "mládí a stáří"
-    ]
+    ],
+    "meaning": "Návyky získané v mládí člověka provázejí i ve stáří.",
+    "source": "internet"
   },
   {
     "text": "Co kolébka kolébala, to motyka zakopala.",
@@ -37484,7 +38061,9 @@
     "text": "Ne tak starostí šedivějí vlasy, jako starostmi.",
     "tags": [
       "starosti"
-    ]
+    ],
+    "meaning": "Člověka opotřebovávají nejen roky, ale také trápení.",
+    "source": "internet"
   },
   {
     "text": "Starobylost s mozkem.",
@@ -37527,10 +38106,15 @@
     ]
   },
   {
-    "text": "I stareho hlupoty tropio.",
+    "text": "Čím starší, tím hloupější.",
     "tags": [
       "hloupost"
-    ]
+    ],
+    "alternatives": [
+      "I stareho hlupoty tropio."
+    ],
+    "meaning": "Vyšší věk sám o sobě nezaručuje větší rozum.",
+    "source": "internet"
   },
   {
     "text": "Stare babě leda hrabě.",
@@ -37542,7 +38126,9 @@
     "text": "Drž se starých rady, nedojdeš brzo vady.",
     "tags": [
       "rada"
-    ]
+    ],
+    "meaning": "Zkušené rady starších pomáhají předcházet chybám.",
+    "source": "internet"
   },
   {
     "text": "Nedobře jest za starým do hory lézti, ale dobře ho poslouchati.",
@@ -37601,7 +38187,9 @@
       "mládí a stáří",
       "zvířata",
       "koně"
-    ]
+    ],
+    "meaning": "Kdo zestárne a přestane být užitečný, bývá odložen navzdory dřívějším zásluhám.",
+    "source": "internet"
   },
   {
     "text": "Neposmívej se starému; sám budeš stár (neoběsí-li tě před časem).",
@@ -37677,7 +38265,9 @@
     "text": "Kam ďábel nemůže, tam babu pošle.",
     "tags": [
       "zdraví a život"
-    ]
+    ],
+    "meaning": "Odráží starý stereotyp, že lstivá žena dokáže prosadit i zdánlivě nemožné.",
+    "source": "internet"
   },
   {
     "text": "Kde sám čert nestačí, tam starou babu strčí (nastraží).",
@@ -37910,10 +38500,15 @@
     "meaning": "Smrt je vždy nablízku a může přijít kdykoli."
   },
   {
-    "text": "Pro smrt není léku.",
+    "text": "Proti smrti není léku.",
     "tags": [
       "nemoc",
       "smrt"
+    ],
+    "source": "internet",
+    "meaning": "Z mnoha nesnází vede východisko, ale smrti se nelze vyhnout.",
+    "alternatives": [
+      "Pro smrt není léku."
     ]
   },
   {
@@ -38100,7 +38695,9 @@
     "text": "S lidmi i smrt mila.",
     "tags": [
       "smrt"
-    ]
+    ],
+    "meaning": "Sdílený těžký osud se snáší lépe než osamělé trápení.",
+    "source": "internet"
   },
   {
     "text": "Smrt, co lepší, béře.",
@@ -38432,9 +39029,14 @@
     ]
   },
   {
-    "text": "O mrtvém buď dobré, anebo nic.",
+    "text": "O mrtvých jen dobře.",
     "tags": [
       "smrt"
+    ],
+    "source": "internet",
+    "meaning": "O zemřelých se má mluvit s úctou a zdrženlivostí.",
+    "alternatives": [
+      "O mrtvém buď dobré, anebo nic."
     ]
   },
   {
@@ -38551,10 +39153,15 @@
     ]
   },
   {
-    "text": "Účinek chválí mistra.",
+    "text": "Krásné dílo mistra chválí.",
     "tags": [
       "chvála a pověst"
-    ]
+    ],
+    "alternatives": [
+      "Účinek chválí mistra."
+    ],
+    "meaning": "Kvalitní výsledek je nejlepší vizitkou svého tvůrce.",
+    "source": "internet"
   },
   {
     "text": "K posledu se chvála činí.",
@@ -38578,7 +39185,9 @@
     "text": "Začátek hezký, třeba jenom ještě konce.",
     "tags": [
       "zdraví a život"
-    ]
+    ],
+    "meaning": "Povedený začátek nestačí, důležité je také úspěšné dokončení.",
+    "source": "internet"
   },
   {
     "text": "Lépe jest nepočínati, než počna nedokonati.",
@@ -38712,7 +39321,9 @@
     "text": "Jeden dům dvou pánův netrpí.",
     "tags": [
       "společnost a živobytí"
-    ]
+    ],
+    "meaning": "Dvě soupeřící autority pod jednou střechou vedou ke konfliktům.",
+    "source": "internet"
   },
   {
     "text": "Běda mužům, kde žena vládne.",
@@ -39128,7 +39739,9 @@
     "text": "Jaký císař, takový písař.",
     "tags": [
       "vláda"
-    ]
+    ],
+    "meaning": "Chování podřízených odráží příklad a způsob vedení jejich nadřízeného.",
+    "source": "internet"
   },
   {
     "text": "Jaký král, taký kraj.",
@@ -39490,7 +40103,9 @@
     "text": "Slonové se trou, a komáry dáví mezi sebou.",
     "tags": [
       "společnost a živobytí"
-    ]
+    ],
+    "meaning": "Ve sporu mocných nejvíce trpí slabí a bezbranní.",
+    "source": "internet"
   },
   {
     "text": "Já pán, ty pán: kdo bude svině pásti?",
@@ -39835,7 +40450,9 @@
     "text": "Za to věc stojí, zač se prodati může.",
     "tags": [
       "společnost a živobytí"
-    ]
+    ],
+    "meaning": "Praktickou hodnotu věci ukazuje cena, kterou za ni někdo skutečně zaplatí.",
+    "source": "internet"
   },
   {
     "text": "Draho prodávej, a spravedlivě měř.",
@@ -40126,11 +40743,19 @@
     ]
   },
   {
-    "text": "Kovalova kobyla a ševcova roba najvěc se boskem nachoďu.",
+    "text": "Kovářova kobyla a ševcova žena chodějí bosy.",
     "tags": [
       "řemesla",
       "zvířata",
-      "koně"
+      "koně",
+      "humor"
+    ],
+    "source": "internet",
+    "meaning": "Kdo se věnuje řemeslu, často nemá z jeho výhod prospěch ve vlastním domě. Říká se o odbornících, kteří si pro sebe nestihnou udělat, co dělají druhým.",
+    "alternatives": [
+      "Kovářova kobyla chodí bosa.",
+      "Kovalova kobyla a ševcova roba najvěc se boskem nachoďu.",
+      "Kovářovic kobyla chodí bosa."
     ]
   },
   {
@@ -40216,14 +40841,6 @@
       "hlad"
     ],
     "meaning": "Kuchař, který umře hladem, nezaslouží si pohřbu. Kdo nedokáže pomoci sobě, nezaslouží si soucit."
-  },
-  {
-    "text": "Ďábel nechtěl býti kuchařem, vozatajem a chůvou; ale chtěl býti mlynářským vepřem, úředníkovým koněm a na faře kuchařkou.",
-    "tags": [
-      "řemesla",
-      "zvířata",
-      "koně"
-    ]
   },
   {
     "text": "Vozka v zlé příhodě odříká se stavu svého, a přijeda na nocleh, přece zas vůz maže.",
@@ -40423,17 +41040,14 @@
     ]
   },
   {
-    "text": "Chraň se koňského zadku, panského předku, a kněze po předu i po zadu.",
+    "text": "Chraň se koňského zadku, panského předku a kněze popředu i pozadu.",
     "tags": [
       "společnost a živobytí"
-    ]
-  },
-  {
-    "text": "Zachovej nás, pane, od vlka šlapáka, od mnicha bosáka, od Mandy racochaté, od holi sukovaté.",
-    "tags": [
-      "společnost a živobytí",
-      "zvířata",
-      "vlci"
+    ],
+    "source": "internet",
+    "meaning": "Varuje před nebezpečnými zvířaty a před mocnými či pokryteckými lidmi.",
+    "alternatives": [
+      "Chraň se koňského zadku, panského předku, a kněze po předu i po zadu."
     ]
   },
   {
@@ -40453,15 +41067,6 @@
     "tags": [
       "jídlo",
       "starosti"
-    ]
-  },
-  {
-    "text": "Kdo se chce míti dobře na den, nech sobě hus zabije; kdo na týden, nech vepře zařeže; kdo na měsíc, nech vola porazí; kdo na celý rok, nech se ožení; a kdo až do smrti, nech jde na kněžství.",
-    "tags": [
-      "zvířata",
-      "smrt",
-      "manželství",
-      "sňatek"
     ]
   },
   {
@@ -40589,17 +41194,6 @@
     ]
   },
   {
-    "text": "Kdy by čertův v pekle a vlkův v lese nebylo, dávno by kněží a pastuchové hladem zemřeli.",
-    "tags": [
-      "hřích",
-      "čas",
-      "hlad",
-      "zvířata",
-      "příroda",
-      "vlci"
-    ]
-  },
-  {
     "text": "Svaté místo nezpustne, i když popa čert vezme.",
     "tags": [
       "hřích"
@@ -40647,13 +41241,6 @@
     "tags": [
       "právo a společnost"
     ]
-  },
-  {
-    "text": "Kolik měst, tolik obyčejův jest; kolik vsí, tolik zvyklostí: kolik krajův, tolik mravův i nemravův.",
-    "tags": [
-      "zvyk"
-    ],
-    "meaning": "Každé místo má vlastní zvyklosti. Co je v jedné obci běžné, může jinde působit podivně nebo nevhodně."
   },
   {
     "text": "Na každé dědině způsoby (nevěsty) jiné.",
@@ -40945,7 +41532,9 @@
     "tags": [
       "chudoba",
       "spěch"
-    ]
+    ],
+    "meaning": "Krajní nouze může člověka donutit překročit běžná pravidla.",
+    "source": "internet"
   },
   {
     "text": "Potřeba zákon ruší.",
@@ -41828,9 +42417,14 @@
     ]
   },
   {
-    "text": "Co jest psáno, má býti dáno.",
+    "text": "Co je psáno, to je dáno.",
     "tags": [
       "právo a společnost"
+    ],
+    "source": "internet",
+    "meaning": "Písemný záznam má trvalejší váhu než pouhá ústní slova.",
+    "alternatives": [
+      "Co jest psáno, má býti dáno."
     ]
   },
   {
@@ -42255,11 +42849,17 @@
     "meaning": "Kdo chce bít chudáka, snadno najde záminku. Mocný si vždy najde důvod, jak ublížit slabému."
   },
   {
-    "text": "Snadno hůl najíti, kdo chce psa bíti.",
+    "text": "Kdo chce psa bít, hůl si vždycky najde.",
     "tags": [
       "právo a společnost",
       "zvířata",
       "psi"
+    ],
+    "source": "internet",
+    "meaning": "Kdo chce někomu uškodit, snadno si najde záminku.",
+    "alternatives": [
+      "Snadno hůl najíti, kdo chce psa bíti.",
+      "Kdo chce psa bít, hůl si vždy najde."
     ]
   },
   {
@@ -42359,7 +42959,9 @@
     "text": "Očím před ušima víra.",
     "tags": [
       "právo a společnost"
-    ]
+    ],
+    "meaning": "Vlastnímu pozorování lze věřit více než zprostředkovaným řečem.",
+    "source": "internet"
   },
   {
     "text": "Oči svědkovy, oči čertovy.",
@@ -42368,11 +42970,16 @@
     ]
   },
   {
-    "text": "Jeden člověk, žádný člověk (co svědek).",
+    "text": "Jeden člověk, žádný člověk.",
     "tags": [
-      "právo a společnost"
+      "mezilidské vztahy",
+      "pomoc"
     ],
-    "meaning": "V dobovém pojetí sám jediný svědek nestačí k prokázání věci. Přísloví zdůrazňuje potřebu dalšího svědectví."
+    "meaning": "Samotný člověk má omezené možnosti a potřebuje spolupráci druhých.",
+    "alternatives": [
+      "Jeden člověk, žádný člověk (co svědek)."
+    ],
+    "source": "internet"
   },
   {
     "text": "Svědek na svědka se nevede.",
@@ -42423,7 +43030,10 @@
     "tags": [
       "mlčení"
     ],
-    "meaning": "Kdo při nějaké věci mlčí, dává tím najevo souhlas. Přísloví nabádá ozvat se, když s něčím nesouhlasíme."
+    "meaning": "Kdo při nějaké věci mlčí, dává tím najevo souhlas. Přísloví nabádá ozvat se, když s něčím nesouhlasíme.",
+    "alternatives": [
+      "Mlčení znamená souhlas."
+    ]
   },
   {
     "text": "Prostému odporu prostá očista.",
@@ -42619,9 +43229,14 @@
     ]
   },
   {
-    "text": "Zloděj na zloděje nepoví.",
+    "text": "Zloděj zloději, šibal šibalu neuškodí.",
     "tags": [
       "krádež"
+    ],
+    "source": "internet",
+    "meaning": "Lidé podobně nepoctiví se často navzájem chrání.",
+    "alternatives": [
+      "Zloděj na zloděje nepoví."
     ]
   },
   {
@@ -42900,9 +43515,14 @@
     ]
   },
   {
-    "text": "Přiznání polovice pokání (napravení).",
+    "text": "Přiznání polovice pokání.",
     "tags": [
       "hřích"
+    ],
+    "source": "internet",
+    "meaning": "Přiznání chyby je prvním důležitým krokem k nápravě.",
+    "alternatives": [
+      "Přiznání polovice pokání (napravení)."
     ]
   },
   {
@@ -42912,10 +43532,15 @@
     ]
   },
   {
-    "text": "Nebéře se sjednoho vola dvou koží.",
+    "text": "Nejsou na jednom volu dvě kůže.",
     "tags": [
       "právo a společnost",
       "zvířata"
+    ],
+    "source": "internet",
+    "meaning": "Z jedné věci nelze získat více, než kolik skutečně poskytuje.",
+    "alternatives": [
+      "Nebéře se sjednoho vola dvou koží."
     ]
   },
   {
@@ -43426,15 +44051,6 @@
     "text": "Soudce béře od vinného i nevinného.",
     "tags": [
       "právo a soudy"
-    ]
-  },
-  {
-    "text": "Dře koza vrbu, a vlk kozu, a vlka sedlák, a sedláka žid, a žida pán, a pána jurista, a juristu čert.",
-    "tags": [
-      "hospodářství",
-      "zvířata",
-      "hřích",
-      "vlci"
     ]
   },
   {
@@ -44087,14 +44703,6 @@
     "meaning": "Braň se, chlape, nebo zhyň; kdo se nebrání, prohraje."
   },
   {
-    "text": "Ve vojně lépe jest koně u nepřátelského plotu (za nepřátelský kůl) vázati, nežli u svého (za svůj).",
-    "tags": [
-      "válka a mír",
-      "zvířata",
-      "koně"
-    ]
-  },
-  {
     "text": "Útok lidí nerodí.",
     "tags": [
       "právo a společnost"
@@ -44273,7 +44881,9 @@
       "právo a společnost",
       "zvířata",
       "koně"
-    ]
+    ],
+    "meaning": "Úspěšné období se může vystřídat s pádem a neúspěchem.",
+    "source": "internet"
   },
   {
     "text": "Kdo jiného honí, sám se uhoní.",
@@ -44485,7 +45095,9 @@
     "text": "Lepší trocha v pokoji, než na vojně hojnost.",
     "tags": [
       "válka a mír"
-    ]
+    ],
+    "meaning": "Skromný život v bezpečí je lepší než hojnost spojená s nebezpečím.",
+    "source": "internet"
   },
   {
     "text": "Chléb s solí, s dobrou woli.",
@@ -44780,7 +45392,9 @@
     "tags": [
       "právo a společnost",
       "zvířata"
-    ]
+    ],
+    "meaning": "Na obecnou výtku se často nejhlasitěji ozve ten, koho se týká.",
+    "source": "internet"
   },
   {
     "text": "Ví pes, čí sádlo snědl.",
@@ -44788,7 +45402,9 @@
       "právo a společnost",
       "zvířata",
       "psi"
-    ]
+    ],
+    "meaning": "Viník si uvědomuje svou vinu, i když o ní nemluví.",
+    "source": "internet"
   },
   {
     "text": "Ví kočka, čí maso snědla.",
@@ -44868,7 +45484,9 @@
     "text": "Čisté nebe nebojí se ani blesku ani třesku.",
     "tags": [
       "právo a společnost"
-    ]
+    ],
+    "meaning": "Člověk s čistým svědomím se nemusí bát obvinění.",
+    "source": "internet"
   },
   {
     "text": "Zlé se neutají, a s dobrým můžeš před Boha i před lidi.",
@@ -44923,10 +45541,15 @@
     "meaning": "Doma se můžeš chovat volně, mezi lidmi se chovej slušně, jak se patří."
   },
   {
-    "text": "Ve svém domě každý jest pánem.",
+    "text": "Můj dům, můj hrad.",
     "tags": [
       "domácí život"
-    ]
+    ],
+    "alternatives": [
+      "Ve svém domě každý jest pánem."
+    ],
+    "meaning": "Doma má člověk své soukromí, bezpečí a právo rozhodovat.",
+    "source": "internet"
   },
   {
     "text": "Hospodář každý domu svého pán.",
@@ -45068,10 +45691,15 @@
     ]
   },
   {
-    "text": "Dy hospodyň v chlivě hospodaři, na polu se i v staveňu daři.",
+    "text": "Kde se hospodaří, tam se dobře daří.",
     "tags": [
       "hospodářství"
-    ]
+    ],
+    "alternatives": [
+      "Dy hospodyň v chlivě hospodaři, na polu se i v staveňu daři."
+    ],
+    "meaning": "Rozumná správa majetku a práce přinášejí blahobyt.",
+    "source": "internet"
   },
   {
     "text": "Hospodyň čini pilne čelediny.",
@@ -45183,7 +45811,12 @@
     "text": "Běda tomu domu, kde tele rozkazuje volu.",
     "tags": [
       "domácí život"
-    ]
+    ],
+    "alternatives": [
+      "Běda tomu dvoru, kde tele rozkazuje volu."
+    ],
+    "meaning": "Je špatné, když nezkušený nebo neschopný poroučí zkušenějšímu.",
+    "source": "internet"
   },
   {
     "text": "Nedělej špasu se svoju chasu.",
@@ -45278,7 +45911,9 @@
       "jídlo",
       "svoboda a vůle",
       "chléb"
-    ]
+    ],
+    "meaning": "Skromný svobodný život je lepší než pohodlí v závislosti.",
+    "source": "internet"
   },
   {
     "text": "Lépe za svým krajícem, než za cizím pecnem.",
@@ -45298,7 +45933,9 @@
     "text": "Lépe státi za svým snopem, než za cizím mandelem.",
     "tags": [
       "domácí život"
-    ]
+    ],
+    "meaning": "Je lepší mít menší vlastní majetek než být závislý na větším cizím.",
+    "source": "internet"
   },
   {
     "text": "Na své klisně, kudy ráčím, tudy skáčí.",
@@ -45530,7 +46167,9 @@
     "text": "Kámen často se hýbající neobroste.",
     "tags": [
       "domácí život"
-    ]
+    ],
+    "meaning": "Neustálý pohyb a činnost brání ustrnutí; časté změny však ztěžují zakořenění.",
+    "source": "internet"
   },
   {
     "text": "Kámen často hýbaný neobroste mechem.",
@@ -45612,7 +46251,9 @@
       "jídlo",
       "zvířata",
       "psi"
-    ]
+    ],
+    "meaning": "Odměna a zajištění základních potřeb motivují ke službě.",
+    "source": "internet"
   },
   {
     "text": "Proto má kovář kleště, aby se nezžehl (nespálil).",
@@ -45723,18 +46364,6 @@
     ]
   },
   {
-    "text": "Bůh dej, zdráva byla jak ryba, čistá jak voda, veselá jak jarní doba, pracovita jak včela a hojna jak země svatá.",
-    "tags": [
-      "víra",
-      "práce",
-      "zdraví",
-      "manželství",
-      "radost",
-      "roční období"
-    ],
-    "meaning": "Staré požehnání přeje ženě zdraví, čistotu, veselou mysl, pracovitost a hojnost."
-  },
-  {
     "text": "Srdce moje a tvoje spojiž, Bože, to dvoje.",
     "tags": [
       "víra"
@@ -45797,7 +46426,9 @@
     "tags": [
       "rodina",
       "manželství"
-    ]
+    ],
+    "meaning": "Odráží starou představu, že rodina musí využít příležitost k provdání dcery.",
+    "source": "internet"
   },
   {
     "text": "Nejlépe vyháněti, když se práská.",
@@ -45808,13 +46439,6 @@
   {
     "text": "Dři lýka, když se derou; vdej dceru, dokud berou.",
     "tags": [
-      "rodina"
-    ]
-  },
-  {
-    "text": "Děvče do dvanácti let češ, do šestnácti střez, po šestnácti děkuj tomu, kdo vyvede dceru z domu.",
-    "tags": [
-      "vděčnost",
       "rodina"
     ]
   },
@@ -45963,13 +46587,6 @@
     "text": "Ženy a plátna není dobře kupovati při svíci.",
     "tags": [
       "obchod"
-    ]
-  },
-  {
-    "text": "Kuřete od mlynáře neber ku plemeni, ani svině od pekaře a ženy z města nepojímej do vsi.",
-    "tags": [
-      "řemesla",
-      "zvířata"
     ]
   },
   {
@@ -46143,13 +46760,6 @@
     ]
   },
   {
-    "text": "Dokud sedí u matičky, to jsou krotky jak ovčičky; ale když se s muži svedou, tu teprv jim huby jedou.",
-    "tags": [
-      "domácí život",
-      "zvířata"
-    ]
-  },
-  {
     "text": "Kdo se žení pro krásu, ta trvá jen do času; kdo se žení pro statky, ty přichodí na zmatky; kdo se žení pro ctnost, ta trvá na věčnost.",
     "tags": [
       "hospodářství",
@@ -46158,7 +46768,10 @@
       "ctnost",
       "krása"
     ],
-    "meaning": "Kdo se žení pro krásu, ta časem pomine; kdo pro majetek, přijde o klid; kdo pro ctnost, ta zůstane navždy. Rada hledat v manželovi charakter."
+    "meaning": "Při výběru partnera je důležitější dobrý charakter než vzhled nebo majetek, protože krása i bohatství mohou pominout.",
+    "alternatives": [
+      "Kdo se žení pro statek, přichází na zmatek; kdo se žení pro krásu, ta trvá do času, kdo se žení pro ctnost, ta trvá na věčnosť."
+    ]
   },
   {
     "text": "Druhá žena jako první dítě (milá).",
@@ -46170,16 +46783,6 @@
     "text": "Neber si matky s dcerou, sice ti hlavu sderou.",
     "tags": [
       "rodina"
-    ]
-  },
-  {
-    "text": "Kdo se žení pro statek, přichází na zmatek; kdo se žení pro krásu, ta trvá do času, kdo se žení pro ctnost, ta trvá na věčnosť.",
-    "tags": [
-      "hospodářství",
-      "dobro a zlo",
-      "čas",
-      "ctnost",
-      "krása"
     ]
   },
   {
@@ -46243,13 +46846,6 @@
     ]
   },
   {
-    "text": "Kdo škaredou ženu má, ať se jiným nerouhá; a kdo má sličnou, ten k tanci nechod, maje doma dost tancův.",
-    "tags": [
-      "domov",
-      "krása"
-    ]
-  },
-  {
     "text": "Pěkná žena dvojnásobní útrata, a často cela ztráta.",
     "tags": [
       "domácí život",
@@ -46277,9 +46873,14 @@
     ]
   },
   {
-    "text": "Málo k málu, a vády víc.",
+    "text": "Málo k málu, a vždy víc.",
     "tags": [
       "domácí život"
+    ],
+    "source": "internet",
+    "meaning": "Pravidelné ukládání malých částek postupně vytváří větší majetek.",
+    "alternatives": [
+      "Málo k málu, a vády víc."
     ]
   },
   {
@@ -46634,14 +47235,6 @@
     ]
   },
   {
-    "text": "Ořech tvrdý, zub červivý, mladá žena, kmet šedivý: toho spolku, radím, se střez, věc nejlepší jest rovná spřež.",
-    "tags": [
-      "mládí a stáří",
-      "rada",
-      "hospodářství"
-    ]
-  },
-  {
     "text": "Řídká shoda, starý muž a mladá žena.",
     "tags": [
       "mládí a stáří"
@@ -46709,10 +47302,12 @@
     ]
   },
   {
-    "text": "Žena jak kněžna, a světnice nemetena.",
+    "text": "Žena jako kněžna, a světnice nemetena.",
     "tags": [
       "domácí život"
-    ]
+    ],
+    "source": "internet",
+    "meaning": "Okázalá péče o vlastní vzhled může jít na úkor domácnosti a povinností."
   },
   {
     "text": "Poklid jeví hospodyňku, nešvara ukáže sviňku.",
@@ -46739,12 +47334,6 @@
     "text": "Všecky špuňky (šubry, nečistotu) na hambálky, až se vdám, tož vás zavolám.",
     "tags": [
       "manželství"
-    ]
-  },
-  {
-    "text": "Hospodyň čisto hospodařství chysto, robi ale gazda v hnoji, s jeho stotkem dobře stoji.",
-    "tags": [
-      "hospodářství"
     ]
   },
   {
@@ -47014,16 +47603,6 @@
     "meaning": "Ženský pláč, babí zlost i psí kulhání nejsou vážné ani trvalé. Přísloví říká, že tyto projevy brzy pominou a nemají se brát příliš vážně."
   },
   {
-    "text": "U blázna kord, u ženy pláč, u psa moč, u koně lejno: to když chtí, hned jest hotovo.",
-    "tags": [
-      "zvířata",
-      "hloupost",
-      "smutek",
-      "koně",
-      "psi"
-    ]
-  },
-  {
     "text": "Ženský pláč, kočičí slzy.",
     "tags": [
       "smutek"
@@ -47275,15 +47854,6 @@
     "text": "Vdovy za muž hotovy.",
     "tags": [
       "manželství",
-      "vdovství"
-    ]
-  },
-  {
-    "text": "Kdo vdovu béře, jakoby staré poctivice koupil na trhu; kdož ví, kdo v nich chodil?",
-    "tags": [
-      "obchod",
-      "manželství",
-      "poctivost",
       "vdovství"
     ]
   },
@@ -47583,12 +48153,6 @@
     ]
   },
   {
-    "text": "Jede-li kdo z příbuzných ženiných, vrata otvírej, a jede-li kdo z mužových, vrata zavírej.",
-    "tags": [
-      "domácí život"
-    ]
-  },
-  {
     "text": "Dokud živi rodičové, cti je, a za mrtvé modli se.",
     "tags": [
       "víra",
@@ -47715,24 +48279,6 @@
   },
   {
     "text": "Ačtě i štíře, od srdce je.",
-    "tags": [
-      "domácí život"
-    ]
-  },
-  {
-    "text": "I cikáně své matce vzácné (milé).",
-    "tags": [
-      "domácí život"
-    ]
-  },
-  {
-    "text": "I cikán cikáňata miluje.",
-    "tags": [
-      "láska"
-    ]
-  },
-  {
-    "text": "Cikáňata černy jak čírťata, a cikán je přece rád má.",
     "tags": [
       "domácí život"
     ]
@@ -47915,10 +48461,15 @@
     ]
   },
   {
-    "text": "Malé děti, malá starost.",
+    "text": "Malé děti, malá starost, velké děti, velká starost.",
     "tags": [
       "rodina",
       "starosti"
+    ],
+    "source": "internet",
+    "meaning": "S dospíváním dětí rostou také rozsah a závažnost rodičovských starostí.",
+    "alternatives": [
+      "Malé děti, malá starost."
     ]
   },
   {
@@ -47983,7 +48534,9 @@
       "rodina",
       "chudoba",
       "výchova"
-    ]
+    ],
+    "meaning": "Rodičovská obětavost často převyšuje ochotu dospělých dětí pečovat o rodiče.",
+    "source": "internet"
   },
   {
     "text": "Jeden otec deset synův vychová, ale deset synův jednoho otce neuživí.",
@@ -48055,7 +48608,9 @@
     "text": "I na dobré švestce pouchr roste.",
     "tags": [
       "domácí život"
-    ]
+    ],
+    "meaning": "I v dobrém prostředí se může objevit chyba nebo špatný jedinec.",
+    "source": "internet"
   },
   {
     "text": "Nos nemůž uťať býti, aby ústa nebyla zkrvácena.",
@@ -48087,13 +48642,6 @@
     "text": "Jaká matka, taková dcerka.",
     "tags": [
       "rodina"
-    ]
-  },
-  {
-    "text": "Podobné sobě své syny mívá otec všemi činy; dcera pak následuje zas šlepějí matky každý čas.",
-    "tags": [
-      "rodina",
-      "čas"
     ]
   },
   {
@@ -48158,12 +48706,6 @@
     ]
   },
   {
-    "text": "Jaky život, taky čin, jaky otec, taky syn, jaky komin, taky dym; jaky tata, taky Franta, jaka mama, taka Hana.",
-    "tags": [
-      "rodina"
-    ]
-  },
-  {
     "text": "Jakovéž semeno, takovéž plemeno.",
     "tags": [
       "domácí život"
@@ -48191,7 +48733,9 @@
     "text": "Na dubě nerostou než žaludy.",
     "tags": [
       "domácí život"
-    ]
+    ],
+    "meaning": "Potomstvo a výsledky odpovídají svému původu.",
+    "source": "internet"
   },
   {
     "text": "Nedaleko od stromu jablka padají.",
@@ -48200,9 +48744,14 @@
     ]
   },
   {
-    "text": "Jablko nerado daleko padá od jabloně (od štěpu): nemůže-liť jináč, ale špičkou se k němu obrátí.",
+    "text": "Jablko nedaleko stromu padne; pakliť padne, rádo se zase špičkou obrátí.",
     "tags": [
       "domácí život"
+    ],
+    "source": "internet",
+    "meaning": "Děti obvykle připomínají své rodiče povahou a chováním.",
+    "alternatives": [
+      "Jablko nerado daleko padá od jabloně (od štěpu): nemůže-liť jináč, ale špičkou se k němu obrátí."
     ]
   },
   {
@@ -48250,7 +48799,9 @@
     "tags": [
       "domácí život",
       "ptáci"
-    ]
+    ],
+    "meaning": "Potomci obvykle přejímají vlastnosti a povahu svých rodičů.",
+    "source": "internet"
   },
   {
     "text": "Orel orla plodí, a sova sovu rodí.",
@@ -48274,7 +48825,9 @@
       "domácí život",
       "zvířata",
       "kočky"
-    ]
+    ],
+    "meaning": "Potomci zpravidla přejímají přirozené vlastnosti svého původu.",
+    "source": "internet"
   },
   {
     "text": "Od losa lůsata, a od svině prasata.",
@@ -48328,9 +48881,14 @@
     ]
   },
   {
-    "text": "Vzácných předkův potomek často bývá holomek.",
+    "text": "Vzácných předků potomek často bývá holomek.",
     "tags": [
       "domácí život"
+    ],
+    "source": "internet",
+    "meaning": "Slavný původ nezaručuje schopnosti ani dobrý charakter potomků.",
+    "alternatives": [
+      "Vzácných předkův potomek často bývá holomek."
     ]
   },
   {
@@ -48499,7 +49057,9 @@
     "text": "Kam strom ohýbáš, tam roste.",
     "tags": [
       "domácí život"
-    ]
+    ],
+    "meaning": "Výchova a vedení v mládí určují další směřování člověka.",
+    "source": "internet"
   },
   {
     "text": "Strom jak vzroste, tak stojí.",
@@ -48935,9 +49495,14 @@
     ]
   },
   {
-    "text": "Jak staří dělají, tak se mladí od nich učí.",
+    "text": "Jak staří dělají, tak se od nich mladí učí.",
     "tags": [
       "mládí a stáří"
+    ],
+    "source": "internet",
+    "meaning": "Mladí přejímají chování podle příkladu starších.",
+    "alternatives": [
+      "Jak staří dělají, tak se mladí od nich učí."
     ]
   },
   {
@@ -49478,9 +50043,14 @@
     ]
   },
   {
-    "text": "Kdo hosta rád vidí, i psíka jeho nakrmí.",
+    "text": "Kdo hosta rád vidí, i psa jeho nakrmí.",
     "tags": [
       "hosté a sousedé"
+    ],
+    "source": "internet",
+    "meaning": "Upřímná pohostinnost zahrnuje i péči o hostovy průvodce a potřeby.",
+    "alternatives": [
+      "Kdo hosta rád vidí, i psíka jeho nakrmí."
     ]
   },
   {
@@ -49489,7 +50059,9 @@
       "hosté a sousedé",
       "chvála a pověst",
       "čest"
-    ]
+    ],
+    "meaning": "Způsob přijetí odpovídá tomu, jak si host svým jednáním zaslouží úctu.",
+    "source": "internet"
   },
   {
     "text": "Byl-li by větší host, byla by i větší čest.",
@@ -49548,7 +50120,9 @@
       "hosté a sousedé",
       "jídlo",
       "chléb"
-    ]
+    ],
+    "meaning": "Slušného hosta přijmi pohostinně, hrubému návštěvníkovi nastav hranice.",
+    "source": "internet"
   },
   {
     "text": "Vida jámu, v ni se nekoť, nezván pak na hody nechod.",
@@ -49624,7 +50198,9 @@
     "text": "Host první den zlato, druhý den stříbro, a třetí měď: honem domů jeď.",
     "tags": [
       "hosté a sousedé"
-    ]
+    ],
+    "meaning": "Dlouhý pobyt hosta postupně zatěžuje hostitele.",
+    "source": "internet"
   },
   {
     "text": "Host a ryba třetího dne smrdí.",
@@ -49814,13 +50390,6 @@
   {
     "text": "Hospodářství neřestné škodné a nečestné.",
     "tags": [
-      "hospodářství"
-    ]
-  },
-  {
-    "text": "Špatný hospodář, který mluví: Po náš věk bude, a po nás třebať ani tráva nerostla.",
-    "tags": [
-      "řeč",
       "hospodářství"
     ]
   },
@@ -50068,9 +50637,14 @@
     ]
   },
   {
-    "text": "Chceš-li s pole bráti, musíš na ně dáti.",
+    "text": "Chceš-li z pole bráti, musíš na ně dáti.",
     "tags": [
       "hospodářství"
+    ],
+    "source": "internet",
+    "meaning": "Chceš-li něco získat, musíš nejprve vložit práci a prostředky.",
+    "alternatives": [
+      "Chceš-li s pole bráti, musíš na ně dáti."
     ]
   },
   {
@@ -50085,13 +50659,6 @@
     "tags": [
       "hospodářství"
     ]
-  },
-  {
-    "text": "Kdo něvyndě ze dvora, tyn je slabo podpora; kdo je v poli pilny, podpůrca je silny.",
-    "tags": [
-      "práce"
-    ],
-    "meaning": "Kdo nevyjde z dvora, je slabou oporou; kdo je pilný v poli, je oporou silnou. Úspěch hospodáře závisí na tom, jak se činí venku."
   },
   {
     "text": "Na černéj roli obilé se rodí.",
@@ -50245,12 +50812,6 @@
     "meaning": "Neztrácí čas ten, kdo pracuje na dlouhodobém výnosu; setba se postará o budoucí úrodu."
   },
   {
-    "text": "Když jař seješ, oddechni si, a kam chceš, se ohlídni; když ozim seješ, slítne-li klobouk s hlavy, ani ho nezdvihni.",
-    "tags": [
-      "hospodářství"
-    ]
-  },
-  {
     "text": "Kdo v dešti seče, za sucha sklízí.",
     "tags": [
       "úroda a počasí"
@@ -50267,12 +50828,6 @@
     "text": "Žito třeba do popela, jen když v čas.",
     "tags": [
       "čas"
-    ]
-  },
-  {
-    "text": "Žito dvě neděle se zelená, dvě neděle se metá, dvě neděle odkvetá, dvě neděle se zamlečuje, dvě neděle usychá.",
-    "tags": [
-      "hospodářství"
     ]
   },
   {
@@ -50389,22 +50944,6 @@
     ]
   },
   {
-    "text": "Kde roste stoklasa, živí se sedlák i chasa; kde roste metlice, neuživí se ani slepice.",
-    "tags": [
-      "hospodářství",
-      "zvířata"
-    ]
-  },
-  {
-    "text": "Roste koukol a metlice, bude chleba po Hromnice; modrák a zvonec (svlačec), chlebu konec.",
-    "tags": [
-      "jídlo",
-      "úroda a počasí",
-      "kalendář a svátky",
-      "chléb"
-    ]
-  },
-  {
     "text": "Len do kolen, konopí po uši.",
     "tags": [
       "hospodářství"
@@ -50505,14 +51044,6 @@
       "koně"
     ],
     "meaning": "Staré koňské pořekadlo pokládá čtyři bílé nohy a bílou lysinu na čele za podezřelou kombinaci. Kůň s těmito znaky podle dobové představy jen zřídka býval dobrý."
-  },
-  {
-    "text": "Koně bez proměny (jedné masti) vrať, s jednou chovej, s dvěma dej příteli, s třemi nepříteli, a se čtyřmi honem prodej.",
-    "tags": [
-      "přátelství",
-      "zvířata",
-      "koně"
-    ]
   },
   {
     "text": "Kdo na bílém koni neseděl, neseděl na dobrém.",
@@ -50777,14 +51308,6 @@
     ]
   },
   {
-    "text": "Kdo chce šest párů holubů při domě přichovať, ten musí ze chléva jednu krávu odprodať.",
-    "tags": [
-      "hospodářství",
-      "zvířata",
-      "ptáci"
-    ]
-  },
-  {
     "text": "Kde myši, tu zloději.",
     "tags": [
       "krádež"
@@ -50946,7 +51469,9 @@
     "tags": [
       "rodina",
       "ztráta"
-    ]
+    ],
+    "meaning": "Když odpovědnost sdílí příliš mnoho lidí, může péče úplně selhat.",
+    "source": "internet"
   },
   {
     "text": "Kde mnoho bab, dítě nezůstane bez průtrže.",
@@ -51026,7 +51551,10 @@
       "domov",
       "kočky"
     ],
-    "meaning": "Když chybí dohled nebo autorita, ostatní se uvolní a dělají si, co chtějí. Říká se o podřízených, kteří využijí nepřítomnosti šéfa."
+    "meaning": "Když chybí dohled nebo autorita, ostatní se uvolní a dělají si, co chtějí. Říká se o podřízených, kteří využijí nepřítomnosti šéfa.",
+    "alternatives": [
+      "Když není kocour doma, myši mají pré."
+    ]
   },
   {
     "text": "Když kocour přijde, myši v kout lezou.",
@@ -51413,7 +51941,9 @@
     "text": "Co prudce běží, skoro dobíhá.",
     "tags": [
       "hospodářství"
-    ]
+    ],
+    "meaning": "Příliš prudké nasazení se rychle vyčerpá.",
+    "source": "internet"
   },
   {
     "text": "Pozdní chovatlivost na dně při počepí.",
@@ -51451,7 +51981,9 @@
       "hospodářství",
       "zvířata",
       "koně"
-    ]
+    ],
+    "meaning": "Když nemáš ideální prostředky, využij skromnější dostupnou možnost.",
+    "source": "internet"
   },
   {
     "text": "Nemáš-li (není-li) zvůle, přestaň na mále.",
@@ -51476,10 +52008,15 @@
     ]
   },
   {
-    "text": "Víc se nenatahuj, než se můžes přikrýti.",
+    "text": "Nohy natahuj, jen co peřina stačí.",
     "tags": [
       "hospodářství"
-    ]
+    ],
+    "alternatives": [
+      "Víc se nenatahuj, než se můžes přikrýti."
+    ],
+    "meaning": "Žij a utrácej podle svých skutečných možností.",
+    "source": "internet"
   },
   {
     "text": "Jakou duchnu máš, tak lehni, tak pod ní se obrať, stěhni.",
@@ -51835,13 +52372,17 @@
     "text": "Troška k trošce dělá trochu.",
     "tags": [
       "hospodářství"
-    ]
+    ],
+    "meaning": "I drobné příspěvky se postupně nasčítají v užitečný celek.",
+    "source": "internet"
   },
   {
     "text": "Zrnkem po zrnku kuřátko naplní svoje volátko.",
     "tags": [
       "hospodářství"
-    ]
+    ],
+    "meaning": "Trpělivým shromažďováním drobností lze uspokojit velkou potřebu.",
+    "source": "internet"
   },
   {
     "text": "Zrnko po zrnku nasbíráš mírku.",
@@ -51856,9 +52397,14 @@
     ]
   },
   {
-    "text": "Z kapek moře.",
+    "text": "Z kapek moře z haléřů miliony.",
     "tags": [
       "hospodářství"
+    ],
+    "source": "internet",
+    "meaning": "Drobné příspěvky se postupně mohou nahromadit ve velký celek.",
+    "alternatives": [
+      "Z kapek moře."
     ]
   },
   {
@@ -51951,11 +52497,16 @@
     "meaning": "Mnoho drobností dohromady dokáže člověka vyčerpat a zlomit. Říká se o nepatrných, ale nekonečných zátěžích."
   },
   {
-    "text": "Dej pozor (pamatuj, ohlížej se) na zadní kola.",
+    "text": "Mysli na zadní kolečka.",
     "tags": [
       "opatrnost",
       "paměť"
-    ]
+    ],
+    "alternatives": [
+      "Dej pozor (pamatuj, ohlížej se) na zadní kola."
+    ],
+    "meaning": "Vytvářej si rezervu pro budoucí potřeby a nesnáze.",
+    "source": "internet"
   },
   {
     "text": "Zítra také den bude.",
@@ -52015,7 +52566,9 @@
     "text": "Není každý den posvícení.",
     "tags": [
       "hospodářství"
-    ]
+    ],
+    "meaning": "Příjemná období se střídají s obyčejnými či obtížnými dny.",
+    "source": "internet"
   },
   {
     "text": "Nejsou každý den vánoce.",
@@ -52033,7 +52586,9 @@
     "text": "Schované se hodí.",
     "tags": [
       "hospodářství"
-    ]
+    ],
+    "meaning": "Věci odložené do zásoby mohou později přijít vhod.",
+    "source": "internet"
   },
   {
     "text": "Odložené se neztratí.",
@@ -52097,7 +52652,9 @@
     "tags": [
       "hospodářství",
       "roční období"
-    ]
+    ],
+    "meaning": "Na budoucí potřeby se připravuj s dostatečným předstihem.",
+    "source": "internet"
   },
   {
     "text": "Nezahazuj starého šatu, dokud jsi nového nezjednal.",
@@ -52181,7 +52738,9 @@
     "text": "Oheň a voda dobří jsou sluhové, ale zlí pánové.",
     "tags": [
       "hospodářství"
-    ]
+    ],
+    "meaning": "Užitečné síly mohou způsobit velkou škodu, když se vymknou kontrole.",
+    "source": "internet"
   },
   {
     "text": "Oheň svatý se mstí, kdo ho nectí.",
@@ -52528,16 +53087,6 @@
     "meaning": "Stará lednová pranostika považuje častý déšť za předzvěst úmrtí. „Kněžská obora“ je její černohumorné pojmenování hřbitova."
   },
   {
-    "text": "Na Nový rok o slepičí krok, na Tři krále o skok dále, na Hromnice o hodinu více (přibývá dne).",
-    "tags": [
-      "čas",
-      "vláda",
-      "úroda a počasí",
-      "kalendář a svátky"
-    ],
-    "meaning": "Pranostika o prodlužování dne: po Novém roce přibývá světla o slepičí krok, po Třech králích o skok a na Hromnice o celou hodinu."
-  },
-  {
     "text": "Přibývá dne, přibývá i zimy.",
     "tags": [
       "hospodářství",
@@ -52648,16 +53197,6 @@
     "meaning": "Podle pranostiky se má kolem Hromnic ozvat skřivan, třebaže ještě hrozí silné mrazy. Jeho zpěv je tu časným znamením blížícího se jara."
   },
   {
-    "text": "Jak dlouho skřivánek před Hromnicemi zpívá, tak dlouho bude po Hromnicích mlčeti.",
-    "tags": [
-      "úroda a počasí",
-      "kalendář a svátky",
-      "mlčení",
-      "ptáci"
-    ],
-    "meaning": "Pranostika: předčasné teplo před Hromnicemi (2. února) se zaplatí stejně dlouhou zimou po nich."
-  },
-  {
     "text": "Prejdou Hromnice, konec sanice.",
     "tags": [
       "úroda a počasí",
@@ -52742,12 +53281,6 @@
     "tags": [
       "kalendář a svátky",
       "zvířata"
-    ]
-  },
-  {
-    "text": "Svatý Petr za stolem nechává na holém, a teprv v okovech posýlá sedlákovi výsluhy.",
-    "tags": [
-      "hospodářství"
     ]
   },
   {
@@ -52985,14 +53518,6 @@
       "hloupost",
       "hospodářství",
       "kalendář a svátky"
-    ]
-  },
-  {
-    "text": "Dy je na sv. Josef mraz, to jich bude ešče 40, a něsu škodlive; dy něni, to jich je bez počtu, a su škodlive.",
-    "tags": [
-      "úroda a počasí",
-      "kalendář a svátky",
-      "škoda"
     ]
   },
   {
@@ -53303,12 +53828,6 @@
     "meaning": "Májové hromy nevěstí nic zlého a nedělají starosti. „Trampoty“ jsou starosti, nepříjemnosti."
   },
   {
-    "text": "Roj, který se v máji rojí, za plný vůz sena stojí; v červnu rojení nestojí za zvonění.",
-    "tags": [
-      "hospodářství"
-    ]
-  },
-  {
     "text": "Boris, slavičí den.",
     "tags": [
       "hospodářství"
@@ -53484,21 +54003,6 @@
     ]
   },
   {
-    "text": "Od Jana Křtitele běží slunce k zimě a léto k horku; a od Jana Evangelisty obrací se slunce k létu a zima k mrazům.",
-    "tags": [
-      "víra",
-      "úroda a počasí",
-      "roční období"
-    ]
-  },
-  {
-    "text": "Kukačka po sv. Janu za kolik dní kuká, za tolik grošův (nyní snad zlatých) žito bude.",
-    "tags": [
-      "peníze",
-      "kalendář a svátky"
-    ]
-  },
-  {
     "text": "Před sv. Janem modli se o déšť; po sv. Janě přicházíť bez modlení.",
     "tags": [
       "kalendář a svátky",
@@ -53619,12 +54123,6 @@
     ]
   },
   {
-    "text": "Svatý Vít kořen štíp, sv. Petr, ten ho natrh, sv. Prokop kořen dokop, sv. Markyta vede žence do žita.",
-    "tags": [
-      "hospodářství"
-    ]
-  },
-  {
     "text": "Svatá Markyta strčí srp do žita (vede žence do žita).",
     "tags": [
       "hospodářství"
@@ -53669,14 +54167,6 @@
     "text": "Svatá Anna, chladno z rána.",
     "tags": [
       "hospodářství"
-    ]
-  },
-  {
-    "text": "Březen, duben, máj a červen víno v sudech suší; červenec, srpen, září, říjen hospodáře kruší.",
-    "tags": [
-      "hospodářství",
-      "pití",
-      "víno"
     ]
   },
   {
@@ -53940,7 +54430,7 @@
     ]
   },
   {
-    "text": "Šimona Judy – biče schovejte, kyje řezejte, rukavice vyndejte.",
+    "text": "Šimona Judy, biče schovejte, kyje řezejte, rukavice vyndejte.",
     "tags": [
       "hospodářství"
     ]
@@ -54280,25 +54770,11 @@
     ]
   },
   {
-    "text": "Ďábel svodil Evu po vlasku, Eva Adama po česku, Bůh jim zlořečil po německu, anděl pak je z ráje vyhnal po uhersku.",
-    "tags": [
-      "víra",
-      "dějiny a národy"
-    ]
-  },
-  {
     "text": "Do chléva Němkyně, Češka do kuchyně, Francouzka do lože.",
     "tags": [
       "dějiny a národy"
     ],
     "meaning": "Staré žertovné přirovnání národních povah žen: Němka prý nejlépe obstará hospodářství, Češka kuchyni a Francouzka milostný život. Dobový stereotyp, dnes se uvádí jen jako kuriozita."
-  },
-  {
-    "text": "Těchto časův divnější jest na pražském mostě pravý Čech, nežli jelen se zlatými rohy.",
-    "tags": [
-      "dějiny a národy"
-    ],
-    "meaning": "Dobová narážka na to, jak vzácně se na pražském mostě podle mluvčího potkával člověk, kterého pokládal za pravého Čecha. Jelen se zlatými rohy tu představuje zázračnou raritu."
   },
   {
     "text": "Čechové se zvlašili, peníze se jim zplašily.",
@@ -54445,27 +54921,6 @@
     ]
   },
   {
-    "text": "Nikdy v Polště se nedostává železa na zbraň, rytířstva na. koně, žita, Inu a pšenice, plné vína pivnice.",
-    "tags": [
-      "válka a mír",
-      "pití",
-      "zvířata",
-      "koně",
-      "víno"
-    ]
-  },
-  {
-    "text": "V naší Koruně jest z boží milosti žita na chléb v hojnosti, len na plátno, ovce na sukno, dost koní všudy, na zbraň i rudy.",
-    "tags": [
-      "víra",
-      "válka a mír",
-      "jídlo",
-      "zvířata",
-      "koně",
-      "chléb"
-    ]
-  },
-  {
     "text": "Kde dva Poláci, tu tri strany.",
     "tags": [
       "dějiny a zvyky"
@@ -54551,13 +55006,6 @@
       "dějiny a národy"
     ],
     "meaning": "Straš někoho jiného, mě nezastrašíš; ukrajinské a polské „strachy na Lachy“ z dob Chmelnického, kdy Kozáci Poláky tiskli, takže hrozby se obracejí na ty, kdo se bojí."
-  },
-  {
-    "text": "Cikán a Polák jedna baba.",
-    "tags": [
-      "dějiny a národy"
-    ],
-    "meaning": "Dobový hanlivý výrok, který hází Romy a Poláky do jednoho pytle. Je založený na tehdejších předsudcích o obou skupinách."
   },
   {
     "text": "Hej Poláci, po Sluč jsou naši.",
@@ -54976,12 +55424,6 @@
     ]
   },
   {
-    "text": "Moskal s chochla (Malorusa) pás prodal na jarmarku za tři groše, a chochla darmo prihodil.",
-    "tags": [
-      "peníze"
-    ]
-  },
-  {
     "text": "Kozel vede stádo beranův, jak Tatar chochlův do Krymu.",
     "tags": [
       "dějiny a národy",
@@ -55028,15 +55470,6 @@
     ]
   },
   {
-    "text": "Chceš-li se pomstiti Turku, pros Boha, by pil pálenku; chceš-li se pomstiti Srbu, pros Boha, by ho poslal mezi hajduky.",
-    "tags": [
-      "víra",
-      "dějiny a národy",
-      "opilství",
-      "pomsta"
-    ]
-  },
-  {
     "text": "Hleď se starého Turka a mladého Srba.",
     "tags": [
       "dějiny a národy",
@@ -55044,23 +55477,9 @@
     ]
   },
   {
-    "text": "Banát a Bačka, kdy úroda, celé Uhry nakrmí; pakli hlad trpí Banát a Bačka, z celých Uher koše vyprázdní.",
-    "tags": [
-      "dějiny a národy",
-      "úroda a počasí",
-      "hlad"
-    ]
-  },
-  {
     "text": "Hercegovina všecky země zplemenila, jen sebe nerozplemenila.",
     "tags": [
       "dějiny a zvyky"
-    ]
-  },
-  {
-    "text": "Ne Žmudskou bečkou hněv sluší měřiti, alebrž Krakovským korcem, a i to sháněnou měrou.",
-    "tags": [
-      "hněv"
     ]
   },
   {
@@ -55093,35 +55512,6 @@
       "dějiny a národy"
     ],
     "meaning": "Dobový výrok staví domnělou přízeň Němce vůči Čechovi na roveň nemožnému obrazu hada, který se zahřívá na ledě. Vychází z předsudku o nepřátelství mezi národy."
-  },
-  {
-    "text": "Mol v drahém rúše, živá ryba na suše, vlk mezi kozami, žák mezi pannami, kozel v zahradě, Němec v české radě: kde to přebývá, tu dobře nebývá.",
-    "tags": [
-      "dějiny a národy",
-      "učení",
-      "rada",
-      "zvířata",
-      "vlci"
-    ],
-    "meaning": "Výčet nepatřičných kombinací, jako ryba na souši nebo kozel v zahradě. Kde je něco takového, tam to dobře nedopadne."
-  },
-  {
-    "text": "S ptákem dítě, kmet s mladicí, Němec s malvazím v láhvici, což nekřesťansky zachází, když jim do rukou přichází.",
-    "tags": [
-      "mládí a stáří",
-      "rodina",
-      "dějiny a národy",
-      "zvířata",
-      "ptáci"
-    ]
-  },
-  {
-    "text": "Kde Němkyně, tam faleš; kde Cigánka, tam krádež.",
-    "tags": [
-      "lež a klam",
-      "krádež",
-      "dějiny a národy"
-    ]
   },
   {
     "text": "Německá růžička druhdy žertovně bodlák slove.",
@@ -55250,16 +55640,6 @@
     ]
   },
   {
-    "text": "Němi Němci za horami, němy ryby pod vodami; nás však obdařil Bůh chlebem hojným, jazykem přístojným.",
-    "tags": [
-      "víra",
-      "řeč",
-      "dějiny a národy",
-      "jídlo",
-      "chléb"
-    ]
-  },
-  {
     "text": "Pokoj s Němci, jak vlku s ovcí.",
     "tags": [
       "zvířata",
@@ -55359,19 +55739,6 @@
     ]
   },
   {
-    "text": "Hejtman (vůdce) má míti španělské nohy, aby, kde jednou je postavil, neustoupil.",
-    "tags": [
-      "dějiny a zvyky"
-    ]
-  },
-  {
-    "text": "Cikán jako Valach jedno to: psí vira.",
-    "tags": [
-      "dějiny a zvyky",
-      "zvířata"
-    ]
-  },
-  {
     "text": "Z Valacha takový přítel, jaká z tykve nádoba.",
     "tags": [
       "přátelství"
@@ -55387,12 +55754,6 @@
     "text": "Řek poví pravdu jednou za rok.",
     "tags": [
       "pravda"
-    ]
-  },
-  {
-    "text": "Cikána ošidí Žid, Žida Řek, a Řeka čert.",
-    "tags": [
-      "hřích"
     ]
   },
   {
@@ -55414,89 +55775,18 @@
     ]
   },
   {
-    "text": "Cikána mýti (marná práce).",
-    "tags": [
-      "práce"
-    ]
-  },
-  {
-    "text": "Černý jak cikán.",
-    "tags": [
-      "dějiny a zvyky"
-    ]
-  },
-  {
-    "text": "Ač jsme černí, nejsme přece cikáni.",
-    "tags": [
-      "dějiny a zvyky"
-    ]
-  },
-  {
-    "text": "Cikánské plémě.",
-    "tags": [
-      "dějiny a zvyky"
-    ]
-  },
-  {
-    "text": "Cikaniti koho (podvésti, klamati).",
-    "tags": [
-      "lež a klam"
-    ]
-  },
-  {
-    "text": "Statek rozcikaniti (promrhati).",
-    "tags": [
-      "dějiny a zvyky",
-      "marnotratnost"
-    ]
-  },
-  {
-    "text": "Zlý by z tebe byl cikán, neumíš hádati.",
-    "tags": [
-      "dějiny a zvyky"
-    ]
-  },
-  {
-    "text": "Přivykl psotě, jako cikán šibenici.",
-    "tags": [
-      "chudoba"
-    ]
-  },
-  {
     "text": "Jde mu to jako cikánovi orba.",
     "tags": [
       "hospodářství"
-    ]
+    ],
+    "meaning": "O práci, která někomu nejde, protože ji neumí nebo na ni není zvyklý. Staré přirovnání vychází z předsudku o údajné neschopnosti Romů hospodařit, nikoli z vrozených schopností skupiny."
   },
   {
     "text": "Cikán cikánem se dokládá.",
     "tags": [
       "dějiny a zvyky"
-    ]
-  },
-  {
-    "text": "Cikán děti vede za svědky.",
-    "tags": [
-      "rodina"
-    ]
-  },
-  {
-    "text": "Máš, cikáne, svědky? – Mám, ženu a dítky.",
-    "tags": [
-      "rodina"
-    ]
-  },
-  {
-    "text": "U cikána dvě kůže: jednou-li platí, vždy ještě jedna mu ostane.",
-    "tags": [
-      "dějiny a zvyky"
-    ]
-  },
-  {
-    "text": "Cikán má tři duše: jedna se mnou, druhá s tebou, a třetí s ním.",
-    "tags": [
-      "dějiny a zvyky"
-    ]
+    ],
+    "meaning": "Lhář se dovolává svědectví dalšího lháře, takže takové potvrzení není důvěryhodné. Slovo „cikán“ je zde užito ve starém hanlivém významu „lhář“; toto spojení vychází z dobových předsudků vůči Romům."
   },
   {
     "text": "Žid se šalbě neučil, ale s ní se narodil.",
@@ -55960,18 +56250,6 @@
     "meaning": "Kutná Hora podle rčení prosperuje, dokud je činný její stříbrný důl Osel. Řev Osla žertovně spojuje jméno dolu s jeho provozem."
   },
   {
-    "text": "Slanští holubáři, Litoměřičtí vinaři, Rakovničtí pivovarníci, Žatečtí chmelaři, Prachenští rybáři, Bechynští rybnikáři, Plzenští ovčáci, Čáslavšti koníři.",
-    "tags": [
-      "práce",
-      "pití",
-      "smutek",
-      "zvířata",
-      "ptáci",
-      "pivo"
-    ],
-    "meaning": "Výčet českých měst a toho, čím byla proslulá: holubáři, vinaři, pivovarníci, chmelaři, rybáři, ovčáci či koníři."
-  },
-  {
     "text": "Dovedeš vody na Tábor.",
     "tags": [
       "dějiny a zvyky"
@@ -56177,12 +56455,6 @@
     ]
   },
   {
-    "text": "V Novém Městě (nad Metují) mají břízu na bráně, školu na krámě, faru na chrámě a krčmu v chrámě.",
-    "tags": [
-      "učení"
-    ]
-  },
-  {
     "text": "Koloděje, kde se zlé ženy anebo staré panny přemílají.",
     "tags": [
       "dějiny a zvyky"
@@ -56324,13 +56596,6 @@
     ]
   },
   {
-    "text": "Kdo pochází z Podivína, v tom nebývá nic dobrého, vždyť ani husa z Podivína za nic nestojí.",
-    "tags": [
-      "dějiny a zvyky",
-      "zvířata"
-    ]
-  },
-  {
     "text": "Je z Rychlova - z Pozděchova.",
     "tags": [
       "dějiny a zvyky"
@@ -56370,13 +56635,6 @@
     "text": "Dáti se z Krakova do Varšavy na Lublin.",
     "tags": [
       "dějiny a zvyky"
-    ]
-  },
-  {
-    "text": "Krakovský střevíc, Poznaňská panna, Vislická žemle, Přemyšlské pivo jsou nejlepší.",
-    "tags": [
-      "pití",
-      "pivo"
     ]
   },
   {
@@ -56468,22 +56726,6 @@
     "text": "Kdo má Tučin, Mohylany, počítá se mezi pány.",
     "tags": [
       "dějiny a zvyky"
-    ]
-  },
-  {
-    "text": "Velkopolané jsou velké hlavy, ale malého srdce; Malopolané málo mají rozvahy, a více odvahy; Litva prosta, ale mstiva; Belžanům právo, ne kord svědčí; Bušťané štědří v řečech, ale ne v skutcích.",
-    "tags": [
-      "štědrost",
-      "odvaha",
-      "pomsta"
-    ]
-  },
-  {
-    "text": "Haličané upřímni, ale pyšni; Krakovští do bitvy, ne do rady; Kolomyjčané snášelivi, leč chlubni.",
-    "tags": [
-      "pýcha",
-      "rada",
-      "upřímnost"
     ]
   },
   {
@@ -57331,14 +57573,6 @@
     "meaning": "Měřit sukno zbojnicky, od buku k buku, tedy štědře a bez míry; Jánošík prý tak rozdával naloupené sukno."
   },
   {
-    "text": "Kdyby Ondraš ještě žil, ten by nam jisto pomuh z bidy; ůn by všecky ty fabriky pobuřil.",
-    "meaning": "Řemeslníci na Frýdecku si tím stěžovali na bídu, kterou spojovali s továrnami. Představovali si, že kdyby ještě žil zbojník Ondráš, proti továrnám by rázně zakročil a pomohl jim z nouze.",
-    "tags": [
-      "chudoba",
-      "řemesla"
-    ]
-  },
-  {
     "text": "Parom do tebe!",
     "tags": [
       "dějiny a zvyky"
@@ -57670,7 +57904,7 @@
     ]
   },
   {
-    "text": "Pomáhej pán Bůh, brachu! – Kopám jen hlínu, pane!",
+    "text": "Pomáhej pán Bůh, brachu! Kopám jen hlínu, pane!",
     "tags": [
       "víra",
       "pomoc"
@@ -57899,7 +58133,7 @@
     ]
   },
   {
-    "text": "Měl jsem jíti na posvícení — ale nikdo nepřichází zvát.",
+    "text": "Měl jsem jíti na posvícení, ale nikdo nepřichází zvát.",
     "tags": [
       "humor"
     ]
@@ -57994,15 +58228,6 @@
     "tags": [
       "humor",
       "zvířata",
-      "koně"
-    ]
-  },
-  {
-    "text": "Vůz v lese, chomout za lesem v bahně, a kobylku čerti vzali: jeď pro slámu, kdo můžeš.",
-    "tags": [
-      "hřích",
-      "zvířata",
-      "příroda",
       "koně"
     ]
   },
@@ -58174,15 +58399,6 @@
     "text": "Sním tě, ať se pěníš nebo nepěníš; neboť jsem dal za tě peníz.",
     "tags": [
       "peníze"
-    ]
-  },
-  {
-    "text": "Není to žert, pane Poznaňský, pro jednoho kobylího syna dvanáct cikánův visí.",
-    "tags": [
-      "rodina",
-      "humor",
-      "zvířata",
-      "koně"
     ]
   },
   {
@@ -58494,21 +58710,6 @@
     ]
   },
   {
-    "text": "Z kance na staro řezaného, žida křtěného, vlka doma chovaného, přítele třikrát mířeného, zřídka z toho co dobrého.",
-    "tags": [
-      "domov",
-      "přátelství",
-      "zvířata",
-      "vlci"
-    ]
-  },
-  {
-    "text": "Kanec na staro řezaný, žid křtěný, mnich z kláštera propuštěný, vše to pronárod ničemný.",
-    "tags": [
-      "humor"
-    ]
-  },
-  {
     "text": "Čert řekl uhlíři: My oba černi jsme.",
     "tags": [
       "hřích"
@@ -58520,7 +58721,12 @@
       "humor",
       "zvířata",
       "vlci"
-    ]
+    ],
+    "alternatives": [
+      "Sobě ježek kadeřav."
+    ],
+    "meaning": "Každý má sklon považovat vlastní vzhled a vlastnosti za dobré.",
+    "source": "internet"
   },
   {
     "text": "Sobě žába rusá, sobě srna lysá.",
@@ -58562,12 +58768,6 @@
     ]
   },
   {
-    "text": "Divná věc! rubl utíká, sto honí, a potkne-li se pět set, tedy náš nepřeceněný vaz zlomí.",
-    "tags": [
-      "humor"
-    ]
-  },
-  {
     "text": "Už se o tele staráme, a ještě kráva kdesi.",
     "tags": [
       "humor",
@@ -58593,21 +58793,9 @@
     ]
   },
   {
-    "text": "To mám muže! nikam se mi hoditi nechce: do postele tuze malý, a do kolébky tuze velký.",
-    "tags": [
-      "humor"
-    ]
-  },
-  {
     "text": "Nemohou ani očí napásti na sobě: pán dveřmi, a paní oknem.",
     "tags": [
       "humor"
-    ]
-  },
-  {
-    "text": "Dítě se vrhne po ujci za Dunajem: čemuž by nemělo býti podobno domácímu lokajovi?",
-    "tags": [
-      "rodina"
     ]
   },
   {
@@ -58759,12 +58947,6 @@
     "tags": [
       "rodina",
       "pomoc"
-    ]
-  },
-  {
-    "text": "Každá víra jináč světí: Turci v pátek, židé v sobotu, křesťané v neděli, a ševci v pondělí.",
-    "tags": [
-      "řemesla"
     ]
   },
   {
@@ -59414,14 +59596,14 @@
     ]
   },
   {
-    "text": "Rozumy — chytrost nejsou žádné čáry.",
+    "text": "Rozumy (chytrost) nejsou žádné čáry.",
     "tags": [
       "rozum",
       "pověry"
     ]
   },
   {
-    "text": "Umí více než hrách vařiti — víc než chléb (kaši) jísti.",
+    "text": "Umí více než hrách vařiti, víc než chléb (kaši) jísti.",
     "tags": [
       "jídlo",
       "hra a hazard",
@@ -60894,7 +61076,7 @@
     ]
   },
   {
-    "text": "Na zadní kola mysliti pamatovati – se ohlížeti.",
+    "text": "Na zadní kola mysliti, pamatovati, se ohlížeti.",
     "tags": [
       "lidské vlastnosti",
       "paměť"
@@ -63075,12 +63257,6 @@
     ]
   },
   {
-    "text": "Cikána by opálil.",
-    "tags": [
-      "lidské vlastnosti"
-    ]
-  },
-  {
     "text": "Voditi koho za nos.",
     "tags": [
       "lidské vlastnosti"
@@ -63704,12 +63880,6 @@
     "text": "Nenechá, by hořelo.",
     "tags": [
       "lidské vlastnosti"
-    ]
-  },
-  {
-    "text": "Krade jako cikán.",
-    "tags": [
-      "krádež"
     ]
   },
   {
@@ -64370,10 +64540,15 @@
     ]
   },
   {
-    "text": "Kmotr Všudybyl.",
+    "text": "Všude byl, všechno ví.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "alternatives": [
+      "Kmotr Všudybyl."
+    ],
+    "meaning": "Posměšně označuje člověka, který předstírá všestranné znalosti a zkušenosti.",
+    "source": "internet"
   },
   {
     "text": "Honiti vítr v noci po ulicích.",
@@ -65582,7 +65757,9 @@
     "text": "Pyšní se, že má nový pytel na maso.",
     "tags": [
       "pýcha"
-    ]
+    ],
+    "meaning": "Posmívá se člověku, který se pyšní novým oblečením bez jiné skutečné hodnoty.",
+    "source": "internet"
   },
   {
     "text": "Každé koště jest hezké, když je ustrojí.",
@@ -66157,13 +66334,6 @@
       "lidské vlastnosti",
       "zvířata",
       "kočky"
-    ]
-  },
-  {
-    "text": "Chodí jako uklibaný kohout jako nedomrlé prase jako můra - jako sup jako zařezaný jako by ho vyssál.",
-    "tags": [
-      "lidské vlastnosti",
-      "zvířata"
     ]
   },
   {
@@ -67073,10 +67243,15 @@
     ]
   },
   {
-    "text": "Jako kohout na svém smetišti.",
+    "text": "Kohout na svém smetišti rád kokrhá a zpívá.",
     "tags": [
       "lidské vlastnosti",
       "zvířata"
+    ],
+    "source": "internet",
+    "meaning": "Ve známém domácím prostředí se člověk cítí silný a sebejistý.",
+    "alternatives": [
+      "Jako kohout na svém smetišti."
     ]
   },
   {
@@ -67116,7 +67291,10 @@
     "tags": [
       "lidské vlastnosti"
     ],
-    "meaning": "Setkali se dva stejně zarputilí lidé a nikdo nepovolil. Spor je tvrdý a obě strany škodí."
+    "meaning": "Setkali se dva stejně zarputilí lidé a nikdo nepovolil. Spor je tvrdý a obě strany škodí.",
+    "alternatives": [
+      "Padla kosa na kámen."
+    ]
   },
   {
     "text": "Já kámen, on kosa (tvrdé na tvrdé).",
@@ -68307,7 +68485,8 @@
     "tags": [
       "rozum",
       "zvířata"
-    ]
+    ],
+    "meaning": "Posměšně o člověku, který dané věci vůbec nerozumí. Nářeční „těla“ zde znamená tele; přirovnání k žábě s ořechem a teleti u varhan zdůrazňují neznalost. Přirovnání Roma k člověku, který nerozumí orbě, odráží dobové předsudky vůči této skupině."
   },
   {
     "text": "Cizím oslem býti, těžká věc.",
@@ -68692,9 +68871,14 @@
     ]
   },
   {
-    "text": "Kde ho ráno postaví, tam ho večer najde.",
+    "text": "Kam ho ráno postavíš, tam ho večer najdeš.",
     "tags": [
       "lidské vlastnosti"
+    ],
+    "source": "internet",
+    "meaning": "Je natolik pasivní, že bez pobídky sám nic neudělá.",
+    "alternatives": [
+      "Kde ho ráno postaví, tam ho večer najde."
     ]
   },
   {
@@ -69155,18 +69339,6 @@
     ]
   },
   {
-    "text": "Nestáti za bobek za babku za hvížď za borovou šišku za mouchu za beladku za šarapatku za dobré slovo.",
-    "tags": [
-      "řeč"
-    ]
-  },
-  {
-    "text": "Ma se k temu, jak cigan k cepu (jak zajic k bubnu); tys majstr pipla.",
-    "tags": [
-      "lidské vlastnosti"
-    ]
-  },
-  {
     "text": "Divoky, jak by v lese urůst.",
     "tags": [
       "lidské vlastnosti",
@@ -69443,7 +69615,9 @@
     "text": "Kněz dvakrát nekáže.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Pozorně poslouchej napoprvé a nečekej, že ti vše zopakují.",
+    "source": "internet"
   },
   {
     "text": "Dvakrát se jedno ve mlýně hude.",
@@ -69886,10 +70060,15 @@
     ]
   },
   {
-    "text": "Do lesa dříví voziti.",
+    "text": "Do lesa dříví nevoz, do moře vody nenos.",
     "tags": [
       "lidské vlastnosti",
       "příroda"
+    ],
+    "source": "internet",
+    "meaning": "Nedělej zbytečnou práci tam, kde je dané věci už dostatek.",
+    "alternatives": [
+      "Do lesa dříví voziti."
     ]
   },
   {
@@ -70116,12 +70295,6 @@
   },
   {
     "text": "Slámu mlátí.",
-    "tags": [
-      "lidské vlastnosti"
-    ]
-  },
-  {
-    "text": "Cikána mýti.",
     "tags": [
       "lidské vlastnosti"
     ]
@@ -70365,9 +70538,14 @@
     ]
   },
   {
-    "text": "Kozla zahradníkem udělati.",
+    "text": "Udělat kozla zahradníkem.",
     "tags": [
       "lidské vlastnosti"
+    ],
+    "source": "internet",
+    "meaning": "Svěřit péči o něco člověku, který má zájem to poškodit či zneužít.",
+    "alternatives": [
+      "Kozla zahradníkem udělati."
     ]
   },
   {
@@ -70383,11 +70561,16 @@
     ]
   },
   {
-    "text": "Stádo ovcí vlku poručiti.",
+    "text": "Není dobré stáda vlku poručiti.",
     "tags": [
       "lidské vlastnosti",
       "zvířata",
       "vlci"
+    ],
+    "source": "internet",
+    "meaning": "Nesvěřuj ochranu věci tomu, kdo ji chce sám zneužít.",
+    "alternatives": [
+      "Stádo ovcí vlku poručiti."
     ]
   },
   {
@@ -70749,14 +70932,6 @@
     "text": "Až dá-li Bůh vlůni.",
     "tags": [
       "víra"
-    ]
-  },
-  {
-    "text": "Jidech v les chtě nabrati hub, mně húby, i nabrach třiesk, mně perník, podšev sněch.",
-    "tags": [
-      "lidské vlastnosti",
-      "sny",
-      "příroda"
     ]
   },
   {
@@ -72416,13 +72591,6 @@
     ]
   },
   {
-    "text": "Ten tam, jako by se zvlčil, jako by ho vlci snědli, - jako by ho čápi sklektali, jako by ho čert vzal.",
-    "tags": [
-      "hřích",
-      "vlci"
-    ]
-  },
-  {
     "text": "Ani dechu ani slechu o něm. Není o něm pohádky.",
     "tags": [
       "starosti a nesnáze"
@@ -72727,12 +72895,6 @@
     ]
   },
   {
-    "text": "Vyprovodili ho cikánským fiřponem.",
-    "tags": [
-      "starosti a nesnáze"
-    ]
-  },
-  {
     "text": "Suché lázně zakusiti.",
     "tags": [
       "starosti a nesnáze"
@@ -72939,12 +73101,6 @@
   },
   {
     "text": "Dal mu na kabát.",
-    "tags": [
-      "starosti a nesnáze"
-    ]
-  },
-  {
-    "text": "Dostal po fifaku, nasbiral hrušek, dostal suchych, vsušili mu jich, očepili ho, až sa mu v očach zatmělo, vzali ho na hajduky.",
     "tags": [
       "starosti a nesnáze"
     ]
@@ -75620,7 +75776,7 @@
     ]
   },
   {
-    "text": "Huba jako melounek, tváře jako slabi – Ruce jako válečky.",
+    "text": "Huba jako melounek, tváře jako slabi; ruce jako válečky.",
     "tags": [
       "válka a mír"
     ]
@@ -75639,12 +75795,6 @@
   },
   {
     "text": "Hubený jako souška.",
-    "tags": [
-      "každodenní život"
-    ]
-  },
-  {
-    "text": "Suchy jak švrček, jak šindel krmny, jakby švrčky jidal, můh by ho sirkum podpáliť.",
     "tags": [
       "každodenní život"
     ]
@@ -76303,10 +76453,15 @@
     ]
   },
   {
-    "text": "Dáť se také vše psáti; neboť papír jest trpěliv.",
+    "text": "Papír snese všechno.",
     "tags": [
       "trpělivost"
-    ]
+    ],
+    "alternatives": [
+      "Dáť se také vše psáti; neboť papír jest trpěliv."
+    ],
+    "meaning": "Napsat lze cokoli, i nepravdu nebo nesplnitelný slib.",
+    "source": "internet"
   },
   {
     "text": "Ústa a srdce mu daleko od sebe stojí.",
@@ -76715,12 +76870,6 @@
     "meaning": "Pomlouvá druhé a štěká na ně jako pes. Říká se o utrhači, který bez přestání osočuje a ohovářuje."
   },
   {
-    "text": "Má hubu jako cikán (jako fena, čubka).",
-    "tags": [
-      "mezilidské vztahy"
-    ]
-  },
-  {
     "text": "Má hubu jako kramář, dryáčník, šlejfíř.",
     "tags": [
       "mezilidské vztahy"
@@ -76740,12 +76889,6 @@
   },
   {
     "text": "Mluví, jako když si do huby nevidí.",
-    "tags": [
-      "řeč"
-    ]
-  },
-  {
-    "text": "Tlachá, co mu slina k hubě připlaví, co slina k ústům přinese (přivede) co na jazyk přijde.",
     "tags": [
       "řeč"
     ]
@@ -77021,12 +77164,6 @@
   },
   {
     "text": "Rád vrzá.",
-    "tags": [
-      "mezilidské vztahy"
-    ]
-  },
-  {
-    "text": "Zazpíval bych, a neumím, a přestati nechci; šel bych domů, nevím kudy, zůstati tu nechci.",
     "tags": [
       "mezilidské vztahy"
     ]
@@ -77748,7 +77885,9 @@
       "mezilidské vztahy",
       "zvířata",
       "vlci"
-    ]
+    ],
+    "meaning": "Právě zmiňovaný člověk se nečekaně objeví.",
+    "source": "internet"
   },
   {
     "text": "Vika míní, a vlk do dveří.",
@@ -80467,12 +80606,6 @@
     ]
   },
   {
-    "text": "Přivykl psotě jako cikán šibenici.",
-    "tags": [
-      "chudoba"
-    ]
-  },
-  {
     "text": "Šestiřada se ho chytá, neb jímá.",
     "tags": [
       "štěstí a životní poměry"
@@ -80519,9 +80652,14 @@
     "meaning": "Bída přichází v celých houfech. Jakmile člověka postihne jedna nesnáz, často se k ní přidávají další."
   },
   {
-    "text": "Jedna bída (psota) druhou honí (stíhá).",
+    "text": "Není vozu, není koní, jedna psota druhou honí.",
     "tags": [
       "chudoba"
+    ],
+    "source": "internet",
+    "meaning": "V nouzi se jednotlivé nedostatky a nesnáze navzájem prohlubují.",
+    "alternatives": [
+      "Jedna bída (psota) druhou honí (stíhá)."
     ]
   },
   {
@@ -80707,7 +80845,9 @@
     "text": "V nouzi Franta dobrý.",
     "tags": [
       "chudoba"
-    ]
+    ],
+    "meaning": "V nouzi přijde vhod i pomoc člověka, kterého bychom jindy přehlíželi.",
+    "source": "internet"
   },
   {
     "text": "Hlava brní, kapsa svrbí.",
@@ -81627,13 +81767,6 @@
     ]
   },
   {
-    "text": "Shledáš, že tu na Janka uhodíš, že nebudeš věděti, ze zadu-li čili z předu zvoní.",
-    "tags": [
-      "štěstí a životní poměry"
-    ],
-    "meaning": "Mluvčí varuje, že druhý narazí na prchlivého člověka a jeho prudká reakce ho úplně zmate. „Uhodit na Janka“ ve starém úsloví znamená narazit na někoho hněvivého."
-  },
-  {
     "text": "Poslední se dsky chytati.",
     "tags": [
       "štěstí a životní poměry"
@@ -82054,9 +82187,14 @@
     ]
   },
   {
-    "text": "Boje se kyje (kyji se vyhýbaje), tresil jsem na palici (ze zlého v horší).",
+    "text": "Chtěje se kyji vyhnouti, trefil jsem na palici.",
     "tags": [
       "strach"
+    ],
+    "source": "internet",
+    "meaning": "Při úniku před jedním zlem člověk narazil na ještě horší.",
+    "alternatives": [
+      "Boje se kyje (kyji se vyhýbaje), tresil jsem na palici (ze zlého v horší)."
     ]
   },
   {
@@ -82066,11 +82204,16 @@
     ]
   },
   {
-    "text": "Skočil (trefil) z bláta do louže.",
+    "text": "Z bláta do louže, z louže pod okap.",
     "tags": [
       "štěstí a životní poměry"
     ],
-    "meaning": "Jedna nepříjemná situace vystřídá druhou stejně špatnou. Říká se, když se někdo vyhne jednomu zlu, ale upadne do jiného."
+    "meaning": "Jedna nepříjemná situace vystřídá druhou stejně špatnou. Říká se, když se někdo vyhne jednomu zlu, ale upadne do jiného.",
+    "source": "internet",
+    "alternatives": [
+      "Z bláta do louže.",
+      "Skočil (trefil) z bláta do louže."
+    ]
   },
   {
     "text": "Z dýmu do ohně padnouti.",
@@ -82626,10 +82769,15 @@
     ]
   },
   {
-    "text": "Loňského sněhu vzpomínati.",
+    "text": "Kdeže loňské sněhy jsou.",
     "tags": [
       "úroda a počasí"
-    ]
+    ],
+    "alternatives": [
+      "Loňského sněhu vzpomínati."
+    ],
+    "meaning": "Minulé časy a jejich poměry jsou nenávratně pryč.",
+    "source": "internet"
   },
   {
     "text": "Vzpomenula babka dědka plakati.",
@@ -83084,10 +83232,15 @@
     "meaning": "Je to nepřípustné, překračuje to míru. Přes čáru znamená za hranou slušnosti."
   },
   {
-    "text": "Z komára vola nebo velblouda udělati.",
+    "text": "Nedělej z komára velblouda.",
     "tags": [
       "každodenní život",
       "zvířata"
+    ],
+    "source": "internet",
+    "meaning": "Nepřeháněj význam drobného problému.",
+    "alternatives": [
+      "Z komára vola nebo velblouda udělati."
     ]
   },
   {
@@ -83333,7 +83486,12 @@
     "text": "Čert jako ďábel, jsou oba černí.",
     "tags": [
       "hřích"
-    ]
+    ],
+    "alternatives": [
+      "Čert jako ďábel, oba jsou černí."
+    ],
+    "meaning": "Dvě různě pojmenované možnosti mohou být stejně špatné.",
+    "source": "internet"
   },
   {
     "text": "Čert na ďáblu jede.",
@@ -83354,9 +83512,14 @@
     ]
   },
   {
-    "text": "Jeden za osmnáct a druhý bez dvou za dvacet.",
+    "text": "Jeden za osmnáct, druhý bez dvou za dvacet.",
     "tags": [
       "každodenní život"
+    ],
+    "source": "internet",
+    "meaning": "Obě možnosti nebo osoby jsou v podstatě stejné, zpravidla stejně špatné.",
+    "alternatives": [
+      "Jeden za osmnáct a druhý bez dvou za dvacet."
     ]
   },
   {
@@ -83943,7 +84106,9 @@
     "text": "Jeden šije, druhý párá.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Jeden něco vytváří a druhý jeho práci ruší nebo ničí.",
+    "source": "internet"
   },
   {
     "text": "Darmo proti vodě plouti.",
@@ -85520,13 +85685,6 @@
     ]
   },
   {
-    "text": "Černé jako labuť, bílé jako havran, rovné (upřímé) jako motovidlo, křivé jako vřeteno.",
-    "tags": [
-      "humor",
-      "ptáci"
-    ]
-  },
-  {
     "text": "Jak by smet’.",
     "tags": [
       "humor"
@@ -85542,13 +85700,16 @@
     "meaning": "Rčení varuje před milostným vztahem s někým z blízkého okolí, například s kolegou nebo sousedem. Případné neshody se totiž snadno přenesou do prostředí, kde se oba dál pravidelně potkávají."
   },
   {
-    "text": "Co je v domě, to se počítá.",
+    "text": "Co je doma, to se počítá.",
     "tags": [
       "domácí život",
       "hospodářství"
     ],
-    "source": "wikiquote",
-    "meaning": "Počítá se jen to, co člověk skutečně má, ne sliby a naděje. Přísloví připomíná, že rozhoduje reálný majetek."
+    "source": "internet",
+    "meaning": "Počítá se jen to, co člověk skutečně má, ne sliby a naděje. Přísloví připomíná, že rozhoduje reálný majetek.",
+    "alternatives": [
+      "Co je v domě, to se počítá."
+    ]
   },
   {
     "text": "Chytrému napověz, hloupého trkni.",
@@ -85581,14 +85742,17 @@
     "meaning": "Kde není dost světla a vzduchu, tam se šíří nemoci. Přísloví připomíná, že zdraví závisí na slunci a pobytu venku."
   },
   {
-    "text": "Lepší vrabec v hrsti, nežli holub na střeše.",
+    "text": "Lepší vrabec v hrsti než holub na střeše.",
     "tags": [
       "opatrnost",
       "ptáci",
       "životní zkušenost"
     ],
-    "source": "wikiquote",
-    "meaning": "Raději se spokojit s malou jistotou než riskovat všechno kvůli něčemu většímu, ale nejistému. Přísloví radí, abychom si cenili toho, co už máme."
+    "source": "internet",
+    "meaning": "Raději se spokojit s malou jistotou než riskovat všechno kvůli něčemu většímu, ale nejistému. Přísloví radí, abychom si cenili toho, co už máme.",
+    "alternatives": [
+      "Lepší vrabec v hrsti, nežli holub na střeše."
+    ]
   },
   {
     "text": "Oko do duše okno.",
@@ -85646,13 +85810,16 @@
     "meaning": "Proti přesile se jednotlivec neubrání. Říká se o nerovném boji, v němž má slabší protivník mnoho nepřátel."
   },
   {
-    "text": "Na jazyku med, na srdci jed.",
+    "text": "Na jazyku med, v srdci jed.",
     "tags": [
       "lež a klam",
       "řeč"
     ],
-    "source": "wikiquote",
-    "meaning": "Někdo mluví sladce a přívětivě, ale uvnitř chová zlé úmysly. Přísloví varuje před pokrytci a falešnými lichotníky."
+    "source": "internet",
+    "meaning": "Někdo mluví sladce a přívětivě, ale uvnitř chová zlé úmysly. Přísloví varuje před pokrytci a falešnými lichotníky.",
+    "alternatives": [
+      "Na jazyku med, na srdci jed."
+    ]
   },
   {
     "text": "Kdo seje vítr, sklízí bouři.",
@@ -85775,7 +85942,10 @@
       "mládí a stáří"
     ],
     "source": "wikiquote",
-    "meaning": "Co se člověk naučí v mládí, to mu ve stáří prospěje. Přísloví zdůrazňuje cenu vzdělání a dovedností získaných brzy."
+    "meaning": "Co se člověk naučí v mládí, to mu ve stáří prospěje. Přísloví zdůrazňuje cenu vzdělání a dovedností získaných brzy.",
+    "alternatives": [
+      "Co se v mládí naučíš, ve stáří jako když najdeš."
+    ]
   },
   {
     "text": "Co sis navařil, to si sněz.",
@@ -85786,7 +85956,8 @@
     "meaning": "Následky svého jednání musí člověk vzít na sebe a nést je. Říká se tomu, kdo si své potíže způsobil sám.",
     "alternatives": [
       "Co sis uvařil, to si sněz.",
-      "Co sis nadrobil, to si taky sněz."
+      "Co sis nadrobil, to si taky sněz.",
+      "Co si kdo uvaří, to si i sní."
     ]
   },
   {
@@ -85946,7 +86117,10 @@
       "životní zkušenost"
     ],
     "source": "wikiquote",
-    "meaning": "Rozhodující je konečný výsledek, ne průběh. Říká se, aby se nikdo neradoval předčasně z úspěchu, který ještě nemusí být konečný."
+    "meaning": "Rozhodující je konečný výsledek, ne průběh. Říká se, aby se nikdo neradoval předčasně z úspěchu, který ještě nemusí být konečný.",
+    "alternatives": [
+      "Kdo se směje naposledy, ten se směje nejlíp."
+    ]
   },
   {
     "text": "Kdo si svého mistra váží, na toho hlad nedoráží.",
@@ -86105,7 +86279,10 @@
       "rozum a zkušenost"
     ],
     "source": "wikiquote",
-    "meaning": "Po události radí každý, jak se to mělo udělat, ale předem nikdo nevěděl. Říká se o chytrácích, kteří kritizují zpětně."
+    "meaning": "Po události radí každý, jak se to mělo udělat, ale předem nikdo nevěděl. Říká se o chytrácích, kteří kritizují zpětně.",
+    "alternatives": [
+      "Po bitvě každý generál."
+    ]
   },
   {
     "text": "Pod svícnem bývá největší tma.",
@@ -86116,13 +86293,16 @@
     "meaning": "To nejbližší, co je přímo před námi, často nevidíme a přehlédneme. Říká se, když si někdo nevšimne chyb či problémů ve své blízkosti."
   },
   {
-    "text": "Pomoz si, a Bůh ti pomůže.",
+    "text": "Pomoz si sám a Bůh ti pomůže.",
     "tags": [
       "víra",
       "práce"
     ],
-    "source": "wikiquote",
-    "meaning": "Nespoléhej jen na cizí pomoc a štěstí, nejprve se snaž sám. Přísloví vybízí k vlastní iniciativě."
+    "source": "internet",
+    "meaning": "Nespoléhej jen na cizí pomoc a štěstí, nejprve se snaž sám. Přísloví vybízí k vlastní iniciativě.",
+    "alternatives": [
+      "Pomoz si, a Bůh ti pomůže."
+    ]
   },
   {
     "text": "Práce šlechtí člověka.",
@@ -86133,13 +86313,16 @@
     "meaning": "Práce člověka zušlechťuje, dává mu hodnotu a ctí. Přísloví chválí poctivou práci a odsuzuje zahálku."
   },
   {
-    "text": "Pro jedno kvítí slunečko svítí.",
+    "text": "Pro jedno kvítí slunce nesvítí.",
     "tags": [
       "láska",
       "naděje"
     ],
-    "source": "wikiquote",
-    "meaning": "Kvůli jedné maličkosti se nic velkého nemění; svět jde dál. Říká se, že nemá smysl zveličovat drobnost, když je celek v pořádku."
+    "source": "internet",
+    "meaning": "Svět ani jeho příležitosti nejsou určeny jen jedinému člověku.",
+    "alternatives": [
+      "Pro jedno kvítí slunečko svítí."
+    ]
   },
   {
     "text": "Proti gustu žádný dišputát.",
@@ -86324,7 +86507,10 @@
       "pravda"
     ],
     "meaning": "Na každé řeči něco je; kde se o něčem šušká, bývá aspoň zrnko pravdy.",
-    "source": "internet"
+    "source": "internet",
+    "alternatives": [
+      "Není kouře bez ohně."
+    ]
   },
   {
     "text": "Opakování matka moudrosti.",
@@ -86333,7 +86519,10 @@
       "vzdělání"
     ],
     "meaning": "Co si člověk opakuje, to si zapamatuje; pevné znalosti vznikají opakováním.",
-    "source": "internet"
+    "source": "internet",
+    "alternatives": [
+      "Opakování je matka moudrosti."
+    ]
   },
   {
     "text": "Oběd bez polévky jako svatba bez muziky.",
@@ -86400,13 +86589,16 @@
     "source": "internet"
   },
   {
-    "text": "Víc hlav víc rozumu.",
+    "text": "Víc hlav víc ví.",
     "tags": [
       "rozum",
       "rada"
     ],
     "meaning": "Když o věci přemýšlí víc lidí, spíš se najde dobré řešení.",
-    "source": "internet"
+    "source": "internet",
+    "alternatives": [
+      "Víc hlav víc rozumu."
+    ]
   },
   {
     "text": "Vlk se nažral a koza zůstala celá.",
@@ -86746,7 +86938,10 @@
       "humor"
     ],
     "meaning": "Výchovný pohlavek má smysl jen tehdy, když dopadne; žertem o přísné výchově.",
-    "source": "internet"
+    "source": "internet",
+    "alternatives": [
+      "Škoda každé rány, která padne vedle."
+    ]
   },
   {
     "text": "Ve zdravém těle zdravý duch.",
@@ -86821,12 +87016,15 @@
     "source": "internet"
   },
   {
-    "text": "Dobrý začátek, půl díla.",
+    "text": "Dobrý začátek, polovina úspěchu.",
     "tags": [
       "práce"
     ],
     "meaning": "Kdo dobře začne, má polovinu práce hotovou.",
-    "source": "internet"
+    "source": "internet",
+    "alternatives": [
+      "Dobrý začátek, půl díla."
+    ]
   },
   {
     "text": "Ohýbej stromek, dokud je mladý.",
@@ -86855,22 +87053,28 @@
     "source": "internet"
   },
   {
-    "text": "Příliš mnoho dobrého škodí.",
+    "text": "Čeho je moc, toho je příliš.",
     "tags": [
       "opatrnost",
       "jídlo"
     ],
     "meaning": "I dobré věci v nadbytku uškodí; všeho s mírou.",
-    "source": "internet"
+    "source": "internet",
+    "alternatives": [
+      "Příliš mnoho dobrého škodí."
+    ]
   },
   {
-    "text": "Všechno má svůj čas.",
+    "text": "Všechno chce svůj čas.",
     "tags": [
       "čas",
       "trpělivost"
     ],
     "meaning": "Na všechno přijde jeho pravá chvíle; nemá smysl věci uspěchat ani se trápit, že ještě nenastaly. Biblická moudrost z knihy Kazatel.",
-    "source": "internet"
+    "source": "internet",
+    "alternatives": [
+      "Všechno má svůj čas."
+    ]
   },
   {
     "text": "Ze dvou zel vyber to menší.",
@@ -86879,7 +87083,10 @@
       "rozum"
     ],
     "source": "internet",
-    "meaning": "Když není dobrá možnost, zvol tu, která uškodí nejméně."
+    "meaning": "Když není dobrá možnost, zvol tu, která uškodí nejméně.",
+    "alternatives": [
+      "Ze dvou zel je třeba vybrat to menší."
+    ]
   },
   {
     "text": "Hlavou zeď neprorazíš.",
@@ -87123,5 +87330,692 @@
       "To je platné jak rybě běžky."
     ],
     "meaning": "Ironicky o něčem, co v dané situaci vůbec nepomůže. Mrtvého zimník nezahřeje a ryba běžky nevyužije."
+  },
+  {
+    "text": "Láska kvete v každém věku.",
+    "tags": [
+      "láska",
+      "mládí a stáří"
+    ],
+    "source": "internet",
+    "meaning": "Zamilovat se může člověk v kterémkoli věku."
+  },
+  {
+    "text": "Všechno, nebo nic.",
+    "tags": [
+      "rozum",
+      "odvaha"
+    ],
+    "source": "internet",
+    "meaning": "Člověk usiluje o úplný úspěch a nepřijímá částečný výsledek."
+  },
+  {
+    "text": "To se to řekne!",
+    "tags": [
+      "řeč",
+      "práce"
+    ],
+    "source": "internet",
+    "meaning": "Něco se snáze doporučuje, než skutečně provádí."
+  },
+  {
+    "text": "Všechny cesty vedou do Říma.",
+    "tags": [
+      "životní zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "Ke stejnému cíli lze dospět různými způsoby."
+  },
+  {
+    "text": "Dobrá rada nad zlato.",
+    "tags": [
+      "rada",
+      "rozum"
+    ],
+    "source": "internet",
+    "meaning": "Užitečná rada může mít větší cenu než peníze."
+  },
+  {
+    "text": "Když řekneš „á”, musíš říct také „bé\".",
+    "tags": [
+      "následky vlastních činů",
+      "trpělivost"
+    ],
+    "source": "internet",
+    "meaning": "Kdo něco začne, musí přijmout i pokračování a důsledky."
+  },
+  {
+    "text": "Čas jsou peníze.",
+    "tags": [
+      "čas",
+      "peníze"
+    ],
+    "source": "internet",
+    "meaning": "Čas má hodnotu a jeho ztráta může znamenat ušlý výdělek."
+  },
+  {
+    "text": "Já nic, já muzikant.",
+    "tags": [
+      "následky vlastních činů",
+      "lidské vlastnosti"
+    ],
+    "source": "internet",
+    "meaning": "Člověk se vyhýbá odpovědnosti tvrzením, že s věcí nemá nic společného."
+  },
+  {
+    "text": "Čas běží jako voda.",
+    "tags": [
+      "čas"
+    ],
+    "source": "internet",
+    "meaning": "Čas rychle a neúprosně plyne."
+  },
+  {
+    "text": "Nula od nuly pojde.",
+    "tags": [
+      "životní zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "Bez výchozích prostředků nebo příčiny nic nevznikne."
+  },
+  {
+    "text": "Z nouze ctnost.",
+    "tags": [
+      "chudoba",
+      "lidské vlastnosti"
+    ],
+    "source": "internet",
+    "meaning": "Člověk vydává vynucené omezení za vlastní zásadu nebo přednost."
+  },
+  {
+    "text": "Nedráždi hada bosou nohou.",
+    "tags": [
+      "opatrnost"
+    ],
+    "source": "internet",
+    "meaning": "Zbytečně neprovokuj někoho, kdo ti může uškodit."
+  },
+  {
+    "text": "Nejen chlebem živ je člověk.",
+    "tags": [
+      "životní zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "Člověk potřebuje kromě hmotného zajištění i duševní a duchovní naplnění."
+  },
+  {
+    "text": "Výjimka potvrzuje pravidlo.",
+    "tags": [
+      "rozum",
+      "životní zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "Ojedinělá odchylka se chápe jako zvláštní případ vedle obecné zásady."
+  },
+  {
+    "text": "Přijít s křížkem po funuse.",
+    "tags": [
+      "čas",
+      "životní zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "Přijít příliš pozdě, když už pomoc nebo zásah nemají smysl."
+  },
+  {
+    "text": "Dar je dar.",
+    "tags": [
+      "štědrost",
+      "mezilidské vztahy"
+    ],
+    "source": "internet",
+    "meaning": "Dar má být přijat jako dobrovolné a nezištné předání."
+  },
+  {
+    "text": "I stěny mají uši.",
+    "tags": [
+      "řeč",
+      "tajemství"
+    ],
+    "source": "internet",
+    "meaning": "Důvěrný rozhovor může někdo nepozorovaně vyslechnout."
+  },
+  {
+    "text": "Slibem neurazíš.",
+    "tags": [
+      "sliby",
+      "řeč"
+    ],
+    "source": "internet",
+    "meaning": "Slib lze dát snadno, i když jeho splnění není jisté."
+  },
+  {
+    "text": "Vylít vaničku i s dítětem.",
+    "tags": [
+      "opatrnost",
+      "rozum"
+    ],
+    "source": "internet",
+    "meaning": "Při odstraňování špatného zavrhnout zároveň i to dobré."
+  },
+  {
+    "text": "Když ti peníze chybí, každý tě nerad vidí.",
+    "tags": [
+      "peníze",
+      "chudoba",
+      "mezilidské vztahy"
+    ],
+    "source": "internet",
+    "meaning": "Bez peněz člověk často ztrácí přízeň a ochotu druhých."
+  },
+  {
+    "text": "Lepší je živý pes než mrtvý lev.",
+    "tags": [
+      "zdraví a život",
+      "smrt"
+    ],
+    "source": "internet",
+    "meaning": "Život má větší cenu než sláva nebo moc bez možnosti je užít."
+  },
+  {
+    "text": "Nemluv o provaze v domě oběšencově.",
+    "tags": [
+      "mezilidské vztahy",
+      "řeč"
+    ],
+    "source": "internet",
+    "meaning": "Nevytahuj před druhým téma spojené s jeho bolestnou zkušeností."
+  },
+  {
+    "text": "Každý je mistrem ve svém řemesle.",
+    "tags": [
+      "řemesla",
+      "rozum a zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "Každý nejlépe rozumí své vlastní odbornosti."
+  },
+  {
+    "text": "Černá ovce se vždycky najde.",
+    "tags": [
+      "lidské vlastnosti",
+      "mezilidské vztahy"
+    ],
+    "source": "internet",
+    "meaning": "V každé skupině se může objevit problémový člen."
+  },
+  {
+    "text": "Malé dárky dělají velké přátele.",
+    "tags": [
+      "štědrost",
+      "přátelství"
+    ],
+    "source": "internet",
+    "meaning": "Drobné projevy pozornosti upevňují přátelství."
+  },
+  {
+    "text": "Nedělej účet bez hostinského.",
+    "tags": [
+      "opatrnost",
+      "rozum"
+    ],
+    "source": "internet",
+    "meaning": "Neplánuj výsledek bez zohlednění všech důležitých okolností a účastníků."
+  },
+  {
+    "text": "Kdo nedělá, nevyjde z neděl.",
+    "tags": [
+      "práce",
+      "dluhy"
+    ],
+    "source": "internet",
+    "meaning": "Bez práce zůstane člověk v dluzích a nesplněných povinnostech."
+  },
+  {
+    "text": "Z práce budeš hrbat, ne bohat.",
+    "tags": [
+      "práce",
+      "bohatství"
+    ],
+    "source": "internet",
+    "meaning": "Vyjadřuje zklamání, že těžká práce přináší spíše opotřebení než bohatství."
+  },
+  {
+    "text": "Čím víc, tím líp.",
+    "tags": [
+      "bohatství"
+    ],
+    "source": "internet",
+    "meaning": "Větší množství se považuje za větší přínos."
+  },
+  {
+    "text": "Kmotr nekmotr, z hrušky dolů.",
+    "tags": [
+      "spravedlnost",
+      "mezilidské vztahy"
+    ],
+    "source": "internet",
+    "meaning": "Pravidla a povinnosti mají platit i pro známé a přátele."
+  },
+  {
+    "text": "Proti větru těžko pískat.",
+    "tags": [
+      "starosti a nesnáze",
+      "životní zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "Proti výrazné převaze nebo nepříznivým okolnostem se obtížně prosazuje vlastní vůle."
+  },
+  {
+    "text": "Cesta do pekel jest dlážděna dobrými úmysly.",
+    "tags": [
+      "dobro a zlo",
+      "následky vlastních činů"
+    ],
+    "source": "internet",
+    "meaning": "Dobré úmysly samy nestačí a bez rozvahy mohou vést ke špatným následkům."
+  },
+  {
+    "text": "Mnoho povyku pro nic.",
+    "tags": [
+      "řeč",
+      "životní zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "Kolem nepodstatné věci vzniká zbytečně velký rozruch."
+  },
+  {
+    "text": "Jiný kraj, jiný mrav.",
+    "tags": [
+      "dějiny a zvyky"
+    ],
+    "source": "internet",
+    "meaning": "Různá místa a společenství mají různé zvyklosti."
+  },
+  {
+    "text": "V jednotě je síla.",
+    "tags": [
+      "svornost",
+      "pomoc"
+    ],
+    "source": "internet",
+    "meaning": "Společným úsilím lidé dosáhnou více než jednotlivě."
+  },
+  {
+    "text": "Láska je slepá.",
+    "tags": [
+      "láska"
+    ],
+    "source": "internet",
+    "meaning": "Zamilovaný člověk snadno přehlíží chyby milované osoby."
+  },
+  {
+    "text": "Když se ruka k ruce vine, tak se dílo podaří.",
+    "tags": [
+      "práce",
+      "svornost"
+    ],
+    "source": "internet",
+    "meaning": "Společná práce a vzájemná pomoc vedou k dobrému výsledku."
+  },
+  {
+    "text": "Ševče, drž se svého kopyta.",
+    "tags": [
+      "řemesla",
+      "rozum a zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "Věnuj se tomu, čemu rozumíš, a nepoučuj mimo svůj obor."
+  },
+  {
+    "text": "Služba je služba.",
+    "tags": [
+      "práce",
+      "následky vlastních činů"
+    ],
+    "source": "internet",
+    "meaning": "Pracovní povinnosti je třeba plnit i přes osobní nepohodlí."
+  },
+  {
+    "text": "Ve víně je pravda.",
+    "tags": [
+      "víno",
+      "pravda"
+    ],
+    "source": "internet",
+    "meaning": "Pod vlivem alkoholu lidé snáze prozrazují své skutečné myšlenky."
+  },
+  {
+    "text": "Po nás potopa.",
+    "tags": [
+      "následky vlastních činů"
+    ],
+    "source": "internet",
+    "meaning": "Vyjadřuje lhostejnost k budoucím následkům vlastního jednání."
+  },
+  {
+    "text": "V nouzi dá ti radu každý dobrý přítel, ale málokterý dá ti mouky pytel.",
+    "tags": [
+      "přátelství",
+      "pomoc"
+    ],
+    "source": "internet",
+    "meaning": "Radit je snadné, ale skutečnou hmotnou pomoc poskytne málokdo."
+  },
+  {
+    "text": "Jedna ruka netleská.",
+    "tags": [
+      "svornost",
+      "pomoc"
+    ],
+    "source": "internet",
+    "meaning": "K některým výsledkům je nutná spolupráce více lidí."
+  },
+  {
+    "text": "Je to prašť jako uhoď.",
+    "tags": [
+      "přirovnání"
+    ],
+    "source": "internet",
+    "meaning": "Mezi dvěma možnostmi není podstatný rozdíl."
+  },
+  {
+    "text": "Zdání klame.",
+    "tags": [
+      "rozum",
+      "životní zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "První dojem nemusí odpovídat skutečnosti."
+  },
+  {
+    "text": "Risk je zisk.",
+    "tags": [
+      "odvaha",
+      "štěstí"
+    ],
+    "source": "internet",
+    "meaning": "Úspěch často vyžaduje odvahu podstoupit určité riziko."
+  },
+  {
+    "text": "Navrch huj, vespod fuj.",
+    "tags": [
+      "lež a klam"
+    ],
+    "source": "internet",
+    "meaning": "Pěkný zevnějšek zakrývá špatnou skutečnost."
+  },
+  {
+    "text": "Každému podle jeho zásluh.",
+    "tags": [
+      "odměna",
+      "spravedlnost"
+    ],
+    "source": "internet",
+    "meaning": "Odměna má odpovídat skutečnému přínosu člověka."
+  },
+  {
+    "text": "Někdo má rád vdolky, jiný zase holky.",
+    "tags": [
+      "lidské vlastnosti"
+    ],
+    "source": "internet",
+    "meaning": "Každému se líbí něco jiného."
+  },
+  {
+    "text": "Chytrost má děravé šaty.",
+    "tags": [
+      "rozum",
+      "lidské vlastnosti"
+    ],
+    "source": "internet",
+    "meaning": "I chytrý a vychytralý člověk může udělat chybu nebo se nechat přelstít."
+  },
+  {
+    "text": "Kdo se dal na vojnu, musí bojovat.",
+    "tags": [
+      "trpělivost",
+      "následky vlastních činů"
+    ],
+    "source": "internet",
+    "meaning": "Kdo se pro něco rozhodl, musí přijmout související námahu a povinnosti."
+  },
+  {
+    "text": "Čas je nejlepší lékař.",
+    "tags": [
+      "čas",
+      "bolest"
+    ],
+    "source": "internet",
+    "meaning": "S odstupem času se bolest a zármutek zpravidla zmírňují."
+  },
+  {
+    "text": "Jaký začátek, takový konec.",
+    "tags": [
+      "životní zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "Způsob, jakým něco začne, často předznamenává výsledek."
+  },
+  {
+    "text": "Chceš-li tajnou věc aneb pravdu vyzvěděti, blázen, dítě, opilý o tom umějí pověděti.",
+    "tags": [
+      "řeč",
+      "tajemství"
+    ],
+    "source": "internet",
+    "meaning": "Děti, opilí a nerozvážní lidé často bez zábran prozradí tajemství."
+  },
+  {
+    "text": "Laciné dvakrát placené.",
+    "tags": [
+      "obchod",
+      "peníze"
+    ],
+    "source": "internet",
+    "meaning": "Nekvalitní levná věc vyžaduje další výdaje, takže se prodraží."
+  },
+  {
+    "text": "Dané slovo platí.",
+    "tags": [
+      "sliby",
+      "poctivost"
+    ],
+    "source": "internet",
+    "meaning": "Slib nebo dohoda se mají dodržet."
+  },
+  {
+    "text": "Dokud co v hrnci, přátelé u stolu.",
+    "tags": [
+      "přátelství",
+      "bohatství"
+    ],
+    "source": "internet",
+    "meaning": "Ziskuchtiví přátelé zůstávají, jen dokud z člověka mají užitek."
+  },
+  {
+    "text": "Není pravidla bez výjimky.",
+    "tags": [
+      "rozum",
+      "životní zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "Obecné zásady nemusejí platit ve všech jednotlivých případech."
+  },
+  {
+    "text": "Lásku a kašel neutajíš.",
+    "tags": [
+      "láska",
+      "tajemství"
+    ],
+    "source": "internet",
+    "meaning": "Silné city a nápadné projevy lze jen těžko skrývat."
+  },
+  {
+    "text": "Jaká práce, taková odměna.",
+    "tags": [
+      "práce",
+      "odměna"
+    ],
+    "source": "internet",
+    "meaning": "Odměna má odpovídat kvalitě a rozsahu vykonané práce."
+  },
+  {
+    "text": "Jak pán káže, tak se koza váže.",
+    "tags": [
+      "vláda",
+      "mezilidské vztahy"
+    ],
+    "source": "internet",
+    "meaning": "Podřízený musí jednat podle příkazů svého nadřízeného."
+  },
+  {
+    "text": "Vůl zůstane volem, pařez pařezem.",
+    "tags": [
+      "lidské vlastnosti",
+      "zvyk"
+    ],
+    "source": "internet",
+    "meaning": "Základní omezenost a povahu člověka nelze snadno změnit."
+  },
+  {
+    "text": "Nechť tě netrápí, co se nevrátí.",
+    "tags": [
+      "ztráta",
+      "rozum"
+    ],
+    "source": "internet",
+    "meaning": "Netrap se zbytečně tím, co už nelze vrátit nebo změnit."
+  },
+  {
+    "text": "Z malých příčin velké následky.",
+    "tags": [
+      "následky vlastních činů"
+    ],
+    "source": "internet",
+    "meaning": "I nepatrná událost může mít závažné důsledky."
+  },
+  {
+    "text": "Dobré slovo lepší než peněz mnoho.",
+    "tags": [
+      "řeč",
+      "mezilidské vztahy"
+    ],
+    "source": "internet",
+    "meaning": "Laskavost a povzbuzení mohou mít větší cenu než hmotná pomoc."
+  },
+  {
+    "text": "Na cizí kůži snadno bubnovati.",
+    "tags": [
+      "mezilidské vztahy"
+    ],
+    "source": "internet",
+    "meaning": "Snadno se radí nebo riskuje, když následky ponese někdo jiný."
+  },
+  {
+    "text": "Cizí chalupu staví, a svá na spadnutí.",
+    "tags": [
+      "práce",
+      "domácí život"
+    ],
+    "source": "internet",
+    "meaning": "Člověk pomáhá budovat cizí zázemí, zatímco své vlastní zanedbává."
+  },
+  {
+    "text": "Při kulhavém kulhati se naučil.",
+    "tags": [
+      "zvyk",
+      "mezilidské vztahy"
+    ],
+    "source": "internet",
+    "meaning": "Dlouhým soužitím člověk přejímá zvyky a nedostatky svého okolí."
+  },
+  {
+    "text": "Slunce svítí na každé kvítí.",
+    "tags": [
+      "mezilidské vztahy",
+      "naděje"
+    ],
+    "source": "internet",
+    "meaning": "Dobro a životní příležitosti nemají být vyhrazeny jen někomu."
+  },
+  {
+    "text": "Umrlého snadno bíti.",
+    "tags": [
+      "mezilidské vztahy"
+    ],
+    "source": "internet",
+    "meaning": "Snadno se útočí na člověka, který už se nemůže bránit."
+  },
+  {
+    "text": "Dneska pán, zítra kmán.",
+    "tags": [
+      "štěstí a životní poměry"
+    ],
+    "source": "internet",
+    "meaning": "Vysoké postavení a bohatství se mohou rychle změnit v nouzi."
+  },
+  {
+    "text": "Cizí neštěstí nebolí.",
+    "tags": [
+      "mezilidské vztahy",
+      "lidské vlastnosti"
+    ],
+    "source": "internet",
+    "meaning": "Lidé často nevnímají cizí trápení tak silně jako vlastní."
+  },
+  {
+    "text": "Když se štěstí unaví, sedne i na vola.",
+    "tags": [
+      "štěstí",
+      "humor"
+    ],
+    "source": "internet",
+    "meaning": "I neschopného člověka může náhodou potkat úspěch."
+  },
+  {
+    "text": "Sebechvála smrdí.",
+    "tags": [
+      "chvála a pověst",
+      "pýcha"
+    ],
+    "source": "internet",
+    "meaning": "Vychloubání vlastními zásluhami působí nepříjemně a nedůvěryhodně."
+  },
+  {
+    "text": "Pes na seně, sám ho nejí, a krávě nedá.",
+    "tags": [
+      "lidské vlastnosti",
+      "zvířata",
+      "psi"
+    ],
+    "source": "internet",
+    "meaning": "Někdo brání druhým užívat něco, co sám nepotřebuje ani nevyužije."
+  },
+  {
+    "text": "Koho had uštknul, i ještěrky se bojí.",
+    "tags": [
+      "strach",
+      "zkušenost"
+    ],
+    "source": "internet",
+    "meaning": "Bolestná zkušenost vyvolává strach i z neškodných věcí, které ji připomínají."
+  },
+  {
+    "text": "Co nemůžeš splnit, neslibuj.",
+    "tags": [
+      "sliby",
+      "poctivost"
+    ],
+    "source": "internet",
+    "meaning": "Dávej jen takové sliby, které dokážeš dodržet."
+  },
+  {
+    "text": "Kdo platí, tomu hrajou.",
+    "tags": [
+      "peníze",
+      "vláda"
+    ],
+    "source": "internet",
+    "meaning": "Ten, kdo poskytuje peníze, obvykle určuje podmínky."
   }
 ]
