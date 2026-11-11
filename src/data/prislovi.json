@@ -5586,6 +5586,10 @@
   },
   {
     "text": "Darovanému koni na zuby nekoukej.",
+    "alternatives": [
+      "Darovanému koni na zuby nehleď.",
+      "Darovanému koni se na zuby nedívej."
+    ],
     "tags": [
       "štědrost",
       "koně"
