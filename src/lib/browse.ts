@@ -28,6 +28,7 @@ if (hero) {
   time.dateTime = date.iso;
   const today = dailyIndex(date.iso, daily.length);
   if (daily[today][0] !== hero.dataset.slug) showProverb(daily[today]);
+  hero.dataset.ready = '';
 }
 
 async function pickRandom(mode: 'hero' | 'detail') {

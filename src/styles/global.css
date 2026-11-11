@@ -31,6 +31,8 @@ body { min-height: 100vh; }
 .proverb-row-title { @apply text-xl font-extrabold leading-tight tracking-[-.035em] hover:text-rust sm:text-[1.7rem]; }
 .proverb-row-actions { @apply col-span-full flex shrink-0 items-center gap-1.5 justify-self-end sm:col-span-1; }
 html:not(.js) [data-actions] { display: none; }
+/* Keep the build-time proverb out of the first paint until the browser updates it. */
+.js #daily-proverb:not([data-ready]) { visibility: hidden; }
 .search-field { @apply w-full rounded-2xl border-2 border-[#888] bg-paper py-4 pr-28 pl-14 text-xl font-bold tracking-tight text-ink transition placeholder:font-semibold placeholder:text-muted hover:border-ink focus:border-ink focus:outline-none sm:py-5 sm:pr-32 sm:pl-16 sm:text-2xl; }
 .search-field::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
 .site-status { @apply pointer-events-none fixed inset-x-0 bottom-5 z-20 mx-auto w-fit max-w-[calc(100vw-2.5rem)] rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-white shadow-lg; }
