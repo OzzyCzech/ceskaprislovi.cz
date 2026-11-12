@@ -5,36 +5,31 @@ import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import ProverbCard from '../components/ProverbCard.astro';
 import AskAi from '../components/AskAi.astro';
-import { dailyProverbs, proverbs, proverbsByTheme, type Proverb } from '../lib/proverbs';
+import { proverbs, type Proverb } from '../lib/proverbs';
+import { createRelatedProverbs } from '../lib/related';
 
-export const getStaticPaths = (() => proverbs.map((proverb, index) => ({
-  params: { slug: proverb.slug },
-  props: {
-    proverb,
-    previous: proverbs[(index - 1 + proverbs.length) % proverbs.length].slug,
-    next: proverbs[(index + 1) % proverbs.length].slug,
-    original: proverb.variantOf ? proverbs.find(({ text }) => text === proverb.variantOf) : undefined,
-  },
-}))) satisfies GetStaticPaths;
+export const getStaticPaths = (() => {
+  const relatedProverbs = createRelatedProverbs(proverbs);
+  return proverbs.map((proverb, index) => ({
+    params: { slug: proverb.slug },
+    props: {
+      proverb,
+      related: relatedProverbs(proverb),
+      previous: proverbs[(index - 1 + proverbs.length) % proverbs.length].slug,
+      next: proverbs[(index + 1) % proverbs.length].slug,
+      original: proverb.variantOf ? proverbs.find(({ text }) => text === proverb.variantOf) : undefined,
+    },
+  }));
+}) satisfies GetStaticPaths;
 
-const { proverb, previous, next, original } = Astro.props as {
+const { proverb, related, previous, next, original } = Astro.props as {
   proverb: Proverb;
+  related: Proverb[];
   previous: string;
   next: string;
   original?: Proverb;
 };
 const theme = proverb.tags[0];
-const sameTheme = theme ? proverbsByTheme.get(theme) ?? [] : [];
-const related: Proverb[] = [];
-const seen = new Set([proverb.slug]);
-for (const entries of [sameTheme, dailyProverbs]) {
-  for (const entry of entries) {
-    if (related.length === 3) break;
-    if (seen.has(entry.slug)) continue;
-    seen.add(entry.slug);
-    related.push(entry);
-  }
-}
 const titleSize = proverb.text.length <= 70
   ? 'text-[clamp(3rem,9.7vw,8.75rem)]'
   : 'text-[clamp(2.5rem,6.2vw,6rem)]';
@@ -141,7 +136,7 @@ const jsonLd = {
     </article>
 
     <section class="mt-14 sm:mt-24 lg:mt-28" aria-labelledby="related-heading">
-      <h2 id="related-heading" class="section-title mb-5">{theme ? `Další na téma ${theme}` : 'Další ze sbírky'}</h2>
+      <h2 id="related-heading" class="section-title mb-5">Související přísloví</h2>
       <div class="border-t border-line">{related.map((entry) => <ProverbCard proverb={entry} />)}</div>
     </section>
   </div>

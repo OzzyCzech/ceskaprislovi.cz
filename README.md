@@ -21,6 +21,8 @@ Náhled pro sociální sítě (`og:image`) má každé přísloví vlastní: `sr
 
 Build používá `build.format: 'file'` (`slug.html` místo `slug/index.html`), protože GitHub Pages jinak přesměrovává adresy bez lomítka na adresy s lomítkem, což by rozbilo kanonické URL.
 
+Na detailu se tři související přísloví vybírají při buildu pomocí `src/lib/related.ts`. Skóre kombinuje průnik všech témat (Jaccardova podobnost) a podobnost slov v textu (kosinová podobnost s vyšší váhou vzácnějších slov, bez diakritiky a běžných českých slov). Textová podobnost má dvojnásobnou váhu oproti tématům. Shody skóre rozhoduje stabilní hash dvojice URL, takže výběr nezávisí na pořadí dat a různé detaily nepreferují stále první položky. Pokud chybí dost souvisejících položek, stejný hash doplní výběr ze zbytku sbírky. Odkazy jsou součástí statického HTML a jejich textem je celé přísloví.
+
 ## Přísloví dne na Bluesky
 
 Účet [@ceskaprislovi.cz](https://bsky.app/profile/ceskaprislovi.cz) každé ráno zveřejní přísloví dne: text přísloví s výkladem (pokud se vejde do limitu 300 grafémů) a kartu s odkazem na jeho stránku, jejíž náhled je `og:image` přísloví z webu. Skript `scripts/post-daily.ts` používá stejný výpočet dne jako úvodní stránka (`src/lib/daily.ts`), takže posílá totéž přísloví, které návštěvník vidí na webu.
