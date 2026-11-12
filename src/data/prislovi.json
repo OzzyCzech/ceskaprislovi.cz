@@ -12257,7 +12257,7 @@
     "meaning": "Navenek se člověk okázale předvádí, ale doma žije v chudobě. Pýcha zakrývá skutečné poměry."
   },
   {
-    "text": "Chlouba na ulici, a h - v truhlici. ().",
+    "text": "Chlouba na ulici a ho..o v truhlici.",
     "tags": [
       "pýcha"
     ]
@@ -12976,7 +12976,7 @@
     ]
   },
   {
-    "text": "Ne se vším na harc, něco v zálohách. ().",
+    "text": "Ne se vším na harc hned, vždy něco v zálohách.",
     "tags": [
       "lidské vlastnosti"
     ]
@@ -15441,12 +15441,6 @@
     ]
   },
   {
-    "text": "Čeho oči nevidí, po tom se srdce nezžedí (toho srdce neželí nežádá).",
-    "tags": [
-      "lidské vlastnosti"
-    ]
-  },
-  {
     "text": "Pospolu ty věci chodí, dým za plamenem, hřích za nestoudným pohledem.",
     "tags": [
       "hřích",
@@ -17730,7 +17724,7 @@
     ]
   },
   {
-    "text": "Břich tlustý, leb (mozek) pustý.",
+    "text": "Břich tlustý, mozek pustý.",
     "tags": [
       "práce a živobytí"
     ]
@@ -26958,12 +26952,6 @@
     ]
   },
   {
-    "text": "Jitro jest bystřejší (moudřejší) večera.",
-    "tags": [
-      "rozum"
-    ]
-  },
-  {
     "text": "Zkušenosť nad učenosť.",
     "tags": [
       "učení",
@@ -35946,7 +35934,7 @@
     ]
   },
   {
-    "text": "Šaty dělají lidi, a hadry (kloci) vši.",
+    "text": "Šaty dělají člověka, a hadry vši.",
     "tags": [
       "životní zkušenost"
     ]
@@ -77077,7 +77065,7 @@
     "meaning": "Mate se a zaplétá se ve vlastní řeči."
   },
   {
-    "text": "Má hlas (zpívá) jako zvon.",
+    "text": "Má hlas jako zvon.",
     "tags": [
       "mezilidské vztahy"
     ]
@@ -81349,10 +81337,11 @@
     ]
   },
   {
-    "text": "Všecko mu na opak (křížem) jde.",
+    "text": "Všecko mu na křížem vychází.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Všechno se mu nedaří, dopadá špatně a obrací se proti němu. Věci vycházejí opačně, než si přeje."
   },
   {
     "text": "Zle mu kostka padá.",
@@ -81476,11 +81465,15 @@
     ]
   },
   {
-    "text": "Na holičkách zůstati (nechati).",
+    "text": "Nechal ho na holičkách.",
     "tags": [
       "štěstí a životní poměry"
     ],
-    "meaning": "Zůstat bez pomoci právě ve chvíli, kdy na ni člověk spoléhal. Nechat někoho na holičkách znamená takto ho opustit."
+    "meaning": "Opustil ho bez pomoci právě ve chvíli, kdy na něj spoléhal nebo ho potřeboval.",
+    "alternatives": [
+      "Na holičkách zůstati.",
+      "Na holičkách nechati."
+    ]
   },
   {
     "text": "Zůstává ve své jíše.",
@@ -81608,12 +81601,6 @@
     "text": "Blata v kaluže ťpe.",
     "tags": [
       "štěstí a životní poměry"
-    ]
-  },
-  {
-    "text": "Spadl mu s kopy groš.",
-    "tags": [
-      "peníze"
     ]
   },
   {
@@ -82220,7 +82207,7 @@
     ]
   },
   {
-    "text": "O jednu (jedva) se nespálil.",
+    "text": "O jednu se dva nespálí.",
     "tags": [
       "štěstí a životní poměry"
     ]
@@ -82400,12 +82387,6 @@
     ]
   },
   {
-    "text": "Polámaly se mu váhy (stroje).",
-    "tags": [
-      "štěstí a životní poměry"
-    ]
-  },
-  {
     "text": "Propekl pánvičku.",
     "tags": [
       "štěstí a životní poměry"
@@ -82488,7 +82469,7 @@
     ]
   },
   {
-    "text": "Přišel (padl) s kyje na palici.",
+    "text": "Padl s kyje na palici.",
     "tags": [
       "štěstí a životní poměry"
     ]
@@ -82535,11 +82516,16 @@
     ]
   },
   {
-    "text": "Přišel z dešča pod okap (rynu).",
+    "text": "Dostal se z deště pod okap.",
     "tags": [
       "štěstí a životní poměry"
     ],
-    "meaning": "Z malého zla se dostal do většího. Rýna je okap."
+    "meaning": "Při snaze uniknout jedné nepříjemnosti se dostal do jiné a nepolepšil si, případně si ještě pohoršil. Rýna ve starším znění znamená okap.",
+    "alternatives": [
+      "Přišel z deště pod okap.",
+      "Přišel z dešča pod okap.",
+      "Přišel z dešča pod rynu."
+    ]
   },
   {
     "text": "Utíkaje před vlkem udeřil na medvěda.",
@@ -82582,13 +82568,6 @@
     ]
   },
   {
-    "text": "Shodili (ssadili) ho s lopaty.",
-    "tags": [
-      "štěstí a životní poměry"
-    ],
-    "meaning": "Propustili ho ze služby nebo ze zaměstnání."
-  },
-  {
     "text": "Někdy vážný, nyní žádný.",
     "tags": [
       "štěstí a životní poměry"
@@ -82627,7 +82606,7 @@
     ]
   },
   {
-    "text": "Spadl (schází) mu s kopy groš.",
+    "text": "Schází mu s kopy groš.",
     "tags": [
       "peníze"
     ],
@@ -82751,7 +82730,7 @@
     ]
   },
   {
-    "text": "Ukázal mu ťuku (straku) na vrbě.",
+    "text": "Ukázal mu straku na vrbě.",
     "tags": [
       "štěstí a životní poměry",
       "ptáci"
@@ -83158,7 +83137,7 @@
     "meaning": "Zavírat klec po úletu ptáků je zbytečné. Zásah přichází pozdě, když už škoda nastala."
   },
   {
-    "text": "Po obědě lžíce (hledá).",
+    "text": "Po obědě hledá lžíce.",
     "tags": [
       "lež a klam",
       "jídlo"
@@ -83657,12 +83636,6 @@
   },
   {
     "text": "Ani vejce k vejci, ani mléko k mléku podobnější není.",
-    "tags": [
-      "každodenní život"
-    ]
-  },
-  {
-    "text": "Jak dvě kapky (krůpěje) vody.",
     "tags": [
       "každodenní život"
     ]
@@ -84405,12 +84378,6 @@
       "hřích"
     ],
     "meaning": "Prosby ani hrozby s tím nic nezmohou a kýžený výsledek nepřinesou."
-  },
-  {
-    "text": "Nezpomohlo bábě ani kouření (koření).",
-    "tags": [
-      "každodenní život"
-    ]
   },
   {
     "text": "Darmo si podešvy šoustá.",
@@ -86107,10 +86074,17 @@
     "text": "Co oči nevidí, to srdce nebolí.",
     "tags": [
       "životní zkušenost",
-      "láska"
+      "láska",
+      "lidské vlastnosti"
     ],
     "source": "wikiquote",
-    "meaning": "Co nevíme, nás nemůže trápit. Přísloví říká, že nevědomost bývá bezstarostná a mnohá zlá zpráva nám zůstane skryta."
+    "meaning": "Co nevíme, nás nemůže trápit. Přísloví říká, že nevědomost bývá bezstarostná a mnohá zlá zpráva nám zůstane skryta.",
+    "alternatives": [
+      "Co oči nevidí, srdce nebolí.",
+      "Čeho oči nevidí, po tom se srdce nezžedí.",
+      "Čeho oči nevidí, toho srdce neželí.",
+      "Čeho oči nevidí, toho srdce nežádá."
+    ]
   },
   {
     "text": "Mnoho psů, zajícova smrt.",
@@ -86662,7 +86636,12 @@
       "rozum"
     ],
     "source": "wikiquote",
-    "meaning": "Důležitá rozhodnutí je dobré odložit na ráno, kdy bývá hlava čistší. Přísloví radí přespat problémy, než o nich rozhodneme."
+    "meaning": "Důležitá rozhodnutí je dobré odložit na ráno, kdy bývá hlava čistší. Přísloví radí přespat problémy, než o nich rozhodneme.",
+    "alternatives": [
+      "Ráno je moudřejší večera.",
+      "Jitro jest bystřejší večera.",
+      "Jitro jest moudřejší večera."
+    ]
   },
   {
     "text": "Rychlé nohy, krátký rozum.",
