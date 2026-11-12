@@ -17608,7 +17608,8 @@
     "text": "Není ten opilý, kdo na tvář, ale ten, kdo na hřbet padá.",
     "tags": [
       "opilství"
-    ]
+    ],
+    "meaning": "Žertovná omluva opilosti: kdo padá na obličej, prý ještě není opilý, za opilého se považuje až ten, kdo padá na záda. Rčení zesměšňuje výmluvy těch, kteří svou opilost zlehčují."
   },
   {
     "text": "Kdo řadu zvyká, řádu odvyká.",
@@ -28021,7 +28022,8 @@
     "text": "Milé doma.",
     "tags": [
       "domov"
-    ]
+    ],
+    "meaning": "Doma je člověku dobře, mezi svými se cítí nejlépe. Krátké vyjádření lásky k domovu."
   },
   {
     "text": "Není nad domov.",
@@ -59861,8 +59863,9 @@
   {
     "text": "Už jsem doma.",
     "tags": [
-      "domov"
-    ]
+      "rozum"
+    ],
+    "meaning": "Říká člověk, který konečně něco pochopil nebo se zorientoval v situaci. Vyjadřuje, že už rozumí tomu, co mu předtím nebylo jasné."
   },
   {
     "text": "Už jsme na prostranně.",
@@ -62317,11 +62320,12 @@
     "meaning": "Je rozmrzelý a rozmarný. „Mít mušky v nose“ znamená být ve špatné náladě."
   },
   {
-    "text": "Jako by hada žral (chytrý, lstivý jako liška).",
+    "text": "Jako by hada žral.",
     "tags": [
       "rozum",
       "zvířata"
-    ]
+    ],
+    "meaning": "Říká se o člověku, který je velmi chytrý, mazaný a lstivý. Jen tak někdo ho nepřelstí."
   },
   {
     "text": "Psem oře.",
@@ -68379,7 +68383,8 @@
     "tags": [
       "rozum",
       "zvířata"
-    ]
+    ],
+    "meaning": "Posměšně o člověku, který dané věci vůbec nerozumí, zvlášť když se přesto tváří jako znalec. Hvězdářství je starší označení astronomie."
   },
   {
     "text": "Rozumí tomu, jako slepý cestě.",
@@ -74574,8 +74579,9 @@
   {
     "text": "Není ho doma.",
     "tags": [
-      "domov"
-    ]
+      "opilství"
+    ],
+    "meaning": "Žertovně o člověku, který je tak opilý, že pořádně nevnímá a neví o sobě."
   },
   {
     "text": "Má čepici jako trám.",
