@@ -1,0 +1,47 @@
+---
+import Icon from './Icon.astro';
+
+interface Props {
+  currentPage: number;
+  lastPage: number;
+  basePath: string;
+  label: string;
+}
+
+const { currentPage, lastPage, basePath, label } = Astro.props;
+const pageUrl = (page: number) => page === 1 ? basePath : `${basePath}/${page}`;
+const pages = Array.from(new Set([
+  1,
+  currentPage - 1,
+  currentPage,
+  currentPage + 1,
+  lastPage,
+])).filter((page) => page >= 1 && page <= lastPage).sort((a, b) => a - b);
+---
+{lastPage > 1 && (
+  <nav class="mt-6 space-y-3" aria-label={label}>
+    <p class="text-sm text-muted">Strana {currentPage} z {lastPage}</p>
+    <div class="flex flex-wrap items-center gap-x-5 gap-y-3">
+      <ol class="flex flex-wrap items-center gap-1">
+        {pages.map((page, index) => (
+          <>
+            {index > 0 && page - pages[index - 1] > 1 && (
+              <li class="px-1 text-muted" aria-hidden="true">…</li>
+            )}
+            <li>
+              {page === currentPage ? (
+                <span class="button button-primary min-w-10 justify-center px-2" aria-current="page" aria-label={`Strana ${page}, aktuální strana`}>{page}</span>
+              ) : (
+                <a class="button min-w-10 justify-center px-2" href={pageUrl(page)} aria-label={`Strana ${page}`}>{page}</a>
+              )}
+            </li>
+          </>
+        ))}
+      </ol>
+      <div class="flex gap-2">
+        {currentPage > 1 && <a class="button" href={pageUrl(currentPage - 1)} rel="prev"><Icon name="previous" size={16} /> Předchozí</a>}
+        {currentPage < lastPage && <a class="button" href={pageUrl(currentPage + 1)} rel="next">Další <Icon name="next" size={16} /></a>}
+      </div>
+    </div>
+  </nav>
+)}

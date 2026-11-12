@@ -99,7 +99,8 @@
     "tags": [
       "řeč",
       "rozum"
-    ]
+    ],
+    "meaning": "Moudrost není zavřená mezi vzácnými předměty ani vyhrazená učeným lidem. Dobrou radu lze slyšet v běžném životě od obyčejných lidí. Přísloví vybízí k pozornému naslouchání zkušenostem druhých."
   },
   {
     "text": "Poznáš Siracha v básniech.",
@@ -2637,7 +2638,8 @@
       "dobro a zlo",
       "rozum",
       "ctnost"
-    ]
+    ],
+    "meaning": "Chytrost bez svědomí může druhým vážně uškodit. Stejně jako nebezpečná zbraň potřebuje rozvážného člověka, schopnosti potřebují poctivý záměr. Přísloví se hodí například při hodnocení někoho, kdo svou vynalézavost používá k podvodům."
   },
   {
     "text": "Ctnost umění převyšuje.",
@@ -3446,7 +3448,8 @@
     "text": "Přátelské služby si připomínej, na křivdy zapomínej.",
     "tags": [
       "přátelství"
-    ]
+    ],
+    "meaning": "Važ si pomoci, kterou ti druzí poskytli, a neudržuj vztahy v zajetí starých příkoří. Přísloví vybízí k vděčnosti a schopnosti odpouštět, aby jedna hádka nezastínila všechno dobré, co pro nás přítel udělal."
   },
   {
     "text": "Dobré se samo děkuje.",
@@ -5435,7 +5438,8 @@
       "štědrost",
       "chudoba",
       "čas"
-    ]
+    ],
+    "meaning": "Pomoc poskytnutá v pravou chvíli má zvláštní cenu. „Drahá“ tu znamená cenná a almužna dar potřebnému. I malý příspěvek může člověku v nouzi pomoci více než velký dar, který přijde až příliš pozdě."
   },
   {
     "text": "Obé dobré, hus i prase.",
@@ -5749,7 +5753,8 @@
     "text": "Pozdě tvarůžky dávají, když lidé zubův nemají.",
     "tags": [
       "čas"
-    ]
+    ],
+    "meaning": "Nabídka přichází pozdě, když už ji člověk nemůže využít. Jídlo podané někomu, kdo už nemá čím kousat, je obrazem opožděné pomoci nebo příležitosti. Říká se například o radě, která dorazí až po rozhodnutí."
   },
   {
     "text": "Pozdě dáno chleba zhusta, kdy už huba zubův pusta.",
@@ -6686,7 +6691,8 @@
     "tags": [
       "peníze",
       "spravedlnost"
-    ]
+    ],
+    "meaning": "Nepoctivý zisk se může mnohonásobně prodražit. Člověk kvůli malé výhodě riskuje náhradu škody, trest i ztrátu důvěry. Groš je stará mince; poměr jednoho a sta zdůrazňuje, jak velké mohou být následky drobného podvodu."
   },
   {
     "text": "Nespravedlivý groš (krejcar) sto spravedlivých z kapsy vyhání.",
@@ -6863,7 +6869,8 @@
     "text": "Láska od sebe začíná.",
     "tags": [
       "láska"
-    ]
+    ],
+    "meaning": "Připomíná, že člověk přirozeně myslí nejprve na sebe a své potřeby. Podle situace může jít o uznání zdravé péče o sebe, ale také o ironický komentář k sobectví člověka, který si vždy vezme nejlepší díl."
   },
   {
     "text": "Kdo sobě zlý, komu dobrý?",
@@ -7856,7 +7863,8 @@
       "pravda",
       "přátelství",
       "svoboda a vůle"
-    ]
+    ],
+    "meaning": "Ani kvůli příteli neopouštěj pravdu a poctivé přesvědčení. Přátelství nemá být důvodem ke lži nebo k zakrývání chyby. Říká se například tehdy, když někdo žádá kamaráda, aby mu potvrdil nepravdivou výmluvu."
   },
   {
     "text": "Nejšlechetnější pravda, pravdu si říci.",
@@ -8194,7 +8202,8 @@
     "text": "Kdo rád lže, toho za přítele míti nelze.",
     "tags": [
       "přátelství"
-    ]
+    ],
+    "meaning": "Přátelství potřebuje důvěru, kterou soustavné lhaní ničí. Na člověka, který si podle potřeby vymýšlí, se nelze bezpečně spolehnout. Přísloví varuje před zaměňováním příjemného vystupování za skutečnou důvěryhodnost."
   },
   {
     "text": "Mladému lháti hanebno, a starému nepotřebno.",
@@ -8530,7 +8539,8 @@
       "řeč",
       "rozum",
       "hloupost"
-    ]
+    ],
+    "meaning": "Rozumné vysvětlení se těžko prosazuje mezi lidmi, kteří mu nechtějí naslouchat nebo si z něj dělají legraci. Rčení vystihuje marnost debaty, v níž místo argumentů rozhoduje hluk, posměch či předsudek."
   },
   {
     "text": "Bláznivá řeč nemá moudré odpovědi.",
@@ -9577,7 +9587,8 @@
       "mlčení",
       "rozum",
       "hloupost"
-    ]
+    ],
+    "meaning": "Dokud člověk nepromluví, druzí nemusí poznat, co skutečně ví a jak uvažuje. Mlčenlivost může budit dojem rozvahy i tam, kde znalosti chybějí. Přísloví žertovně radí nemluvit o věcech, kterým nerozumíme."
   },
   {
     "text": "Kdyby uměl blázen mlčeti, při mudrcích by mohl seděti.",
@@ -10271,7 +10282,8 @@
     "tags": [
       "rozum",
       "hloupost"
-    ]
+    ],
+    "meaning": "I rozumný člověk někdy udělá hloupost nebo se nechá strhnout okamžikem. „Trefit se“ tu znamená přihodit se či stát se. Rčení připomíná lidskou omylnost a může zmírnit příliš přísný soud nad jednou chybou."
   },
   {
     "text": "Nechť neposlouchá, kdo se uráží, a žertovať jiným nepřekáží.",
@@ -10473,7 +10485,8 @@
     "tags": [
       "láska",
       "řeč"
-    ]
+    ],
+    "meaning": "Vlídná řeč snáze získá ochotného posluchače a vstřícnou odpověď. Když člověk požádá slušně a s ohledem na druhého, má větší naději na domluvu než při křiku nebo urážkách."
   },
   {
     "text": "Dobrá řeč dobré místo nalezne.",
@@ -10492,14 +10505,16 @@
     "tags": [
       "řeč",
       "láska"
-    ]
+    ],
+    "meaning": "Promluvit vlídně mnoho nestojí, ale může to druhému výrazně pomoci nebo zlepšit vzájemný vztah. „Vydajné“ tu znamená účinné, přinášející užitek. Třeba krátké povzbuzení může člověku dodat odvahu do obtížného úkolu."
   },
   {
     "text": "Laskavé slovo jest kyje silnější.",
     "tags": [
       "řeč",
       "láska"
-    ]
+    ],
+    "meaning": "Vlídnost a přesvědčivá domluva mohou dosáhnout více než nátlak a hrubá síla. Kyj je těžká dřevěná zbraň a představuje zde násilí. Přísloví vybízí zkusit nejprve lidské jednání místo hrozeb."
   },
   {
     "text": "Pěkné slovo železná vrata otvírá.",
@@ -12912,7 +12927,8 @@
     "text": "Koupil by ves, a peníze jsou kdes.",
     "tags": [
       "peníze"
-    ]
+    ],
+    "meaning": "Někdo má velkolepé nákupní plány, ale chybějí mu prostředky k jejich uskutečnění. Rčení se používá posměšně o člověku, který už vybírá drahé věci, přestože zatím nemá ani na základní výdaje."
   },
   {
     "text": "Vše domů přijde, co vlci nesnědí.",
@@ -13362,7 +13378,8 @@
     "tags": [
       "rozum",
       "hloupost"
-    ]
+    ],
+    "meaning": "Oprávněná kritika od rozumného člověka pomůže více než bezmyšlenkovitá chvála. „Příhana“ znamená výtku či pokárání. Například upozornění zkušeného učitele na chybu je pro další učení cennější než pochvala někoho, kdo práci nerozumí."
   },
   {
     "text": "Čím se koza pyšní, za to se ovce stydí (že ocas zdvihla).",
@@ -13808,7 +13825,8 @@
       "rozum",
       "čas",
       "pomoc"
-    ]
+    ],
+    "meaning": "Některé otázky nelze vyřešit okamžitým přemýšlením; potřebné vysvětlení nebo možnost řešení přinese až další vývoj. Přísloví radí k trpělivosti tam, kde zatím chybějí informace nebo zkušenost."
   },
   {
     "text": "Trp míle, dáť pán Bůh více.",
@@ -14246,7 +14264,8 @@
     "tags": [
       "hněv",
       "přátelství"
-    ]
+    ],
+    "meaning": "Neovládaný hněv dokáže rozbít i dlouholeté přátelství. „Přátelstvo“ tu znamená přátelský vztah nebo společenství přátel. Přísloví připomíná, že slova vyřčená v rozčilení mohou ublížit i poté, co samotný spor pomine."
   },
   {
     "text": "Daleko od hněvu, daleko od hromu.",
@@ -15418,13 +15437,15 @@
     "text": "Bez práce není ovoce.",
     "tags": [
       "práce"
-    ]
+    ],
+    "meaning": "Výsledek se nedostaví bez úsilí. Ovoce zde představuje odměnu za vykonanou práci, podobně jako úroda přichází až po péči o sad. Říká se například tomu, kdo chce něco umět, ale nechce se učit ani cvičit."
   },
   {
     "text": "Přičinlivému dvojí život.",
     "tags": [
       "práce"
-    ]
+    ],
+    "meaning": "Činorodý člověk dokáže svůj čas využít tak dobře, jako by měl k dispozici dva životy. Přísloví chválí pracovitost a podnikavost: kdo se věcem věnuje, více toho prožije a vykoná."
   },
   {
     "text": "Kdo pracuje, toho Bůh nezkracuje.",
@@ -15462,7 +15483,8 @@
     "tags": [
       "práce",
       "jídlo"
-    ]
+    ],
+    "meaning": "K odměně nebo blahobytu se člověk zpravidla dostane vlastním přičiněním. „Žáden“ znamená žádný či nikdo. Jde o starší podobu známého přísloví „Bez práce nejsou koláče“, používaného jako pobídka k práci."
   },
   {
     "text": "Bez práce ani koláče.",
@@ -15484,7 +15506,8 @@
       "pití",
       "práce",
       "víno"
-    ]
+    ],
+    "meaning": "Pracovitost přináší prostředky k dobrému živobytí i k příjemnostem. Víno je tu obrazem blahobytu a odměny za úsilí. Přísloví povzbuzuje člověka, aby se o zlepšení svých poměrů sám přičinil."
   },
   {
     "text": "Nechopiv se sekyry chaloupky nezroubíš.",
@@ -15708,7 +15731,8 @@
     "text": "Bez práce se člověk nenají.",
     "tags": [
       "práce"
-    ]
+    ],
+    "meaning": "K zajištění živobytí je potřeba práce a vlastní úsilí. Přísloví připomíná souvislost mezi tím, co člověk vykoná, a tím, z čeho pak žije; používá se jako pobídka proti zahálce."
   },
   {
     "text": "Z pilnosti se štěstí rodí, lenost holou bidu plodí.",
@@ -15990,7 +16014,8 @@
     "text": "Dobrá práce, dobrá mzda.",
     "tags": [
       "práce"
-    ]
+    ],
+    "meaning": "Dobře vykonaná práce si zaslouží odpovídající odměnu. Rčení může povzbudit pracovníka k pečlivosti i připomenout tomu, kdo práci zadává, že za kvalitu má spravedlivě zaplatit."
   },
   {
     "text": "Jaká tykva, taková modlitba.",
@@ -16507,7 +16532,8 @@
     "text": "Kdo se do práce strojí, ten se jí bojí.",
     "tags": [
       "práce"
-    ]
+    ],
+    "meaning": "Kdo se na práci příliš dlouho chystá, může tím jen odkládat chvíli, kdy má skutečně začít. „Strojit se“ tu znamená připravovat se. Rčení se hodí jako žertovná výtka člověku, který stále něco rovná a plánuje, ale do úkolu se nepouští."
   },
   {
     "text": "Co máš dnes snísti, schovej na zejtří, a co máš zejtra dělati, dělej dnes.",
@@ -16602,7 +16628,8 @@
     "tags": [
       "práce",
       "škoda"
-    ]
+    ],
+    "meaning": "Nemá smysl vynakládat velké úsilí tam, kde lze stejného výsledku dosáhnout jednodušeji. Přísloví radí volit přiměřené prostředky, například neopravovat celý předmět, když stačí vyměnit jednu součástku."
   },
   {
     "text": "Spěšně k jídlu, spěšně k dílu.",
@@ -16698,7 +16725,8 @@
     "tags": [
       "práce",
       "peníze"
-    ]
+    ],
+    "meaning": "I špinavá a namáhavá práce přináší poctivý výdělek. Protiklad černé práce a bílých mincí vyjadřuje rozdíl mezi dřinou a její odměnou. „Černá“ zde označuje ušpinění při práci, nikoli dnešní pojem nelegálního zaměstnávání."
   },
   {
     "text": "Kdo se svou prací živí, o krádeži nic neví.",
@@ -16771,7 +16799,8 @@
       "práce",
       "čas",
       "zvířata"
-    ]
+    ],
+    "meaning": "Práce i odpočinek mají mít ve dni své místo. Přísloví vybízí k rozumnému rozdělení času, aby zábava nevytlačila povinnosti a práce zase nezabrala celý život."
   },
   {
     "text": "Po práci mílo odpočinouti.",
@@ -16785,7 +16814,8 @@
     "tags": [
       "práce",
       "hlad"
-    ]
+    ],
+    "meaning": "Po námaze a s opravdovým hladem chutná i obyčejné jídlo. Práce a hlad jsou přirovnány ke koření, které pokrm vylepší. Říká se například po dlouhém výletě, když si lidé pochutnají na prostém chlebu."
   },
   {
     "text": "Práce není bez platu, rozkoš plodí útratu.",
@@ -17214,7 +17244,8 @@
     "tags": [
       "čas",
       "roční období"
-    ]
+    ],
+    "meaning": "Na budoucí obtíže je potřeba připravovat se v době, kdy jsou k tomu dobré podmínky. Zima ukáže, zda člověk v létě obstaral zásoby. Obrazně jde například o spoření v době dostatku nebo průběžné učení před zkouškou."
   },
   {
     "text": "Kde jsi zpívala v létě, zpívej i v zimě (řekli mravenci ke kobylce).",
@@ -18101,7 +18132,8 @@
     "tags": [
       "sliby",
       "peníze"
-    ]
+    ],
+    "meaning": "Loterie láká představou bohatství, ale sázející při ní může přijít i o to, co už má. „Lutrije“ je starší výraz pro loterii a dukát zlatá mince. Svlékání kabátu obrazně vyjadřuje zchudnutí kvůli vidině snadné výhry."
   },
   {
     "text": "Lutrija slubuje dukoty a stahuje s tebe galaty.",
@@ -20259,7 +20291,8 @@
     "text": "Peníze jsou i v ošumělém měšci vítány.",
     "tags": [
       "peníze"
-    ]
+    ],
+    "meaning": "Hodnota peněz nezávisí na tom, zda je člověk nosí v honosné peněžence nebo ve starém váčku. Rčení připomíná, že užitečný obsah je důležitější než vzhled obalu a že skromné vystupování nemusí znamenat chudobu."
   },
   {
     "text": "Lepší sáček za groš, ano kopa v něm, nežli za kopu, ano groš v něm.",
@@ -24757,7 +24790,8 @@
     "tags": [
       "práce",
       "naděje"
-    ]
+    ],
+    "meaning": "Představa dobrého výsledku pomáhá člověku snášet únavu a vytrvat v práci. „Potěcha“ znamená útěchu či povzbuzení. Rčení se hodí třeba při dlouhém učení, kdy člověka drží nad vodou naděje na zvládnutou zkoušku."
   },
   {
     "text": "Štěstí brzo opouští, ale dobrá naděje nikdy.",
@@ -28428,7 +28462,8 @@
     "text": "Rovnost přátele činí.",
     "tags": [
       "přátelství"
-    ]
+    ],
+    "meaning": "Přátelství prospívá, když se lidé považují za sobě rovné a nikdo se nad druhého nepovyšuje. Podobné postavení a zkušenosti mohou usnadnit porozumění; podstatná je vzájemnost, nikoli vztah nadřízeného a podřízeného."
   },
   {
     "text": "Těžká shoda, s ohněm voda.",
@@ -28455,7 +28490,8 @@
     "text": "Vol přítele po své mysli (podlé mravu svého).",
     "tags": [
       "přátelství"
-    ]
+    ],
+    "meaning": "Za blízkého přítele si vybírej člověka, s nímž sdílíš důležité hodnoty a podobný způsob jednání. „Mrav“ tu znamená povahu či chování. Společné zájmy pomohou vztah začít, ale shoda v tom, co považujeme za správné, ho pomáhá udržet."
   },
   {
     "text": "Lepší známost (přítel), než rodina.",
@@ -28483,13 +28519,15 @@
     "text": "Nezakládej si mnoho na stu zlatých, zakládej na stu přátelích.",
     "tags": [
       "přátelství"
-    ]
+    ],
+    "meaning": "Dobré vztahy mohou mít větší cenu než peníze, protože v nouzi přinesou pomoc, radu i oporu. Zlatý je stará peněžní jednotka. Přísloví porovnává hmotné bohatství s bohatstvím lidských vztahů."
   },
   {
     "text": "Přátel mnoho, pokladův mnoho.",
     "tags": [
       "přátelství"
-    ]
+    ],
+    "meaning": "Každý opravdový přítel je cenný svou pomocí, důvěrou a blízkostí. Přísloví přirovnává dobré přátele k pokladům a připomíná, že bohatství člověka nespočívá jen v jeho majetku."
   },
   {
     "text": "Přátel mnoho míti neškodí, jestli ne ten, onen se hodí.",
@@ -28623,7 +28661,8 @@
     "tags": [
       "přátelství",
       "láska"
-    ]
+    ],
+    "meaning": "Opravdový přítel má rád tebe samotného, nikoli tvé peníze, majetek nebo výhody, které mu můžeš poskytnout. Rozdíl se ukáže například tehdy, když už nemůžeš platit společné útraty, ale přítel s tebou dál rád tráví čas."
   },
   {
     "text": "Nehrad se plotem, ale hraď se přáteli.",
@@ -29493,7 +29532,8 @@
     "text": "Láska lásku rodí (budí).",
     "tags": [
       "láska"
-    ]
+    ],
+    "meaning": "Laskavé a upřímné jednání může v druhém člověku vyvolat stejnou náklonnost. Rčení připomíná vzájemnost dobrých vztahů: projevená péče a pozornost často povzbudí druhého, aby je také opětoval."
   },
   {
     "text": "Láska z obcování vzrůst béře.",
@@ -52642,7 +52682,8 @@
     "tags": [
       "čas",
       "roční období"
-    ]
+    ],
+    "meaning": "Na budoucí obtíže je potřeba připravovat se v době, kdy jsou k tomu dobré podmínky. Zima ukáže, zda člověk v létě obstaral zásoby. Obrazně jde například o spoření v době dostatku nebo průběžné učení před zkouškou."
   },
   {
     "text": "Co zima zdere, toho léto nevidí.",

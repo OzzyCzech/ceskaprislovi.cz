@@ -3,8 +3,9 @@ import type { GetStaticPaths, InferGetStaticPropsType } from 'astro';
 import Base from '../../../layouts/Base.astro';
 import Icon from '../../../components/Icon.astro';
 import ProverbCard from '../../../components/ProverbCard.astro';
+import Pagination from '../../../components/Pagination.astro';
 import { proverbsByTheme } from '../../../lib/proverbs';
-import { themeSlug } from '../../../lib/theme-path';
+import { themePath, themeSlug } from '../../../lib/theme-path';
 
 export const getStaticPaths = (({ paginate }) =>
   Array.from(proverbsByTheme, ([theme, entries]) => paginate(entries, {
@@ -26,12 +27,6 @@ const number = new Intl.NumberFormat('cs-CZ');
     <div class="mt-8 border-t border-line">
       {page.data.map((proverb) => <ProverbCard proverb={proverb} />)}
     </div>
-    {page.lastPage > 1 && (
-      <nav class="mt-6 flex flex-wrap items-center gap-3" aria-label="Stránkování tématu">
-        {page.url.prev && <a class="button" href={page.url.prev} rel="prev"><Icon name="previous" size={16} /> Předchozí</a>}
-        <span class="text-sm text-muted">Strana {page.currentPage} z {page.lastPage}</span>
-        {page.url.next && <a class="button" href={page.url.next} rel="next">Další <Icon name="next" size={16} /></a>}
-      </nav>
-    )}
+    <Pagination currentPage={page.currentPage} lastPage={page.lastPage} basePath={themePath(theme)} label="Stránkování tématu" />
   </div>
 </Base>
