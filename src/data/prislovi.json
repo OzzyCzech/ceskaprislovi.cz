@@ -642,13 +642,14 @@
     ]
   },
   {
-    "text": "Bůh dobře ví, proč které koze rohy sráží (proč koho krotí).",
+    "text": "Bůh dobře ví, proč které koze rohy sráží.",
     "tags": [
       "víra"
-    ]
+    ],
+    "meaning": "Na každého se najde způsob, jak ho zkrotit. Bůh ví, proč komu omezuje moc nebo sebevědomí."
   },
   {
-    "text": "Bůh také vzpomene na své (buď milostí, buď trestem).",
+    "text": "Bůh také vzpomene na své.",
     "tags": [
       "víra",
       "právo a soudy"
@@ -1424,10 +1425,11 @@
     "meaning": "Nepřítel by nás rád zničil, ale Bůh nedovolí, aby nám ublížil. Utěšuje věřící v ohrožení."
   },
   {
-    "text": "Každý o sebe, pán Bůh o všecky (starej se).",
+    "text": "Každý o sebe, pán Bůh o všecky.",
     "tags": [
       "víra"
-    ]
+    ],
+    "meaning": "Každý se má starat o sebe a Bůh se postará o všechny."
   },
   {
     "text": "V Boha doufej, a sám foukej.",
@@ -1780,12 +1782,13 @@
     "meaning": "Co má člověka potkat, tomu se nevyhne. Vyjadřuje víru v nevyhnutelný osud."
   },
   {
-    "text": "Co komu souzeno, to koněm neobjede (nevyhne se).",
+    "text": "Co komu souzeno, to koněm neobjede.",
     "tags": [
       "starosti",
       "zvířata",
       "koně"
-    ]
+    ],
+    "meaning": "Co je člověku souzeno, tomu neunikne."
   },
   {
     "text": "Osudu neutečeš.",
@@ -3781,10 +3784,11 @@
     ]
   },
   {
-    "text": "Nezkoušej toho, co má ocas černý (co zlý konec béře).",
+    "text": "Nezkoušej toho, co má ocas černý.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Nepouštěj se do něčeho, co vede ke špatnému konci."
   },
   {
     "text": "Nehraj kočko uhlem; tlapku si spálíš.",
@@ -4046,10 +4050,11 @@
     ]
   },
   {
-    "text": "Štika umřela, ale zuby ostaly (jsou ještě živy).",
+    "text": "Štika umřela, ale zuby ostaly.",
     "tags": [
       "smrt"
-    ]
+    ],
+    "meaning": "I po smrti nebezpečného člověka může přetrvat jeho škodlivý vliv."
   },
   {
     "text": "Zlosti kdo strojí, světla se bojí.",
@@ -5418,13 +5423,14 @@
     ]
   },
   {
-    "text": "Boháč dává pro pověsť, chudý pro česť (aby uctil).",
+    "text": "Boháč dává pro pověsť, chudý pro česť.",
     "tags": [
       "chvála a pověst",
       "bohatství",
       "chudoba",
       "čest"
-    ]
+    ],
+    "meaning": "Bohatý dává, aby si získal pověst, chudý proto, aby druhému projevil úctu."
   },
   {
     "text": "Od bogatca na glas, od siromaha na čas (čast).",
@@ -7297,10 +7303,11 @@
     ]
   },
   {
-    "text": "Pij hrdlo, jez hrdlo, zaplatíš hrdlo (třeba na šibenici).",
+    "text": "Pij hrdlo, jez hrdlo, zaplatíš hrdlo.",
     "tags": [
       "pití"
-    ]
+    ],
+    "meaning": "Za požívání a rozhazování může člověk zaplatit i vlastním životem, třeba na šibenici."
   },
   {
     "text": "Jak nabyl, tak pozbyl.",
@@ -7400,11 +7407,12 @@
     ]
   },
   {
-    "text": "Nespravedlivý statek k duhu nejde (netučí, nemá stálosti).",
+    "text": "Nespravedlivý statek k duhu nejde.",
     "tags": [
       "lidské vlastnosti",
       "spravedlnost"
-    ]
+    ],
+    "meaning": "Nespravedlivě nabytý majetek neprospívá a dlouho nevydrží."
   },
   {
     "text": "Bohatí ne vždycky vědí, kdo po nich dědí.",
@@ -7774,10 +7782,11 @@
     ]
   },
   {
-    "text": "V pravdě neproúčtuješ (se nepřepočteš).",
+    "text": "V pravdě neproúčtuješ.",
     "tags": [
       "pravda"
-    ]
+    ],
+    "meaning": "Poctivým jednáním člověk neprodělá."
   },
   {
     "text": "V obchodě-li o pravdu dbáš, více vyděláš.",
@@ -7906,10 +7915,11 @@
     "meaning": "Moudrost najdeme nejspíš u starých, kteří toho hodně zažili, a pravdu nejspíš řeknou děti, které neumějí lhát ani se přetvařovat."
   },
   {
-    "text": "Pravda nehladí (nelichotí).",
+    "text": "Pravda nehladí.",
     "tags": [
       "pravda"
-    ]
+    ],
+    "meaning": "Pravda nelichotí a nemusí být příjemná."
   },
   {
     "text": "Těžko pravdu mluviti a neuraziti.",
@@ -8360,10 +8370,11 @@
     ]
   },
   {
-    "text": "Každá smyšlenka hezka ve šperku (s přímastkem).",
+    "text": "Každá smyšlenka hezka ve šperku.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Vymyšlené tvrzení působí hezky, když je přikrášlené."
   },
   {
     "text": "I pěkně lhati jest hřích.",
@@ -8745,11 +8756,12 @@
     "meaning": "Mnoho mluvení člověka vyčerpá a přináší mu potíže."
   },
   {
-    "text": "Jazyk hlavě nepřeje (nepřítel).",
+    "text": "Jazyk hlavě nepřeje.",
     "tags": [
       "řeč",
       "přátelství"
-    ]
+    ],
+    "meaning": "Neuvážená řeč může člověku uškodit."
   },
   {
     "text": "Každá straka od svého jazyka hyne.",
@@ -9070,10 +9082,11 @@
     ]
   },
   {
-    "text": "Kdo má hubu, ten má v ruce (ten béře).",
+    "text": "Kdo má hubu, ten má v ruce.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Kdo si umí říci, ten něco získá."
   },
   {
     "text": "Dokud ručnice nebouchne, slyšeti se nemůže.",
@@ -10636,10 +10649,11 @@
     ]
   },
   {
-    "text": "Nedávej každému hned ruky (nedávej se v obyčej).",
+    "text": "Nedávej každému hned ruky.",
     "tags": [
       "zvyk"
-    ]
+    ],
+    "meaning": "Nesbližuj se hned s každým a nepouštěj si každého příliš k tělu."
   },
   {
     "text": "Hrubý člověk neřídí se rozumem, ale chtíči (vášněmi) svými.",
@@ -11641,10 +11655,11 @@
     "meaning": "Sliby jsou snadno dané a těžko splněné; věří jim jen naivní. Přísloví varuje před lehkověrností vůči slibům."
   },
   {
-    "text": "Na hubu mnohého dost (řeči dost), ale skutek utek.",
+    "text": "Na hubu mnohého dost, ale skutek utek.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Řečí má mnoho, ale skutek chybí."
   },
   {
     "text": "Nezpoléhej na cizí trošty.",
@@ -12248,11 +12263,11 @@
     ]
   },
   {
-    "text": "Na mysli veliko, a na humně ani toliko (fik).",
+    "text": "Na mysli veliko, a na humně ani toliko.",
     "tags": [
       "lidské vlastnosti"
     ],
-    "meaning": "Hodně se naplánuje a nadělá planých řečí, ale ve skutečnosti není skoro nic. Humno je prostor u stodoly, kde se mlátilo obilí."
+    "meaning": "Velké plány a řeči provází nepatrný skutečný výsledek."
   },
   {
     "text": "Pyšný žebrák nic nevyprosí.",
@@ -13222,10 +13237,11 @@
     ]
   },
   {
-    "text": "Co komu, to tomu (pastýři trouba).",
+    "text": "Co komu, to tomu.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Každému patří to, co mu náleží nebo co se k němu hodí."
   },
   {
     "text": "Co jest popovo, to buď hotovo.",
@@ -13384,12 +13400,13 @@
     "meaning": "Oprávněná kritika od rozumného člověka pomůže více než bezmyšlenkovitá chvála. „Příhana“ znamená výtku či pokárání. Například upozornění zkušeného učitele na chybu je pro další učení cennější než pochvala někoho, kdo práci nerozumí."
   },
   {
-    "text": "Čím se koza pyšní, za to se ovce stydí (že ocas zdvihla).",
+    "text": "Čím se koza pyšní, za to se ovce stydí.",
     "tags": [
       "pýcha",
       "zvířata",
       "stud"
-    ]
+    ],
+    "meaning": "Jeden se chlubí tím, za co by se druhý styděl."
   },
   {
     "text": "Pověst po uších lidských lítá.",
@@ -17251,13 +17268,14 @@
     "meaning": "Na budoucí obtíže je potřeba připravovat se v době, kdy jsou k tomu dobré podmínky. Zima ukáže, zda člověk v létě obstaral zásoby. Obrazně jde například o spoření v době dostatku nebo průběžné učení před zkouškou."
   },
   {
-    "text": "Kde jsi zpívala v létě, zpívej i v zimě (řekli mravenci ke kobylce).",
+    "text": "Kde jsi zpívala v létě, zpívej i v zimě.",
     "tags": [
       "práce a živobytí",
       "zvířata",
       "roční období",
       "koně"
-    ]
+    ],
+    "meaning": "Kdo v době hojnosti jen zahálel, nemůže v nouzi čekat pomoc od těch, kteří si dělali zásoby. Výrok připomíná odpověď mravenců kobylce."
   },
   {
     "text": "Kdo ve žních hledí chladu, natrpí se v zimě hladu.",
@@ -17851,12 +17869,13 @@
     "meaning": "Do hospody se člověk žene, ale zpátky jde nerad a pomalu. Pořekadlo si utahuje z někoho, kdo v hospodě rád vysedává."
   },
   {
-    "text": "Opilého modlitba, hladového půst (nestojí za mnoho).",
+    "text": "Za mnoho nestojí opilého modlitba a hladového půst.",
     "tags": [
       "víra",
       "opilství",
       "hlad"
-    ]
+    ],
+    "meaning": "Modlitba opilého a půst hladového mají malou hodnotu. Půst, který plyne jen z nedostatku jídla, není projevem dobrovolného odříkání."
   },
   {
     "text": "Sedlák rok nepije, i dvě léta nepije, a jak ho čert ponukne, hned všecko propije.",
@@ -18282,13 +18301,14 @@
     ]
   },
   {
-    "text": "Vlk tu nebéře, kde má mladé (aby šlak ztratil).",
+    "text": "Vlk tu nebéře, kde má mladé.",
     "tags": [
       "mládí a stáří",
       "zvířata",
       "ztráta",
       "vlci"
-    ]
+    ],
+    "meaning": "Vlk neloví tam, kde má mláďata, aby neprozradil své útočiště."
   },
   {
     "text": "Tak lotři někteří, kdež bydlí, tu na kabáty nečíhají, leč jinde dále.",
@@ -26170,10 +26190,11 @@
     ]
   },
   {
-    "text": "Na blázny netřeba hnoja (sami se rodí).",
+    "text": "Na blázny netřeba hnoja.",
     "tags": [
       "hloupost"
-    ]
+    ],
+    "meaning": "Hlupáky není třeba pěstovat, rodí se sami. Žertovně o tom, že hlouposti je vždy dost."
   },
   {
     "text": "Posaď blázna vysoko, bude nohama klátiti (kopati).",
@@ -27087,10 +27108,11 @@
     ]
   },
   {
-    "text": "I staří lidé se divívají (nevědí o mnohém).",
+    "text": "I staří lidé se divívají.",
     "tags": [
       "mládí a stáří"
-    ]
+    ],
+    "meaning": "Ani staří a zkušení lidé nevědí všechno a mohou se něčemu podivovat."
   },
   {
     "text": "Snadno v pustém lese hvízdati.",
@@ -27239,10 +27261,11 @@
     ]
   },
   {
-    "text": "Umění i kozy pase: pět jich zahání, tři přihání (žertovně).",
+    "text": "Umění i kozy pase: pět jich zahání, tři přihání.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Žertem o domnělé dovednosti: pasák ztratí část svěřených koz."
   },
   {
     "text": "Mistr mistru nerad ukazuje.",
@@ -28457,12 +28480,13 @@
     "meaning": "Dva nebo tři opravdoví přátelé jsou si tak blízcí, jako by měli jednu duši v různých tělech."
   },
   {
-    "text": "Přítel příteli bůh (ochrance, pomocník, útěcha).",
+    "text": "Přítel příteli bůh.",
     "tags": [
       "přátelství",
       "víra",
       "pomoc"
-    ]
+    ],
+    "meaning": "Přítel má být druhému ochráncem, pomocníkem a útěchou."
   },
   {
     "text": "Rovnost přátele činí.",
@@ -28599,13 +28623,14 @@
     "meaning": "Dlouholetý přítel je nejspolehlivější. Prověřené přátelství má větší cenu než nové známosti."
   },
   {
-    "text": "Starý přítel i staré víno nejlepší (řídko chybuje).",
+    "text": "Starý přítel i staré víno nejlepší.",
     "tags": [
       "přátelství",
       "mládí a stáří",
       "pití",
       "víno"
-    ]
+    ],
+    "meaning": "Staré přátelství i staré víno bývají osvědčené a spolehlivé."
   },
   {
     "text": "Drž se nové cesty a starého přítele.",
@@ -28883,10 +28908,11 @@
     ]
   },
   {
-    "text": "Přítelem buď po oltář (pokud svědomí dopouští).",
+    "text": "Přítelem buď po oltář.",
     "tags": [
       "přátelství"
-    ]
+    ],
+    "meaning": "Přátelství má své meze: příteli lze vyhovět jen potud, pokud to dovoluje vlastní svědomí."
   },
   {
     "text": "U přátel řídko bývej.",
@@ -29605,10 +29631,11 @@
     "source": "internet"
   },
   {
-    "text": "Bezděčná milost a vytřená červenost (vše jedno).",
+    "text": "Bezděčná milost a vytřená červenost.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Vynucená láska nemá větší cenu než uměle vyvolaná červeň."
   },
   {
     "text": "Nucená láska a spravovaná krása za nic nestojí.",
@@ -29920,10 +29947,11 @@
     ]
   },
   {
-    "text": "Hezký můj milý, třeba měl kabát bílý (jako voják).",
+    "text": "Hezký můj milý, třeba měl kabát bílý.",
     "tags": [
       "válka a mír"
-    ]
+    ],
+    "meaning": "Milý člověk je drahý bez ohledu na jeho oděv nebo postavení."
   },
   {
     "text": "Hezké děvče Ančička, když chválí matka a babička.",
@@ -29965,11 +29993,12 @@
     ]
   },
   {
-    "text": "Milí se hněvají, ne aby hřešili, ale by se těšili (jen pro změnu).",
+    "text": "Milí se hněvají, ne aby hřešili, ale by se těšili.",
     "tags": [
       "hřích",
       "hněv"
-    ]
+    ],
+    "meaning": "Milenci se někdy škádlí a hněvají jen proto, aby se zase usmířili."
   },
   {
     "text": "Mladí se z hněvu těší, a staří běsí.",
@@ -30262,17 +30291,19 @@
     ]
   },
   {
-    "text": "Na koho opat (laskav), na toho i bratří.",
+    "text": "Na koho opat laskav, na toho i bratří.",
     "tags": [
       "láska",
       "rodina"
-    ]
+    ],
+    "meaning": "Komu je nakloněn představený, tomu bývají nakloněni i ostatní. Přízeň toho, kdo stojí v čele, ovlivňuje chování jeho okolí."
   },
   {
-    "text": "Panská láska po práh (co nohy nevytáhneš).",
+    "text": "Panská láska po práh.",
     "tags": [
       "láska"
-    ]
+    ],
+    "meaning": "Přízeň mocných trvá jen krátce a není na ni spolehnutí."
   },
   {
     "text": "Kdo si panskou lásku chválí, čímsi nejistým se šálí.",
@@ -32128,12 +32159,6 @@
     ]
   },
   {
-    "text": "Když se lýka derou (dokud mízka), tu na ně is dětmi.",
-    "tags": [
-      "životní zkušenost"
-    ]
-  },
-  {
     "text": "Půmaly budě to prv.",
     "tags": [
       "životní zkušenost"
@@ -32993,10 +33018,20 @@
     ]
   },
   {
-    "text": "I kuře má srdce (žluč).",
+    "text": "I kuře má srdce.",
     "tags": [
-      "životní zkušenost"
-    ]
+      "odvaha",
+      "zvířata"
+    ],
+    "meaning": "I malý a slabý tvor může mít odvahu a postavit se silnějšímu."
+  },
+  {
+    "text": "I kuře má žluč.",
+    "tags": [
+      "hněv",
+      "zvířata"
+    ],
+    "meaning": "I malý a slabý tvor se dokáže rozzlobit a projevit vztek. Žluč je zde obrazem hněvu."
   },
   {
     "text": "I moucha se brání a štípe.",
@@ -33909,10 +33944,11 @@
     ]
   },
   {
-    "text": "Jiné kaše (podkasává), a sám se plíhá.",
+    "text": "Jiné kaše podkasává, a sám se plíhá.",
     "tags": [
-      "jídlo"
-    ]
+      "lidské vlastnosti"
+    ],
+    "meaning": "Upozorňuje na cizí nedostatky, přestože sám má stejné nebo horší. „Podkasává“ doslova znamená podhrnuje či vyhrnuje oděv. Obrazně tu druhým upravuje šat, zatímco jeho vlastní se vleče po zemi: napravuje druhé, ale sebe zanedbává."
   },
   {
     "text": "Jinde toho hledá, čeho doma nazbyt má.",
@@ -34275,10 +34311,11 @@
     ]
   },
   {
-    "text": "Zaplať pán Bůh za buchty, za kapustu odpusťte (neoplatím).",
+    "text": "Zaplať pán Bůh za buchty, za kapustu odpusťte.",
     "tags": [
       "víra"
-    ]
+    ],
+    "meaning": "Za to, co dostávám navíc, už nemohu nabídnout odpovídající odplatu."
   },
   {
     "text": "Když jsi pil, plať, s šenkýřkou se nevaď.",
@@ -36093,9 +36130,13 @@
     "meaning": "Některé věci se dřív nebo později projeví navenek. Majetek, silný cit, vážnou nemoc ani výčitky svědomí člověk dlouho neutají."
   },
   {
-    "text": "Jsi-li hřib, lez do krosny (do koše s tebou).",
+    "text": "Jsi-li hřib, lez do košíku s tebou.",
     "tags": [
       "lež a klam"
+    ],
+    "meaning": "Kdo někam svou povahou patří, má přijmout důsledky svého postavení. Obraz houby, která patří do košíku, vybízí přijmout vlastní úlohu.",
+    "alternatives": [
+      "Jsi-li hřib, lez do krosny."
     ]
   },
   {
@@ -36464,10 +36505,11 @@
     "meaning": "Komu dobře slouží zdraví, tomu obvykle svědčí i věci, které oslabený člověk špatně snáší."
   },
   {
-    "text": "Co máš, ne tvoje, i zdraví na dvoje (nejisté).",
+    "text": "Co máš, ne tvoje, i zdraví na dvoje.",
     "tags": [
       "zdraví"
-    ]
+    ],
+    "meaning": "Ani majetek, ani zdraví nejsou jisté a trvalé. Člověk o ně může kdykoli přijít."
   },
   {
     "text": "Třeba chaloupka tmavá (jedlová), jen když duše zdráva.",
@@ -36659,10 +36701,11 @@
     ]
   },
   {
-    "text": "Půl dubu suchého, půl dubu syrého, a vrcholek (neděle) zlatý.",
+    "text": "Půl dubu suchého, půl dubu živého, a vrcholek zlatý.",
     "tags": [
-      "zdraví a život"
-    ]
+      "životní zkušenost"
+    ],
+    "meaning": "Věc se ukazuje jednou tak a podruhé jinak a není jasné, jaká doopravdy je. Smíšený obraz suchého i živého stromu vyjadřuje nejednoznačnost a nejistotu."
   },
   {
     "text": "Jez do polosyta, pij do polopita, vyjdou ti na plno léta.",
@@ -41368,10 +41411,11 @@
     ]
   },
   {
-    "text": "Větší počet krále volí (t rozhodne).",
+    "text": "Větší počet krále volí.",
     "tags": [
       "vláda"
-    ]
+    ],
+    "meaning": "Rozhoduje většina hlasů."
   },
   {
     "text": "Nový pán, nové právo.",
@@ -42516,10 +42560,11 @@
     ]
   },
   {
-    "text": "Sestra při bratru není osednice (otcovského gruntu neosedá).",
+    "text": "Sestra při bratru není osednice.",
     "tags": [
       "rodina"
-    ]
+    ],
+    "meaning": "Sestra při dědění vedle bratra nepřebírá otcovský grunt."
   },
   {
     "text": "Krajíc k bochníku již nepřistávej.",
@@ -42858,10 +42903,14 @@
     ]
   },
   {
-    "text": "Práva jak pavučina, brouk se probije, a na mouchu vina (a moucha uvázne).",
+    "text": "Právo je jak pavučina, brouk se probije a moucha uvázne.",
     "tags": [
-      "pití"
-    ]
+      "právo a soudy",
+      "spravedlnost",
+      "bohatství",
+      "chudoba"
+    ],
+    "meaning": "Silní a bohatí se nezřídka dokážou právu vyhnout, zatímco slabé a chudé trest dostihne. Pavučina zachytí drobnou mouchu, ale silnější brouk se z ní dostane."
   },
   {
     "text": "Komu kára, tomu i vina.",
@@ -43130,11 +43179,11 @@
     ]
   },
   {
-    "text": "Raději umříti, nežli kříž políbiti (v nepravdě).",
+    "text": "Raději umříti, nežli kříž políbiti v nepravdě.",
     "tags": [
       "smrt"
     ],
-    "meaning": "Raději podstoupit smrt než křivě přísahat. Políbení kříže bylo při slavnostní přísaze viditelným potvrzením toho, že člověk mluví pravdu."
+    "meaning": "Je lepší zemřít než křivě přísahat a zapřít pravdu. Políbení kříže v tomto obrazu stvrzuje přísahu, která nemá být lživá."
   },
   {
     "text": "Takové přísahy konávaly se v chrámě při slavném zvonění a vůči všeho lidu.",
@@ -43320,11 +43369,11 @@
     ]
   },
   {
-    "text": "Duše zhřešila, a nohy vinu nesou (že neutekly).",
+    "text": "Duše zhřešila, a nohy vinu nesou.",
     "tags": [
       "pití"
     ],
-    "meaning": "Duše zhřešila, a nohy nesou vinu, že neutekly. Za provinění trpí i ti, kteří za ně nemohou."
+    "meaning": "Trest za provinění odnese celé tělo, včetně nohou, které člověka neodnesly do bezpečí."
   },
   {
     "text": "Bůh mu smysly zmátl.",
@@ -46823,10 +46872,11 @@
     ]
   },
   {
-    "text": "Druhá žena jako první dítě (milá).",
+    "text": "Druhá žena jako první dítě milá.",
     "tags": [
       "rodina"
-    ]
+    ],
+    "meaning": "Druhá žena bývá muži stejně milá a drahá jako první dítě rodičům."
   },
   {
     "text": "Neber si matky s dcerou, sice ti hlavu sderou.",
@@ -47150,7 +47200,7 @@
     ]
   },
   {
-    "text": "Není toho domu, kde by nebylo časem dýmu (mrzutosti).",
+    "text": "Není toho domu, kde by nebylo časem dýmu.",
     "tags": [
       "čas"
     ],
@@ -47326,10 +47376,11 @@
     ]
   },
   {
-    "text": "Více žena hrnkem, nežli muž pytlem (vyvláčí z domu).",
+    "text": "Více žena hrnkem, nežli muž pytlem vyvláčí z domu.",
     "tags": [
       "domácí život"
-    ]
+    ],
+    "meaning": "Dobové rčení varuje, že i drobné, ale soustavné utrácení může domácnost připravit o více majetku než velké jednotlivé výdaje. Přisuzuje tuto nehospodárnost ženě."
   },
   {
     "text": "Nenavozí muž na řebřinovém voze do domu, co žena po zástěrkách vynésti může.",
@@ -48418,10 +48469,11 @@
     ]
   },
   {
-    "text": "Co néni od srdca, neide k srdcu (pastorek a macecha).",
+    "text": "Co nejní od srdca, neide nikdy k srdcu.",
     "tags": [
       "rodina"
-    ]
+    ],
+    "meaning": "Kdo není se srdcem a rodinou spřízněný, bývá vnímán jako méně blízký. Starý příklad uvádí macechu a pastorka: macecha je nevlastní matka a pastorek je její nevlastní syn. Jde o dobový pohled na rodinnou blízkost, nikoli pravidlo pro všechny nevlastní rodiny."
   },
   {
     "text": "Hořko od macechy pastorkovi, a též nesladko od pastorka maceše.",
@@ -49481,10 +49533,11 @@
     ]
   },
   {
-    "text": "Řemen se v ohni nepolepší (a bitím nikdo nezlepší).",
+    "text": "Řemen se v ohni nepolepší a bitím nikdo nezlepší.",
     "tags": [
       "domácí život"
-    ]
+    ],
+    "meaning": "Stejně jako oheň řemen poškodí místo toho, aby jej zlepšil, ani bití člověka nenapraví."
   },
   {
     "text": "Ne každá oprava vede k lepšímu.",
@@ -50564,11 +50617,11 @@
     ]
   },
   {
-    "text": "Jinak v údolí, jinak na horách (hospodářství vésti se musi).",
+    "text": "Jinak v údolí, jinak na horách hospodářství vésti se musi.",
     "tags": [
       "hospodářství"
     ],
-    "meaning": "Jinak se hospodaří v údolí a jinak na horách. Postup musí odpovídat místním podmínkám."
+    "meaning": "Hospodářství je třeba vést podle místních podmínek. Co se osvědčí v údolí, nemusí stejně fungovat na horách."
   },
   {
     "text": "Svého kraje polí každý oráč svědom.",
@@ -50952,10 +51005,11 @@
     ]
   },
   {
-    "text": "Ječmen hospodáře devětkrát zarmoutí (než ho sklidí).",
+    "text": "Ječmen hospodáře devětkrát zarmoutí, než ho sklidí.",
     "tags": [
       "hospodářství"
-    ]
+    ],
+    "meaning": "Pěstování ječmene přináší hospodáři mnoho starostí a nejistot, než dojde ke sklizni."
   },
   {
     "text": "Rak a pšenice zároveň do zrna rostou.",
@@ -52441,9 +52495,13 @@
     ]
   },
   {
-    "text": "Haléř k haléři, a ze dvanácti (jinde: ze čtrnácti) bude groš.",
+    "text": "Haléř k haléři, a ze dvanácti bude groš.",
     "tags": [
       "peníze"
+    ],
+    "meaning": "I z drobných úspor se časem složí větší částka.",
+    "alternatives": [
+      "Haléř k haléři, a ze čtrnácti bude groš."
     ]
   },
   {
@@ -53092,10 +53150,11 @@
     ]
   },
   {
-    "text": "Jaká neděle pestrá (devítník?), taková i masopustní.",
+    "text": "Jaká neděle pestrá, taková i masopustní.",
     "tags": [
       "kalendář a svátky"
-    ]
+    ],
+    "meaning": "Podle počasí o devítníku se usuzuje na počasí v masopustu."
   },
   {
     "text": "Pěkný-li čas tu neděli po devítníku, bývá teplo i o masopustních dnech.",
@@ -53131,11 +53190,11 @@
     ]
   },
   {
-    "text": "Častý déšť v lednu mrví hojně kněžskou oboru (hřbitov).",
+    "text": "Častý déšť v lednu mrví hojně kněžskou oboru.",
     "tags": [
       "úroda a počasí"
     ],
-    "meaning": "Stará lednová pranostika považuje častý déšť za předzvěst úmrtí. „Kněžská obora“ je její černohumorné pojmenování hřbitova."
+    "meaning": "Časté lednové deště podle pranostiky předpovídají vyšší úmrtnost."
   },
   {
     "text": "Přibývá dne, přibývá i zimy.",
@@ -53369,10 +53428,11 @@
     ]
   },
   {
-    "text": "V březnu vítr z břízy fouká (bývá řezavý, ostrý).",
+    "text": "V březnu vítr z břízy fouká.",
     "tags": [
       "hospodářství"
-    ]
+    ],
+    "meaning": "Březnový vítr bývá ostrý a řezavý."
   },
   {
     "text": "Jak je mračno na Agatu, to tisni smeti na latu.",
@@ -53881,19 +53941,6 @@
   {
     "text": "Boris, slavičí den.",
     "tags": [
-      "hospodářství"
-    ]
-  },
-  {
-    "text": "Irena rozsadnice (od rozsazování hlavatice).",
-    "tags": [
-      "hospodářství"
-    ]
-  },
-  {
-    "text": "Job hrášník (setí hrachu).",
-    "tags": [
-      "hra a hazard",
       "hospodářství"
     ]
   },
@@ -54781,7 +54828,7 @@
     ]
   },
   {
-    "text": "České slovo (poctivé věrné).",
+    "text": "České slovo.",
     "tags": [
       "řeč",
       "poctivost",
@@ -55088,11 +55135,12 @@
     "meaning": "Napomenutí tomu, kdo kleje: těžká kletba prý zatracuje duši toho, kdo ji vyslovil."
   },
   {
-    "text": "Polská, židovská a psí víra (vše jedno).",
+    "text": "Polská, židovská a psí víra, vše jedno.",
     "tags": [
       "dějiny a zvyky",
       "zvířata"
-    ]
+    ],
+    "meaning": "Hanlivé dobové rčení přisuzuje Polákům a Židům nespolehlivost a přirovnává jejich věrnost k psí. Zachycuje národnostní a protižidovský předsudek."
   },
   {
     "text": "Matko! zakryj mi oči, ať nevidím ohyzdného Poláka!",
@@ -55599,7 +55647,7 @@
     "meaning": "Kdo už nic nemá, nemusí se bát, že o to přijde. Dobový výrok to podává jako posměšnou narážku na člověka, kterému nelze vzít ani kalhoty."
   },
   {
-    "text": "Ze spolka (k vůli společníkům) dalť se i Němec oběsiti.",
+    "text": "Ze spolka. dalť se i Němec oběsiti.",
     "tags": [
       "svoboda a vůle",
       "dějiny a národy"
@@ -55755,7 +55803,7 @@
     ]
   },
   {
-    "text": "Nakrmiti koho vlaskou polívkou (otráviti).",
+    "text": "Nakrmiti koho vlaskou polívkou.",
     "tags": [
       "dějiny a zvyky"
     ],
@@ -55814,10 +55862,11 @@
     ]
   },
   {
-    "text": "Osoukal (očaroval) ho jak Řeka.",
+    "text": "Očaroval ho jak Řeka.",
     "tags": [
       "dějiny a zvyky"
-    ]
+    ],
+    "meaning": "Zcela ho okouzlil a získal nad ním vliv, jako by jej očaroval."
   },
   {
     "text": "Tři Turci a tři Řeci zplna šest padouchův.",
@@ -55930,11 +55979,12 @@
     ]
   },
   {
-    "text": "Přišel k řeči, jako Turek k šavli (seče jazykem, žve neustále).",
+    "text": "Přišel k řeči, jako Turek k šavli.",
     "tags": [
       "řeč",
       "dějiny a národy"
-    ]
+    ],
+    "meaning": "Mluví prudce a bez přestání, jako by jazykem sekal šavlí."
   },
   {
     "text": "Jak by ho na kůň turecký vsadil.",
@@ -56261,7 +56311,7 @@
     ]
   },
   {
-    "text": "Jest tu jako na Pražském mostě (hlučno, vždy dosti lidu).",
+    "text": "Jest tu jako na Pražském mostě.",
     "tags": [
       "dějiny a zvyky"
     ],
@@ -56280,10 +56330,11 @@
     ]
   },
   {
-    "text": "Pražský kvítek (zralá kopa).",
+    "text": "Toť pražský kvítek, zralá to kopa.",
     "tags": [
       "dějiny a zvyky"
-    ]
+    ],
+    "meaning": "Posměšné označení vychytralého Pražáka, který se dobře vyzná a umí si poradit."
   },
   {
     "text": "Horníci na Horách Kutnách mívají roboty do soboty, a peněz do neděle.",
@@ -56524,11 +56575,12 @@
     ]
   },
   {
-    "text": "Chlumeckým prachem prášiti stříleti (lháti).",
+    "text": "Chlumeckým prachem prášiti stříleti.",
     "tags": [
       "lež a klam",
       "práce"
-    ]
+    ],
+    "meaning": "Lhát nebo si vymýšlet."
   },
   {
     "text": "Pořídil jako sedláci u Chlumce.",
@@ -56537,10 +56589,11 @@
     ]
   },
   {
-    "text": "Vyhlíží tam jako u Jankova (pusto).",
+    "text": "Vyhlíží tam jako u Jankova.",
     "tags": [
       "dějiny a zvyky"
-    ]
+    ],
+    "meaning": "Je tam pusto a prázdno."
   },
   {
     "text": "Pořídíš tam bereš tomu, jako Kec u Jankova.",
@@ -56561,16 +56614,18 @@
     ]
   },
   {
-    "text": "Jest jonák z Kolovče (potutedlný, podvodný).",
+    "text": "Jest jonák z Kolovče.",
     "tags": [
       "lež a klam"
-    ]
+    ],
+    "meaning": "Říká se o potměšilém a podvodném člověku."
   },
   {
-    "text": "Cháska od Žamberka (luza, lotrovina).",
+    "text": "Cháska od Žamberka.",
     "tags": [
       "dějiny a zvyky"
-    ]
+    ],
+    "meaning": "Hanlivé označení chátry a lotrů."
   },
   {
     "text": "Pacholek od Žamberka s lehkou zbrojí.",
@@ -56659,10 +56714,11 @@
     ]
   },
   {
-    "text": "Hodiny šly, jak Ratiborské zvony (špatně).",
+    "text": "Hodiny šly, jak Ratiborské zvony.",
     "tags": [
       "čas"
-    ]
+    ],
+    "meaning": "Hodiny jdou špatně a nelze se na ně spolehnout."
   },
   {
     "text": "Zdali nevíš, že Krakov větší nežli Břeští?",
@@ -56719,10 +56775,11 @@
     ]
   },
   {
-    "text": "V dým to pošlo (zboží, jmění), jak poklady Častochovské.",
+    "text": "Jmění v dým pošlo, jak poklady Častochovské.",
     "tags": [
       "bohatství"
-    ]
+    ],
+    "meaning": "Majetek se rozplynul a nic z něj nezbylo. Obraz dýmu vyjadřuje úplnou ztrátu dřívějšího bohatství."
   },
   {
     "text": "To tak těžko, jako Častochovy obrániti.",
@@ -57220,10 +57277,11 @@
     ]
   },
   {
-    "text": "Jest v Blaníku (dřímá).",
+    "text": "Jest v Blaníku.",
     "tags": [
       "dějiny a zvyky"
-    ]
+    ],
+    "meaning": "Dřímá nebo spí."
   },
   {
     "text": "Bývalec! byl třikrát na Beskydech, a po čtvrté na Tatrách zbíjel.",
@@ -57483,10 +57541,11 @@
     "meaning": "To je tak nepravděpodobná historka, že by patřila do knihy klevet. Pan Rozvoda, český zeman a šprýmař, si prý zapisoval vše, co kdo vyprávěl pravdě nepodobného."
   },
   {
-    "text": "Chodí jako Perchta (pyšně).",
+    "text": "Chodí jako Perchta.",
     "tags": [
       "pýcha"
-    ]
+    ],
+    "meaning": "Chodí pyšně a vystavuje se na odiv."
   },
   {
     "text": "Vyhrál jak Michal na sviních.",
@@ -57734,10 +57793,11 @@
     "meaning": "Říká se to o člověku, který se chová divoce nebo je prudce rozhněvaný. Rarášek je v lidových představách malý čert či neposedný duch."
   },
   {
-    "text": "Raráškovi tam klobás nadělali (u př. v bitvě).",
+    "text": "Raráškovi tam klobás nadělali.",
     "tags": [
       "dějiny a zvyky"
-    ]
+    ],
+    "meaning": "Uštědřili někomu velikou porážku. „Nadělit klobás“ tu obrazně znamená protivníka důkladně porazit, například v bitvě."
   },
   {
     "text": "Chytrý jako Pikulik.",
@@ -59047,10 +59107,11 @@
     ]
   },
   {
-    "text": "Má třísku za uchem (třeští).",
+    "text": "Má třísku za uchem.",
     "tags": [
       "právo a soudy"
-    ]
+    ],
+    "meaning": "Chová se pomateně, třeští."
   },
   {
     "text": "Z Prostějova pocházeti.",
@@ -59071,11 +59132,12 @@
     ]
   },
   {
-    "text": "Půjdeme do Hajan (spat).",
+    "text": "Půjdeme do Hajan.",
     "tags": [
       "humor",
       "spánek"
-    ]
+    ],
+    "meaning": "Jít spát. „Hajany“ jsou žertovným označením spánku."
   },
   {
     "text": "Těšínská jablka.",
@@ -59109,10 +59171,11 @@
     ]
   },
   {
-    "text": "Šel na Prosík (na žebr).",
+    "text": "Šel na Prosík.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Odešel žebrat. Název „Prosík“ si pohrává se slovem prosit."
   },
   {
     "text": "Je tu ševců, že jich može sviňama krmiť.",
@@ -59187,12 +59250,6 @@
     "text": "Držeti s Mojžíšem.",
     "tags": [
       "humor"
-    ]
-  },
-  {
-    "text": "Jest kněze Eliáše plášť (přítel).",
-    "tags": [
-      "přátelství"
     ]
   },
   {
@@ -59357,11 +59414,12 @@
     ]
   },
   {
-    "text": "Kráva i vůl knihy mají, a přec čísti neumějí (nejsou učení).",
+    "text": "Kráva i vůl knihy mají, a přec čísti neumějí.",
     "tags": [
       "zvířata",
       "učení"
-    ]
+    ],
+    "meaning": "Samotné vlastnictví knih ještě nedělá člověka učeným."
   },
   {
     "text": "Paták bez oka.",
@@ -59453,10 +59511,11 @@
     "meaning": "Ironicky o někom, kdo má místo zábavy samé trápení. Přirovnání používá dobový protižidovský stereotyp a „prašivina“ označuje svědivé kožní onemocnění."
   },
   {
-    "text": "Čísti komu latinu (láti).",
+    "text": "Čísti komu latinu.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Nadávat někomu nebo mu vyčítat jeho chování."
   },
   {
     "text": "Dostati od koho jazykovou polívku.",
@@ -59849,10 +59908,11 @@
     ]
   },
   {
-    "text": "Navětřel (srozuměl, dopátral se toho).",
+    "text": "Navětřel.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Pochopil, o co jde, nebo se něčeho dopátral."
   },
   {
     "text": "Už jsem na břehu.",
@@ -59902,10 +59962,11 @@
     ]
   },
   {
-    "text": "Přes přívory něco vléci (nevhod, nepříležitě vtipkovati).",
+    "text": "Přes přívory něco vléci.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Nevhodně nebo v nepravou chvíli vtipkovat."
   },
   {
     "text": "Vtipy přes pařezí vláčené.",
@@ -59958,10 +60019,11 @@
     ]
   },
   {
-    "text": "Rozumím já, kam rejduje (jaký úmysl jeho).",
+    "text": "Rozumím já, kam rejduje.",
     "tags": [
       "rozum"
-    ]
+    ],
+    "meaning": "Chápu, kam míří a jaký má úmysl."
   },
   {
     "text": "Hotov pěšky i na koni.",
@@ -60076,18 +60138,19 @@
     ]
   },
   {
-    "text": "Svědomí jako formanská lpachta (prostranné).",
+    "text": "Svědomí jako formanská lpachta.",
     "tags": [
       "lidské vlastnosti"
     ],
     "meaning": "Posměšně o člověku s tak širokým svědomím, že omluví skoro cokoli. Formanská plachta, která přikrývala náklad na voze, je obrazem té šíře."
   },
   {
-    "text": "Líhá na čertové plachtě (hryze ho svědomí).",
+    "text": "Líhá na čertové plachtě.",
     "tags": [
       "hřích",
       "smutek"
-    ]
+    ],
+    "meaning": "Trápí ho svědomí."
   },
   {
     "text": "Oheň za ňadry nositi.",
@@ -60372,10 +60435,11 @@
     ]
   },
   {
-    "text": "Seděti komu na kahánku (na pohotově).",
+    "text": "Sedím mu pohotově na kahánku.",
     "tags": [
-      "lidské vlastnosti"
-    ]
+      "smrt"
+    ],
+    "meaning": "Čekám na jeho smrt, jako bych byl stále připraven u jeho dohořívajícího světla. Rčení obrazně vyjadřuje netrpělivé očekávání něčího konce."
   },
   {
     "text": "Spustil s kvinty.",
@@ -60487,10 +60551,11 @@
     ]
   },
   {
-    "text": "Tulí se jako staré boty pod schody (upýpá se).",
+    "text": "Tulí se jako staré boty pod schody.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Ostýchá se, krčí se stranou a nemá odvahu se projevit."
   },
   {
     "text": "Stydlavý jako skopový lůj.",
@@ -60512,12 +60577,13 @@
     ]
   },
   {
-    "text": "Červený jako pivoňka (studem).",
+    "text": "Červený jako pivoňka.",
     "tags": [
       "pití",
       "přirovnání",
       "stud"
-    ]
+    ],
+    "meaning": "Zčervenal studem."
   },
   {
     "text": "Začervenal se, že by o něj sirku zapálil.",
@@ -60532,17 +60598,19 @@
     ]
   },
   {
-    "text": "Šaty na hostech trhati (přílišně pobízeti).",
+    "text": "Šaty na hostech trhati.",
     "tags": [
       "obchod",
       "hosté a sousedé"
-    ]
+    ],
+    "meaning": "Příliš naléhavě pobízet hosty, aby jedli, pili nebo zůstali."
   },
   {
-    "text": "Nedá na sobě šatův dráti (není zdráhavý).",
+    "text": "Nedá na sobě šatův dráti.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Nenechává se dlouho pobízet a ochotně přijímá nabídku."
   },
   {
     "text": "Zdráhá se jako koule do pivnice.",
@@ -60675,10 +60743,11 @@
     ]
   },
   {
-    "text": "Jest to jeho podpažník (miláček).",
+    "text": "Jest to jeho podpažník.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Je to jeho oblíbenec nebo miláček."
   },
   {
     "text": "Velmitě mu vzácen, jak by s nebe spadl.",
@@ -60699,10 +60768,11 @@
     ]
   },
   {
-    "text": "Vypadl mu z klína (z milosti).",
+    "text": "Vypadl mu z klína.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Pozbyl jeho přízně a upadl u něj v nemilost."
   },
   {
     "text": "Jsou spolu živi jako sto květův.",
@@ -60723,7 +60793,7 @@
     ]
   },
   {
-    "text": "Jsou dobří přátelé do příčiny (na oko).",
+    "text": "Jsou dobří přátelé do příčiny.",
     "tags": [
       "přátelství"
     ],
@@ -60796,10 +60866,11 @@
     ]
   },
   {
-    "text": "Po plotě kolek (daleká přízeň), po teleti kec.",
+    "text": "Po plotě kolek, po teleti kec.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Jde jen o velmi vzdálené příbuzenství."
   },
   {
     "text": "Rodina jako plotu čmelina.",
@@ -60827,10 +60898,11 @@
     ]
   },
   {
-    "text": "Nechoď po zadku do kaple (odpírá-li kdo pravdě).",
+    "text": "Nechoď po zadku do kaple.",
     "tags": [
       "pravda"
-    ]
+    ],
+    "meaning": "Napomenutí člověka, který se zdráhá uznat pravdu."
   },
   {
     "text": "U saméť jest vody mlýn.",
@@ -60846,21 +60918,22 @@
     ]
   },
   {
-    "text": "Nesmí na ořech doložiti (výslovně pravdy mluviti).",
+    "text": "Nesmí na ořech doložiti.",
     "tags": [
       "pravda",
       "řeč",
       "hospodářství"
-    ]
+    ],
+    "meaning": "Neodvažuje se říci pravdu otevřeně."
   },
   {
-    "text": "Z pravdy dělá klevety (nelže, ovšem pravdu mluví).",
+    "text": "Z pravdy dělá klevety.",
     "tags": [
       "pravda",
       "řeč",
       "pomluvy"
     ],
-    "meaning": "Mluví sice pravdu, ale zlomyslně a v takové podobě, že působí jako klevety. I pravdivá zpráva se dá použít k pomluvě."
+    "meaning": "Mluví pravdu, přestože je jeho řeč označována za klevety."
   },
   {
     "text": "Na jeho slovo mohl by skály zakládati.",
@@ -60910,11 +60983,12 @@
     ]
   },
   {
-    "text": "Hubu někomu medem natříti natirati (marnou nadějí kojiti).",
+    "text": "Hubu někomu medem natříti natirati.",
     "tags": [
       "lidské vlastnosti",
       "naděje"
-    ]
+    ],
+    "meaning": "Klamat někoho líbivými slovy a vzbuzovat v něm marnou naději."
   },
   {
     "text": "Těšínskými jablky měšec nacpává.",
@@ -60929,11 +61003,12 @@
     ]
   },
   {
-    "text": "Sraziti někomu útory (v naději ho zmýliti).",
+    "text": "Sraziti někomu útory.",
     "tags": [
       "lidské vlastnosti",
       "naděje"
-    ]
+    ],
+    "meaning": "Zklamat něčí naděje a zmařit jeho očekávání."
   },
   {
     "text": "Chybila mu modla.",
@@ -60987,7 +61062,7 @@
     ]
   },
   {
-    "text": "Počkáme na kulhavého posla (na další zprávu).",
+    "text": "Počkáme na kulhavého posla.",
     "tags": [
       "lidské vlastnosti"
     ],
@@ -61135,11 +61210,12 @@
     ]
   },
   {
-    "text": "Mní se mu moře do kolenou (odvážlivý, neopatrný).",
+    "text": "Mní se mu moře do kolenou.",
     "tags": [
       "odvaha",
       "opatrnost"
-    ]
+    ],
+    "meaning": "Je příliš odvážný a neopatrný, jako by pro něj žádné nebezpečí neexistovalo."
   },
   {
     "text": "Vydal se právě jako nemudroch bez vesla na moře.",
@@ -61166,10 +61242,11 @@
     ]
   },
   {
-    "text": "Nedoležel nedospal se toho (prací, pilností získal).",
+    "text": "Nedoležel nedospal se toho.",
     "tags": [
       "práce"
-    ]
+    ],
+    "meaning": "Získal to vlastní prací a pílí, bez zahálení."
   },
   {
     "text": "Oběma rukama začal.",
@@ -61259,10 +61336,11 @@
     ]
   },
   {
-    "text": "Skládej krám, už neděle svítí (konec práci; už svatvečer).",
+    "text": "Skládej krám, už neděle nám svítí.",
     "tags": [
       "práce"
-    ]
+    ],
+    "meaning": "Blíží se konec práce a je čas přestat pracovat. Přicházející neděle připomíná odpočinek po práci."
   },
   {
     "text": "Sbírejte síťky, už ptáci neletí.",
@@ -61273,11 +61351,11 @@
     ]
   },
   {
-    "text": "Utrhla se mu ruka (mnoho dal).",
+    "text": "Utrhla se mu ruka.",
     "tags": [
       "pomluvy"
     ],
-    "meaning": "Je štědrý a rozdává velkoryse, mnoho dal. Přísloví chválí šlechetnost, přesto je třeba být opatrný, aby člověk nepřišel sám o všechno."
+    "meaning": "Dal velmi mnoho, více než obvykle."
   },
   {
     "text": "Uhodil se přes kapsu.",
@@ -61365,10 +61443,11 @@
     ]
   },
   {
-    "text": "Raky za ňádra sypati (hojná dobrodiní prokazovati).",
+    "text": "Raky za ňádra sypati.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Prokazovat někomu hojná dobrodiní."
   },
   {
     "text": "Přijel mu ve stu.",
@@ -61415,11 +61494,12 @@
     ]
   },
   {
-    "text": "Hoditi psu kost (dáti nepatrnou almužnu).",
+    "text": "Hoditi psu kost.",
     "tags": [
       "štědrost",
       "psi"
-    ]
+    ],
+    "meaning": "Dát někomu jen nepatrnou almužnu nebo drobný dar."
   },
   {
     "text": "Dávali, ale nevyndavali.",
@@ -61435,7 +61515,7 @@
     ]
   },
   {
-    "text": "Tučné svini řiť mažeš (boháčům, lakomcům dary dávaje).",
+    "text": "Tučné svini řiť mažeš.",
     "tags": [
       "štědrost",
       "lakomství",
@@ -61457,10 +61537,11 @@
     ]
   },
   {
-    "text": "Toť řeč jako sto (pevná přípověď).",
+    "text": "Toť řeč jako sto.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "To je pevný a rozhodný příslib."
   },
   {
     "text": "Slibuje zlaté hory.",
@@ -61520,7 +61601,7 @@
     ]
   },
   {
-    "text": "Ústa komu na podporách držeti (marnými kojiti sliby).",
+    "text": "Ústa komu na podporách držeti.",
     "tags": [
       "sliby"
     ],
@@ -61533,10 +61614,11 @@
     ]
   },
   {
-    "text": "Nebude z té rži mouka (kterou ti slíbil).",
+    "text": "Nebude z té rži mouka.",
     "tags": [
       "sliby"
-    ]
+    ],
+    "meaning": "Z toho slibu nic nebude a očekávaný výsledek se nedostaví. „Rež“ je starší označení žita; „rži“ je jeho skloňovaný tvar. Ze slíbeného žita tedy žádná mouka nevzejde."
   },
   {
     "text": "Slibovati komu mazno na prázno.",
@@ -61570,10 +61652,11 @@
     ]
   },
   {
-    "text": "Voda za led slibuje (nejistý za nejistého).",
+    "text": "Voda za led slibuje.",
     "tags": [
       "sliby"
-    ]
+    ],
+    "meaning": "Jeden nespolehlivý člověk ručí za jiného, stejně nespolehlivého."
   },
   {
     "text": "Zachová, jako žid víru.",
@@ -61719,22 +61802,25 @@
     ]
   },
   {
-    "text": "Pravá pajeď (zlá žena).",
+    "text": "Pravá pajeď.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Hanlivě o zlé ženě."
   },
   {
-    "text": "Jest jedem kalena (hněvivá, zlá baba).",
+    "text": "Jest jedem kalena.",
     "tags": [
       "hněv"
-    ]
+    ],
+    "meaning": "Hanlivě o hněvivé a zlé ženě."
   },
   {
-    "text": "Katova pšenice (práce).",
+    "text": "Práce, hodná kata.",
     "tags": [
       "práce"
-    ]
+    ],
+    "meaning": "Krutá nebo bezohledná práce, při níž se druhým ubližuje. Označení kata zdůrazňuje její nelidskost."
   },
   {
     "text": "Tys pěkná pšenice!",
@@ -61767,7 +61853,7 @@
     ]
   },
   {
-    "text": "Kata v sobě dusí (dospělý k šibenici).",
+    "text": "Kata v sobě dusí.",
     "tags": [
       "lidské vlastnosti"
     ],
@@ -61810,12 +61896,13 @@
     ]
   },
   {
-    "text": "Z žertu člověka prodá (zrádce).",
+    "text": "Z žertu člověka prodá.",
     "tags": [
       "humor",
       "věrnost",
       "zrada"
-    ]
+    ],
+    "meaning": "Je to zrádce, který by člověka bez váhání zaprodal."
   },
   {
     "text": "Čertem drbaný.",
@@ -61915,10 +62002,11 @@
     ]
   },
   {
-    "text": "Ukázal pazour (tajnou zlost, zlý úmysl).",
+    "text": "Ukázal pazour.",
     "tags": [
       "hněv"
-    ]
+    ],
+    "meaning": "Projevil dosud skrývanou zlobu nebo zlý úmysl."
   },
   {
     "text": "Jeho ctnost asi krátkého lokte.",
@@ -61949,10 +62037,11 @@
     ]
   },
   {
-    "text": "Nezpívati otcovské písničky (nepotatiti se).",
+    "text": "Nezpívati otcovské písničky.",
     "tags": [
       "rodina"
-    ]
+    ],
+    "meaning": "Nepodobat se povahou nebo chováním svému otci."
   },
   {
     "text": "Nebude on jinakší, by ho v stoupě zopichal.",
@@ -62276,10 +62365,11 @@
     ]
   },
   {
-    "text": "Ví jméno houbám (chytrák).",
+    "text": "Ví jméno houbám.",
     "tags": [
       "rozum"
-    ]
+    ],
+    "meaning": "Říká se o chytrákovi, který se dobře vyzná a umí si poradit."
   },
   {
     "text": "Není ten člověk v temeno uražen.",
@@ -62307,10 +62397,11 @@
     ]
   },
   {
-    "text": "Má prach v nose (úskočný člověk).",
+    "text": "Má prach v nose.",
     "tags": [
       "práce"
-    ]
+    ],
+    "meaning": "Je to úskočný člověk, který umí druhé přelstít."
   },
   {
     "text": "Má ten mušky v nose.",
@@ -62368,11 +62459,12 @@
     ]
   },
   {
-    "text": "Lišku liškou uhoniti (chytrosti proti chytrému užívati).",
+    "text": "Lišku liškou uhoniti.",
     "tags": [
       "rozum",
       "zvířata"
-    ]
+    ],
+    "meaning": "Chytrého a lstivého protivníka lze přemoci vlastní chytrostí a lstí. Liška tu představuje mazaného člověka, na kterého platí stejně důvtipný soupeř."
   },
   {
     "text": "Ten by rád svou králku vyvedl.",
@@ -62493,10 +62585,11 @@
     ]
   },
   {
-    "text": "Liščím ocáskem zatahovati (chyby své chytře vymlouvati).",
+    "text": "Liščím ocáskem zatahovati.",
     "tags": [
       "rozum"
-    ]
+    ],
+    "meaning": "Chytře omlouvat a zakrývat vlastní chyby."
   },
   {
     "text": "Umi on i na shnilou zvěřinu dobrou jíšku udělati.",
@@ -62538,10 +62631,11 @@
     ]
   },
   {
-    "text": "Hodíš se ze zadu na vůz, aby brzo vypadl (lstivý, přetvárce).",
+    "text": "Hodíš se ze zadu na vůz, aby brzo vypadl.",
     "tags": [
       "lež a klam"
-    ]
+    ],
+    "meaning": "Posměšně o lstivém a přetvářlivém člověku, na kterého není spolehnutí."
   },
   {
     "text": "Pod barvou.",
@@ -62562,10 +62656,11 @@
     ]
   },
   {
-    "text": "Postřehl barvy (znamenal klam, lest).",
+    "text": "Postřehl barvy.",
     "tags": [
       "lež a klam"
-    ]
+    ],
+    "meaning": "Prohlédl klam nebo lest."
   },
   {
     "text": "S pěkným na vrch.",
@@ -62586,10 +62681,11 @@
     ]
   },
   {
-    "text": "Bělmo komu na oči dělati (šáliti, klamati).",
+    "text": "Bělmo komu na oči dělati.",
     "tags": [
       "lež a klam"
-    ]
+    ],
+    "meaning": "Šálit a klamat někoho, zastírat mu pravdu."
   },
   {
     "text": "Bzdi tomu, kdo nosu nemá.",
@@ -62778,16 +62874,18 @@
     ]
   },
   {
-    "text": "Lahodným ohněm páliti (lichotiti se, pochlebovati).",
+    "text": "Lahodným ohněm páliti.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Lichotit a pochlebovat někomu."
   },
   {
-    "text": "Liščí ocas prodávati (pochlebovati).",
+    "text": "Liščí ocas prodávati.",
     "tags": [
       "obchod"
-    ]
+    ],
+    "meaning": "Pochlebovat a lichotit někomu."
   },
   {
     "text": "Liščího užiti.",
@@ -62953,17 +63051,22 @@
     ]
   },
   {
-    "text": "Má v oku pazderek - prach (nechce viděti).",
+    "text": "Má v oku pazderek - prach.",
     "tags": [
       "práce"
-    ]
+    ],
+    "meaning": "Nechce něco vidět nebo uznat a úmyslně to přehlíží."
   },
   {
-    "text": "Ukázal mu psí (vlčí) zoubek (tajně ho ukousl).",
+    "text": "Ukázal mu vlčí zoubek.",
     "tags": [
       "lidské vlastnosti",
       "zvířata",
       "vlci"
+    ],
+    "meaning": "Tajně někomu uškodil nebo projevil skryté nepřátelství.",
+    "alternatives": [
+      "Ukázal mu psí zoubek."
     ]
   },
   {
@@ -62986,10 +63089,11 @@
     ]
   },
   {
-    "text": "Ten se bouchl (ošidil).",
+    "text": "Ten sám sebe bouchl.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Sám sebe ošidil nebo připravil o vlastní prospěch. „Bouchl“ je zde užito ve smyslu okradl či napálil."
   },
   {
     "text": "Sedl si na rozum.",
@@ -63054,10 +63158,11 @@
     ]
   },
   {
-    "text": "Oprátku komu na rohy hoditi (přelstiti).",
+    "text": "Oprátku komu na rohy hoditi.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Přelstít někoho a dostat ho do pasti."
   },
   {
     "text": "Stojí tam jako svatý utřinos.",
@@ -63241,10 +63346,11 @@
     ]
   },
   {
-    "text": "Proti mně se tu něco šikuje (úklady se mně strojí).",
+    "text": "Proti mně se tu něco šikuje.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Někdo proti mně chystá úklady."
   },
   {
     "text": "Vše se to na mne sveze.",
@@ -63323,10 +63429,11 @@
     ]
   },
   {
-    "text": "Něco pod palec prodávati (tajně, k ujmě druhého).",
+    "text": "Něco pod palec prodávati.",
     "tags": [
       "obchod"
-    ]
+    ],
+    "meaning": "Prodávat něco tajně, ke škodě druhého."
   },
   {
     "text": "Lišku z díry vykouřiti.",
@@ -63523,10 +63630,11 @@
     ]
   },
   {
-    "text": "Ve svoje ho chce boty obouti (na svou stranu přivésti).",
+    "text": "Ve svoje ho chce boty obouti.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Získat někoho na svou stranu a přimět ho jednat podle sebe."
   },
   {
     "text": "Už ho sobě ubádal má ho jako v hrsti.",
@@ -63709,11 +63817,12 @@
     "meaning": "Nelže jen tehdy, když mlčí; člověk nelže, dokud neotevře ústa."
   },
   {
-    "text": "Umí peřiti (čistě, vtipně lháti).",
+    "text": "Umí peřiti.",
     "tags": [
       "lež a klam",
       "humor"
-    ]
+    ],
+    "meaning": "Umí obratně a důvtipně lhát."
   },
   {
     "text": "Vylže se i čertům z pekla.",
@@ -63736,11 +63845,12 @@
     ]
   },
   {
-    "text": "Zastřelil holuba (selhal, sklamal).",
+    "text": "Zastřelil holuba.",
     "tags": [
       "lidské vlastnosti",
       "ptáci"
-    ]
+    ],
+    "meaning": "Zalhal nebo někoho oklamal."
   },
   {
     "text": "Střelil v hambalky.",
@@ -63768,10 +63878,11 @@
     ]
   },
   {
-    "text": "Motovidlem střelil (hloupě selhal).",
+    "text": "Motovidlem střelil.",
     "tags": [
       "hloupost"
-    ]
+    ],
+    "meaning": "Hloupě zalhal, takže se jeho lež snadno pozná."
   },
   {
     "text": "Chytil tři zajíce - za jednu nohu.",
@@ -63816,11 +63927,12 @@
     ]
   },
   {
-    "text": "U něho pravda bez dénka (málo kdy ji mluví).",
+    "text": "U něho pravda bez dénka.",
     "tags": [
       "pravda",
       "řeč"
-    ]
+    ],
+    "meaning": "Pravdu říká jen málokdy."
   },
   {
     "text": "Ani za trojník v něm pravdy není.",
@@ -63853,11 +63965,12 @@
     ]
   },
   {
-    "text": "Lež, korde! (hra ve slově lež).",
+    "text": "Lež, korde, kordem!",
     "tags": [
       "lež a klam",
       "řeč"
-    ]
+    ],
+    "meaning": "Lež může člověku uškodit stejně jako meč. Slovní hříčka pracuje se slovem „lež“ a kordem, tedy bodnou zbraní."
   },
   {
     "text": "Tenčeji krájeti musíš.",
@@ -63906,10 +64019,11 @@
     ]
   },
   {
-    "text": "Záporníkem dělati (zapírati).",
+    "text": "Záporníkem dělati.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Zapírat a popírat něco."
   },
   {
     "text": "Zapřel, jak by zamazal.",
@@ -63936,10 +64050,11 @@
     ]
   },
   {
-    "text": "Rád kozy pase (krade).",
+    "text": "Rád kozy pase.",
     "tags": [
       "krádež"
-    ]
+    ],
+    "meaning": "Krade. Pasení koz je zde obrazným označením krádeže."
   },
   {
     "text": "Kac, kotě, od mléka!",
@@ -64134,16 +64249,18 @@
     ]
   },
   {
-    "text": "Rozbíjeti po drahách (loupežnictvím se živiti).",
+    "text": "Rozbíjeti po drahách.",
     "tags": [
       "krádež"
-    ]
+    ],
+    "meaning": "Živit se loupežemi a přepadáním na cestách."
   },
   {
-    "text": "Suší zuby na slunci (zahálí).",
+    "text": "Suší zuby na slunci.",
     "tags": [
       "lenost"
-    ]
+    ],
+    "meaning": "Zahálí a nic nedělá."
   },
   {
     "text": "Ruce za pasem (stále založené) nositi.",
@@ -64194,11 +64311,12 @@
     ]
   },
   {
-    "text": "Lenochem orati (lenošiti).",
+    "text": "Lenochem orati.",
     "tags": [
       "lenost",
       "hospodářství"
-    ]
+    ],
+    "meaning": "Lenošit a vyhýbat se práci."
   },
   {
     "text": "Nerad se potí, nerad vrtá v tvrdém.",
@@ -64260,10 +64378,11 @@
     ]
   },
   {
-    "text": "Jest pán z Dlouhé střídy (pražské).",
+    "text": "Jest to pán z Dlouhé třídy.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Posměšně o člověku, kterému věci docházejí pomalu a dlouho mu trvá, než je pochopí. Název Dlouhé třídy tu slouží jako slovní hříčka."
   },
   {
     "text": "Stojí jako sloup, sedí jako buchta.",
@@ -64294,10 +64413,11 @@
     ]
   },
   {
-    "text": "Všecko klade na dlouhá povřísla (každou práci rád odkládá).",
+    "text": "Všecko klade na dlouhá povřísla.",
     "tags": [
       "práce"
-    ]
+    ],
+    "meaning": "Každou práci rád odkládá a protahuje."
   },
   {
     "text": "Čerstvý jsi, jako kráva na ledě.",
@@ -64359,10 +64479,11 @@
     ]
   },
   {
-    "text": "Chodí jako svázaný (líně).",
+    "text": "Chodí jako svázaný.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Pohybuje se líně a neochotně."
   },
   {
     "text": "Kde ho ráno postaví, tu ho večer najde.",
@@ -64419,10 +64540,11 @@
     ]
   },
   {
-    "text": "Leda s lopaty shodil (leda práci odbyl).",
+    "text": "Leda s lopaty shodil.",
     "tags": [
       "práce"
-    ]
+    ],
+    "meaning": "Práci jen ledabyle odbyl."
   },
   {
     "text": "Jest to sobotním stehem uděláno.",
@@ -64432,10 +64554,11 @@
     "meaning": "Je to udělané sobotním stehem; práce je odbytá a nedbalá, na rychlo."
   },
   {
-    "text": "Dílo jí v rukou kvete (ale nezraje).",
+    "text": "Dílo jí v rukou kvete, ale nezraje.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Práce se jí zpočátku daří a slibně rozvíjí, ale nedotahuje ji do konce. Rozdělané věci nepřinášejí hotový výsledek."
   },
   {
     "text": "Vyhýbá práci, jako čert kříži.",
@@ -64499,10 +64622,11 @@
     "meaning": "Je mimořádně líný."
   },
   {
-    "text": "Chodí jako obejda (nečinně).",
+    "text": "Chodí jako obejda.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Potlouká se bez práce a zahálí."
   },
   {
     "text": "Chodí z prázdného do pustého.",
@@ -64530,11 +64654,12 @@
     ]
   },
   {
-    "text": "Vypravuje se jako vrabci z Čech (nevýpravný).",
+    "text": "Vypravuje se jako vrabci z Čech.",
     "tags": [
       "dějiny a národy",
       "ptáci"
-    ]
+    ],
+    "meaning": "Dlouho se vypravuje a nemůže se odhodlat k odchodu."
   },
   {
     "text": "Potřebuje ostruh.",
@@ -64797,7 +64922,7 @@
     ]
   },
   {
-    "text": "Nerad darmo s lavice spadne (kdo odevšad zisku hledá).",
+    "text": "Nerad darmo s lavice spadne.",
     "tags": [
       "lidské vlastnosti"
     ],
@@ -64860,17 +64985,20 @@
     ]
   },
   {
-    "text": "Židovským oštípem se živiti (statku nabývati).",
+    "text": "Židovským oštípem se živiti.",
     "tags": [
+      "krádež",
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Živit se okrádáním druhých. „Oštípem“ zde připomíná štípnutí či krádež. Spojení takového jednání s Židy vyjadřuje dobový protižidovský předsudek."
   },
   {
-    "text": "Soštípem židovským sem a tam těkati (lichviti, podvodného výdělku hleděti).",
+    "text": "Soštípem židovským sem a tam těkati.",
     "tags": [
       "lež a klam",
       "dluhy"
-    ]
+    ],
+    "meaning": "Dobové hanlivé úsloví označuje lichvu a podvodné vydělávání. Spojuje je s protižidovským předsudkem."
   },
   {
     "text": "Židem smrděti.",
@@ -64885,7 +65013,7 @@
     ]
   },
   {
-    "text": "Jest z Habrova nebo Habru (člověk tvrdý a ošemetný).",
+    "text": "Jest z Habrova nebo Habru.",
     "tags": [
       "lidské vlastnosti"
     ],
@@ -64904,10 +65032,11 @@
     ]
   },
   {
-    "text": "Křivé dřevo křivé lučiště (člověk hrubý a tvrdý).",
+    "text": "Křivé dřevo křivé lučiště.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Říká se o hrubém a tvrdém člověku."
   },
   {
     "text": "Za groš by kozu pizdil.",
@@ -65203,10 +65332,11 @@
     ]
   },
   {
-    "text": "Pne se jako chmel (pyšní se, nemaje nač).",
+    "text": "Pne se jako chmel.",
     "tags": [
       "pýcha"
-    ]
+    ],
+    "meaning": "Pyšní se a vypíná, přestože k tomu nemá důvod."
   },
   {
     "text": "Jen pořád nahoru, jako olej.",
@@ -65245,10 +65375,11 @@
     ]
   },
   {
-    "text": "Máť vysoký žlab (vysoko hlavu nosí).",
+    "text": "Máť vysoký žlab.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Nosí hlavu vysoko a chová se pyšně."
   },
   {
     "text": "Chce se prstem nebe dotýkati.",
@@ -65321,10 +65452,11 @@
     ]
   },
   {
-    "text": "S vysoka podholený (komu vysoko na mysli).",
+    "text": "S vysoka podholený.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Má o sobě vysoké mínění a povyšuje se nad ostatní."
   },
   {
     "text": "Vysoko ten hledí.",
@@ -65345,10 +65477,11 @@
     ]
   },
   {
-    "text": "Křídla vyvyšuje - roztahuje (pyšní se).",
+    "text": "Křídla vyvyšuje - roztahuje.",
     "tags": [
       "pýcha"
-    ]
+    ],
+    "meaning": "Pyšní se a dává najevo svou domnělou důležitost."
   },
   {
     "text": "Ten si asi myslí, že mu král svině pase.",
@@ -65664,10 +65797,11 @@
     ]
   },
   {
-    "text": "Ne se vším na krám! (chlubným).",
+    "text": "Ne se vším na krám!",
     "tags": [
       "pýcha"
-    ]
+    ],
+    "meaning": "Napomenutí chlubivého člověka, aby se se vším nevystavoval a nechlubil."
   },
   {
     "text": "Zavěs buben.",
@@ -65725,11 +65859,12 @@
     ]
   },
   {
-    "text": "Ten, rozumím, že slyší trávu růsti (nesmírně se vynáší, chlubí).",
+    "text": "Ten, rozumím, že slyší trávu růsti.",
     "tags": [
       "pýcha",
       "rozum"
-    ]
+    ],
+    "meaning": "Přehnaně se vynáší a chlubí svými schopnostmi."
   },
   {
     "text": "Snědl rozum až po dešťky.",
@@ -65833,10 +65968,11 @@
     ]
   },
   {
-    "text": "Jako jiná loutka se fifluje (divně se šperkuje).",
+    "text": "Jako jiná loutka se fifluje.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Nápadně a podivně se strojí a zdobí."
   },
   {
     "text": "Sluší ti to, jako ovci podkovy.",
@@ -65954,10 +66090,15 @@
     ]
   },
   {
-    "text": "Sluší ti to jako podsvinčeti klarinet (jako malému praseti košilka).",
+    "text": "Sluší ti to jako praseti klarinet.",
     "tags": [
       "lidské vlastnosti",
       "zvířata"
+    ],
+    "meaning": "Vůbec ti to nesluší nebo se to k tobě nehodí. Přirovnání zesměšňuje nápadný nesoulad člověka s jeho oděvem, ozdobou či vystupováním. „Podsvinče“ v jiných zněních znamená malé prase.",
+    "alternatives": [
+      "Sluší ti to jako podsvinčeti klarinet.",
+      "Sluší ti to jako podsvinčeti košilka."
     ]
   },
   {
@@ -65967,10 +66108,11 @@
     ]
   },
   {
-    "text": "Lapá ježky (hněvá se).",
+    "text": "Lapá ježky.",
     "tags": [
       "hněv"
-    ]
+    ],
+    "meaning": "Hněvá se a je rozmrzelý."
   },
   {
     "text": "Hledí jako myš z droždí.",
@@ -66045,10 +66187,11 @@
     ]
   },
   {
-    "text": "Sršeň naň sedl (rozhněvaný).",
+    "text": "Sršeň naň sedl.",
     "tags": [
       "hněv"
-    ]
+    ],
+    "meaning": "Je rozhněvaný a podrážděný."
   },
   {
     "text": "Má sršně v hlavě.",
@@ -66079,12 +66222,13 @@
     "meaning": "Ironicky o popudlivém člověku, který se hned rozzlobí a vybuchne; trpělivý je tak asi jako rozdrážděný medvěd. Říká se o vznětlivém a nesnášenlivém člověku."
   },
   {
-    "text": "Na kůň se dáti vsaditi (rozhorliti se).",
+    "text": "Na kůň se dáti vsaditi.",
     "tags": [
       "lidské vlastnosti",
       "zvířata",
       "koně"
-    ]
+    ],
+    "meaning": "Rozhorlit se a nechat se vyprovokovat k hněvu."
   },
   {
     "text": "Vsadil ho na zajíce.",
@@ -66125,10 +66269,11 @@
     ]
   },
   {
-    "text": "Popadá ho střeček (vzteká se).",
+    "text": "Popadá ho střeček.",
     "tags": [
       "hněv"
-    ]
+    ],
+    "meaning": "Vzteká se a ztrácí sebeovládání."
   },
   {
     "text": "Moucha mu na nos sedla.",
@@ -66195,13 +66340,14 @@
     "meaning": "Nepleť se mi do věcí, které se tě netýkají. Neničit mi to, co dělám."
   },
   {
-    "text": "Podávati komu vidliček (drážditi ho, posmívati se).",
+    "text": "Podávati komu vidliček.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Dráždit někoho a posmívat se mu."
   },
   {
-    "text": "Nekal mu krve (nepopouzej ho).",
+    "text": "Nekal mu krve.",
     "tags": [
       "lidské vlastnosti"
     ],
@@ -66259,10 +66405,11 @@
     ]
   },
   {
-    "text": "Ten dnes naruby vstal (nevrlý, mrzutý).",
+    "text": "Ten dnes naruby vstal.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Je dnes nevrlý a mrzutý."
   },
   {
     "text": "Peprná jest to jícha, ne každý ji jísti můž.",
@@ -66390,13 +66537,6 @@
     ]
   },
   {
-    "text": "Div se neokozlí (mrzut pro špatné odbyty).",
-    "tags": [
-      "lidské vlastnosti"
-    ],
-    "meaning": "Posměšek na člověka, který se kvůli špatnému prodeji nebo nezdaru až přehnaně mračí a zlobí."
-  },
-  {
     "text": "Čpí mu to do nosu.",
     "tags": [
       "lidské vlastnosti"
@@ -66430,17 +66570,20 @@
     ]
   },
   {
-    "text": "Nepokojná muška (rád sváry působí).",
+    "text": "Nepokojná muška.",
     "tags": [
       "lidské vlastnosti",
       "hádky"
-    ]
+    ],
+    "meaning": "Rád vyvolává sváry a nepokoj."
   },
   {
-    "text": "Úhoř mezi rybami (rotivý).",
+    "text": "Plave jako úhoř mezi rybami.",
     "tags": [
-      "lidské vlastnosti"
-    ]
+      "lidské vlastnosti",
+      "zvířata"
+    ],
+    "meaning": "Nezapadá mezi ostatní, vzpírá se a vzteká se. Je to neklidný a vzdorovitý člověk, který narušuje soulad ve skupině."
   },
   {
     "text": "Každý svou hude.",
@@ -66449,11 +66592,12 @@
     ]
   },
   {
-    "text": "Každý ve svou troubí (nemáš mezi nimi svornosti).",
+    "text": "Každý ve svou troubí.",
     "tags": [
       "lidské vlastnosti",
       "svornost"
-    ]
+    ],
+    "meaning": "Každý si prosazuje své a nejsou spolu svorní."
   },
   {
     "text": "Jako nespřežní koně, jeden hat, druhý čihý.",
@@ -66492,12 +66636,6 @@
   },
   {
     "text": "Ďabel mezi nimi zavichřil.",
-    "tags": [
-      "lidské vlastnosti"
-    ]
-  },
-  {
-    "text": "Setřeliť jsme se o to (pohádali, nepoznali).",
     "tags": [
       "lidské vlastnosti"
     ]
@@ -66583,10 +66721,11 @@
     ]
   },
   {
-    "text": "Však se už rozkmotřili (přestali býti přátely).",
+    "text": "Však se už rozkmotřili.",
     "tags": [
       "přátelství"
-    ]
+    ],
+    "meaning": "Přestali být přáteli a znepřátelili se."
   },
   {
     "text": "Za štítem s kým žíti.",
@@ -66711,10 +66850,11 @@
     ]
   },
   {
-    "text": "Hořký jako chmel (nemilý).",
+    "text": "Hořký jako chmel.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Je nepříjemný a ostatním nemilý."
   },
   {
     "text": "Rád by ho na lžíci utopil.",
@@ -66804,10 +66944,11 @@
     "meaning": "Hledá záminku, jak někomu uškodit. „Záluska“ tu znamená příčinu nebo záminku."
   },
   {
-    "text": "Každý na mne kváče (každému jsem nemil).",
+    "text": "Každý na mne kváče.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Každý je proti mně a nikomu nejsem milý."
   },
   {
     "text": "Na někoho nebozízem (šejdrem) hleděti.",
@@ -66870,10 +67011,11 @@
     ]
   },
   {
-    "text": "Ani slámky před ním nepohni (zdaleka se ho varuj).",
+    "text": "Ani slámky před ním nepohni.",
     "tags": [
       "opatrnost"
-    ]
+    ],
+    "meaning": "Raději se mu zdaleka vyhýbej a nijak ho nedráždi."
   },
   {
     "text": "Příjemno, jak by za vlasy táhal.",
@@ -66982,10 +67124,11 @@
     ]
   },
   {
-    "text": "Lepší mezi pometly košťály (od nikoho není vážen).",
+    "text": "Lepší mezi pometly košťály.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Nikdo si ho neváží a každý ho považuje za bezvýznamného."
   },
   {
     "text": "Chceš snad na mně svíček hasiti a dříví sekati?",
@@ -67185,10 +67328,11 @@
     ]
   },
   {
-    "text": "Dostal se ti na bedro (ten s tebe).",
+    "text": "Dostal se ti na bedro.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Někdo se na tebe pověsil a těžko se ho zbavíš."
   },
   {
     "text": "Popravil si na mně žaludek.",
@@ -67271,10 +67415,11 @@
     ]
   },
   {
-    "text": "Vzal na kel (nepovolný).",
+    "text": "Vzal na kel.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Je nepovolný a vzpírá se."
   },
   {
     "text": "Beran v něm sedí.",
@@ -67350,10 +67495,11 @@
     ]
   },
   {
-    "text": "Já kámen, on kosa (tvrdé na tvrdé).",
+    "text": "Já kámen, on kosa.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Dva stejně neústupní lidé narazili jeden na druhého."
   },
   {
     "text": "Nedá jinak, než zač procení než jak naměřil.",
@@ -67415,10 +67561,11 @@
     "meaning": "Svéhlavý člověk doplatil na to, že nedbal dobré rady. Výsledek mu ukázal, kam až ho jeho tvrdohlavost dovedla."
   },
   {
-    "text": "Vybiti komu kozla (vzdorného skrotiti).",
+    "text": "Vybiti komu kozla.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Zkrotit někoho vzdorného a přimět ho k poslušnosti."
   },
   {
     "text": "Uvidíme, čí vlk kozu ponese.",
@@ -67435,10 +67582,11 @@
     ]
   },
   {
-    "text": "Ucho vléci po něčem (vyzvídati něco, tiše poslouchati).",
+    "text": "Ucho vléci po něčem.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Tiše poslouchat a něco vyzvídat."
   },
   {
     "text": "Urež ucha, nastav brucha.",
@@ -67597,11 +67745,12 @@
     ]
   },
   {
-    "text": "Ty zimnice! (neodbytný).",
+    "text": "Ty zimnice!",
     "tags": [
       "lidské vlastnosti",
       "roční období"
-    ]
+    ],
+    "meaning": "Výčitka neodbytnému člověku, kterého je těžké se zbavit."
   },
   {
     "text": "Jest tam pečený vařený.",
@@ -67630,10 +67779,11 @@
     ]
   },
   {
-    "text": "Protřelého čela člověk (nestydatý, drzý, všetečný).",
+    "text": "Protřelého čela člověk.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Je to nestydatý, drzý a všetečný člověk."
   },
   {
     "text": "Člověk bez čela.",
@@ -67703,11 +67853,12 @@
     ]
   },
   {
-    "text": "Má tvrdou kůži (nezná hanby).",
+    "text": "Má tvrdou kůži.",
     "tags": [
       "lidské vlastnosti",
       "hanba"
-    ]
+    ],
+    "meaning": "Nezná stud a nenechá se zahanbit."
   },
   {
     "text": "S koš očí by na pacholky (mládence) vyházela.",
@@ -67716,17 +67867,19 @@
     ]
   },
   {
-    "text": "Mnohé prahy ten už překročil (nezná hanby).",
+    "text": "Mnohé prahy ten už překročil, haňbu neznaje.",
     "tags": [
       "lidské vlastnosti",
       "hanba"
-    ]
+    ],
+    "meaning": "Nezná stud a nedělá si nic z toho, jak jeho chování působí na druhé."
   },
   {
-    "text": "Oči vyjídati někomu (nestydatě hleděti).",
+    "text": "Oči vyjídati někomu.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Nestydatě na někoho upřeně hledět."
   },
   {
     "text": "Jak s husy voda.",
@@ -67817,10 +67970,11 @@
     ]
   },
   {
-    "text": "On to vše jako vítr mece (zhola nedbá).",
+    "text": "On to vše jako vítr mece.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Vůbec na to nedbá a lehce to přechází."
   },
   {
     "text": "Pohrůžky něčí po větru pustiti.",
@@ -67888,10 +68042,11 @@
     ]
   },
   {
-    "text": "Na podej dál hráti (odkládati).",
+    "text": "Na podej dál hráti.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Odkládat věci na později."
   },
   {
     "text": "O to mi lonská péče.",
@@ -67908,10 +68063,11 @@
     "meaning": "Je mi to úplně jedno. Věc se mě nedotýká natolik, aby mě trápila nebo mi stála za pozornost."
   },
   {
-    "text": "Dělá se, jako by v něm ani vody ani krve nebylo (chladným, netečným).",
+    "text": "Dělá se, jako by v něm ani vody ani krve nebylo.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Staví se chladným a netečným, jako by se ho nic nedotýkalo."
   },
   {
     "text": "O lásku jeho nestojím, hněvu se nebojím.",
@@ -67996,10 +68152,11 @@
     ]
   },
   {
-    "text": "Za úškem má dubovou tříštku (hňup).",
+    "text": "Za úškem má dubovou tříštku.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Hanlivě o hloupém a nechápavém člověku."
   },
   {
     "text": "Živý nebožtík Doubek, co stoje zdechl.",
@@ -68164,10 +68321,11 @@
     ]
   },
   {
-    "text": "Čepička (nahlouplý).",
+    "text": "Čepička.",
     "tags": [
       "spěch"
-    ]
+    ],
+    "meaning": "Posměšné označení nahlouplého člověka."
   },
   {
     "text": "Osmičtvrteční hlupák neb osel.",
@@ -68495,11 +68653,12 @@
     ]
   },
   {
-    "text": "Vyrostá z rozumu (hloupne).",
+    "text": "Vyrostá z rozumu.",
     "tags": [
       "rozum",
       "hloupost"
-    ]
+    ],
+    "meaning": "Hloupne a ztrácí rozumný úsudek."
   },
   {
     "text": "Připrděno mu v koupeli.",
@@ -68599,17 +68758,19 @@
     ]
   },
   {
-    "text": "Nejídá cizích syrečkův (nevtipný).",
+    "text": "Nejídá cizích syrečkův.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Posměšně o člověku, který není důvtipný."
   },
   {
-    "text": "Nesebral havránkův všech (nerozumný, nerozšafný).",
+    "text": "Nesebral havránkův všech.",
     "tags": [
       "lidské vlastnosti",
       "ptáci"
-    ]
+    ],
+    "meaning": "Není příliš rozumný ani rozvážný."
   },
   {
     "text": "Cos včerejší?",
@@ -68649,11 +68810,12 @@
     ]
   },
   {
-    "text": "Hať mať, jen to nezmať (hloupě mluvícímu).",
+    "text": "Hať mať, jen to nezmať.",
     "tags": [
       "řeč",
       "hloupost"
-    ]
+    ],
+    "meaning": "Napomenutí člověka, který mluví hloupě a popleteně."
   },
   {
     "text": "Nemá to hlavy ani paty.",
@@ -68894,10 +69056,11 @@
     ]
   },
   {
-    "text": "Napil se lilku (třeští).",
+    "text": "Napil se lilku.",
     "tags": [
       "právo a soudy"
-    ]
+    ],
+    "meaning": "Třeští a chová se pomateně."
   },
   {
     "text": "Ne všech přitrhl.",
@@ -68954,11 +69117,12 @@
     ]
   },
   {
-    "text": "Dlužen Blažkovi za čepici (blázen, natrhlý).",
+    "text": "Dlužen Blažkovi za čepici.",
     "tags": [
       "dluhy",
       "hloupost"
-    ]
+    ],
+    "meaning": "Posměšné označení blázna nebo potrhlého člověka."
   },
   {
     "text": "Jest blázen na vrch hlavy - až ho hlava bolí.",
@@ -69050,10 +69214,11 @@
     ]
   },
   {
-    "text": "Holiti koho jako blázna (za blázna míti).",
+    "text": "Holiti koho jako blázna.",
     "tags": [
       "hloupost"
-    ]
+    ],
+    "meaning": "Považovat někoho za blázna a také s ním tak zacházet."
   },
   {
     "text": "Kuklu někomu strojiti.",
@@ -69086,11 +69251,12 @@
     ]
   },
   {
-    "text": "Za nos koho voditi (sliby, marnou nadějí kojiti).",
+    "text": "Za nos koho voditi.",
     "tags": [
       "sliby",
       "naděje"
-    ]
+    ],
+    "meaning": "Klamat někoho sliby a udržovat ho v marné naději."
   },
   {
     "text": "Na opice vyvésti.",
@@ -69136,19 +69302,14 @@
     ]
   },
   {
-    "text": "Neslané plíce (hrubý člověk, nechuta).",
+    "text": "Neslané plíce.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Hanlivě o hrubém a nepříjemném člověku."
   },
   {
     "text": "Jest hrubého léta.",
-    "tags": [
-      "lidské vlastnosti"
-    ]
-  },
-  {
-    "text": "Nevypitvaný knot (z něhož troupství nevybrali).",
     "tags": [
       "lidské vlastnosti"
     ]
@@ -69485,22 +69646,17 @@
     ]
   },
   {
-    "text": "Zlá to koupě, jest velmi neodbytná (zlaciněl).",
-    "tags": [
-      "lidské vlastnosti"
-    ]
-  },
-  {
     "text": "To jest už povrhel, a jako onuce.",
     "tags": [
       "lidské vlastnosti"
     ]
   },
   {
-    "text": "Jako věchtem jím sobě postrkují (nevážený).",
+    "text": "Jako věchtem jím sobě postrkují.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Neváží si ho a zacházejí s ním podle libosti."
   },
   {
     "text": "Nejedi, zemdlei; najedl se, zvalil se.",
@@ -69680,12 +69836,6 @@
     ]
   },
   {
-    "text": "Zítra bude výkladní (neopakuji svých slov).",
-    "tags": [
-      "lidské vlastnosti"
-    ]
-  },
-  {
     "text": "Což si sedíš na uších?",
     "tags": [
       "lidské vlastnosti"
@@ -69749,10 +69899,11 @@
     ]
   },
   {
-    "text": "Z knihy moudrý, bez knihy němý (nic nevi).",
+    "text": "Z knihy moudrý, bez knihy němý.",
     "tags": [
       "rozum"
-    ]
+    ],
+    "meaning": "Dovede opakovat poučky z knih, ale bez nich si neví rady."
   },
   {
     "text": "Potmě se učil, nedával kandelares.",
@@ -69833,10 +69984,11 @@
     ]
   },
   {
-    "text": "Prve dozrál, než rozkvetl (dorostl).",
+    "text": "Prve dozrál, než li rozkvetl.",
     "tags": [
       "lidské vlastnosti"
-    ]
+    ],
+    "meaning": "Předčasně se považuje za dospělého nebo zkušeného a vystupuje, jako by už všechno znal."
   },
   {
     "text": "Ještě na mne nevyzrál.",
@@ -69845,10 +69997,11 @@
     ]
   },
   {
-    "text": "Brzo vysedá na větvičku (před časem mudruje).",
+    "text": "Brzo vysedá na větvičku.",
     "tags": [
       "čas"
-    ]
+    ],
+    "meaning": "Předčasně mudruje a poučuje druhé."
   },
   {
     "text": "Už chce lítati, ano mu ještě peří nenarostlo, - ano muještě brky nedorostly.",
@@ -69902,10 +70055,11 @@
     "meaning": "Člověk, který to s chytrostí přehání, se svým rozumem až přepíná a mudruje příliš. Přísloví se vysmívá přemoudřelému a přepjatému chytrákovi."
   },
   {
-    "text": "Přes rozum přemrštěný (přepjatý).",
+    "text": "Je přes rozum přepjatý.",
     "tags": [
       "rozum"
-    ]
+    ],
+    "meaning": "Všechno přehání, ve svých úvahách zachází příliš daleko a přesahuje rozumnou míru."
   },
   {
     "text": "Přepepřil.",
@@ -70070,7 +70224,7 @@
     "meaning": "Je neposedný a těkavý, nevydrží na jednom místě. Rtuť je kov, který se neustále převaluje."
   },
   {
-    "text": "I chce, i nechce (příliš rozpakuje).",
+    "text": "I chce, i nechce.",
     "tags": [
       "lidské vlastnosti"
     ],
@@ -70299,7 +70453,7 @@
     ]
   },
   {
-    "text": "Vodu s ohněm míchati (proti přirození činiti).",
+    "text": "Vodu s ohněm míchati.",
     "tags": [
       "lidské vlastnosti"
     ],
@@ -70405,21 +70559,22 @@
     ]
   },
   {
-    "text": "Po ocase koně uzditi (do uzdy pojímati).",
+    "text": "Po ocase koně uzditi.",
     "tags": [
       "lidské vlastnosti",
       "zvířata",
       "koně"
     ],
-    "meaning": "Kůň se uzdí u hlavy, takže začínat u ocasu je nesmyslné. Rčení označuje práci, ke které někdo přistupuje z opačného konce."
+    "meaning": "Postupovat obráceně a nešikovně."
   },
   {
-    "text": "Nebozezem kobylu dříti (nemotorno).",
+    "text": "Nebozezem kobylu dříti.",
     "tags": [
       "lidské vlastnosti",
       "zvířata",
       "koně"
-    ]
+    ],
+    "meaning": "Počínat si nemotorně a volit zcela nevhodný způsob práce."
   },
   {
     "text": "Chlapské čižmy děťátku obouvati.",
@@ -70846,12 +71001,13 @@
     ]
   },
   {
-    "text": "Bude vlky z měděnce (kamnovce) vyváděti.",
+    "text": "Medvědice vlka neporodí.",
     "tags": [
-      "lidské vlastnosti",
+      "životní zkušenost",
       "zvířata",
       "vlci"
-    ]
+    ],
+    "meaning": "Nelze očekávat něco, co odporuje přirozenosti věci. Pokoušet se o takový výsledek je nemožné nebo nesmyslné."
   },
   {
     "text": "Bílé za černé, a černé za bílé prodávati.",
@@ -71150,16 +71306,18 @@
     ]
   },
   {
-    "text": "Svíčky mu v očích stojí (nabírá k pláči).",
+    "text": "Svíčky mu v očích stojí.",
     "tags": [
       "smutek"
-    ]
+    ],
+    "meaning": "Má na krajíčku a chystá se plakat."
   },
   {
-    "text": "Někomu slzy do klína sypati (pláčem chtíti ho obměkčiti).",
+    "text": "Někomu slzy do klína sypati.",
     "tags": [
       "smutek"
-    ]
+    ],
+    "meaning": "Snažit se někoho obměkčit pláčem."
   },
   {
     "text": "Ani slzičky neunořil.",
@@ -71181,13 +71339,14 @@
     ]
   },
   {
-    "text": "Div hlava na něm. Div sobě hlavy nestrhne (starostí).",
+    "text": "Div hlava na něm. Div sobě hlavy nestrhne.",
     "tags": [
       "starosti"
-    ]
+    ],
+    "meaning": "Má tolik starostí, až je z toho celý utrápený."
   },
   {
-    "text": "Hlava jako konev věrtel (starostmi plná).",
+    "text": "Hlava jako konev věrtel.",
     "tags": [
       "starosti"
     ],
@@ -71250,7 +71409,7 @@
     "meaning": "Nemá žádný odpočinek. Říká se o člověku, který je pořád v práci nebo v pohybu."
   },
   {
-    "text": "Mohl by se do země vraziti (samými starostmi).",
+    "text": "Mohl by se do země vraziti.",
     "tags": [
       "starosti"
     ],
@@ -71309,10 +71468,11 @@
     ]
   },
   {
-    "text": "Vrazil jsi mi hřebík do hlavy (mám nač mysliti).",
+    "text": "Vrazil jsi mi hřebík do hlavy.",
     "tags": [
       "starosti a nesnáze"
-    ]
+    ],
+    "meaning": "Dal jsi mi podnět k přemýšlení nebo důvod ke starostem."
   },
   {
     "text": "Hřebík sobě do hlavy strká.",
@@ -71612,19 +71772,7 @@
     ]
   },
   {
-    "text": "Totě mu hlavu strčilo (proto při prohrál).",
-    "tags": [
-      "starosti a nesnáze"
-    ]
-  },
-  {
     "text": "Má zedranou strhanou při.",
-    "tags": [
-      "starosti a nesnáze"
-    ]
-  },
-  {
-    "text": "Má při za nádry (vyhranou).",
     "tags": [
       "starosti a nesnáze"
     ]
@@ -71636,7 +71784,7 @@
     ]
   },
   {
-    "text": "Jedné straně nakládá (soudce nespravedlivý).",
+    "text": "Jedné straně nakládá.",
     "tags": [
       "právo a soudy",
       "spravedlnost"
@@ -71761,10 +71909,11 @@
     ]
   },
   {
-    "text": "Oči komu zašlapati zamydliti (dary jej porušiti).",
+    "text": "Oči komu zašlapati zamydliti.",
     "tags": [
       "štědrost"
-    ]
+    ],
+    "meaning": "Ovlivnit někoho dary a podplatit ho."
   },
   {
     "text": "Chlebem komu hubu zatkati.",
@@ -71901,10 +72050,11 @@
     ]
   },
   {
-    "text": "Krev jich před námi uchází (srdnatost jich pomíjí.) Jde do něho krev.",
+    "text": "Krev jich před námi uchází. Jde do něho krev.",
     "tags": [
       "starosti a nesnáze"
-    ]
+    ],
+    "meaning": "Ztrácejí před námi odvahu."
   },
   {
     "text": "Srdce pod lavici pustiti.",
@@ -71972,10 +72122,11 @@
     ]
   },
   {
-    "text": "Až mu ruce opadly (ulekl se velmi).",
+    "text": "Až mu ruce opadly.",
     "tags": [
       "starosti a nesnáze"
-    ]
+    ],
+    "meaning": "Velmi se ulekl a zůstal bezradný."
   },
   {
     "text": "Jaksiť se vlasy zvedly.",
@@ -72119,7 +72270,7 @@
     ]
   },
   {
-    "text": "Nemá prachu (neudatný).",
+    "text": "Nemá prachu.",
     "tags": [
       "práce"
     ],
@@ -72152,10 +72303,11 @@
     "meaning": "Posměšek na zbabělce: je to baba, při každém leknutí vyskočí a utíká. Patří k řadě rčení o bázlivosti, jako „s babou za kamna“ nebo „bázlivý jako zajíc“."
   },
   {
-    "text": "Už tě na prahu! (má smělost v botách).",
+    "text": "Má smělost v botách, už stojí na prahu.",
     "tags": [
       "odvaha"
-    ]
+    ],
+    "meaning": "Je smělý a odvážný, nikoho se nebojí a všude se bez ostychu vetře."
   },
   {
     "text": "Nejprv se tuží, potom prchá.",
@@ -72219,10 +72371,11 @@
     ]
   },
   {
-    "text": "Mouchy se zděsiti (příliš bázlivým býti).",
+    "text": "Mouchy se zděsiti.",
     "tags": [
       "starosti a nesnáze"
-    ]
+    ],
+    "meaning": "Být přehnaně bázlivý a lekat se i maličkostí."
   },
   {
     "text": "Jaksi se toho ožahavě dotýká.",
@@ -72258,17 +72411,18 @@
     ]
   },
   {
-    "text": "Však on se ostřílí (bude smělejší).",
+    "text": "Však on se ostřílí.",
     "tags": [
       "odvaha"
     ],
     "meaning": "Však se otrká a bude smělejší. Zkušenost člověka otužuje."
   },
   {
-    "text": "Vždyť to o hlavu nepůjde (dodávajíc smělosti).",
+    "text": "Vždyť to o hlavu nepůjde.",
     "tags": [
       "odvaha"
-    ]
+    ],
+    "meaning": "Povzbuzení k odvaze: nejde přece o život."
   },
   {
     "text": "Ďaf! daf! pejsek za plotem.",
@@ -72431,10 +72585,11 @@
     ]
   },
   {
-    "text": "Dává patama (utíká).",
+    "text": "Dává patama.",
     "tags": [
       "starosti a nesnáze"
-    ]
+    ],
+    "meaning": "Utíká a dává se na útěk."
   },
   {
     "text": "Písek na podešvy sbírati.",
@@ -72468,10 +72623,11 @@
     ]
   },
   {
-    "text": "Honil za sebou (vysekal se patama).",
+    "text": "Vysekal se nám patami.",
     "tags": [
       "starosti a nesnáze"
-    ]
+    ],
+    "meaning": "Utekl, zachránil se útěkem a rychle zmizel, takže po něm nezůstalo ani stopy."
   },
   {
     "text": "A on vyhrál z zadu běže.",
@@ -72588,11 +72744,12 @@
     ]
   },
   {
-    "text": "Kravím oknem ven vyskočiti (tajně utéci).",
+    "text": "Kravím oknem ven vyskočiti.",
     "tags": [
       "starosti a nesnáze",
       "zvířata"
-    ]
+    ],
+    "meaning": "Tajně utéci a nenápadně zmizet."
   },
   {
     "text": "Zmizel jako lonský sníh.",
@@ -72670,10 +72827,11 @@
     ]
   },
   {
-    "text": "Zapěli ho kury (už zapomenut).",
+    "text": "Zapěli ho kury.",
     "tags": [
       "starosti a nesnáze"
-    ]
+    ],
+    "meaning": "Už se na něj zapomnělo."
   },
   {
     "text": "Markovy dluhy na někoho sčítati.",
@@ -72688,10 +72846,11 @@
     ]
   },
   {
-    "text": "Poštval ho na zajíce (za cizí vinu trpí).",
+    "text": "Poštval ho na zajíce.",
     "tags": [
       "pití"
-    ]
+    ],
+    "meaning": "Trpí za cizí vinu."
   },
   {
     "text": "Na někoho kuklu strkati.",
@@ -72757,12 +72916,13 @@
     ]
   },
   {
-    "text": "V ostruhách koho trestati (kvapně, vztekle).",
+    "text": "V ostruhách koho trestati.",
     "tags": [
       "hněv",
       "spěch",
       "právo a soudy"
-    ]
+    ],
+    "meaning": "Trestat někoho ukvapeně a ve vzteku."
   },
   {
     "text": "Vybral mu vešky (špačky).",
@@ -72851,13 +73011,6 @@
       "starosti a nesnáze"
     ],
     "meaning": "Někdo si způsobil potíže vlastním jednáním. Metlu na sebe uplést znamená přivodit si trest."
-  },
-  {
-    "text": "Boží pračata (těžká nějaká kázeň).",
-    "tags": [
-      "víra",
-      "práce"
-    ]
   },
   {
     "text": "Vyžaloval si na červený kabátek.",
@@ -73100,22 +73253,18 @@
     ]
   },
   {
-    "text": "Potkal se s baňkou (ušťouchl se).",
+    "text": "Svrbí ho kůže záda.",
     "tags": [
       "starosti a nesnáze"
-    ]
+    ],
+    "meaning": "Počíná si tak, jako by si říkal o výprask."
   },
   {
-    "text": "Svrbí ho kůže záda (chce bití).",
-    "tags": [
-      "starosti a nesnáze"
-    ]
-  },
-  {
-    "text": "Hotovými platí (buď rukou, buď jazykem).",
+    "text": "Hotovými platí.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Hned odpovídá ranou nebo ostrým slovem."
   },
   {
     "text": "Sází mu tři kopy.",
@@ -73216,10 +73365,11 @@
     ]
   },
   {
-    "text": "Ležel na bandurce (byl bit).",
+    "text": "Ležel na bandurce.",
     "tags": [
       "starosti a nesnáze"
-    ]
+    ],
+    "meaning": "Dostal výprask, byl zbit."
   },
   {
     "text": "Utržiti na bábu.",
@@ -73312,10 +73462,11 @@
     ]
   },
   {
-    "text": "Mech se ho chytá naň lepí (valem stárne).",
+    "text": "Mech se ho chytá naň lepí.",
     "tags": [
       "mládí a stáří"
-    ]
+    ],
+    "meaning": "Rychle stárne a je to na něm vidět."
   },
   {
     "text": "Na stará kolena.",
@@ -73412,10 +73563,11 @@
     ]
   },
   {
-    "text": "Nakrmili ho vlaskou polívkou (otráven).",
+    "text": "Nakrmili ho vlaskou polívkou.",
     "tags": [
       "starosti a nesnáze"
-    ]
+    ],
+    "meaning": "Byl otráven. „Vlaská polívka“ zde obrazně označuje jed."
   },
   {
     "text": "Pojedl ubohý, dala mu vendušky.",
@@ -73669,17 +73821,18 @@
     "meaning": "Silně a hlasitě sténá, jako by umíral. Říká se o přehnaném naříkání."
   },
   {
-    "text": "Dycky stonky, nikdy zvonky (postonává, ale neumírá).",
+    "text": "Dycky stonky, nikdy zvonky.",
     "tags": [
       "starosti a nesnáze"
     ],
     "meaning": "Říká se o člověku, který pořád postonává, ale přitom se drží při životě. Zvony tu připomínají pohřeb."
   },
   {
-    "text": "Už mu ve dně svítí (už ho na mále).",
+    "text": "Už mu ve dně svítí.",
     "tags": [
       "starosti a nesnáze"
-    ]
+    ],
+    "meaning": "Zbývá mu málo života a blíží se smrt."
   },
   {
     "text": "Jako pára nad hrncem.",
@@ -73719,10 +73872,11 @@
     "meaning": "Být na pokraji smrti. Duši na jazyku mít znamená umírat."
   },
   {
-    "text": "Hudci mu v hrdlo hudou (má smrtelný chropot).",
+    "text": "Hudci mu v hrdlo hudou.",
     "tags": [
       "smrt"
-    ]
+    ],
+    "meaning": "Má smrtelný chropot a umírá."
   },
   {
     "text": "Umrlčinou páchne.",
@@ -73755,10 +73909,11 @@
     ]
   },
   {
-    "text": "Takéť mu napsáno (také někdy umře).",
+    "text": "Takéť mu napsáno.",
     "tags": [
       "smrt"
-    ]
+    ],
+    "meaning": "Také on jednou zemře."
   },
   {
     "text": "Nebudeť svět s divokými husami hlídati.",
@@ -73891,16 +74046,18 @@
     ]
   },
   {
-    "text": "Napil se naposledy v řece (utonul).",
+    "text": "Napil se naposledy v řece.",
     "tags": [
       "starosti a nesnáze"
-    ]
+    ],
+    "meaning": "Utonul v řece."
   },
   {
-    "text": "Ani noha jich s pole neušla (všickni pobiti).",
+    "text": "Ani noha jich s pole neušla.",
     "tags": [
       "starosti a nesnáze"
-    ]
+    ],
+    "meaning": "Nikdo z boje neunikl, všichni byli pobiti."
   },
   {
     "text": "Nadělali dosti klobás a masa Raráškovi.",
@@ -73934,10 +74091,11 @@
     ]
   },
   {
-    "text": "S muchami zahynouti (v nic obrácenu býti).",
+    "text": "S muchami zahynouti.",
     "tags": [
       "starosti a nesnáze"
-    ]
+    ],
+    "meaning": "Zahynout a být zcela zničen."
   },
   {
     "text": "Ten se poroučí Mařenčině pavlači.",
@@ -73946,10 +74104,11 @@
     ]
   },
   {
-    "text": "Budu živ jen až do smrti (dokud dotud).",
+    "text": "Budu živ jen až do smrti.",
     "tags": [
       "smrt"
-    ]
+    ],
+    "meaning": "Život trvá jen do smrti a nikdo neví, jak dlouho."
   },
   {
     "text": "Umru-li, ten tam.",
@@ -73976,10 +74135,11 @@
     ]
   },
   {
-    "text": "Nechce mi kolovrátek bráti (nemám chuti k jídlu).",
+    "text": "Nechce mi kolovrátek bráti.",
     "tags": [
       "jídlo"
-    ]
+    ],
+    "meaning": "Nemám chuť k jídlu."
   },
   {
     "text": "Komu peprno, nech nejí.",
@@ -74001,11 +74161,12 @@
     ]
   },
   {
-    "text": "Plná škola žáků (velmi syt).",
+    "text": "Plná škola žáků.",
     "tags": [
       "učení",
       "hlad"
-    ]
+    ],
+    "meaning": "Je velmi sytý a už nemůže jíst."
   },
   {
     "text": "Už jsou naloženy káry.",
@@ -74029,10 +74190,11 @@
     ]
   },
   {
-    "text": "Drštka mu jde holdem (s procesím).",
+    "text": "Drštka mu mele holdem s procesím.",
     "tags": [
-      "každodenní život"
-    ]
+      "řeč"
+    ],
+    "meaning": "Mluví mnoho, rozvláčně a velkolepě, jako by jeho řeč doprovázel celý průvod. „Drštka“ tu hanlivě označuje ústa a povídání."
   },
   {
     "text": "Svítá mu v žaludku.",
@@ -74079,10 +74241,11 @@
     ]
   },
   {
-    "text": "Ten tomu páteře láme (chutná mu).",
+    "text": "Ten tomu páteře láme.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Velmi mu chutná a s chutí jí."
   },
   {
     "text": "Hltá, až mu oči nabíhají.",
@@ -74179,7 +74342,7 @@
     ]
   },
   {
-    "text": "Na zub mu to nepadne (málo to naň).",
+    "text": "Na zub mu to nepadne.",
     "tags": [
       "každodenní život"
     ],
@@ -74259,18 +74422,20 @@
     ]
   },
   {
-    "text": "Hluché (kraví) truňky dělati (přílišně píti).",
+    "text": "Hluché (kraví) truňky dělati.",
     "tags": [
       "pití",
       "zvířata"
-    ]
+    ],
+    "meaning": "Pít příliš mnoho a velkými doušky."
   },
   {
-    "text": "Holubí truňky dělá (protož se hned opije).",
+    "text": "Holubí truňky dělá.",
     "tags": [
       "každodenní život",
       "ptáci"
-    ]
+    ],
+    "meaning": "Pije tak, že se brzy opije."
   },
   {
     "text": "Špatná mrcha (herka), ale dobře táhne.",
@@ -74455,12 +74620,6 @@
     "text": "Nebožátko, nedali mu píti.",
     "tags": [
       "pití"
-    ]
-  },
-  {
-    "text": "Jest chycený (podnapilý).",
-    "tags": [
-      "každodenní život"
     ]
   },
   {
@@ -74723,10 +74882,11 @@
     ]
   },
   {
-    "text": "Chmel mu vyšuměl (vystřízlivěl).",
+    "text": "Chmel mu vyšuměl.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Vystřízlivěl a opilost ho přešla."
   },
   {
     "text": "Kde jsi zmokl, tu se suš.",
@@ -74913,7 +75073,7 @@
     ]
   },
   {
-    "text": "Má jazyk chlupatý (příliš mlsný).",
+    "text": "Má jazyk chlupatý.",
     "tags": [
       "řeč"
     ],
@@ -75083,11 +75243,12 @@
     ]
   },
   {
-    "text": "Svíčka jeho z obou dvou konců hoří (muž i žena marnotratní).",
+    "text": "Svíčka jeho z obou dvou konců hoří.",
     "tags": [
       "každodenní život",
       "marnotratnost"
-    ]
+    ],
+    "meaning": "Muž i žena jsou marnotratní, takže společný majetek rychle ubývá."
   },
   {
     "text": "Vrabce vydělati a hus ztráviti (projísti).",
@@ -75234,11 +75395,18 @@
     ]
   },
   {
-    "text": "Hoří mu paty (titěrný, fučík, nestálý).- Stálý jako letní sníh.",
+    "text": "Hoří mu za patami.",
     "tags": [
-      "úroda a počasí",
-      "roční období"
-    ]
+      "spěch"
+    ],
+    "meaning": "Rychle utekl a zmizel, jako by ho za patami doháněl oheň."
+  },
+  {
+    "text": "Je stálý jako letní sníh.",
+    "tags": [
+      "lidské vlastnosti"
+    ],
+    "meaning": "Je nestálý, vrtkavý a neklidný. Na jeho rozhodnutí a sliby není spolehnutí, stejně jako letní sníh dlouho nevydrží."
   },
   {
     "text": "Světem páchne.",
@@ -75295,11 +75463,11 @@
     ]
   },
   {
-    "text": "Strýčka péci (nápojíkem jakýms okouzliti).",
+    "text": "Opékat strýčka plamínkem.",
     "tags": [
-      "pití",
-      "starosti"
-    ]
+      "mezilidské vztahy"
+    ],
+    "meaning": "Snažit se někoho okouzlit a očarovat, získat si jeho přízeň nebo na něj silně zapůsobit."
   },
   {
     "text": "Tuším, jemu tam strýčka pekou, příliš tam pospíchá.",
@@ -75382,10 +75550,11 @@
     "meaning": "Hledá daleko to, co má na dosah doma. Říká se o lidech, kteří si neváží toho, co mají, a lační po cizím."
   },
   {
-    "text": "Právě na řepě zastižen (při skutku s jinou).",
+    "text": "Právě na řepě zastižen.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Byl přistižen při nevěře s jinou ženou."
   },
   {
     "text": "Doma kdáče, jinde nese.",
@@ -75632,11 +75801,12 @@
     ]
   },
   {
-    "text": "K matce boží platí vosk (bojí se ženy).",
+    "text": "K matce boží platí vosk.",
     "tags": [
       "víra",
       "strach"
-    ]
+    ],
+    "meaning": "Bojí se své ženy."
   },
   {
     "text": "Utekla mu s brdci.",
@@ -75645,33 +75815,36 @@
     ]
   },
   {
-    "text": "Šla spíš do kostela, než zvonili (nezachovalá).",
+    "text": "Šla spíš do kostela, než zvonili.",
     "tags": [
       "víra"
-    ]
+    ],
+    "meaning": "Dobové hanlivé rčení o ženě, která měla pohlavní styk před svatbou."
   },
   {
-    "text": "S hospodyněmi od svinské brány cech mívá (jest špindíra nešvarná).",
+    "text": "S hospodyněmi od svinské brány cech mívá.",
     "tags": [
       "zvířata"
-    ]
+    ],
+    "meaning": "Hanlivě o nepořádné ženě, která nedbá na čistotu."
   },
   {
-    "text": "Oholím si bradu, vezmu si mladu (ženivý vdovec).",
+    "text": "Oholím si bradu, vezmu si mladu.",
     "tags": [
-      "mládí a stáří",
-      "manželství",
-      "vdovství"
-    ]
+      "lež a klam",
+      "manželství"
+    ],
+    "meaning": "Budu se přetvařovat a upravovat svůj zevnějšek, abych získal něco, na co ve skutečnosti nemám. Rčení mluví o snaze zakrýt vlastní nedostatky a působit jinak."
   },
   {
-    "text": "Vdovec našel čertův kartáč (strojí se).",
+    "text": "Vdovec našel čertův kartáč.",
     "tags": [
       "hřích",
       "hra a hazard",
       "manželství",
       "vdovství"
-    ]
+    ],
+    "meaning": "Vdovec se nápadně strojí a upravuje."
   },
   {
     "text": "Podbil jí bubínek.",
@@ -75711,10 +75884,11 @@
     ]
   },
   {
-    "text": "Z bašty mu hází (smrdí mu z úst).",
+    "text": "Z bašty mu hází.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Zapáchá mu z úst."
   },
   {
     "text": "Má slabé útory.",
@@ -75724,10 +75898,11 @@
     "meaning": "Žertovně o člověku, který neudrží moč nebo větry. Útor je drážka, do níž u sudu či jiné dřevěné nádoby zapadá dno."
   },
   {
-    "text": "Má břicho na zádech (hrbatý).",
+    "text": "Má břicho na zádech.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Posměšně o hrbatém člověku."
   },
   {
     "text": "Pokladnici s sebou nosí.",
@@ -75736,16 +75911,18 @@
     ]
   },
   {
-    "text": "Bezkostný v nohou (jda vleče nohy).",
+    "text": "Bezkostný v nohou.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Při chůzi vleče nohy za sebou."
   },
   {
-    "text": "Má humence na hlavě (plechatý).",
+    "text": "Má humence na hlavě.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Má na hlavě lysinu."
   },
   {
     "text": "Hlava rezavá, kudrnatá postava.",
@@ -75761,23 +75938,26 @@
     "meaning": "Posměšná poznámka o člověku s tak výrazným břichem, že při pohledu na něj zastíní zbytek postavy."
   },
   {
-    "text": "Má hodné předsevzetí (prsatá).",
+    "text": "Má hodné předsevzetí.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Dvojsmyslná poznámka o ženě s velkými prsy."
   },
   {
-    "text": "Má hodnou prelaturu (břicháč).",
+    "text": "Má hodnou prelaturu.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Posměšně o muži s velkým břichem."
   },
   {
-    "text": "Chytá se ho svinská nemoc (tyje, břichati).",
+    "text": "Chytá se ho svinská nemoc.",
     "tags": [
       "nemoc",
       "zvířata"
-    ]
+    ],
+    "meaning": "Tloustne a roste mu břicho."
   },
   {
     "text": "Ujímají se na něm dary boží.",
@@ -75787,10 +75967,11 @@
     ]
   },
   {
-    "text": "Jak by ho opekl (tlustý, otylý).",
+    "text": "Jak by ho opekl.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Je velmi tlustý a otylý."
   },
   {
     "text": "Tlustý jako bulík.",
@@ -75907,16 +76088,18 @@
     "meaning": "Je mimořádně silný, tak silný, že by dokázal rozbíjet skály."
   },
   {
-    "text": "Má svíbové (svídové) nohy (vysoké a tenké).",
+    "text": "Má svíbové (svídové) nohy.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Má dlouhé a tenké nohy."
   },
   {
-    "text": "Má hlavu na hrázi (dlouhého krku).",
+    "text": "Má hlavu na hrázi.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Má dlouhý krk."
   },
   {
     "text": "Jest pravé kopí.",
@@ -75944,11 +76127,12 @@
     "meaning": "Roste velmi rychle, jako by se vynořoval z vody."
   },
   {
-    "text": "Pán Bůh na něho míru ztratil (příliš veliký).",
+    "text": "Pán Bůh na něho míru ztratil.",
     "tags": [
       "víra",
       "ztráta"
-    ]
+    ],
+    "meaning": "Je nezvykle vysoký nebo veliký."
   },
   {
     "text": "Přibývá ho, jako krajíce v hrsti.",
@@ -75958,11 +76142,12 @@
     ]
   },
   {
-    "text": "Jest psu do podvazkův (trpaslík).",
+    "text": "Jest psu do podvazkův.",
     "tags": [
       "každodenní život",
       "psi"
-    ]
+    ],
+    "meaning": "Posměšně o člověku velmi malého vzrůstu."
   },
   {
     "text": "Ver je chlap ako za turák.",
@@ -75977,16 +76162,18 @@
     ]
   },
   {
-    "text": "Má oči jako pod skalou (hluboko vpadlé).",
+    "text": "Má oči jako pod skalou.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Má hluboko vpadlé oči."
   },
   {
-    "text": "Hledí na dvoje panství (šilhavý).",
+    "text": "Hledí na dvoje panství.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Šilhá. Oči jako by hleděly každé na jiné panství."
   },
   {
     "text": "Světnička hezká, ale okna křivá.",
@@ -76008,10 +76195,11 @@
     ]
   },
   {
-    "text": "Má kočičí oči (ostrozraký).",
+    "text": "Má kočičí oči.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Má velmi dobrý a ostrý zrak."
   },
   {
     "text": "Tlustý jako ženatý vrabec.",
@@ -76112,17 +76300,19 @@
     ]
   },
   {
-    "text": "Čert na něm hrách mlátil (zbádkaný od neštovic).",
+    "text": "Čert na něm hrách mlátil.",
     "tags": [
       "hřích",
       "hra a hazard"
-    ]
+    ],
+    "meaning": "Má tvář zjizvenou po neštovicích."
   },
   {
-    "text": "Chlapec jako výlupek - jako lusk (pěkný, hladký).",
+    "text": "Chlapec jako výlupek - jako lusk.",
     "tags": [
       "hlad"
-    ]
+    ],
+    "meaning": "Chvála hezkého a pěkně rostlého chlapce."
   },
   {
     "text": "Jako by ho z vejce vyloupal.",
@@ -76189,17 +76379,19 @@
     ]
   },
   {
-    "text": "Netřeba jí šocovice jísti (dosti jest krásná).",
+    "text": "Netřeba jí šocovice jísti.",
     "tags": [
       "jídlo",
       "krása"
-    ]
+    ],
+    "meaning": "Už je dost krásná a žádné zkrášlování nepotřebuje."
   },
   {
-    "text": "Jak by ji bičem přešlehl přeťal (štíhlá).",
+    "text": "Jak by ji bičem přešlehl přeťal.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Říká se o štíhlé ženě."
   },
   {
     "text": "Hezká, útlá proti houslím jako basa.",
@@ -76228,10 +76420,11 @@
     ]
   },
   {
-    "text": "Mohl by ho nad prosem postaviti (vyhlíží jako strašák).",
+    "text": "Mohl by ho nad prosem postaviti.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Vypadá jako strašák do pole."
   },
   {
     "text": "Utekla čertu s bělidla.",
@@ -76240,11 +76433,12 @@
     ]
   },
   {
-    "text": "Patř jen do zrcadla: což jsi ty krásný! (posměvači).",
+    "text": "Patř jen do zrcadla: což jsi ty krásný!",
     "tags": [
       "humor",
       "krása"
-    ]
+    ],
+    "meaning": "Posměšné napomenutí člověka, který se vysmívá vzhledu druhých."
   },
   {
     "text": "Čisté mužátko!",
@@ -76277,10 +76471,11 @@
     ]
   },
   {
-    "text": "A ty jako tvaroh židký (rozmazánek, choulostivý).",
+    "text": "A ty jako tvaroh židký.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Posměšně o rozmazleném a choulostivém člověku."
   },
   {
     "text": "Pravé jsi mýdlo.",
@@ -76340,10 +76535,11 @@
     ]
   },
   {
-    "text": "Kobližná-tě to žena (rozkošná, rozmazaná).",
+    "text": "Kobližná-tě to žena.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Hanlivě o rozmazlené a choulostivé ženě."
   },
   {
     "text": "Tužil se, a když k suku přišel, oslábl.",
@@ -76365,10 +76561,11 @@
     ]
   },
   {
-    "text": "Oči mi v hromadu lezou (jsem ospalý).",
+    "text": "Oči mi v hromadu lezou.",
     "tags": [
       "úroda a počasí"
-    ]
+    ],
+    "meaning": "Jsem ospalý a zavírají se mi oči."
   },
   {
     "text": "Dává slepému zavdávek.",
@@ -76377,16 +76574,19 @@
     ]
   },
   {
-    "text": "Židům kázati (dřímati).",
+    "text": "Je to jak židům Nový zákon kázati.",
     "tags": [
-      "každodenní život"
-    ]
+      "řeč",
+      "životní zkušenost"
+    ],
+    "meaning": "Dělat něco zbytečně, protože sdělení u posluchačů nenajde přijetí ani uznání. Obraz odkazuje k tomu, že Nový zákon nepatří k židovskému náboženskému Písmu."
   },
   {
-    "text": "Jest v Blaníku (dřímá).",
+    "text": "Jest v Blaníku.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Dřímá nebo spí."
   },
   {
     "text": "Už jest v limbu u svatých otcův.",
@@ -76452,23 +76652,26 @@
     ]
   },
   {
-    "text": "Ležel na děravé plachtě (často se budí).",
+    "text": "Ležel na děravé plachtě.",
     "tags": [
       "smutek"
-    ]
+    ],
+    "meaning": "Často se ve spánku budí a nespí klidně."
   },
   {
-    "text": "Hrnce voziti (ve spaní chrápati).",
+    "text": "Hrnce voziti.",
     "tags": [
       "každodenní život",
       "spánek"
-    ]
+    ],
+    "meaning": "Chrápat ve spaní."
   },
   {
-    "text": "Mám oči včerejší (nevyspalé).",
+    "text": "Mám oči včerejší.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Mám nevyspalé a unavené oči."
   },
   {
     "text": "Zanáša sa mu.",
@@ -76568,7 +76771,7 @@
     ]
   },
   {
-    "text": "Mluvil se mnou, jak by zlata ukrajoval (přívětivě).",
+    "text": "Mluvil se mnou, jak by zlata ukrajoval.",
     "tags": [
       "řeč"
     ],
@@ -76706,10 +76909,11 @@
     ]
   },
   {
-    "text": "Má jazyk jako lemeš (ostrý, zlý).",
+    "text": "Má jazyk jako lemeš.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Má ostrý a zlý jazyk, kterým zraňuje druhé."
   },
   {
     "text": "Jazyk jako břitva jako meč.",
@@ -76781,11 +76985,12 @@
     ]
   },
   {
-    "text": "Zubem sekati (vaditi se).",
+    "text": "Zubem sekati.",
     "tags": [
       "mezilidské vztahy",
       "hádky"
-    ]
+    ],
+    "meaning": "Hádat se a vadit se s někým."
   },
   {
     "text": "Vadivá jako svekruše.",
@@ -76833,10 +77038,11 @@
     ]
   },
   {
-    "text": "Pod nosem si mluviti (mumlati, reptati).",
+    "text": "Pod nosem si mluviti.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Mumlat si pod vousy a reptat."
   },
   {
     "text": "Mezi zuby slovo mluviti.",
@@ -76857,16 +77063,18 @@
     ]
   },
   {
-    "text": "Jazyk mu na trepkách chodí (zajíká se).",
+    "text": "Jazyk mu na trepkách chodí.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Zajíká se a nedovede plynule mluvit."
   },
   {
-    "text": "Plete koše (mate se v řeči).",
+    "text": "Plete koše.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Mate se a zaplétá se ve vlastní řeči."
   },
   {
     "text": "Má hlas (zpívá) jako zvon.",
@@ -76875,23 +77083,26 @@
     ]
   },
   {
-    "text": "Kozmici zpívati (hruběji, drsnatě mluviti).",
+    "text": "Kozmici zpívati.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Mluvit hrubě a drsně."
   },
   {
-    "text": "Zlatá hubo! aby od něho slova kupoval (málomluvný).",
+    "text": "Zlatá hubo! aby od něho slova kupoval.",
     "tags": [
       "řeč",
       "obchod"
-    ]
+    ],
+    "meaning": "Je málomluvný a každé slovo z něj člověk musí dolovat."
   },
   {
-    "text": "Nevidí si do huby (nemravně, nestydatě mluví).",
+    "text": "Nevidí si do huby.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Mluví nemravně a nestydatě, bez ohledu na ostatní."
   },
   {
     "text": "Nevypařená to huba.",
@@ -76982,10 +77193,11 @@
     ]
   },
   {
-    "text": "Nepovím žádnému, co pravíš (zmateně mluvícímu).",
+    "text": "Nepovím žádnému, co pravíš.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Výčitka člověku, který mluví tak zmateně, že jeho řeči nelze rozumět."
   },
   {
     "text": "Mluví, jako by pazdeří (plevy) vázal.",
@@ -77006,11 +77218,12 @@
     ]
   },
   {
-    "text": "Utíká mu se svoboda před rozumem (prostořeký, bez rozvahy žvoucí).",
+    "text": "Utíká mu se svoboda před rozumem.",
     "tags": [
       "rozum",
       "svoboda a vůle"
-    ]
+    ],
+    "meaning": "Je prostořeký a mluví bez rozmyslu."
   },
   {
     "text": "Dříve přijel, nežli vyjel.",
@@ -77075,23 +77288,26 @@
     ]
   },
   {
-    "text": "Rohože plésti (řeč nespořádanou činiti).",
+    "text": "Rohože plésti.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Mluvit nesouvisle a neuspořádaně."
   },
   {
-    "text": "Jako na mukách plete (mluví pomateně).",
+    "text": "Jako na mukách plete.",
     "tags": [
       "řeč",
       "utrpení"
-    ]
+    ],
+    "meaning": "Mluví pomateně a zaplétá se do slov."
   },
   {
-    "text": "Chodí v borkách (spletl se v řeči).",
+    "text": "Chodí v borkách.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Spletl se v řeči a ztratil souvislost."
   },
   {
     "text": "Kašlem zatírati.",
@@ -77144,16 +77360,18 @@
     ]
   },
   {
-    "text": "Mlátí, neobrátí (nevidí si do huby).",
+    "text": "Mlátí, neobrátí.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Mluví bez rozmyslu a nedává si pozor na jazyk."
   },
   {
-    "text": "To je piero, kura, chvost (bez smyslu).",
+    "text": "To je piero, kura, chvost.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Je to nesmyslná řeč bez souvislosti."
   },
   {
     "text": "Třesk, plesk.",
@@ -77330,9 +77548,14 @@
     ]
   },
   {
-    "text": "Práli, že mu hráli (chlupatý marš).",
+    "text": "Povídali, že mu hráli.",
     "tags": [
-      "mezilidské vztahy"
+      "lež a klam",
+      "sliby"
+    ],
+    "meaning": "Vyjádření silné nedůvěry k nesmyslným řečem nebo planým slibům. Říká se ve smyslu: tomu nevěřím, a kdo tomu věří, je na omylu.",
+    "alternatives": [
+      "Práli, že mu hráli."
     ]
   },
   {
@@ -77403,10 +77626,11 @@
     ]
   },
   {
-    "text": "Dal hubě úpravu (dobře mu jede).",
+    "text": "Dal na hubě úpravu, dobře mu teď jede.",
     "tags": [
-      "mezilidské vztahy"
-    ]
+      "řeč"
+    ],
+    "meaning": "O výřečném člověku, který mluví hodně, pohotově a obratně."
   },
   {
     "text": "Žvastavý jest, div mu paty nemluví.",
@@ -77453,11 +77677,12 @@
     "meaning": "Mluví výbojně a pouští se do slovních potyček, jako by místo slov používal zbraň."
   },
   {
-    "text": "Jazykem seče (hubou udaten).",
+    "text": "Jazykem seče.",
     "tags": [
       "řeč",
       "odvaha"
-    ]
+    ],
+    "meaning": "Je odvážný jen v řečech a chlubí se slovy."
   },
   {
     "text": "Užívá jazyka místo meče.",
@@ -77480,10 +77705,11 @@
     "meaning": "Starý obrat o klepu, který se někomu podařilo roznést. Z dochovaného znění není jasné, zda se užíval také v nějakém užším žertovném významu."
   },
   {
-    "text": "Má típek na jazyku (nemluvný).",
+    "text": "Má típek na jazyku.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Je málomluvný a jen těžko promluví."
   },
   {
     "text": "Mlčí, jak by mu ústa zašil ústa zamrzla.",
@@ -77552,10 +77778,11 @@
     ]
   },
   {
-    "text": "Čepy mu spadly (zmlknul).",
+    "text": "Čepy mu spadly.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Zmlkl a přestal mluvit."
   },
   {
     "text": "Němý jako ryba.",
@@ -77789,10 +78016,11 @@
     ]
   },
   {
-    "text": "Za jazyk koho táhnouti (vyzvídati na něm).",
+    "text": "Za jazyk koho táhnouti.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Vyzvídat na někom a snažit se z něj dostat informace."
   },
   {
     "text": "Vlky z měděnce vyváděti.",
@@ -77833,7 +78061,7 @@
     ]
   },
   {
-    "text": "Umí zavinuté nositi (tajemství chovati při sobě).",
+    "text": "Umí zavinuté nositi.",
     "tags": [
       "mezilidské vztahy",
       "tajemství"
@@ -77853,16 +78081,18 @@
     ]
   },
   {
-    "text": "Nechať to umře s tebou (měj to při sobě).",
+    "text": "Nechať to umře s tebou.",
     "tags": [
       "smrt"
-    ]
+    ],
+    "meaning": "Nech si to pro sebe a nikomu to neprozrazuj."
   },
   {
-    "text": "To jest ještě pod pokličkou (tajno).",
+    "text": "To jest ještě pod pokličkou.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Je to dosud tajné a nesmí se to prozradit."
   },
   {
     "text": "Vymluvil by tele na krávě.",
@@ -77892,10 +78122,11 @@
     ]
   },
   {
-    "text": "Někomu v uších (neustále) ležeti (stále se přimlouvati).",
+    "text": "Někomu v uších (neustále) ležeti.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Opakovaně se u někoho přimlouvat a naléhat na něj."
   },
   {
     "text": "To ani nepohryze, ani nepokouše.",
@@ -77923,10 +78154,11 @@
     "meaning": "Je to člověk tvrdohlavý, který si nedá poradit a nenechá se přesvědčit. Říká se o někom, kdo se brání cizím radám."
   },
   {
-    "text": "K čemu tě to přistrčil! (navedl).",
+    "text": "K čemu tě to přistrčil!",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Navedl tě k něčemu nevhodnému."
   },
   {
     "text": "Už ho má v saku.",
@@ -77992,10 +78224,11 @@
     ]
   },
   {
-    "text": "Přimašťuje, aby lépe chutnalo (chválí).",
+    "text": "Přimašťuje, aby lépe chutnalo.",
     "tags": [
       "chvála a pověst"
-    ]
+    ],
+    "meaning": "Chválí něco, aby to druhým připadalo lepší a přitažlivější."
   },
   {
     "text": "Ústa zamknouti.",
@@ -78064,14 +78297,15 @@
     ]
   },
   {
-    "text": "Nenechal na něm cti za haléř (ulál ho, pohaněl).",
+    "text": "Nenechal na něm cti za haléř.",
     "tags": [
       "peníze",
       "chvála a pověst"
-    ]
+    ],
+    "meaning": "Velmi mu vynadal a pohaněl ho."
   },
   {
-    "text": "Sázejí si vespolek baňky (tupí, hanějí se).",
+    "text": "Sázejí si vespolek baňky.",
     "tags": [
       "mezilidské vztahy"
     ],
@@ -78090,7 +78324,7 @@
     ]
   },
   {
-    "text": "Někomu oslových uší přilepovati (oslů nadávati).",
+    "text": "Někomu oslových uší přilepovati.",
     "tags": [
       "mezilidské vztahy",
       "zvířata"
@@ -78141,7 +78375,7 @@
     ]
   },
   {
-    "text": "Má prostranný jazyk (klevetář).",
+    "text": "Má prostranný jazyk.",
     "tags": [
       "řeč",
       "pomluvy"
@@ -78174,10 +78408,12 @@
     ]
   },
   {
-    "text": "Víchu na koho vystrčiti (vykřičeti koho).",
+    "text": "Víchu na koho vystrčiti.",
     "tags": [
+      "chvála a pověst",
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Veřejně někoho vykřičet, zostudit nebo na něj upozornit před ostatními. „Vícha“ je svazek slámy či proutí, který mohl sloužit jako viditelné označení nebo znamení; v tomto rčení se obrazně vystavuje někdo na odiv."
   },
   {
     "text": "Vyjí o něm vlci v lese.",
@@ -78200,17 +78436,19 @@
     ]
   },
   {
-    "text": "Barviti koho na černo (zle popisovati, černiti).",
+    "text": "Barviti koho na černo.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Popisovat někoho ve zlém světle a očerňovat ho."
   },
   {
-    "text": "V nepoctivý plášť někoho obláčeti (ze cti loupiti).",
+    "text": "V nepoctivý plášť někoho obláčeti.",
     "tags": [
       "chvála a pověst",
       "poctivost"
-    ]
+    ],
+    "meaning": "Zbavovat někoho cti a poškozovat jeho pověst."
   },
   {
     "text": "Ty každého drbeš, a tebe všickni.",
@@ -78231,7 +78469,7 @@
     ]
   },
   {
-    "text": "Býti komu za ohryzek (předmětem utrhači).",
+    "text": "Býti komu za ohryzek.",
     "tags": [
       "pomluvy"
     ],
@@ -78301,12 +78539,6 @@
     ]
   },
   {
-    "text": "Živé i mrtvé, bylé i nebylé spraviti (přesouditi).",
-    "tags": [
-      "smrt"
-    ]
-  },
-  {
     "text": "Je tu hnízdo všeho neřádu a stůl klevet.",
     "tags": [
       "pomluvy"
@@ -78314,12 +78546,13 @@
     "meaning": "Je to místo plné nepořádku, kde se rodí a rozšiřují pomluvy. Říká se o společnosti nebo domě, kde se klevetí a nedbá na pořádek."
   },
   {
-    "text": "Ani ptáček tudy proletěti nemůže, aby mu pérka nevyškubli (přesuzovači).",
+    "text": "Ani ptáček tudy proletěti nemůže, aby mu pérka nevyškubli.",
     "tags": [
       "mezilidské vztahy",
       "zvířata",
       "ptáci"
-    ]
+    ],
+    "meaning": "Pomlouvají a kritizují každého, kdo se objeví."
   },
   {
     "text": "Dobře naň přisolil.",
@@ -78499,17 +78732,18 @@
     "meaning": "Tak přísně mu vyhubováním vynadal, že se mu každý vyhýbá."
   },
   {
-    "text": "Jedl (dostal) jazykovou polívku (byl vylán).",
+    "text": "Jedl (dostal) jazykovou polívku.",
     "tags": [
       "řeč"
     ],
     "meaning": "Dostal vynadáno, byl vyplísněn."
   },
   {
-    "text": "Budeš držeti koty (budeš lán nebo trestán).",
+    "text": "Budeš držeti koty.",
     "tags": [
       "právo a soudy"
-    ]
+    ],
+    "meaning": "Budeš pokárán nebo potrestán."
   },
   {
     "text": "Něco o uši otloukati.",
@@ -78605,16 +78839,11 @@
     ]
   },
   {
-    "text": "Byl v lázni (strpěl přimlouvání).",
+    "text": "Ti mu dali do čepice.",
     "tags": [
       "mezilidské vztahy"
-    ]
-  },
-  {
-    "text": "Ti mu dali do čepice (vymluvili mu).",
-    "tags": [
-      "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Podrobili ho ostré kritice, dlouhému dotazování nebo výslechu a dostali ho pod velký tlak. Obrazně ho důkladně „grilovali“ ze všech stran."
   },
   {
     "text": "Jak se do něho obul!",
@@ -78758,10 +78987,11 @@
     ]
   },
   {
-    "text": "Slaměná to přikrývka (mdlá výmluva neb zástěra).",
+    "text": "Slaměná to přikrývka.",
     "tags": [
       "mezilidské vztahy"
-    ]
+    ],
+    "meaning": "Je to slabá výmluva nebo chabá zástěrka."
   },
   {
     "text": "Sítky pere.",
@@ -79038,7 +79268,7 @@
     ]
   },
   {
-    "text": "Milý, nestřílej stoupou v nebe! (nehroz zpozdile).",
+    "text": "Milý, nestřílej stoupou v nebe!",
     "tags": [
       "hloupost"
     ],
@@ -79176,7 +79406,7 @@
     ]
   },
   {
-    "text": "Sekyrou házeti (klíti, sakramentovati).",
+    "text": "Sekyrou házeti.",
     "tags": [
       "mezilidské vztahy"
     ],
@@ -79431,12 +79661,6 @@
     ]
   },
   {
-    "text": "Při samičké vodě mlýn! (ironické divení).",
-    "tags": [
-      "mezilidské vztahy"
-    ]
-  },
-  {
     "text": "Kopa máku!",
     "tags": [
       "mezilidské vztahy"
@@ -79547,28 +79771,32 @@
     ]
   },
   {
-    "text": "Peří na něm roste (vzmáhá se).",
+    "text": "Peří na něm roste.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Daří se mu lépe a jeho postavení se zlepšuje."
   },
   {
-    "text": "Nezebe ho (má dosti, není chud).",
+    "text": "Nezebe ho.",
     "tags": [
       "chudoba"
-    ]
+    ],
+    "meaning": "Má dostatek a netrpí chudobou."
   },
   {
-    "text": "Napravil sobě kůži (zlepšil stav svůj).",
+    "text": "Napravil sobě kůži.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Zlepšil své poměry a polepšil si."
   },
   {
-    "text": "Neholíť se oni trdlem (nemají se nejhůře).",
+    "text": "Neholíť se oni trdlem.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Nemají se tak špatně a nouzí netrpí."
   },
   {
     "text": "Lačen, jako mlynářova slepice jako myš v otrubách.",
@@ -79610,10 +79838,11 @@
     ]
   },
   {
-    "text": "Koza v zelí (má se dobře).",
+    "text": "Koza v zelí.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Má se dobře a žije si spokojeně."
   },
   {
     "text": "Má se jako šiška v másle.",
@@ -79679,10 +79908,11 @@
     ]
   },
   {
-    "text": "Jest všeho až huj buj! (v hojnosti).",
+    "text": "Jest všeho až huj buj!",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Všeho je dostatek a hojnost."
   },
   {
     "text": "Má všeho do Boha.",
@@ -79703,10 +79933,11 @@
     ]
   },
   {
-    "text": "Má teplé nohy (dobre se má).",
+    "text": "Má teplé nohy.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Má se dobře a žije v dostatku."
   },
   {
     "text": "Všeho u něho. mimo ptačí mléko.",
@@ -79760,10 +79991,11 @@
     ]
   },
   {
-    "text": "Na polívku tučnou naříkati (dobře hodovati).",
+    "text": "Na polívku tučnou naříkati.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Dobře hodovat a mít hojnost jídla."
   },
   {
     "text": "Hej, vesele hosti, pečenek a vína dosti.",
@@ -79874,11 +80106,12 @@
     ]
   },
   {
-    "text": "Spadlo mu co na sloup (poštěstilo se výše naděje).",
+    "text": "Spadlo mu co na sloup.",
     "tags": [
       "štěstí a životní poměry",
       "naděje"
-    ]
+    ],
+    "meaning": "Poštěstilo se mu více, než doufal."
   },
   {
     "text": "V košilce se narodil.",
@@ -79946,10 +80179,11 @@
     "meaning": "O velikém nečekaném štěstí nebo zisku. „Sak“ je rybářská síť a ulovená velryba je obrazem mimořádného úlovku."
   },
   {
-    "text": "Dnes se z novu narodil (šťastný pro něho den).",
+    "text": "Dnes se z novu narodil.",
     "tags": [
       "štěstí"
-    ]
+    ],
+    "meaning": "Prožil šťastný den a potkalo ho velké štěstí."
   },
   {
     "text": "Můž od té chvíle léta svá počítati.",
@@ -80061,10 +80295,11 @@
     ]
   },
   {
-    "text": "Odmokly mu hnidy (vybředl z nouze).",
+    "text": "Odmokly mu hnidy.",
     "tags": [
       "chudoba"
-    ]
+    ],
+    "meaning": "Dostal se z nouze a polepšil si."
   },
   {
     "text": "Dosti koza dojila.",
@@ -80183,7 +80418,7 @@
     ]
   },
   {
-    "text": "Huš tele na vlka! (buď už jak bud).",
+    "text": "Huš tele na vlka!",
     "tags": [
       "štěstí a životní poměry",
       "zvířata",
@@ -80231,11 +80466,12 @@
     ]
   },
   {
-    "text": "Najde se tomu cesta (snad bude pomoc).",
+    "text": "Najde se tomu cesta.",
     "tags": [
       "štěstí a životní poměry",
       "pomoc"
-    ]
+    ],
+    "meaning": "Snad se najde pomoc nebo způsob, jak to vyřešit."
   },
   {
     "text": "Kdo nemá okenice, můž slamou zahraditi.",
@@ -80250,22 +80486,24 @@
     ]
   },
   {
-    "text": "Nemůž vždy jíti plným kohoutkem (ne vždy hody).",
+    "text": "Nemůž vždy jíti plným kohoutkem.",
     "tags": [
       "štěstí a životní poměry",
       "zvířata"
-    ]
+    ],
+    "meaning": "Nemůže se vždy žít v hojnosti a pohodlí."
   },
   {
-    "text": "Vsedu nejprv na malého koně (počnu živnost od mála).",
+    "text": "Vsedu nejprv na malého koně.",
     "tags": [
       "štěstí a životní poměry",
       "zvířata",
       "koně"
-    ]
+    ],
+    "meaning": "Začnu hospodařit nebo podnikat v malém a budu postupně růst."
   },
   {
-    "text": "O svůj krajíc zavaditi (začíti své hospodářství).",
+    "text": "O svůj krajíc zavaditi.",
     "tags": [
       "hospodářství",
       "chléb"
@@ -80285,10 +80523,11 @@
     ]
   },
   {
-    "text": "Špatně kozka dojí (malí důchodové).",
+    "text": "Špatně kozka dojí.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Přináší to malý příjem a jen skrovné výnosy."
   },
   {
     "text": "Leda se kola míjela.",
@@ -80297,11 +80536,12 @@
     ]
   },
   {
-    "text": "Sokolem honí (živí se, jak může).",
+    "text": "Sokolem honí.",
     "tags": [
       "štěstí a životní poměry",
       "ptáci"
-    ]
+    ],
+    "meaning": "Živí se, jak dovede, a shání obživu různými způsoby."
   },
   {
     "text": "Na uživení jest chlap.",
@@ -80358,10 +80598,11 @@
     ]
   },
   {
-    "text": "Vypršely mu brky (zchudl).",
+    "text": "Vypršely mu brky.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Zchudl a přišel o majetek."
   },
   {
     "text": "Je bohatý jako strhaná mošna.",
@@ -80395,11 +80636,11 @@
     ]
   },
   {
-    "text": "Vtípil se došků trhati (nemaje co dobytku dáti).",
+    "text": "Jal se došků trhati, nemaje co dobytku dáti.",
     "tags": [
-      "obchod",
-      "humor"
-    ]
+      "starosti a nesnáze"
+    ],
+    "meaning": "Vyčerpal všechny argumenty nebo možnosti a už nemá jak pokračovat. Sahá k posledním, zoufalým prostředkům, jako hospodář, který nemá krmení a trhá došky ze střechy."
   },
   {
     "text": "Poustky doma, čtyři kouty, a pec pátá.",
@@ -80427,12 +80668,13 @@
     ]
   },
   {
-    "text": "Jedním zubem chléb nyní jísti třeba (zlé časy).",
+    "text": "Jedním zubem chléb nyní jísti třeba.",
     "tags": [
       "jídlo",
       "čas",
       "chléb"
-    ]
+    ],
+    "meaning": "Nastaly zlé časy a je třeba šetřit i na jídle."
   },
   {
     "text": "Nemá, co by v oko položil - co by oko sneslo co by za nehet zašlo.",
@@ -80499,12 +80741,6 @@
   },
   {
     "text": "Nemůže loktem dokapsy.",
-    "tags": [
-      "štěstí a životní poměry"
-    ]
-  },
-  {
-    "text": "Je štíhlý okolo žeber (má prázdný opasek).",
     "tags": [
       "štěstí a životní poměry"
     ]
@@ -80625,10 +80861,11 @@
     ]
   },
   {
-    "text": "Prodává slabikáře (hubený).",
+    "text": "Prodává slabikáře.",
     "tags": [
       "obchod"
-    ]
+    ],
+    "meaning": "Posměšně o hubeném člověku."
   },
   {
     "text": "Zaškoudlý, jako by cvrčky louštil.",
@@ -80644,10 +80881,11 @@
     ]
   },
   {
-    "text": "Převlékl by ho přes desku (tak chudý, hubený jest).",
+    "text": "Převlékl by ho přes desku.",
     "tags": [
       "chudoba"
-    ]
+    ],
+    "meaning": "Je tak hubený, jako by ho bylo možné převléknout přes desku."
   },
   {
     "text": "S chudobou se obírati.",
@@ -80680,7 +80918,7 @@
     ]
   },
   {
-    "text": "Mřínky jísti (hořkosti zakoušeti).",
+    "text": "Mřínky jísti.",
     "tags": [
       "jídlo"
     ],
@@ -80694,7 +80932,7 @@
     "meaning": "Musí snášet těžkosti a nepříjemné chvíle. Tvrdé hrušky se špatně jedí."
   },
   {
-    "text": "Do kyselého jablka zahryznouti (bídu, odpornost zakusiti).",
+    "text": "Do kyselého jablka zahryznouti.",
     "tags": [
       "chudoba"
     ],
@@ -80891,7 +81129,7 @@
     ]
   },
   {
-    "text": "Pečeně nám do popela neupadne (proto že jí nemáme).",
+    "text": "Pečeně nám do popela neupadne.",
     "tags": [
       "štěstí a životní poměry"
     ],
@@ -80997,16 +81235,18 @@
     ]
   },
   {
-    "text": "Přesýpací hodiny nositi (žebrácký pytel).",
+    "text": "Nosí přesýpací hodiny.",
     "tags": [
-      "čas"
-    ]
+      "chudoba"
+    ],
+    "meaning": "Rčení o chudákovi, který nemá nic a nedokáže si nic udržet. Jeho žebrácký pytel je obrazně jako přesýpací hodiny: všechno se z něj vysype."
   },
   {
-    "text": "Šel na Prosík (v. Hra ve slovech).",
+    "text": "Šel za ním s prosíkem.",
     "tags": [
       "řeč"
-    ]
+    ],
+    "meaning": "Šel žebrat, naléhavě prosit a doprošovat se pomoci nebo nějaké laskavosti."
   },
   {
     "text": "Už mu jíti pod boží muka.",
@@ -81022,10 +81262,11 @@
     ]
   },
   {
-    "text": "Ten člověk je jako kůl (sám, osiřelý, opuštěný).",
+    "text": "Ten člověk je jako kůl.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Je sám, osiřelý nebo opuštěný."
   },
   {
     "text": "Ani hvězdy nemá.",
@@ -81064,10 +81305,11 @@
     ]
   },
   {
-    "text": "Jde všecko proti srsti (nedaří se po vůli).",
+    "text": "Jde všecko proti srsti.",
     "tags": [
       "svoboda a vůle"
-    ]
+    ],
+    "meaning": "Nic se nedaří podle přání a všechno jde proti člověku."
   },
   {
     "text": "Račím chodem se zvedlo.",
@@ -81094,10 +81336,11 @@
     ]
   },
   {
-    "text": "Zasekati cestu někomu (předsevzetí překaziti).",
+    "text": "Zasekati cestu někomu.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Překazit někomu záměr a zabránit mu v jeho uskutečnění."
   },
   {
     "text": "Hrubě na cestu zalehl.",
@@ -81189,10 +81432,11 @@
     ]
   },
   {
-    "text": "Spadlo mu s kličky (chybilo naměření).",
+    "text": "Spadlo mu to z kličky.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Něco se mu nepodařilo, záměr nevyšel nebo přišel o něco, co už měl téměř jisté. Obrazně mu to uteklo mezi prsty."
   },
   {
     "text": "Chtěl udělati džbánek, a když zatočil kruhem, udělala se pernička.",
@@ -81271,10 +81515,11 @@
     ]
   },
   {
-    "text": "Co chytil, nech má (nech si to drží).",
+    "text": "Co chytil, nech má, nech si to drží.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Co získal, ať si ponechá a drží."
   },
   {
     "text": "Strouhal, strouhal, až přestrouhal.",
@@ -81340,11 +81585,12 @@
     ]
   },
   {
-    "text": "Neumí z konopí ven uhoditi (sobě pomoci, poraditi).",
+    "text": "Neumí z konopí ven uhoditi.",
     "tags": [
       "rada",
       "pomoc"
-    ]
+    ],
+    "meaning": "Nedovede si sám pomoci ani poradit v nesnázích."
   },
   {
     "text": "Tak jako čáp z konopí vyvázl.",
@@ -81450,10 +81696,11 @@
     ]
   },
   {
-    "text": "Zaskočiti od díry (vzíti někomu útočiště).",
+    "text": "Zaskočiti od díry.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Připravit někoho o útočiště a možnost úniku."
   },
   {
     "text": "Neví ani sem ani tam.",
@@ -81550,7 +81797,7 @@
     ]
   },
   {
-    "text": "Do kouta někoho vehnati (do nesnadnosti, odkudž nemůž).",
+    "text": "Do kouta někoho vehnati.",
     "tags": [
       "štěstí a životní poměry"
     ],
@@ -81657,10 +81904,11 @@
     ]
   },
   {
-    "text": "V tuhém vrtati (s obtížnostmi zápasiti).",
+    "text": "V tuhém vrtati.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Zápasit s obtížemi a řešit nesnadnou věc."
   },
   {
     "text": "To byly jahody, toto jest ořech.",
@@ -81723,16 +81971,18 @@
     ]
   },
   {
-    "text": "Bude o to divný rouš (dranice a nesnáze).",
+    "text": "Bude o to divný rouš.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Budou s tím velké nesnáze a tahanice."
   },
   {
-    "text": "On vždy před sakem kalí (sám sobě nesnáze činí).",
+    "text": "On vždy před sakem kalí.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Sám si působí potíže a maří vlastní úsilí."
   },
   {
     "text": "S kamenem mu všecko jde.",
@@ -81760,10 +82010,11 @@
     ]
   },
   {
-    "text": "Na špičku se dostal (náramné nebezpečenství).",
+    "text": "Na špičku se dostal.",
     "tags": [
       "opatrnost"
-    ]
+    ],
+    "meaning": "Dostal se do velkého nebezpečí."
   },
   {
     "text": "Čert se tu hraje.",
@@ -81887,10 +82138,11 @@
     "meaning": "Mluvčí nechce být na místě někoho, kdo má vážné potíže nebo komu hrozí něco nepříjemného."
   },
   {
-    "text": "Býti jako na břitvách (předtucha nebezpečenství).",
+    "text": "Býti jako na břitvách.",
     "tags": [
       "opatrnost"
-    ]
+    ],
+    "meaning": "Cítit se v ohrožení a s napětím očekávat nebezpečí."
   },
   {
     "text": "Mezi mlatem a kovadlem býti.",
@@ -81942,11 +82194,12 @@
     "meaning": "Doplatit na něco, do čeho se člověk pustil. Stejně jako popálené prsty může i neúspěch varovat před opakováním téže chyby."
   },
   {
-    "text": "Popálil si čupřinky (sám si uškodil).",
+    "text": "Popálil si čupřinky.",
     "tags": [
       "štěstí a životní poměry",
       "škoda"
-    ]
+    ],
+    "meaning": "Sám si uškodil a nese následky svého jednání."
   },
   {
     "text": "Opálil se.",
@@ -81973,11 +82226,12 @@
     ]
   },
   {
-    "text": "Už oheň v podolku (škoda hotova).",
+    "text": "Už oheň v podolku.",
     "tags": [
       "štěstí a životní poměry",
       "škoda"
-    ]
+    ],
+    "meaning": "Škoda už vznikla a neštěstí je hotové."
   },
   {
     "text": "Už mu ani všickni svatí nespomohou.",
@@ -81986,10 +82240,11 @@
     ]
   },
   {
-    "text": "To jsem si dal za ucho (hloupý kus udělal).",
+    "text": "To jsem si dal za ucho.",
     "tags": [
       "hloupost"
-    ]
+    ],
+    "meaning": "Udělal jsem hloupost a sám jsem si tím způsobil potíže."
   },
   {
     "text": "Má z toho polízanou.",
@@ -82093,12 +82348,6 @@
     "meaning": "Je v nouzi, na dně svých sil nebo majetku."
   },
   {
-    "text": "Přidal fíku (dodělal).",
-    "tags": [
-      "štěstí a životní poměry"
-    ]
-  },
-  {
     "text": "Zvoní mu na poslední.",
     "tags": [
       "štěstí a životní poměry"
@@ -82200,11 +82449,12 @@
     "meaning": "Po prohře odchází od hrací desky. Čelakovský tak označuje hráče vrhcábů nebo karbaníka, který ve hře přišel o své prostředky."
   },
   {
-    "text": "Už mu utekla svině s čepem (prokrčmařil).",
+    "text": "Už mu utekla svině s čepem.",
     "tags": [
       "štěstí a životní poměry",
       "zvířata"
-    ]
+    ],
+    "meaning": "Prohýřil majetek v hospodě."
   },
   {
     "text": "Pozdě honí svini s čepem.",
@@ -82332,10 +82582,11 @@
     ]
   },
   {
-    "text": "Shodili (ssadili) ho s lopaty (ze služby).",
+    "text": "Shodili (ssadili) ho s lopaty.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Propustili ho ze služby nebo ze zaměstnání."
   },
   {
     "text": "Někdy vážný, nyní žádný.",
@@ -82356,10 +82607,11 @@
     ]
   },
   {
-    "text": "Vypadl z rukávu (pozbyl milosti).",
+    "text": "Vypadl z rukávu.",
     "tags": [
       "štěstí a životní poměry"
-    ]
+    ],
+    "meaning": "Pozbyl něčí přízně a upadl v nemilost."
   },
   {
     "text": "Odhodil si nůž.",
@@ -82485,11 +82737,12 @@
     ]
   },
   {
-    "text": "Půjčka pláče (méně oplatil).",
+    "text": "Půjčka pláče.",
     "tags": [
       "dluhy",
       "smutek"
-    ]
+    ],
+    "meaning": "Dlužník vrátil méně, než si půjčil, a věřitel prodělal."
   },
   {
     "text": "Na věčnou oplátku se vydlužiti.",
@@ -82523,13 +82776,14 @@
     ]
   },
   {
-    "text": "Za peníze nepřítele koupiti (nevděčnému půjčiti).",
+    "text": "Za peníze nepřítele koupiti.",
     "tags": [
       "vděčnost",
       "peníze",
       "dluhy",
       "přátelství"
-    ]
+    ],
+    "meaning": "Půjčit nevděčnému člověku a místo vděku si vysloužit jeho nepřátelství."
   },
   {
     "text": "Vítr za vodu ručí.",
@@ -82577,9 +82831,13 @@
     ]
   },
   {
-    "text": "Ohořeli mu křídla (konec pýchy).- Brzy nepřátelským křídlům brky osekáme.",
+    "text": "Shořela mu křídla.",
     "tags": [
       "pýcha"
+    ],
+    "meaning": "Jeho pýcha skončila a sebevědomí dostalo ránu.",
+    "alternatives": [
+      "Ohořeli mu křídla."
     ]
   },
   {
@@ -82683,7 +82941,7 @@
     ]
   },
   {
-    "text": "Ještě tvá žeň nedozrála (ještě čas nepřišel).",
+    "text": "Ještě tvá žeň nedozrála.",
     "tags": [
       "čas",
       "hospodářství"
@@ -82728,17 +82986,19 @@
     ]
   },
   {
-    "text": "Kohout zapěl (minul čas).",
+    "text": "Kohout zapěl.",
     "tags": [
       "čas",
       "zvířata"
-    ]
+    ],
+    "meaning": "Čas už minul a příležitost pominula."
   },
   {
-    "text": "Od kolébky a kaše (od dětinství).",
+    "text": "Od kolébky a kaše.",
     "tags": [
       "jídlo"
-    ]
+    ],
+    "meaning": "Od raného dětství."
   },
   {
     "text": "Co jsem na své nohy vstal.",
@@ -82759,11 +83019,12 @@
     ]
   },
   {
-    "text": "Jako od štědrého večera do vánoc (trvati to bude).",
+    "text": "Trvalo to jako od štědrého večera do vánoc.",
     "tags": [
       "štědrost",
       "kalendář a svátky"
-    ]
+    ],
+    "meaning": "Trvalo to velmi krátce, sotva okamžik."
   },
   {
     "text": "Mnoho dotud ještě vody uteče.",
@@ -82780,10 +83041,11 @@
     ]
   },
   {
-    "text": "Za tepla něco hledati (v čas).",
+    "text": "Zařídil si vše ještě za tepla.",
     "tags": [
       "čas"
-    ]
+    ],
+    "meaning": "Všechno vyřídil včas, pohotově a hned, dokud byla vhodná příležitost."
   },
   {
     "text": "Už je za dveřmi.",
@@ -82800,10 +83062,11 @@
     "meaning": "Podle okolních rčení nejspíš znamená, že člověk v rozhodující chvíli chyběl nebo neměl ponětí, co se děje."
   },
   {
-    "text": "Nebude tu červených vajec jísti (nedočká ve službě velkonoci).",
+    "text": "Nebude tu červených vajec jísti.",
     "tags": [
       "jídlo"
-    ]
+    ],
+    "meaning": "Nezůstane ve službě ani do Velikonoc."
   },
   {
     "text": "Onotě všelijak, můj vlku!",
@@ -82962,11 +83225,11 @@
     ]
   },
   {
-    "text": "Už jsem tam nebyl od kočičího moru (velmi dávno).",
+    "text": "Už jsem tam nebyl od kočičího moru.",
     "tags": [
       "čas"
     ],
-    "meaning": "Už jsem tam nebyl velmi dlouho, od dob dávného moru koček."
+    "meaning": "Už jsem tam nebyl velmi dávno."
   },
   {
     "text": "Od vlčího moru.",
@@ -83186,10 +83449,11 @@
     ]
   },
   {
-    "text": "Do krále (totéž jako do třetice).",
+    "text": "Do krále.",
     "tags": [
       "vláda"
-    ]
+    ],
+    "meaning": "Do třetice, tedy potřetí."
   },
   {
     "text": "Od hlavy až do paty.",
@@ -83404,10 +83668,11 @@
     ]
   },
   {
-    "text": "Neušel matky (jest matce podoben).",
+    "text": "Neušel matky.",
     "tags": [
       "rodina"
-    ]
+    ],
+    "meaning": "Podobá se své matce."
   },
   {
     "text": "Za vlas ho neujde.",
@@ -83441,10 +83706,11 @@
     ]
   },
   {
-    "text": "Něma doma ani ocasa (dobytka).",
+    "text": "Něma doma ani ocasa.",
     "tags": [
       "domov"
-    ]
+    ],
+    "meaning": "Je chudý a nemajetný, nemá doma ani žádná hospodářská zvířata. „Ocas“ zde zastupuje dobytek."
   },
   {
     "text": "Je tam jako po vyhoření.",
@@ -83460,10 +83726,11 @@
     "meaning": "Prázdno, jako by vymetl. Nezbylo nic; všechno je pryč."
   },
   {
-    "text": "Dostal figuru (nic).",
+    "text": "Dostal figuru.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Nedostal nic a vyšel naprázdno."
   },
   {
     "text": "Nepodobno pazdeří k té červené růži.",
@@ -83580,10 +83847,11 @@
     ]
   },
   {
-    "text": "Jsou na jedno kopyto děláni (mnoho si neodevzdají).",
+    "text": "Jsou na jedno kopyto děláni.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Jsou si navzájem velmi podobní a příliš se od sebe neliší."
   },
   {
     "text": "V jedno brdo jsou tkáni biti.",
@@ -83715,10 +83983,11 @@
     ]
   },
   {
-    "text": "Podejme si ruky (jsme oba hříšní).",
+    "text": "Podejme si ruky.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Jsme oba hříšní a máme si navzájem co odpouštět."
   },
   {
     "text": "Taktě mu břich měkký jako mně.",
@@ -83820,11 +84089,11 @@
     ]
   },
   {
-    "text": "Peklo a sytno (též peklo znamená), obe bedno.",
+    "text": "Jak sytý tak hladový, oběma běhno.",
     "tags": [
-      "hřích",
       "hlad"
-    ]
+    ],
+    "meaning": "Jak hladovému, tak přejedenému může být špatně. Nedostatek i nadbytek mohou člověku přinášet utrpení."
   },
   {
     "text": "Táž baba na témž voze.",
@@ -84104,11 +84373,12 @@
     ]
   },
   {
-    "text": "To je straka na vrbě (velmi daleké a nejisté).",
+    "text": "To je straka na vrbě.",
     "tags": [
       "každodenní život",
       "ptáci"
-    ]
+    ],
+    "meaning": "Je to velmi vzdálené a nejisté, takže se na to nedá spoléhat."
   },
   {
     "text": "Ukazuje straku na vrbě, - ryby ve vodě.",
@@ -84130,10 +84400,11 @@
     ]
   },
   {
-    "text": "Už pros anebo peklem hroz, ničeho nepořídíš (nic na plat).",
+    "text": "Pros nebo peklem hroz, ničeho nepořídíš.",
     "tags": [
       "hřích"
-    ]
+    ],
+    "meaning": "Prosby ani hrozby s tím nic nezmohou a kýžený výsledek nepřinesou."
   },
   {
     "text": "Nezpomohlo bábě ani kouření (koření).",
@@ -84142,10 +84413,11 @@
     ]
   },
   {
-    "text": "Darmo si podešvy šoustá (nic tam nepořídí).",
+    "text": "Darmo si podešvy šoustá.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Zbytečně tam chodí, protože nic nepořídí."
   },
   {
     "text": "Nakládá jako na zlou horu.",
@@ -84154,10 +84426,11 @@
     ]
   },
   {
-    "text": "V dým v keř to půjde (nic z toho nebude).",
+    "text": "V dým v keř to půjde.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Nic z toho nebude a celé úsilí přijde nazmar."
   },
   {
     "text": "Jeden šije, druhý párá.",
@@ -84175,16 +84448,18 @@
     "meaning": "Darmo proti vodě plout. Snažit se proti proudu je marné."
   },
   {
-    "text": "Za nosem jíti (přímo).",
+    "text": "Vyraz rovnou za nosem, kam až tě nohy donesou.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Jdi stále rovně před sebe, nikam neodbočuj a drž přímý směr, dokud budeš moci."
   },
   {
-    "text": "Chodí, leda nohy nestály (bez účelu, zahálčivě).",
+    "text": "Chodí, leda nohy nestály.",
     "tags": [
       "lenost"
-    ]
+    ],
+    "meaning": "Bezcílně se potuluje a zahálí."
   },
   {
     "text": "Chodí za ním jako stín, jako tele za kravou.",
@@ -84194,16 +84469,18 @@
     ]
   },
   {
-    "text": "Chodí jako na drátkách (obratně, zpanštile).",
+    "text": "Chodí jako na drátkách.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Pohybuje se obratně a s panskou uhlazeností."
   },
   {
-    "text": "Natahovati koty (pospíchati).",
+    "text": "Natahovati koty.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Pospíchat a rychle jít."
   },
   {
     "text": "Běží, jako by mu hlava hořela.",
@@ -84232,10 +84509,11 @@
     "meaning": "Je to velmi nejisté; v koši voda neudrží."
   },
   {
-    "text": "Chodí kozíma dvírcama (kole uhlů, bez účelu).",
+    "text": "Chodí kozíma dvírcama.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Bezcílně obchází kolem domů a potuluje se."
   },
   {
     "text": "Chodí za ním jako zimnice.",
@@ -84245,10 +84523,11 @@
     ]
   },
   {
-    "text": "Chodi na dva konce (skrčený).",
+    "text": "Chodi na dva konce.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Chodí skrčený a ohnutý."
   },
   {
     "text": "Je jako na obrtliku.",
@@ -84308,10 +84587,11 @@
     ]
   },
   {
-    "text": "Rozvaž nohy (pospěš).",
+    "text": "Rozvaž nohy.",
     "tags": [
       "rozum"
-    ]
+    ],
+    "meaning": "Pospěš si a přidej do kroku."
   },
   {
     "text": "Běží jako švec s botami, jako švec do trhu.",
@@ -84365,10 +84645,11 @@
     ]
   },
   {
-    "text": "Tuším, jemu tam strýčka pekou (příliš tam pospíchá).",
+    "text": "Tuším, jemu tam strýčka pekou.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Velmi tam pospíchá, jako by ho čekalo něco mimořádně lákavého."
   },
   {
     "text": "Proč se pleteš, kde já se matu.",
@@ -84403,10 +84684,11 @@
     ]
   },
   {
-    "text": "Dělá páté přes deváté (všecko pomátá, příliš kvapí).",
+    "text": "Dělá páté přes deváté.",
     "tags": [
       "spěch"
-    ]
+    ],
+    "meaning": "Ve spěchu dělá věci zmateně a bez pořádku."
   },
   {
     "text": "Šili sobotním stehem.",
@@ -84422,10 +84704,11 @@
     "meaning": "Dělá všechno ledabyle a bez rozmyslu."
   },
   {
-    "text": "Jak šíti, tak párati (vše mu práce).",
+    "text": "Jak šíti, tak párati.",
     "tags": [
       "práce"
-    ]
+    ],
+    "meaning": "Co člověk udělá, musí být někdy připraven také napravit nebo předělat. K práci patří i opravování vlastních chyb a ochota změnit či zrušit to, co se neosvědčilo."
   },
   {
     "text": "Vše hak mak odbývá.",
@@ -84531,10 +84814,11 @@
     ]
   },
   {
-    "text": "Poskvrnu ve slunci hledati (příliš pochybující, vybíravý).",
+    "text": "Poskvrnu ve slunci hledati.",
     "tags": [
       "každodenní život"
-    ]
+    ],
+    "meaning": "Přehnaně pochybovat a hledat chyby i tam, kde téměř žádné nejsou."
   },
   {
     "text": "Hledá suku v sítí.",
@@ -84543,7 +84827,7 @@
     ]
   },
   {
-    "text": "Nechť sedí na čáře (nechť zná své místo).",
+    "text": "Nechť sedí na čáře.",
     "tags": [
       "každodenní život"
     ],
@@ -84617,7 +84901,7 @@
     "meaning": "Získal to za babku, skoro zadarmo. Říká se o výhodném obchodu."
   },
   {
-    "text": "Pán z laciného kraje (kdo rád lacino kupuje).",
+    "text": "Pán z laciného kraje.",
     "tags": [
       "každodenní život"
     ],
@@ -84765,10 +85049,11 @@
     ]
   },
   {
-    "text": "Švábsky ho odbyl (kuse, krátce, zhruba).",
+    "text": "Švábsky ho odbyl.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Odbyl ho stroze, krátce a nevlídně."
   },
   {
     "text": "Šel, jako by ho pes kousl.",
@@ -84779,10 +85064,11 @@
     ]
   },
   {
-    "text": "Jdi do Kremže pro troníčky (do Tramtárie křen kopat).",
+    "text": "Jdi do Kremže pro troníčky.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Žertovně někoho poslat daleko pryč."
   },
   {
     "text": "Povíme jim, až tudy půjdou.",
@@ -84797,10 +85083,11 @@
     ]
   },
   {
-    "text": "Dali mu propudy (vyhnali ho).",
+    "text": "Dali mu propudy.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Vyhnali ho a zbavili se ho."
   },
   {
     "text": "Dali mu za vystoupenou.",
@@ -84817,10 +85104,11 @@
     "meaning": "Odstrčili ubohého člověka bezcitně, jako se odhání kotě od mísy s mlékem."
   },
   {
-    "text": "Vysunuchu jě, jako Radocha z člunu (vyhodili, vystrčili je ven).",
+    "text": "Vysunuchu jě, jako Radocha z člunu.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Vyhodili je a vystrčili ven."
   },
   {
     "text": "Starého čerta ti dám.",
@@ -84923,10 +85211,11 @@
     ]
   },
   {
-    "text": "Je mu s máslem (směje se).",
+    "text": "Je mu s máslem.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Směje se a je mu veselo."
   },
   {
     "text": "Komu směšno, nech se směje.",
@@ -84973,7 +85262,7 @@
     ]
   },
   {
-    "text": "Smíchem studeným se smáti (neopravdovým).",
+    "text": "Smíchem studeným se smáti.",
     "tags": [
       "humor"
     ],
@@ -85040,13 +85329,14 @@
     ]
   },
   {
-    "text": "Na svini čubu vložiti (čest nehodným prokazovati).",
+    "text": "Na svini čubu vložiti.",
     "tags": [
       "neštěstí",
       "chvála a pověst",
       "zvířata",
       "čest"
-    ]
+    ],
+    "meaning": "Prokazovat čest člověku, který si ji nezaslouží."
   },
   {
     "text": "Drž se zuby za vítr.",
@@ -85138,12 +85428,6 @@
     ]
   },
   {
-    "text": "Kvíčala z krmníku (vepř).",
-    "tags": [
-      "humor"
-    ]
-  },
-  {
     "text": "Je tu jako na Vystrkově.",
     "tags": [
       "humor"
@@ -85170,37 +85454,10 @@
     ]
   },
   {
-    "text": "Slavíček z úlehle (krkavec).",
-    "tags": [
-      "humor"
-    ]
-  },
-  {
-    "text": "Zimní slavík (vlk).",
-    "tags": [
-      "humor",
-      "zvířata",
-      "roční období",
-      "vlci"
-    ]
-  },
-  {
     "text": "Slavíček, co ovce dáví.",
     "tags": [
       "humor",
       "zvířata"
-    ]
-  },
-  {
-    "text": "Ulice bez vyjití (pytel).?",
-    "tags": [
-      "humor"
-    ]
-  },
-  {
-    "text": "Bílých rejster potomstvo (ženské pohlaví).",
-    "tags": [
-      "humor"
     ]
   },
   {
@@ -85222,36 +85479,46 @@
     ]
   },
   {
-    "text": "Shoditi koho s katedry (na kázání provolati).",
+    "text": "Shodil mu to rovnou s katedry.",
     "tags": [
-      "humor"
-    ]
+      "řeč",
+      "rozum"
+    ],
+    "meaning": "Přímo a bez okolků vyvrátil jeho tvrzení, odmítl jeho názor nebo zpochybnil jeho autoritu. Katedra je zde obrazem místa, odkud někdo přednáší a poučuje ostatní."
   },
   {
-    "text": "Jezdí na apoštolském koni (chodí pěšky).",
+    "text": "Jezdí na apoštolském koni.",
     "tags": [
       "humor",
       "koně"
-    ]
+    ],
+    "meaning": "Chodí pěšky. „Apoštolský kůň“ je žertovné označení vlastních nohou."
   },
   {
-    "text": "Věnec někomu poslati (vyzvati jej na souboj).",
+    "text": "Věnec někomu poslati.",
     "tags": [
       "humor"
     ],
     "meaning": "Staré úsloví ve sbírce označuje vyzvání druhého na souboj. Věnec v něm vystupuje jako znamení výzvy."
   },
   {
-    "text": "Dobyti blyskavky (kordu).",
+    "text": "Pero je mocnější než meč.",
     "tags": [
-      "humor"
+      "řeč",
+      "rozum",
+      "válka a mír"
+    ],
+    "meaning": "Slovo, myšlenky a přesvědčování mohou mít větší vliv než násilí a zbraně. Psáním lze změnit názory lidí i běh událostí.",
+    "alternatives": [
+      "Pero je mocnější než kord."
     ]
   },
   {
-    "text": "Přísahati na buben (vojákem býti).",
+    "text": "Přísahati na buben.",
     "tags": [
       "válka a mír"
-    ]
+    ],
+    "meaning": "Stát se vojákem a vstoupit do vojenské služby."
   },
   {
     "text": "Lámou se mu kolesa.",
@@ -85293,12 +85560,6 @@
     ]
   },
   {
-    "text": "Nosí péro přes rameno (jest pastuchou).",
-    "tags": [
-      "humor"
-    ]
-  },
-  {
     "text": "Převrhl před samou stodolou.",
     "tags": [
       "hospodářství"
@@ -85317,10 +85578,11 @@
     ]
   },
   {
-    "text": "Snědl mnicha, a kápě mu v hrdle zůstala (chraptí, má překřičený hlas).",
+    "text": "Snědl mnicha, a kápě mu v hrdle zůstala.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Chraptí a má překřičený hlas."
   },
   {
     "text": "Chytá hýly.",
@@ -85329,16 +85591,18 @@
     ]
   },
   {
-    "text": "Má na nose hýla (má omrzlý, červený nos).",
+    "text": "Má na nose hýla.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Má červený, omrzlý nos."
   },
   {
-    "text": "Má tichou muziku (svrab).",
+    "text": "Má tichou muziku.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Má svrab. „Tichá muzika“ je jeho žertovné označení."
   },
   {
     "text": "Červeného kohouta na dům posaditi.",
@@ -85348,11 +85612,12 @@
     ]
   },
   {
-    "text": "Mlynáři se perou (padá sníh).",
+    "text": "Mlynáři se perou.",
     "tags": [
       "řemesla",
       "úroda a počasí"
-    ]
+    ],
+    "meaning": "Padá sníh, jako by kolem létala mouka."
   },
   {
     "text": "Trkla ho koza.",
@@ -85362,18 +85627,6 @@
   },
   {
     "text": "Holomek s křížové cesty.",
-    "tags": [
-      "humor"
-    ]
-  },
-  {
-    "text": "Vedě ho anjel s přaslicu (četník).",
-    "tags": [
-      "humor"
-    ]
-  },
-  {
-    "text": "Bezručka chodí (otevřel-li vítr dvéře).",
     "tags": [
       "humor"
     ]
@@ -85498,10 +85751,11 @@
     ]
   },
   {
-    "text": "Plzem kupil (jak stojí a leži).",
+    "text": "Plzem kupil.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Koupil to tak, jak to stojí a leží, bez dalšího vybírání."
   },
   {
     "text": "To je hořký (pálený) kostelník.",
@@ -85614,10 +85868,11 @@
     ]
   },
   {
-    "text": "Už bych jehlu našel (tak světlo).",
+    "text": "Už bych jehlu našel.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Je tu tolik světla, že by se dala najít i jehla."
   },
   {
     "text": "Chraplavý jako starý houser.",
@@ -85627,10 +85882,11 @@
     ]
   },
   {
-    "text": "Chlapec jako buran, jako povodeň (pln živosti a ohně).",
+    "text": "Chlapec jako buran, jako povodeň.",
     "tags": [
       "humor"
-    ]
+    ],
+    "meaning": "Je to velmi živý a energický chlapec."
   },
   {
     "text": "Jest toho potřeba jako soli.",
