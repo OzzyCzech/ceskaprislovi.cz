@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
+import redirects from './src/data/redirects.json' with { type: 'json' };
 
 export default defineConfig({
   site: 'https://ceskaprislovi.cz',
@@ -9,12 +10,9 @@ export default defineConfig({
   compressHTML: true,
   // GitHub Pages redirects `/slug` to `/slug/` when the page is a directory; `slug.html` is served without a redirect.
   build: { format: 'file' },
-  // Punctuation-only duplicates: keep the canonical URLs already chosen by Google.
+  // Preserve published URLs after wording edits, merges and punctuation-only duplicates.
   // On GitHub Pages, Astro emits an immediate meta refresh and a canonical link.
-  redirects: {
-    '/dat-mi-ho-pan-buh-na-harc-9cfba67bbff2': '/dat-mi-ho-pan-buh-na-harc',
-    '/drz-pane-boze-kary-at-se-vuz-nezvrati-0bfa1ea73582': '/drz-pane-boze-kary-at-se-vuz-nezvrati',
-  },
+  redirects,
   integrations: [sitemap()],
   vite: { plugins: [tailwindcss()] },
 });
