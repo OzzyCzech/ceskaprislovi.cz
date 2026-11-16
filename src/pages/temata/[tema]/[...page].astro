@@ -6,6 +6,7 @@ import ProverbCard from '../../../components/ProverbCard.astro';
 import Pagination from '../../../components/Pagination.astro';
 import { proverbsByTheme } from '../../../lib/proverbs';
 import { themePath, themeSlug } from '../../../lib/theme-path';
+import { themeContent } from '../../../lib/theme-content';
 
 export const getStaticPaths = (({ paginate }) =>
   Array.from(proverbsByTheme, ([theme, entries]) => paginate(entries, {
@@ -16,13 +17,37 @@ export const getStaticPaths = (({ paginate }) =>
 ) satisfies GetStaticPaths;
 
 const { page, theme } = Astro.props as InferGetStaticPropsType<typeof getStaticPaths>;
-const title = page.currentPage === 1 ? `Přísloví na téma ${theme}` : `Přísloví na téma ${theme} – strana ${page.currentPage}`;
+const content = themeContent.get(theme);
+const heading = content?.title ?? `Přísloví na téma ${theme}`;
+const title = page.currentPage === 1 ? heading : `${heading} – strana ${page.currentPage}`;
+const introduction = page.currentPage === 1 ? content : undefined;
+const description = introduction?.description ?? `Česká přísloví a pořekadla na téma ${theme}. Strana ${page.currentPage} z ${page.lastPage}.`;
 const number = new Intl.NumberFormat('cs-CZ');
 ---
-<Base title={title} description={`Česká přísloví a pořekadla na téma ${theme}. Strana ${page.currentPage} z ${page.lastPage}.`}>
+<Base title={title} description={description}>
   <div class="frame pt-8 sm:pt-12">
     <a href="/temata" class="inline-flex items-center gap-2 text-sm font-bold hover:text-rust"><Icon name="previous" size={16} /> Všechna témata</a>
-    <h1 class="display mt-7 text-[clamp(2.7rem,7.5vw,6rem)]">{theme}</h1>
+    <h1 class="display mt-7 text-[clamp(2.7rem,7.5vw,6rem)]">{content ? title : theme}</h1>
+    {introduction && (
+      <>
+        <p class="mt-6 max-w-prose text-lg leading-relaxed text-muted">{introduction.intro}</p>
+        <a href="#vsechna-prislovi" class="mt-5 inline-flex items-center gap-2 text-sm font-bold hover:text-rust">Přejít na všechna přísloví <Icon name="next" size={16} /></a>
+        <section aria-labelledby="znama-prislovi" class="mt-10 sm:mt-14">
+          <h2 id="znama-prislovi" class="section-title">Známá přísloví a jejich význam</h2>
+          <div class="mt-6 grid gap-x-10 sm:grid-cols-2">
+            {introduction.selection.map((proverb) => (
+              <article class="border-t border-line py-6">
+                <h3 class="text-xl font-extrabold leading-tight tracking-tight sm:text-2xl">
+                  <a href={`/${proverb.slug}`} class="hover:text-rust">{proverb.text}</a>
+                </h3>
+                <p class="mt-3 max-w-prose leading-relaxed text-muted">{proverb.meaning}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+        <h2 id="vsechna-prislovi" class="section-title mt-10">Všechna přísloví v tématu</h2>
+      </>
+    )}
     <p class="mt-5 text-sm text-muted">Počet přísloví a pořekadel v tématu: {number.format(page.total)}</p>
     <div class="mt-8 border-t border-line">
       {page.data.map((proverb) => <ProverbCard proverb={proverb} />)}

@@ -20,7 +20,7 @@ for (const entry of [...input, modernVariant]) {
   const text = preferredWording.get(entry.text) ?? entry.text;
   const proverb: Omit<Proverb, 'slug'> = unique.get(text) ?? { ...entry, text };
   proverb.tags = [...new Set([...proverb.tags, ...entry.tags])];
-  const alternatives = [...(proverb.alternatives ?? []), ...('alternatives' in entry ? entry.alternatives : []), ...(text !== entry.text ? [entry.text] : [])];
+  const alternatives = [...(proverb.alternatives ?? []), ...('alternatives' in entry ? entry.alternatives ?? [] : []), ...(text !== entry.text ? [entry.text] : [])];
   if (alternatives.length) proverb.alternatives = [...new Set(alternatives)].filter((wording) => wording !== text);
   if (!proverb.meaning && 'meaning' in entry && entry.meaning) proverb.meaning = entry.meaning;
   unique.set(text, proverb);
@@ -44,7 +44,7 @@ export const dailyProverbs = (known as string[]).map((text) => {
   return entry;
 });
 export const featured = dailyProverbs[0];
-export const themes = ['práce', 'láska', 'rozum', 'štěstí', 'domov', 'přátelství', 'krása', 'zvířata', 'čas', 'řeč', 'mlčení', 'ptáci'];
+export const themes = ['práce', 'láska', 'přátelství', 'rodina', 'peníze', 'rozum', 'štěstí', 'čas', 'domov', 'pravda', 'řeč', 'zvířata'];
 
 /** Proverbs shown before today's one, newest first, wrapping around the set so the list is never empty. */
 export function recentDaily(todayIndex: number, count = 12) {
