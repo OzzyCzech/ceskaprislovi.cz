@@ -14,6 +14,7 @@ test('every legacy URL leads directly to an existing canonical proverb', () => {
 
 test('Search Console examples survive wording edits and merged variants', () => {
   const examples = {
+    '/darovanemu-koni-se-na-zuby-nedivej': '/darovanemu-koni-na-zuby-nekoukej',
     '/z-blata-do-louze': '/z-blata-do-louze-z-louze-pod-okap',
     '/lenochem-orati-lenositi': '/lenochem-orati',
     '/zubem-sekati-vaditi-se': '/zubem-sekati',
